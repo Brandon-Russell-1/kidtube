@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>KidTube</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="KidTube">
+  <meta name="theme-color" content="#14233f">
+  <!-- YouTube refuses to play embeds that arrive without a referrer. -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="site/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="site/icons/icon-192.png">
+  <link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+
+  <!-- Home: today's lineup and the watch-again row -->
+  <main id="home" class="screen">
+    <header class="masthead">
+      <h1>Today's videos</h1>
+      <div id="time-left" class="time-left" hidden></div>
+    </header>
+    <section id="today" class="grid" aria-label="Today's videos"></section>
+    <div id="empty" class="empty" hidden>
+      <div class="big-emoji">🌱</div>
+      <p>No videos yet.<br>Ask a grown-up!</p>
+    </div>
+    <section id="again-section" hidden>
+      <h2>Watch again</h2>
+      <div id="again" class="row" aria-label="Watch again"></div>
+    </section>
+  </main>
+
+  <!-- Player -->
+  <div id="player-screen" class="screen" hidden>
+    <div class="stage">
+      <div id="frame-box" class="frame-box">
+        <div id="frame-holder"></div>
+        <!-- Transparent shields: taps never reach YouTube's logo, title, or links. -->
+        <div class="shield shield-top"></div>
+        <div id="shield-mid" class="shield shield-mid"></div>
+        <div class="shield shield-bottom"></div>
+        <div id="pause-cover" class="pause-cover" hidden><span>▶</span></div>
+        <div id="tap-hint" class="tap-hint" hidden>👇 Tap the play button</div>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="btn-back" class="ctl ctl-back" aria-label="Back to videos">
+        <span class="ctl-icon">◀</span><span>All videos</span>
+      </button>
+      <button id="btn-toggle" class="ctl ctl-round" aria-label="Play or pause">⏸</button>
+      <div class="progress" aria-hidden="true"><div id="progress-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Daily limit reached -->
+  <div id="done-screen" class="screen done" hidden>
+    <div class="big-emoji">🌙</div>
+    <h1>All done for today!</h1>
+    <p>Great watching. See you tomorrow!</p>
+  </div>
+
+  <!-- Hidden parent entry: long-press the top-right corner -->
+  <div id="parent-hotspot" aria-hidden="true"></div>
+
+  <div id="pin-screen" class="overlay" hidden>
+    <div class="pin-card">
+      <h2>Grown-ups only</h2>
+      <div id="pin-dots" class="pin-dots"></div>
+      <div id="pin-pad" class="pin-pad"></div>
+      <button id="pin-cancel" class="link-btn">Cancel</button>
+    </div>
+  </div>
+
+  <div id="parent-screen" class="overlay parent" hidden>
+    <div class="parent-inner">
+      <header class="parent-head">
+        <h2>Parent page</h2>
+        <button id="parent-close" class="pbtn">Close</button>
+      </header>
+      <div id="parent-status" class="parent-status"></div>
+      <div class="parent-actions">
+        <a id="link-rules" class="pbtn primary" target="_blank" rel="noopener">Edit rules.yaml on GitHub</a>
+        <a id="link-actions" class="pbtn" target="_blank" rel="noopener">Run the screening job</a>
+        <button id="btn-more-time" class="pbtn">Give 15 more minutes today</button>
+        <button id="btn-reset-time" class="pbtn">Reset today's watch time</button>
+      </div>
+      <h3>Today's lineup</h3>
+      <div id="parent-lineup" class="audit"></div>
+      <h3>Recent approvals</h3>
+      <div id="parent-approved" class="audit"></div>
+      <h3>Recent rejections</h3>
+      <div id="parent-rejected" class="audit"></div>
+    </div>
+  </div>
+
+  <script src="site/app.js"></script>
+</body>
+</html>

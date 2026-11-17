@@ -1,0 +1,97 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# KidTube parent controls
+#
+# This is the only file you need to edit. Changes take effect on the next
+# screening run (nightly, or run it by hand: Actions tab → "Screen videos" →
+# "Run workflow").
+#
+# YAML tips: keep the indentation, use spaces not tabs, and put quotes around
+# anything that starts with @.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Your child's age. The AI judges every video against this.
+child_age: 6
+
+# Your local timezone, so "today's lineup" rolls over at your midnight rather
+# than UTC's. Use a name from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago
+
+# What you want more of. A higher number means it shows up more often in the
+# daily lineup (3 = lots, 1 = a little).
+topics_wanted:
+  science: 3
+  reading: 3
+  math: 2
+  animals: 2
+  art: 1
+
+# Never approve videos that are mainly about these.
+topics_banned:
+  - toy unboxing
+  - gaming
+  - pranks
+  - scary content
+  - challenge videos
+
+# The main source of videos. The job reads each channel's recent uploads, which
+# costs almost no YouTube API quota. Use a handle ("@SciShowKids"), a channel ID
+# ("UC..."), or a channel URL. A handle that can't be found is skipped with a
+# warning in the run log; it never fails the run.
+trusted_channels:
+  - "@SciShowKids"
+  - "@natgeokids"
+  - "@Numberblocks"
+  - "@officialalphablocks"
+  - "@StorylineOnline"
+  - "@ArtforKidsHub"
+  - "@FreeSchool"
+  - "@HomeschoolPop"
+  - "@MysteryScience"
+  - "@PBSKIDS"
+
+# Never show anything from these channels, even if a search finds them.
+# Same formats as trusted_channels. Already-approved videos from a channel you
+# add here are removed on the next run.
+blocked_channels: []
+
+# Optional extra discovery through YouTube search. Search is expensive on API
+# quota, so the job runs at most one of these per night (rotating through the
+# list), and only when the trusted channels have run out of new videos.
+# Search results still go through every filter and the AI.
+search_terms:
+  - science experiments for kids
+  - read aloud picture books for kids
+  - how do animals live for kids
+
+# Video length limits, in minutes. The 3-minute floor also keeps YouTube Shorts
+# out (Shorts can be up to 3 minutes long).
+min_video_minutes: 3
+max_video_minutes: 20
+
+# How many videos he gets each day.
+daily_lineup_count: 8
+
+# Don't show the same video again within this many days. If the approved pool
+# is too small to fill a day without repeating, the least-recently-shown videos
+# fill the gap rather than leaving him with a short lineup.
+repeat_after_days: 14
+
+# The AI scores each video 1-10 for educational value. Only videos at or above
+# this score are approved.
+min_educational_score: 7
+
+# Total watch time allowed per day on the kid site, in minutes. 0 = no limit.
+daily_watch_limit_minutes: 45
+
+# PIN for the hidden parent page (long-press the top-right corner of the site).
+# Digits only. This repo is public, so this is a speed bump, not security.
+parent_pin: "2468"
+
+# Anything else the AI should know, in plain English. This paragraph goes
+# straight into the AI's instructions.
+free_text_guidance: >
+  He loves space, dinosaurs, and how machines work. Calm, clearly narrated
+  videos are best. Avoid videos with frantic editing, shouting hosts, or
+  constant sound effects. No videos that are mostly an advertisement for a toy
+  or product. Gentle, kind humor is fine; mean-spirited or gross-out humor is
+  not.

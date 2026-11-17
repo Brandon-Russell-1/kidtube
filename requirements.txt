@@ -1,0 +1,5 @@
+anthropic
+PyYAML
+requests
+youtube-transcript-api
+pytest
