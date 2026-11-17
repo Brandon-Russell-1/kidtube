@@ -211,7 +211,42 @@ h1.searching, .chip { text-transform: capitalize; }
   font-weight: 900;
 }
 
-.meta { padding: 14px 18px 18px; }
+.new-badge {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  padding: 5px 13px;
+  border-radius: 999px;
+  background: var(--sun);
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.meta { display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px 18px; }
+.meta-text { flex: 1; min-width: 0; }
+
+.avatar {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  margin-top: 2px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--night-2);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+.row .meta { gap: 10px; padding: 12px 14px 16px; }
+.row .avatar { width: 34px; height: 34px; font-size: 17px; }
 
 .title {
   font-size: 22px;
@@ -226,6 +261,62 @@ h1.searching, .chip { text-transform: capitalize; }
 .row .title { font-size: 18px; }
 
 .channel { margin-top: 6px; font-size: 17px; color: #5a6680; font-weight: 600; }
+
+/* Sideways shelves in the feed, each a full-width row of one button's videos. */
+.shelf {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin: 6px 0;
+  padding: 20px 0 6px 20px;
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.shelf-head {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 14px;
+  padding: 0;
+  background: none;
+  color: #fff;
+  font-size: clamp(26px, 3.4vw, 34px);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+button.shelf-head:active { opacity: 0.7; }
+.shelf-emoji { font-size: 1.1em; }
+
+.shelf-more {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding-bottom: 4px;
+  border-radius: 50%;
+  background: var(--night-2);
+  font-size: 32px;
+  line-height: 1;
+}
+
+.shelf .row { padding-right: 20px; }
+
+.feed-more { grid-column: 1 / -1; height: 1px; }
+
+.feed-end {
+  grid-column: 1 / -1;
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  padding: 36px 0 12px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.feed-end small { font-size: 20px; font-weight: 700; color: var(--muted); }
+.feed-end-emoji { font-size: 64px; line-height: 1; }
 
 .empty, .done {
   display: grid;

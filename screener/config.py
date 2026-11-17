@@ -29,6 +29,10 @@ MAX_NEW_IDS_PER_CHANNEL = 50          # unseen videos considered per channel per
 MAX_SEARCHES_PER_RUN = 1
 SEARCH_RESULTS_PER_QUERY = 25
 
+# Channel icons shown in the kid site's feed are cached in data/channels.json
+# and looked up again after this many days. 1 quota unit per 50 channels.
+CHANNEL_ICON_MAX_AGE_DAYS = 30
+
 # Shorts can run up to three minutes. Videos at or under this length get an
 # extra check against youtube.com before they are sent to the AI.
 SHORTS_MAX_SECONDS = 185
@@ -47,3 +51,4 @@ DATA_DIR = ROOT / "data"
 APPROVED_PATH = DATA_DIR / "approved.json"
 REJECTED_PATH = DATA_DIR / "rejected.json"
 LINEUP_PATH = DATA_DIR / "lineup.json"
+CHANNELS_PATH = DATA_DIR / "channels.json"

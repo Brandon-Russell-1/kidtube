@@ -11,6 +11,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from . import ai, config
+from . import channels as channel_icons
 from .filters import RULE_DEPENDENT_CODES, hard_filter, normalize_video, order_candidates
 from .lineup import mark_shown, pick_lineup
 from .matching import approved_text, matches
@@ -36,6 +37,15 @@ def load_videos(path: Path) -> list[dict]:
         return json.loads(path.read_text(encoding="utf-8")).get("videos", [])
     except FileNotFoundError:
         return []
+
+
+def load_channel_cache(path: Path) -> dict:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return {}
+    channels = data.get("channels") if isinstance(data, dict) else None
+    return channels if isinstance(channels, dict) else {}
 
 
 def save_json(path: Path, payload: dict) -> None:
@@ -74,6 +84,7 @@ class Run:
         self.sources: list[dict] = []
         self.fun_ids: set[str] = set()
         self.sources_complete = False   # True only if every channel lookup worked
+        self.channel_info = load_channel_cache(config.CHANNELS_PATH)   # icons for the site
 
     def known_ids(self) -> set[str]:
         return {v["id"] for v in self.approved} | {v["id"] for v in self.rejected}
@@ -362,6 +373,30 @@ class Run:
                 self.stats["ai_rejected"] += 1
         print(f"  Transcripts fetched for {transcripts.fetched} of the screened videos.")
 
+    def pool_channel_ids(self) -> set[str]:
+        return {v["channel_id"] for v in self.approved if v.get("channel_id")}
+
+    def update_channel_icons(self, yt: YouTube, today: date) -> None:
+        """Look up icons for pool channels that have none yet, or an old one.
+
+        Icons are decoration, so a failed lookup is only a warning.
+        """
+        stale = channel_icons.needs_lookup(
+            self.channel_info, self.pool_channel_ids(), today, config.CHANNEL_ICON_MAX_AGE_DAYS)
+        if not stale:
+            return
+        # Channels looked up earlier in this run already came with their icon.
+        resolved = {entry["channel"]["id"]: entry["channel"] for entry in self.sources}
+        found = {cid: resolved[cid] for cid in stale if cid in resolved}
+        rest = [cid for cid in stale if cid not in found]
+        try:
+            if rest:
+                found.update(yt.channel_icons(rest))
+        except YouTubeError as exc:
+            self.warnings.append(f"Could not look up channel icons: {exc}")
+            stale = [cid for cid in stale if cid in found]
+        self.channel_info = channel_icons.merge(self.channel_info, stale, found, today)
+
     # ── Output ───────────────────────────────────────────────────────────────
 
     def write_outputs(self, today: date) -> list[dict]:
@@ -370,6 +405,10 @@ class Run:
         stamp = now_iso()
         save_json(config.APPROVED_PATH, {"updated": stamp, "videos": self.approved})
         save_json(config.REJECTED_PATH, {"updated": stamp, "videos": self.rejected})
+        save_json(config.CHANNELS_PATH, {
+            "updated": stamp,
+            "channels": channel_icons.prune(self.channel_info, self.pool_channel_ids()),
+        })
         save_json(config.LINEUP_PATH, {
             "date": today.isoformat(),
             "generated_at": stamp,
@@ -455,7 +494,6 @@ def main() -> int:
         except YouTubeError as exc:
             run._youtube_failed(exc, "preparing the run")
             candidates = []
-        quota = yt.quota_used
 
         survivors = run.apply_hard_filters(candidates)
         button_words = [w for button in rules["search_buttons"] for w in button["match"]]
@@ -472,6 +510,9 @@ def main() -> int:
             else:
                 run.problems.append(
                     "The ANTHROPIC_API_KEY secret is not set, so no videos were screened.")
+        if not run.problems:
+            run.update_channel_icons(yt, today)
+        quota = yt.quota_used
 
     # Always write a lineup, even when discovery failed, so the kid site keeps
     # working from the existing approved pool.

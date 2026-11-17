@@ -16,7 +16,7 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
                1. read trusted channels   data/rejected.json
                2. hard filters            data/lineup.json
                3. Claude screens each
-               4. build today's lineup
+               4. build today's lineup    data/channels.json (icons)
 ```
 
 1. **Gather.** The job reads the recent uploads of every channel in
@@ -39,8 +39,9 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
    favoring your higher-weighted topics, spreading picks across channels, and
    skipping anything shown in the last `repeat_after_days` days. Up to
    `fun_videos_per_day` of them come from your fun channels (see below).
-5. **Publish.** The three JSON files are committed back to the repo and GitHub
-   Pages serves them to the kid site.
+5. **Publish.** The JSON files are committed back to the repo and GitHub
+   Pages serves them to the kid site. `channels.json` holds each channel's
+   icon for the feed, refreshed monthly.
 
 Hosting is free: GitHub Pages, GitHub Actions on a public repo, and the YouTube
 Data API's free quota. The one thing that costs money is the Anthropic API,
@@ -230,7 +231,25 @@ any other app.
 
 ## The kid site
 
-- **Today's videos:** big thumbnails from today's lineup.
+- **Today's videos** is a feed. It shows today's lineup, loads more as he
+  scrolls, and ends with a "you reached the end" note.
+  - **Shelves:** after every 12 videos comes a sideways shelf of one search
+    button's videos from the rest of the approved pool (🐢 Ninja Turtles,
+    🚀 Space, ...), plus 🆕 New and ⭐ Watch again shelves. Learning and
+    cartoon shelves take turns. Tapping a shelf's title opens that button.
+    Shelves draw from the whole pool, like the buttons, so they show more
+    cartoons than `fun_videos_per_day` alone.
+  - **Order:** the feed reshuffles each time he opens the app, or comes back
+    after five minutes away. While he browses it holds still, so leaving a
+    video puts him back where he was. Your mix of learning and fun videos
+    stays as the lineup set it. Within each, new videos and the ones he likes
+    tend to come first, and videos he has watched move to the end.
+  - **Favorites:** the iPad notes what he watches for at least a minute, by
+    channel, topic, and button. Interest fades by half every two weeks. This
+    stays on the iPad, and the parent page lists the channels it has learned.
+  - **NEW:** videos approved in the last two days get a NEW tag. Each video
+    shows its channel's icon, which the nightly job saves in
+    `data/channels.json`.
 - **Search buttons:** big word buttons from `search_buttons` in `rules.yaml`,
   such as 🚀 Space or 🦕 Dinosaurs. Tapping one shows the approved videos that
   match it; ☀️ Today goes back to the daily lineup. There is still no text box.
@@ -238,10 +257,9 @@ any other app.
   downloaded, so tapping never reaches YouTube or the AI and costs nothing.
   A button with no matches stays hidden until the nightly job approves one,
   and the job screens videos matching your buttons first.
-- **Watch again:** videos he has already watched or that were in earlier lineups.
 - **Player:** a back button, play/pause, buttons to jump back or forward 10
   seconds, and a progress bar he can tap or drag to move through the video.
-  When a video ends he lands back on the grid.
+  When a video ends he lands back in the feed where he left it.
 - **Daily limit:** watch time is counted while a video is playing. When it
   reaches `daily_watch_limit_minutes`, an "All done for today" screen replaces
   everything until tomorrow.
@@ -300,7 +318,8 @@ environment and run `python -m screener.run`. To preview the site, run
 | `screener/filters.py` | Hard filters |
 | `screener/ai.py` | The prompt and the Claude call |
 | `screener/lineup.py` | Daily lineup picker |
+| `screener/channels.py` | Channel icon cache for the feed |
 | `screener/run.py` | The job itself |
 | `index.html`, `site/` | Kid site |
 | `.github/workflows/screen.yml` | Nightly and manual screening job |
-| `tests/` | Unit tests for the filters and the lineup picker |
+| `tests/` | Unit tests for the filters, lineup picker, matching, and icon cache |

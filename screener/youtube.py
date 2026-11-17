@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import requests
 
-API = "https://www.googleapis.com/youtube/v3"
+from .channels import icon_from_snippet
+
+API ="https://www.googleapis.com/youtube/v3"
 
 
 class YouTubeError(RuntimeError):
@@ -64,9 +66,25 @@ class YouTube:
         return {
             "id": item["id"],
             "title": item["snippet"]["title"],
+            "icon": icon_from_snippet(item["snippet"]),
             "uploads_playlist": item["contentDetails"]["relatedPlaylists"]["uploads"],
             "subscribers": subscribers,   # None when the channel hides it
         }
+
+    def channel_icons(self, ids: list[str]) -> dict[str, dict]:
+        """Title and icon for each channel ID. 1 unit per 50 channels.
+
+        Channels that no longer exist are simply absent from the result.
+        """
+        found: dict[str, dict] = {}
+        for start in range(0, len(ids), 50):
+            data = self._get("channels", 1, part="snippet",
+                             id=",".join(ids[start:start + 50]), maxResults=50)
+            for item in data.get("items") or []:
+                snippet = item.get("snippet") or {}
+                found[item["id"]] = {"title": snippet.get("title", ""),
+                                     "icon": icon_from_snippet(snippet)}
+        return found
 
     @staticmethod
     def long_form_playlist(channel_id: str) -> str:
