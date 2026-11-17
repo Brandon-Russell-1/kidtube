@@ -110,7 +110,7 @@ fun_channels:
 
 # How many of each day's videos (out of daily_lineup_count) can come from the
 # fun channels. They are spread through the lineup. 0 turns fun videos off.
-fun_videos_per_day: 3
+fun_videos_per_day: 50
 
 # Big word buttons at the top of the kid site. Tapping one shows the approved
 # videos that match it, like a search he can't type into. A button only looks
