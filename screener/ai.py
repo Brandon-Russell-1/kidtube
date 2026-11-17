@@ -58,7 +58,7 @@ Most channels end their descriptions with links to their shop, memberships, Patr
 Videos from a channel the parent trusts come from a channel the parent has already chosen. Videos found by YouTube search come from channels nobody has vetted, so hold them to a stricter standard.
 
 Approve a video only when all of these hold:
-- It is appropriate for a {rules['child_age']}-year-old: no violence, frightening or disturbing material, crude or sexual content, or bad language.
+- It is appropriate for a {rules['child_age']}-year-old: no violence, frightening or disturbing material, crude or sexual content, or bad language. Where the parent's guidance says some of this is fine for this child, such as the cartoon action in shows the parent has named, follow the guidance; it never covers gore or realistic, graphic violence.
 - It is not mainly about a banned topic.
 - It respects the parent's guidance.
 - It has real educational or enriching value, and is not mainly an advertisement, a product showcase, or made to hook attention with little substance.

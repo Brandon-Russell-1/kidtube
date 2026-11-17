@@ -131,6 +131,12 @@ through the list, and they never appear in "Watch again", so the daily number
 holds. A fun-channel video that does reach `min_educational_score` counts as an
 ordinary learning video.
 
+The AI rejects violence by default, which rules out most superhero and action
+cartoons. To allow a show's cartoon action, name the show in
+`free_text_guidance` and say what is fine, as the starter rules do for TMNT,
+Batman, and the rest. The AI follows your guidance there, but never approves
+gore or realistic, graphic violence.
+
 Move a channel into `fun_channels` and the videos the AI rejected from it are
 judged again under the fun rules on the next run. Take a channel out and its
 fun approvals leave the pool on the next run.

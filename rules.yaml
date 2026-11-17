@@ -88,9 +88,25 @@ fun_channels:
   - "@PAWPatrolOfficial"     # PAW Patrol
   - "@disneyjr"              # Disney Jr., incl. Spidey and His Amazing Friends (the old "@disneyjunior" handle now belongs to a copycat)
   - "@disneykids"            # Disney Kids
-  - "@marvelhq"              # Marvel HQ
+  - "@marvelhq"              # Marvel HQ, incl. The Super Hero Squad Show and X-Men: The Animated Series
   - "@starwarskids"          # Star Wars Kids
   - "@NetflixJr"             # StoryBots, Ada Twist Scientist, Octonauts
+  # Classic and favorite cartoons. The shows are named in free_text_guidance
+  # below, which tells the AI their cartoon action is fine.
+  - "@SuperWhy"              # Super Why (a reading show; episodes that score high count as learning)
+  - "@Nickelodeon"           # Nickelodeon
+  - "@Nicktoons"             # Nicktoons: SpongeBob, The Loud House, sometimes Rugrats
+  - "@nickjr"                # Nick Jr.: sometimes Rugrats
+  - "@tmnt"                  # Teenage Mutant Ninja Turtles (1987, 2012, and newer)
+  - "@wbkids"                # WB Kids: Looney Tunes incl. Road Runner, Animaniacs, Pinky and the Brain
+  - "@dckids"                # DC Kids: Batman: The Animated Series, Super Friends
+  - "@PinkPanther"           # Official Pink Panther
+  - "@InspectorGadget"       # Inspector Gadget
+  - "@TransformersHQ"        # Transformers
+  - "@MastersOfTheUniverse"  # He-Man and She-Ra
+  - "@TheSmurfsEnglish"      # The Smurfs
+  - "@avatarthelastairbender"  # Avatar: The Last Airbender
+  - "@disneychannelanimation"  # Disney Channel Animation: DuckTales (2017), with Darkwing Duck
 
 # How many of each day's videos (out of daily_lineup_count) can come from the
 # fun channels. They are spread through the lineup. 0 turns fun videos off.
@@ -208,3 +224,16 @@ free_text_guidance: >
   constant sound effects. No videos that are mostly an advertisement for a toy
   or product. Gentle, kind humor is fine; mean-spirited or gross-out humor is
   not.
+
+  We're happy for him to watch these cartoons: Super Why, Teenage Mutant Ninja
+  Turtles, Super Friends, Captain Caveman, Laff-A-Lympics, Road Runner, Yogi
+  Bear, Pink Panther, The Super Hero Squad Show, Blue Falcon, Inspector Gadget,
+  Transformers, He-Man, X-Men (the original animated series), The Real
+  Ghostbusters, Hong Kong Phooey, the Smurfs, Jeannie (the 1973 cartoon),
+  DuckTales, Darkwing Duck, TaleSpin, Aladdin, Gargoyles, Animaniacs, Pinky and
+  the Brain, Avatar: The Last Airbender, Batman: The Animated Series, and
+  Rugrats. In these shows the usual cartoon action is fine: superhero and robot
+  battles, villains and their schemes, chases, slapstick, Road Runner-style
+  gags, and cartoon ghosts and monsters played for adventure or laughs. The
+  calm-video preference above doesn't apply to them. Still reject an episode
+  that is genuinely frightening, gory, or about grown-up themes.
