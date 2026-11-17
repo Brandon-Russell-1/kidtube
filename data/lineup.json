@@ -1,55 +1,158 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T11:39:01Z",
+  "generated_at": "2026-11-17T11:52:07Z",
   "settings": {
     "daily_watch_limit_minutes": 0.0,
     "pin_sha256": "a1fb4e703a9ef1fa4936801721ff285a97ac85330856674412e054892afe6972",
     "pin_length": 4,
-    "repo": "Brandon-Russell-1/kidtube"
+    "repo": "Brandon-Russell-1/kidtube",
+    "search_buttons": [
+      {
+        "word": "space",
+        "emoji": "🚀",
+        "match": [
+          "space",
+          "planet",
+          "solar system",
+          "rocket",
+          "astronaut",
+          "moon",
+          "galaxy"
+        ]
+      },
+      {
+        "word": "dinosaurs",
+        "emoji": "🦕",
+        "match": [
+          "dinosaurs",
+          "t rex",
+          "trex",
+          "fossil",
+          "prehistoric"
+        ]
+      },
+      {
+        "word": "animals",
+        "emoji": "🐾",
+        "match": [
+          "animals",
+          "wild kratts",
+          "ocean",
+          "sea creatures"
+        ]
+      },
+      {
+        "word": "machines",
+        "emoji": "⚙️",
+        "match": [
+          "machines",
+          "how is it made",
+          "how its made",
+          "engineering",
+          "robot",
+          "truck",
+          "construction",
+          "simple machine"
+        ]
+      },
+      {
+        "word": "stories",
+        "emoji": "📚",
+        "match": [
+          "stories",
+          "story",
+          "read aloud",
+          "storytime",
+          "book"
+        ]
+      },
+      {
+        "word": "drawing",
+        "emoji": "✏️",
+        "match": [
+          "drawing",
+          "draw",
+          "art for kids hub"
+        ]
+      },
+      {
+        "word": "math",
+        "emoji": "🔢",
+        "match": [
+          "math",
+          "counting",
+          "numbers",
+          "fractions",
+          "numberblocks"
+        ]
+      },
+      {
+        "word": "bluey",
+        "emoji": "🐶",
+        "match": [
+          "bluey"
+        ]
+      },
+      {
+        "word": "paw patrol",
+        "emoji": "🚒",
+        "match": [
+          "paw patrol"
+        ]
+      },
+      {
+        "word": "spiderman",
+        "emoji": "🕷️",
+        "match": [
+          "spiderman",
+          "spidey"
+        ]
+      }
+    ]
   },
   "videos": [
     {
-      "id": "OdNkLG3k33s",
-      "title": "I’m a Number Detective | Learn to Count | Numberblocks",
-      "channel_title": "Numberblocks",
-      "thumbnail": "https://i.ytimg.com/vi/OdNkLG3k33s/maxresdefault.jpg",
-      "duration_seconds": 451,
+      "id": "O21MwBBSKeQ",
+      "title": "Fantastic Fish 🐠🐡 Octonauts Triple Full Episode Special 🐟 Cartoon for Kids Learning",
+      "channel_title": "Octonauts",
+      "thumbnail": "https://i.ytimg.com/vi/O21MwBBSKeQ/maxresdefault.jpg",
+      "duration_seconds": 1799,
       "topics": [
-        "math",
-        "counting",
-        "reading"
+        "animals",
+        "science",
+        "art"
       ],
-      "educational_score": 8,
-      "reason": "This is a calm, CBeebies-style Numberblocks episode from a channel the parent trusts, teaching counting and number sense at a level suited to a 6-year-old. The promotional giveaway and app links in the description are standard boilerplate and do not make the video an advertisement.",
+      "educational_score": 7,
+      "reason": "From a channel the parent trusts, this Octonauts episode compilation teaches about sea creatures and ocean habitats with a calm, kid-friendly rescue story and no banned content. It is an animated show rather than a toy ad, though the fast-paced cartoon style is less calm than the parent prefers.",
       "kind": "learning"
     },
     {
-      "id": "DKlThrreyV0",
-      "title": "Monkeys & Birds | Chimps, Gorillas and Flamingos | Andy's Amazing Adventures",
-      "channel_title": "Andy's Amazing Adventures",
-      "thumbnail": "https://i.ytimg.com/vi/DKlThrreyV0/maxresdefault.jpg",
-      "duration_seconds": 1191,
+      "id": "D8aLGMdwwDs",
+      "title": "Whats the slimiest animal?",
+      "channel_title": "Mystery Science",
+      "thumbnail": "https://i.ytimg.com/vi/D8aLGMdwwDs/maxresdefault.jpg",
+      "duration_seconds": 413,
       "topics": [
-        "animals",
+        "science",
+        "animals"
+      ],
+      "educational_score": 7,
+      "reason": "A short, trusted educational channel answering a kid's science question about slimy animals, which fits the parent's science and animals interests. The description is a simple question prompt with no product promotion, and nothing in the details suggests frightening or inappropriate content, though the transcript is unavailable.",
+      "kind": "learning"
+    },
+    {
+      "id": "ZrN4y4zyJ1c",
+      "title": "Inspiring Story of Mahatma Gandhi | Indian Freedom Fighter | The Salt March | Dr. Binocs Show",
+      "channel_title": "Peekaboo Kidz",
+      "thumbnail": "https://i.ytimg.com/vi/ZrN4y4zyJ1c/maxresdefault.jpg",
+      "duration_seconds": 402,
+      "topics": [
+        "history",
+        "reading",
         "science"
       ],
       "educational_score": 7,
-      "reason": "From a trusted channel (Andy's Amazing Adventures, a CBeebies/BBC Studios kids' nature series) and made for kids, this episode about tree-dwelling animals like monkeys, chimps, gorillas and flamingos teaches animal facts calmly. The boilerplate shop and series links are normal and do not make it an advertisement.",
-      "kind": "learning"
-    },
-    {
-      "id": "Yz8a2I_1mxY",
-      "title": "Learn Filipino (Tagalog) for Kids | Useful Filipino Phrases for Beginners",
-      "channel_title": "Rock 'N Learn",
-      "thumbnail": "https://i.ytimg.com/vi/Yz8a2I_1mxY/maxresdefault.jpg",
-      "duration_seconds": 1521,
-      "topics": [
-        "language",
-        "reading",
-        "animation"
-      ],
-      "educational_score": 8,
-      "reason": "A trusted channel's made-for-kids video teaching everyday Filipino phrases through calm, repetitive narration and gentle animation, with no banned content. It is a language lesson with clear educational value for a 6-year-old, though it is not one of the parent's listed topics and the animation is colorful rather than a clear match for the parent's preferred shows.",
+      "reason": "A trusted channel's kid-oriented Dr. Binocs video explaining Mahatma Gandhi's life, nonviolence, and the freedom movement, which teaches history at a child's level with no violence or frantic editing shown in the details. Topics are approximate since no transcript was available and the description is mostly channel boilerplate.",
       "kind": "learning"
     },
     {
@@ -67,48 +170,48 @@
       "kind": "learning"
     },
     {
-      "id": "lvtaju2lzPQ",
-      "title": "Careers for Kids: Zookeeper | Learn about this fun and animal-loving career",
-      "channel_title": "Learn Bright",
-      "thumbnail": "https://i.ytimg.com/vi/lvtaju2lzPQ/maxresdefault.jpg",
-      "duration_seconds": 192,
+      "id": "m4rRs60bSaI",
+      "title": "The Best OG KLT Songs: Pt. 1| Educational Compilation For Kids | KLT",
+      "channel_title": "KLT",
+      "thumbnail": "https://i.ytimg.com/vi/m4rRs60bSaI/maxresdefault.jpg",
+      "duration_seconds": 1311,
       "topics": [
-        "animals",
         "science",
-        "careers"
+        "math",
+        "animals"
       ],
       "educational_score": 7,
-      "reason": "A calm, educational explainer from a trusted channel about what zookeepers do and how to become one, touching on animal care and conservation with no banned content or heavy advertising. It clearly teaches a child-level topic, though it is a short, fairly plain talking-style video with no transcript to confirm narration tone.",
+      "reason": "From a trusted channel, this is a compilation of KLT's educational songs covering space, geography, and body science with original music and animation, and it is not mainly an advertisement. Its educational value is moderate since it is a song compilation with no transcript to confirm narration calmness, so the score is set at the approval threshold.",
       "kind": "learning"
     },
     {
-      "id": "9C6OniV0u_8",
-      "title": "🧪 Learn How to SEPARATE MIXTURES | Educational Videos for Children | @HappyLearningEN",
-      "channel_title": "Happy Learning English",
-      "thumbnail": "https://i.ytimg.com/vi/9C6OniV0u_8/maxresdefault.jpg",
-      "duration_seconds": 393,
+      "id": "9q3uiSeT80M",
+      "title": "Spiders vs. Beetles vs. Ants: Battle of the Bugs | Whoa Factor | Nat Geo Kids",
+      "channel_title": "Nat Geo Kids",
+      "thumbnail": "https://i.ytimg.com/vi/9q3uiSeT80M/maxresdefault.jpg",
+      "duration_seconds": 316,
       "topics": [
-        "science",
-        "reading",
-        "animals"
+        "animals",
+        "science"
       ],
       "educational_score": 8,
-      "reason": "A trusted educational channel's video that clearly teaches separating mixtures (filtration, decantation, evaporation, magnetism) at a primary-school level, with a calm, visual format and no banned content. The topics list uses the parent's wanted names where they fit, though animals is an inaccurate tag here, so the science label is the real driver.",
+      "reason": "A trusted Nat Geo Kids episode that teaches real insect facts (strength, jumping, metamorphosis) at a child's level, with a calm chapter structure. The energetic kid hosts and quick pacing are mild, and the description's shop and social links are ordinary boilerplate.",
       "kind": "learning"
     },
     {
-      "id": "JzSlrNSvAfE",
-      "title": "Phonics Songs - Learn with the Alphablocks | Learn to Read and Spell for Kids Compilation",
-      "channel_title": "Alphablocks",
-      "thumbnail": "https://i.ytimg.com/vi/JzSlrNSvAfE/maxresdefault.jpg",
-      "duration_seconds": 2395,
+      "id": "K-jrcpt0CoQ",
+      "title": "Journalism for Kids 📰 News, Interviews and Fake News 🎤📱",
+      "channel_title": "Smile and Learn - English",
+      "thumbnail": "https://i.ytimg.com/vi/K-jrcpt0CoQ/maxresdefault.jpg",
+      "duration_seconds": 825,
       "topics": [
         "reading",
-        "art",
-        "animals"
+        "critical thinking",
+        "news",
+        "interviews"
       ],
       "educational_score": 8,
-      "reason": "Alphablocks is a made-for-kids CBeebies phonics show that teaches letter sounds, reading and spelling through calm, clearly narrated songs, fitting the parent's reading priority. Transcript was unavailable, so this is based on metadata alone, and the description contains only app and subscribe links with no obvious toy or product focus.",
+      "reason": "Trusted channel producing a calm, educational video that clearly teaches what news is, how interviews work, and how to spot fake news at a suitable level for a six-year-old, with reading comprehension as a core focus. The description's app and subscription boilerplate is normal and does not make it an advertisement.",
       "kind": "learning"
     },
     {
@@ -127,59 +230,60 @@
       "kind": "learning"
     },
     {
-      "id": "oL_Vf9fYCpg",
-      "title": "Arc Length - Math Antics Extras",
+      "id": "p4NFktDA0Jo",
+      "title": "Learn About Farm Friends! | Animal Facts | BBC Earth Kids",
+      "channel_title": "BBC Earth Kids",
+      "thumbnail": "https://i.ytimg.com/vi/p4NFktDA0Jo/maxresdefault.jpg",
+      "duration_seconds": 1704,
+      "topics": [
+        "animals",
+        "science",
+        "art"
+      ],
+      "educational_score": 7,
+      "reason": "Trusted BBC Earth Kids channel, made for kids, with animal facts and natural history clips that fit the parent's animals and science interests. The description mentions squirming creepy crawlies, but the content appears to be calm nature education, and the channel boilerplate does not make it an advertisement.",
+      "kind": "learning"
+    },
+    {
+      "id": "lHuIjxIJcxI",
+      "title": "Multiplying by Multiples of 10 Song | 3rd Grade Multiplication",
+      "channel_title": "Numberock",
+      "thumbnail": "https://i.ytimg.com/vi/lHuIjxIJcxI/maxresdefault.jpg",
+      "duration_seconds": 199,
+      "topics": [
+        "math",
+        "multiplication",
+        "place value"
+      ],
+      "educational_score": 8,
+      "reason": "A math song from a trusted channel teaching multiplying one-digit numbers by multiples of 10 using place value, which clearly teaches a concept at this level. The promotional free-trial link is ordinary channel boilerplate, not the video's main content, though the child is 6 and this targets 3rd grade, so it may be a bit advanced.",
+      "kind": "learning"
+    },
+    {
+      "id": "Nu6AC6X3_E4",
+      "title": "LCM: Basic Method - Math Antics Extras",
       "channel_title": "mathantics",
-      "thumbnail": "https://i.ytimg.com/vi/oL_Vf9fYCpg/maxresdefault.jpg",
-      "duration_seconds": 220,
+      "thumbnail": "https://i.ytimg.com/vi/Nu6AC6X3_E4/maxresdefault.jpg",
+      "duration_seconds": 238,
       "topics": [
         "math"
       ],
       "educational_score": 8,
-      "reason": "Math Antics is a channel the parent trusts, and this video on arc length is a clear math lesson with no banned content. The description is only standard channel boilerplate linking to the website, so it does not read as an advertisement.",
+      "reason": "A short, clearly narrated math lesson on least common multiples from a channel the parent trusts, marked made for kids, with no banned content. The description is only standard channel boilerplate linking to the website.",
       "kind": "learning"
     },
     {
-      "id": "klu7TNy-7qw",
-      "title": "Poetry explained (Inside Out & Back Again by Thanhhà Lại): Crash Course Kids Literature #5",
-      "channel_title": "Crash Course Kids",
-      "thumbnail": "https://i.ytimg.com/vi/klu7TNy-7qw/maxresdefault.jpg",
-      "duration_seconds": 396,
+      "id": "DPCDpSLha6Q",
+      "title": "Bison! | Learn With Steve Backshall | BBC Earth Kids",
+      "channel_title": "BBC Earth Kids",
+      "thumbnail": "https://i.ytimg.com/vi/DPCDpSLha6Q/maxresdefault.jpg",
+      "duration_seconds": 372,
       "topics": [
-        "reading",
-        "art"
+        "animals",
+        "science"
       ],
       "educational_score": 7,
-      "reason": "A trusted Crash Course Kids channel lesson explaining poetry and figurative language in a verse novel; it is calm, educational, and free of banned content. It targets 3rd to 5th grade, so it is a bit advanced for a 6-year-old, which keeps the score at the approval threshold rather than higher.",
-      "kind": "learning"
-    },
-    {
-      "id": "Mux6Lzw0QC4",
-      "title": "How To Draw Cosmo The Space Mouse",
-      "channel_title": "Art for Kids Hub",
-      "thumbnail": "https://i.ytimg.com/vi/Mux6Lzw0QC4/maxresdefault.jpg",
-      "duration_seconds": 579,
-      "topics": [
-        "art",
-        "space",
-        "animals"
-      ],
-      "educational_score": 7,
-      "reason": "A calm, kid-made drawing tutorial teaching step-by-step how to draw a space mouse, which fits the parent's interest in space, art, and animals, with no banned content evident from the details. It has promotional links and a membership pitch, but the lesson itself is substantial, and the transcript is unavailable so approval rests on the description alone.",
-      "kind": "learning"
-    },
-    {
-      "id": "D8aLGMdwwDs",
-      "title": "Whats the slimiest animal?",
-      "channel_title": "Mystery Science",
-      "thumbnail": "https://i.ytimg.com/vi/D8aLGMdwwDs/maxresdefault.jpg",
-      "duration_seconds": 413,
-      "topics": [
-        "science",
-        "animals"
-      ],
-      "educational_score": 7,
-      "reason": "A short, trusted educational channel answering a kid's science question about slimy animals, which fits the parent's science and animals interests. The description is a simple question prompt with no product promotion, and nothing in the details suggests frightening or inappropriate content, though the transcript is unavailable.",
+      "reason": "A short wildlife clip from a trusted BBC Earth Kids channel about bison, presented by Steve Backshall, with natural history content that fits the parent's animals and science interests. The description is standard channel boilerplate and nothing suggests frantic editing, banned topics, or product promotion, though I could not verify the narration style without a transcript.",
       "kind": "learning"
     },
     {
@@ -212,32 +316,32 @@
       "kind": "learning"
     },
     {
-      "id": "EwY6p-r_hyU",
-      "title": "Gravity Compilation: Crash Course Kids",
-      "channel_title": "Crash Course Kids",
-      "thumbnail": "https://i.ytimg.com/vi/EwY6p-r_hyU/maxresdefault.jpg",
-      "duration_seconds": 873,
+      "id": "HhXnRfyUbeQ",
+      "title": "The Fiordlands of New Zealand! | SciShow Kids",
+      "channel_title": "SciShow Kids",
+      "thumbnail": "https://i.ytimg.com/vi/HhXnRfyUbeQ/maxresdefault.jpg",
+      "duration_seconds": 375,
       "topics": [
         "science",
-        "astronomy",
-        "gravity"
+        "animals",
+        "reading"
       ],
       "educational_score": 8,
-      "reason": "A trusted Crash Course Kids science compilation explaining gravity, mass, air resistance, and lunar gravity in a clear, calm host-led format with no banned content. Approved because it clearly teaches age-appropriate physics and matches the parent's science priority.",
+      "reason": "SciShow Kids is a trusted channel with a clearly narrated, calm educational episode about the geography, water, and wildlife of Fiordland National Park in New Zealand, aligned with science learning goals. The description is mostly channel boilerplate and standards notes rather than a product pitch, so it is approved.",
       "kind": "learning"
     },
     {
-      "id": "OmdqFJPILRA",
-      "title": "Is the Loch Ness Monster real?",
-      "channel_title": "Mystery Science",
-      "thumbnail": "https://i.ytimg.com/vi/OmdqFJPILRA/maxresdefault.jpg",
-      "duration_seconds": 452,
+      "id": "PmFP4K8-3NA",
+      "title": "10 Interesting Facts About Polar Bears for Children: Learn About Polar Bears for Kids - FreeSchool",
+      "channel_title": "Free School",
+      "thumbnail": "https://i.ytimg.com/vi/PmFP4K8-3NA/maxresdefault.jpg",
+      "duration_seconds": 354,
       "topics": [
-        "science",
-        "animals"
+        "animals",
+        "science"
       ],
       "educational_score": 7,
-      "reason": "A trusted channel's made-for-kids science explainer answering a child's question about whether the Loch Ness Monster is real, which should teach how scientists evaluate evidence. The description shows no banned content or product promotion, though the transcript was unavailable, so the narration style is unverified.",
+      "reason": "A calm, educational kids' video from a trusted channel about polar bears, covering their size, survival without food, and hunting by smell. The links to Patreon, the Amazon store, and social accounts are normal channel boilerplate, not a product advertisement.",
       "kind": "learning"
     },
     {
@@ -257,181 +361,33 @@
       "kind": "learning"
     },
     {
-      "id": "zQPjb2gQZIM",
-      "title": "Sesame Street: Learn About the Four Seasons | Elmo's World",
-      "channel_title": "Sesame Street",
-      "thumbnail": "https://i.ytimg.com/vi/zQPjb2gQZIM/maxresdefault.jpg",
-      "duration_seconds": 303,
+      "id": "yIx1DplJMB4",
+      "title": "Social Emotional Learning in Math! | Mini Math Movies | Scratch Garden",
+      "channel_title": "Scratch Garden",
+      "thumbnail": "https://i.ytimg.com/vi/yIx1DplJMB4/maxresdefault.jpg",
+      "duration_seconds": 471,
       "topics": [
-        "science",
-        "art",
-        "animals"
-      ],
-      "educational_score": 7,
-      "reason": "Sesame Workshop's Elmo's World segment teaches the four seasons and how weather changes through the year, a calm, clearly narrated topic at a 6-year-old's level. Although found by search from an unvetted-by-parent channel, the channel is a well-known educational producer and the description shows no ads, banned topics, or frantic content.",
-      "kind": "learning"
-    },
-    {
-      "id": "JqPb-dfHRos",
-      "title": "Explore the Water Animals | Elephants, Ducks, Flamingos and MORE | Andy's Amazing Adventures",
-      "channel_title": "Andy's Amazing Adventures",
-      "thumbnail": "https://i.ytimg.com/vi/JqPb-dfHRos/maxresdefault.jpg",
-      "duration_seconds": 2490,
-      "topics": [
-        "animals",
-        "science"
-      ],
-      "educational_score": 7,
-      "reason": "From a trusted BBC/CBeebies channel, this 41-minute narrated show explores water animals like elephants, ducks, and flamingos with gentle, educational content suited to a 6-year-old. It is a kids' series with no banned content, though it is a general nature show rather than one of the parent's named favorites.",
-      "kind": "learning"
-    },
-    {
-      "id": "9C6nMo5FmpM",
-      "title": "How To Draw A Cute Fall Leaf With Rain Boots",
-      "channel_title": "Art for Kids Hub",
-      "thumbnail": "https://i.ytimg.com/vi/9C6nMo5FmpM/maxresdefault.jpg",
-      "duration_seconds": 514,
-      "topics": [
-        "art",
-        "reading"
-      ],
-      "educational_score": 7,
-      "reason": "A calm step-by-step drawing tutorial from a trusted channel, with no banned content and a gentle, kid-friendly tone. It teaches drawing skills and includes a writing prompt, though the boilerplate shop and membership links are normal and not the focus.",
-      "kind": "learning"
-    },
-    {
-      "id": "YR4wtGWK7eE",
-      "title": "Hawai’i: Land of Volcanoes | SciShow Kids",
-      "channel_title": "SciShow Kids",
-      "thumbnail": "https://i.ytimg.com/vi/YR4wtGWK7eE/maxresdefault.jpg",
-      "duration_seconds": 485,
-      "topics": [
-        "science",
-        "volcanoes",
-        "earth science",
-        "natural hazards"
-      ],
-      "educational_score": 8,
-      "reason": "A SciShow Kids episode from a trusted channel that clearly teaches volcanoes and natural processes in Hawai'i at a first-to-third grade level, with a calm, kid-friendly format and no banned content. Its description links to a patron page and social accounts, which is normal boilerplate and not a product advertisement.",
-      "kind": "learning"
-    },
-    {
-      "id": "gio1f14QZwQ",
-      "title": "🏕️ BLUEY: CAMPING - Read Aloud with Ms. Linda | Brightly Storytime",
-      "channel_title": "Brightly Storytime",
-      "thumbnail": "https://i.ytimg.com/vi/gio1f14QZwQ/maxresdefault.jpg",
-      "duration_seconds": 287,
-      "topics": [
-        "reading",
-        "animals",
-        "art"
-      ],
-      "educational_score": 7,
-      "reason": "A calm, narrated read-aloud of a Bluey camping story from a channel the parent trusts, matching the parent's favorite show and the reading priority. It is a gentle story about making friends with no banned content, though its learning value is mainly reading practice and modest rather than deep science or math.",
-      "kind": "learning"
-    },
-    {
-      "id": "5KsJX4xxEPo",
-      "title": "ADVERBS of FREQUENCY for Kids 🕐 Always, Usually, Often, Sometimes and Never",
-      "channel_title": "Smile and Learn - English",
-      "thumbnail": "https://i.ytimg.com/vi/5KsJX4xxEPo/maxresdefault.jpg",
-      "duration_seconds": 344,
-      "topics": [
-        "reading",
-        "science",
-        "daily routines",
-        "hygiene"
-      ],
-      "educational_score": 8,
-      "reason": "A calm, clearly narrated English-grammar lesson from a trusted channel that teaches frequency adverbs through daily hygiene routines, with no banned content or toy advertising. It fits the parent's reading priority and is suitable for a 6-year-old, though the topic is less about the parent's favorite subjects.",
-      "kind": "learning"
-    },
-    {
-      "id": "-ls4CXavG3s",
-      "title": "The Great City Skate Chase 🐵 Full Episodes | Curious George",
-      "channel_title": "Curious George Official",
-      "thumbnail": "https://i.ytimg.com/vi/-ls4CXavG3s/maxresdefault.jpg",
-      "duration_seconds": 2711,
-      "topics": [
-        "science",
         "math",
-        "animals"
-      ],
-      "educational_score": 7,
-      "reason": "A full episode of Curious George from a channel the parent trusts, with gentle, kid-friendly storytelling about curiosity, simple physics of roller skates and stopping, and a monkey character. The toy-shop premise is a minor plot element rather than a product advertisement, and the description is mostly standard channel boilerplate.",
-      "kind": "learning"
-    },
-    {
-      "id": "DCE9HQZ7ah4",
-      "title": "All Creature Battles Part 1 | Animals for Kids | Wild Kratts",
-      "channel_title": "Wild Kratts",
-      "thumbnail": "https://i.ytimg.com/vi/DCE9HQZ7ah4/maxresdefault.jpg",
-      "duration_seconds": 697,
-      "topics": [
-        "animals",
-        "science"
-      ],
-      "educational_score": 7,
-      "reason": "Official Wild Kratts episode from a channel the parent trusts, focused on animals and wildlife with an educational science adventure framing. Some action and battle-themed content, but it is an animated show about real animals and no banned topics, frantic-editing concerns, or product ads are evident from the metadata.</reason>",
-      "kind": "learning"
-    },
-    {
-      "id": "BH7S6HQNr9M",
-      "title": "Rubble & Crew: The Crew Builds a Library Tunnel | Full Episode| PAW Patrol",
-      "channel_title": "PAW Patrol Official & Friends",
-      "thumbnail": "https://i.ytimg.com/vi/BH7S6HQNr9M/maxresdefault.jpg",
-      "duration_seconds": 721,
-      "topics": [
-        "machines",
         "reading"
       ],
-      "educational_score": 4,
-      "reason": "A PAW Patrol episode from the parent's chosen fun channel about the Crew building a library tunnel, which is mild, kid-friendly entertainment with some incidental learning about construction and machines. The description is mostly standard channel boilerplate and the tags are generic, so it is approved as a fun video rather than for its teaching value.",
-      "kind": "fun"
+      "educational_score": 7,
+      "reason": "Trusted Scratch Garden channel with a calm, educational math lesson on growth mindset, feelings, and asking questions; no banned content or heavy product promotion. Scored 7 as it teaches social-emotional concepts through math at a child-appropriate level, though the lesson depth is moderate.",
+      "kind": "learning"
     },
     {
-      "id": "_UtOQJHCZMY",
-      "title": "The Best Music From DJ George 🐵 Full Episodes | Curious George",
-      "channel_title": "Curious George Official",
-      "thumbnail": "https://i.ytimg.com/vi/_UtOQJHCZMY/maxresdefault.jpg",
-      "duration_seconds": 1382,
+      "id": "LHQVf1gaLI8",
+      "title": "The Incredible Evolution of Dogs | How Humans Accidentally Created Dog? | How Wolves Became Dogs?",
+      "channel_title": "Peekaboo Kidz",
+      "thumbnail": "https://i.ytimg.com/vi/LHQVf1gaLI8/maxresdefault.jpg",
+      "duration_seconds": 341,
       "topics": [
+        "animals",
         "science",
-        "math",
-        "animals",
-        "reading"
+        "dogs",
+        "evolution"
       ],
       "educational_score": 7,
-      "reason": "From a trusted official Curious George channel, this episode is a gentle, age-appropriate cartoon about a monkey learning to operate radio equipment through curiosity, touching on simple technology and science concepts. The description's shop and streaming links are standard boilerplate, and nothing suggests scary, banned, or toy-advertising content.",
-      "kind": "learning"
-    },
-    {
-      "id": "8WS8SHWqooo",
-      "title": "All Creature Battles Part 3 | Animals for Kids | Wild Kratts",
-      "channel_title": "Wild Kratts",
-      "thumbnail": "https://i.ytimg.com/vi/8WS8SHWqooo/maxresdefault.jpg",
-      "duration_seconds": 1111,
-      "topics": [
-        "animals",
-        "science"
-      ],
-      "educational_score": 7,
-      "reason": "This is an episode from the trusted Wild Kratts channel, a calm educational show about real animals and how they live, which fits the parent's animals and science interests. The description notes a 'laugh-out-loud adventure' with creature power suits, which is mild animated fun rather than frantic or scary content, though the 'Halloween' tag is a slight concern that does not change the decision.",
-      "kind": "learning"
-    },
-    {
-      "id": "KRK3BmXvIR8",
-      "title": "What Day Will Fall Begin?",
-      "channel_title": "Homeschool Pop",
-      "thumbnail": "https://i.ytimg.com/vi/KRK3BmXvIR8/maxresdefault.jpg",
-      "duration_seconds": 203,
-      "topics": [
-        "science",
-        "animals",
-        "reading"
-      ],
-      "educational_score": 7,
-      "reason": "A calm, kid-oriented channel the parent trusts explaining how we know when fall begins, which is a clear science lesson at a child's level with gentle narration and no banned content. The description's links and music credits are normal boilerplate, and the video is not an ad.",
+      "reason": "Found via a trusted channel, Peekaboo Kidz's Dr. Binocs explains how wolves were domesticated into dogs, a clear animal-science topic suited to a 6-year-old. The description is mostly standard channel boilerplate and no banned content is evident, though the transcript is unavailable so narration style is unverified.",
       "kind": "learning"
     },
     {
@@ -449,107 +405,392 @@
       "kind": "learning"
     },
     {
-      "id": "BltGPUU5OG0",
-      "title": "Octonauts 🦜 Amazon Adventure 🌳 Season 3 Special Full Episode",
-      "channel_title": "Octonauts",
-      "thumbnail": "https://i.ytimg.com/vi/BltGPUU5OG0/maxresdefault.jpg",
-      "duration_seconds": 1332,
+      "id": "_3tDtiAu2yM",
+      "title": "Whats the deadliest cat?",
+      "channel_title": "Mystery Science",
+      "thumbnail": "https://i.ytimg.com/vi/_3tDtiAu2yM/maxresdefault.jpg",
+      "duration_seconds": 405,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "educational_score": 7,
+      "reason": "A short, kid-focused science explainer from a trusted channel answering a child's question about which cat is the deadliest, with a description that is just a link to the channel's lesson page and no product promotion. The title suggests a possibly violent angle, but the content is likely a calm factual lesson about animals, so I approve it with a moderately high score.",
+      "kind": "learning"
+    },
+    {
+      "id": "fUUBCajm2vQ",
+      "title": "All Creature Transformations Part 4 | Animals for Kids | Wild Kratts",
+      "channel_title": "Wild Kratts",
+      "thumbnail": "https://i.ytimg.com/vi/fUUBCajm2vQ/maxresdefault.jpg",
+      "duration_seconds": 1678,
       "topics": [
         "animals",
-        "science",
-        "nature"
+        "science"
       ],
       "educational_score": 7,
-      "reason": "A full episode of the trusted Octonauts channel about Amazon rainforest creatures and habitats, which fits the parent's animals and science interests with calm, kid-friendly narration and no banned content. Its educational value is moderate, since it is mainly an adventure story with some incidental learning about animals.",
+      "reason": "A trusted official Wild Kratts episode about animals and how creatures work, with narrated nature learning and only mild animated action. Tags include 'Halloween', a minor concern, but the content is not scary, so it is approved.",
       "kind": "learning"
     },
     {
-      "id": "O21MwBBSKeQ",
-      "title": "Fantastic Fish 🐠🐡 Octonauts Triple Full Episode Special 🐟 Cartoon for Kids Learning",
-      "channel_title": "Octonauts",
-      "thumbnail": "https://i.ytimg.com/vi/O21MwBBSKeQ/maxresdefault.jpg",
-      "duration_seconds": 1799,
-      "topics": [
-        "animals",
-        "science",
-        "art"
-      ],
-      "educational_score": 7,
-      "reason": "From a channel the parent trusts, this Octonauts episode compilation teaches about sea creatures and ocean habitats with a calm, kid-friendly rescue story and no banned content. It is an animated show rather than a toy ad, though the fast-paced cartoon style is less calm than the parent prefers.",
-      "kind": "learning"
-    },
-    {
-      "id": "NjTxzaHDsyw",
-      "title": "Letter J | Get Ready, Get Set, Let's Learn About the Alphabet! | Jack Hartmann",
-      "channel_title": "Jack Hartmann Kids Music Channel",
-      "thumbnail": "https://i.ytimg.com/vi/NjTxzaHDsyw/maxresdefault.jpg",
-      "duration_seconds": 214,
-      "topics": [
-        "reading",
-        "letters",
-        "phonics",
-        "handwriting"
-      ],
-      "educational_score": 8,
-      "reason": "A calm, clearly structured alphabet song from a trusted channel teaching uppercase and lowercase J, the /j/ sound, and letter formation, which fits the parent's reading priority. Its catchy music and repetition are mild, and the description shows no banned content or product promotion.",
-      "kind": "learning"
-    },
-    {
-      "id": "sGSgo_qZlIc",
-      "title": "Learn German for Kids | Useful German Phrases for Beginners",
-      "channel_title": "Rock 'N Learn",
-      "thumbnail": "https://i.ytimg.com/vi/sGSgo_qZlIc/maxresdefault.jpg",
-      "duration_seconds": 1522,
-      "topics": [
-        "language learning",
-        "everyday phrases"
-      ],
-      "educational_score": 7,
-      "reason": "A trusted channel's beginner German video that teaches everyday phrases with clear pronunciation, repetition, and gentle animation, with no banned content or frantic editing. The stray #LearnKorean hashtags are a minor mismatch, but the title, description, and content are consistently about German.",
-      "kind": "learning"
-    },
-    {
-      "id": "lVG6rqQnVu0",
-      "title": "Probability Song by Numberock",
-      "channel_title": "Numberock",
-      "thumbnail": "https://i.ytimg.com/vi/lVG6rqQnVu0/maxresdefault.jpg",
-      "duration_seconds": 180,
+      "id": "7XuNVVlD98g",
+      "title": "Probability! | Mini Math Movies | Scratch Garden",
+      "channel_title": "Scratch Garden",
+      "thumbnail": "https://i.ytimg.com/vi/7XuNVVlD98g/maxresdefault.jpg",
+      "duration_seconds": 373,
       "topics": [
         "math",
         "science"
       ],
-      "educational_score": 7,
-      "reason": "A calm, educational math song from a trusted channel teaching probability, fractions and percentages, with a bald eagle flipping pennies; it is aimed at older grades, so the content is a stretch for a 6-year-old, but it is safe and teaches real math. Store links are normal channel boilerplate rather than an advertisement.",
+      "educational_score": 8,
+      "reason": "A calm, clearly structured math lesson from a trusted channel that teaches probability basics (certain, possible, impossible) at a level suitable for a six-year-old. No banned content, and the channel's boilerplate links do not make it an advertisement.",
       "kind": "learning"
     },
     {
-      "id": "8dMvY1DHUM4",
-      "title": "The Toast of the Town | The Food Group Book Series read aloud | Jory John Books",
-      "channel_title": "KidTimeStoryTime",
-      "thumbnail": "https://i.ytimg.com/vi/8dMvY1DHUM4/maxresdefault.jpg",
-      "duration_seconds": 852,
-      "topics": [
-        "reading",
-        "social-emotional learning",
-        "animals"
-      ],
-      "educational_score": 7,
-      "reason": "A calm picture-book read-aloud from a trusted channel with a gentle story about a piece of bread who makes positive change in his town; it fits the reading priority and has no banned content. It is a straightforward read-aloud with modest but real social-emotional value, so it just meets the 7 threshold.",
-      "kind": "learning"
-    },
-    {
-      "id": "7-SNaUdrXCY",
-      "title": "Injection Techniques | How Do Injections Help you Heal? | Types and Uses | Dr. Binocs Show",
-      "channel_title": "Peekaboo Kidz",
-      "thumbnail": "https://i.ytimg.com/vi/7-SNaUdrXCY/maxresdefault.jpg",
-      "duration_seconds": 387,
+      "id": "0GMBJFqgHfc",
+      "title": "The Robot Challenge: Crash Course Kids #47.1",
+      "channel_title": "Crash Course Kids",
+      "thumbnail": "https://i.ytimg.com/vi/0GMBJFqgHfc/maxresdefault.jpg",
+      "duration_seconds": 267,
       "topics": [
         "science",
-        "medicine",
-        "human body"
+        "art",
+        "math"
+      ],
+      "educational_score": 8,
+      "reason": "From a trusted channel, this Crash Course Kids episode teaches engineering and problem-solving around robots, matching the parent's science interest and the standards-based design challenge format. Nothing in the description suggests banned content, frantic editing, or product advertising; the topics list uses only the parent's wanted names that fit, with math and art included only loosely.",
+      "kind": "learning"
+    },
+    {
+      "id": "Hocfvp5QItE",
+      "title": "Alphabet Zoo | UFLI Version | Jack Hartmann",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "thumbnail": "https://i.ytimg.com/vi/Hocfvp5QItE/maxresdefault.jpg",
+      "duration_seconds": 232,
+      "topics": [
+        "reading",
+        "animals",
+        "music"
+      ],
+      "educational_score": 8,
+      "reason": "A calm, clearly narrated alphabet and letter-sound song from a trusted channel that teaches letter sounds alongside zoo animals with real photos, fitting the parent's reading and animals priorities. Nothing in the details suggests frantic editing, shouting, scary content, or product promotion.",
+      "kind": "learning"
+    },
+    {
+      "id": "AObKS6UkESQ",
+      "title": "Journey to Planet Potato | Doozie's Doghouse | Bedtime Stories with Netflix Jr",
+      "channel_title": "Netflix Jr.",
+      "thumbnail": "https://i.ytimg.com/vi/AObKS6UkESQ/maxresdefault.jpg",
+      "duration_seconds": 899,
+      "topics": [
+        "space",
+        "science",
+        "reading"
+      ],
+      "educational_score": 5,
+      "reason": "A fun-channel bedtime story about a dog discovering a planet with a telescope; it is gentle, has a space theme the parent loves, and carries some incidental science learning. The description is ordinary channel boilerplate with no product push.",
+      "kind": "fun"
+    },
+    {
+      "id": "a_SdGZC2F-g",
+      "title": "Geography of Thailand, East Timor and Saudi Arabia! | KLT",
+      "channel_title": "KLT",
+      "thumbnail": "https://i.ytimg.com/vi/a_SdGZC2F-g/maxresdefault.jpg",
+      "duration_seconds": 1002,
+      "topics": [
+        "geography",
+        "science"
       ],
       "educational_score": 7,
-      "reason": "A kid-made educational science explainer from a trusted channel that teaches how injections and medicines work in the body, with calm narration-style description and no banned content. It is a bit clinical and may include needle imagery, but it is informative and age-appropriate for a curious 6-year-old.",
+      "reason": "Trusted KLT channel with a made-for-kids geography video about countries; it teaches world geography through songs and animation, though the music-heavy format and shop links are a mild concern. Approved as a clear educational video at this child's level.",
+      "kind": "learning"
+    },
+    {
+      "id": "AH7KGVjXOkE",
+      "title": "The Floor REALLY IS Lava! 🌋 Fun Volcano Facts | Nat Geo Kids",
+      "channel_title": "Nat Geo Kids",
+      "thumbnail": "https://i.ytimg.com/vi/AH7KGVjXOkE/maxresdefault.jpg",
+      "duration_seconds": 392,
+      "topics": [
+        "science",
+        "animals",
+        "volcanoes",
+        "earth science"
+      ],
+      "educational_score": 8,
+      "reason": "Nat Geo Kids video explaining how volcanic lava creates new land and becomes habitat for animals like iguanas and tortoises, a clear science and animals topic for a 6-year-old. The description is educational and family-friendly, though the transcript was unavailable so narration calmness is unverified.",
+      "kind": "learning"
+    },
+    {
+      "id": "NK0h75wDlv8",
+      "title": "Creatures of the Night | Halloween Science for Kids | The Magic School Bus",
+      "channel_title": "The Magic School Bus",
+      "thumbnail": "https://i.ytimg.com/vi/NK0h75wDlv8/maxresdefault.jpg",
+      "duration_seconds": 560,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "educational_score": 8,
+      "reason": "From a trusted channel, this Magic School Bus episode teaches nocturnal animal science in a gentle cartoon format with a clear narrator and no banned content. The Halloween title suggests some spooky theming, but the content is educational rather than scary.",
+      "kind": "learning"
+    },
+    {
+      "id": "I4-m-mtNeuw",
+      "title": "A Guide to Fractions | Learn Early Maths Skills for Kids | Numberblocks",
+      "channel_title": "Numberblocks",
+      "thumbnail": "https://i.ytimg.com/vi/I4-m-mtNeuw/maxresdefault.jpg",
+      "duration_seconds": 3499,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "educational_score": 8,
+      "reason": "From a trusted channel, this is a calm, clearly narrated compilation of Numberblocks episodes teaching fractions at an early-maths level suited to a 6-year-old. Its description is standard channel boilerplate with app and social links, not a product advertisement, and it is not mainly about a banned topic.",
+      "kind": "learning"
+    },
+    {
+      "id": "HrSKEO_2IYQ",
+      "title": "ASL Labor Day for Kids",
+      "channel_title": "Learn Bright",
+      "thumbnail": "https://i.ytimg.com/vi/HrSKEO_2IYQ/maxresdefault.jpg",
+      "duration_seconds": 257,
+      "topics": [
+        "social studies",
+        "reading"
+      ],
+      "educational_score": 7,
+      "reason": "Trusted channel with a calm, clearly narrated educational video explaining Labor Day history for kids, with no banned content, scary material, or product promotion. The description is mostly boilerplate links, and the topic is social studies rather than a priority topic, but it clearly teaches something at this child's level.",
+      "kind": "learning"
+    },
+    {
+      "id": "TCCP4MCy0Ck",
+      "title": "The Louisiana Purchase for Kids: Facts About the Louisiana Purchase for Children - FreeSchool",
+      "channel_title": "Free School",
+      "thumbnail": "https://i.ytimg.com/vi/TCCP4MCy0Ck/maxresdefault.jpg",
+      "duration_seconds": 368,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "educational_score": 7,
+      "reason": "A history lesson for kids about the Louisiana Purchase from a channel the parent trusts, marked made for kids, with no violence or banned content visible; the description is mostly standard channel boilerplate and the video appears to be educational narration. History is outside the wanted topics, but it is clearly instructive and fits a child's level.",
+      "kind": "learning"
+    },
+    {
+      "id": "TBq8M6ykhoY",
+      "title": "Let's go on Safari | 40+ Minutes | Andy's Safari Adventures | Andy's Amazing Adventures",
+      "channel_title": "Andy's Amazing Adventures",
+      "thumbnail": "https://i.ytimg.com/vi/TBq8M6ykhoY/maxresdefault.jpg",
+      "duration_seconds": 2483,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "educational_score": 7,
+      "reason": "From a trusted channel made for kids (BBC Studios' Andy's Amazing Adventures), this safari episode teaches about animals in a calm, narrated format. The description's shop and watch-more links are routine boilerplate, not an advertisement.",
+      "kind": "learning"
+    },
+    {
+      "id": "rBAyKweZ2MI",
+      "title": "'Calvin Can't Fly' read by Jonathan Pryce",
+      "channel_title": "StorylineOnline",
+      "thumbnail": "https://i.ytimg.com/vi/rBAyKweZ2MI/maxresdefault.jpg",
+      "duration_seconds": 561,
+      "topics": [
+        "reading",
+        "animals",
+        "science"
+      ],
+      "educational_score": 7,
+      "reason": "A calm, clearly narrated read-aloud from a trusted channel about a bird who loves reading and learns about hurricanes and migration. It fits the parent's reading and animals interests with no banned content, and the sensible framing of the hurricane keeps it from being frightening.",
+      "kind": "learning"
+    },
+    {
+      "id": "lhXetaPh-Os",
+      "title": "🐳 Daring Deep Sea Rescues! 🤿 40 Mins+ Octonauts Full Episode Marathon",
+      "channel_title": "Octonauts",
+      "thumbnail": "https://i.ytimg.com/vi/lhXetaPh-Os/maxresdefault.jpg",
+      "duration_seconds": 2404,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "educational_score": 7,
+      "reason": "This is a full-episode marathon from the Octonauts channel, which the parent trusts, covering ocean animals, rescues, and how the Octopod vehicles work, with no banned content or obvious advertising. It is a calm kids' series with some educational value about sea creatures, though the description does not confirm the narration pace, so the score is moderate.",
+      "kind": "learning"
+    },
+    {
+      "id": "CUEOL3_Wm3Y",
+      "title": "GCF: Greatest Common Factor - Math Antics Extras",
+      "channel_title": "mathantics",
+      "thumbnail": "https://i.ytimg.com/vi/CUEOL3_Wm3Y/maxresdefault.jpg",
+      "duration_seconds": 266,
+      "topics": [
+        "math"
+      ],
+      "educational_score": 8,
+      "reason": "Math Antics is a channel the parent trusts, and a greatest common factor lesson is a clear, calm math explainer at a suitable level for a 6-year-old. The description is only a standard link to the channel's site, which is normal boilerplate and not an advertisement.",
+      "kind": "learning"
+    },
+    {
+      "id": "9Dq6OxBMD2s",
+      "title": "✋ The Amazing SENSE OF TOUCH | How Your SKIN Feels. Educational Videos for Children @HappyLearningEN",
+      "channel_title": "Happy Learning English",
+      "thumbnail": "https://i.ytimg.com/vi/9Dq6OxBMD2s/maxresdefault.jpg",
+      "duration_seconds": 258,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "educational_score": 8,
+      "reason": "A calm, clearly narrated children's science video from a trusted channel explaining how skin senses heat, cold, pressure, pain and textures and how signals reach the brain. It fits the parent's science priority and has no banned content, though the topic tags list animals and reading loosely.",
+      "kind": "learning"
+    },
+    {
+      "id": "ZX-l4-C8rQo",
+      "title": "Count to 20 MOVE and GROOVE! | Jack Hartmann",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "thumbnail": "https://i.ytimg.com/vi/ZX-l4-C8rQo/maxresdefault.jpg",
+      "duration_seconds": 191,
+      "topics": [
+        "math",
+        "art"
+      ],
+      "educational_score": 7,
+      "reason": "A trusted channel's upbeat counting-and-movement song teaching numbers 1 to 20 with gentle exercises, with no banned content or frantic editing evident. Its educational value is moderate, the upbeat music and movement fit the child's guidance, and the ending links are normal boilerplate.",
+      "kind": "learning"
+    },
+    {
+      "id": "F_mjmc3qr-8",
+      "title": "Granny Mobile Bluey Book Read Aloud by Sia 👵 | Bluey Book Reads 💙 | Bluey",
+      "channel_title": "Bluey - Official Channel",
+      "thumbnail": "https://i.ytimg.com/vi/F_mjmc3qr-8/maxresdefault.jpg",
+      "duration_seconds": 520,
+      "topics": [
+        "reading"
+      ],
+      "educational_score": 4,
+      "reason": "This is an official Bluey picture-book read-aloud from a channel the parent chose, with calm narration and gentle, kind humor, suitable for a 6-year-old. It offers reading enjoyment with some incidental learning, though little substantive teaching.</br>",
+      "kind": "fun"
+    },
+    {
+      "id": "UhjYpF9hZJM",
+      "title": "Scorpions for Kids | Scorpion Facts and Anatomy",
+      "channel_title": "Homeschool Pop",
+      "thumbnail": "https://i.ytimg.com/vi/UhjYpF9hZJM/maxresdefault.jpg",
+      "duration_seconds": 445,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "educational_score": 8,
+      "reason": "A calm, clearly narrated science lesson from a trusted channel covering scorpion anatomy, exoskeletons, habitat, and diet, matching the parent's science and animals priorities. Music and Patreon links are ordinary boilerplate, and nothing in the description suggests frightening content or product promotion.",
+      "kind": "learning"
+    },
+    {
+      "id": "i8HP2Btj7kk",
+      "title": "Super Duper Counting Games with the Numberblocks | Learn to Count for Kids | Numberblocks",
+      "channel_title": "Numberblocks",
+      "thumbnail": "https://i.ytimg.com/vi/i8HP2Btj7kk/maxresdefault.jpg",
+      "duration_seconds": 3222,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "educational_score": 8,
+      "reason": "Numberblocks is a CBeebies, made-for-kids counting and addition series with calm narration and no banned content, clearly teaching counting and basic sums at a 6-year-old's level. Transcript was unavailable, so this rests on the title and description, which consistently describe a gentle educational cartoon.",
+      "kind": "learning"
+    },
+    {
+      "id": "s__sgOHWNIA",
+      "title": "The End Is Only The Beginning: Crash Course Kids #48.2",
+      "channel_title": "Crash Course Kids",
+      "thumbnail": "https://i.ytimg.com/vi/s__sgOHWNIA/maxresdefault.jpg",
+      "duration_seconds": 264,
+      "topics": [
+        "science",
+        "reading",
+        "astronomy",
+        "engineering"
+      ],
+      "educational_score": 8,
+      "reason": "A calm, clearly narrated Crash Course Kids season recap from a trusted channel that reviews science ideas like the spheres of Earth, physics, and engineering at a suitable level for a six-year-old. It has no banned content and no sign of heavy product promotion, and the standard boilerplate links in the description do not make it an advertisement.",
+      "kind": "learning"
+    },
+    {
+      "id": "o90sx4vYxgs",
+      "title": "Learn Italian for Kids | Useful Italian Phrases for Beginners",
+      "channel_title": "Rock 'N Learn",
+      "thumbnail": "https://i.ytimg.com/vi/o90sx4vYxgs/maxresdefault.jpg",
+      "duration_seconds": 1520,
+      "topics": [
+        "reading",
+        "language learning",
+        "everyday routines"
+      ],
+      "educational_score": 7,
+      "reason": "From a channel the parent trusts, this is a calm, clearly narrated, made-for-kids Italian phrase lesson with repetition-based practice and no banned content. It teaches useful everyday phrases at a beginner level, though it is not one of the parent's listed topics.",
+      "kind": "learning"
+    },
+    {
+      "id": "8WS8SHWqooo",
+      "title": "All Creature Battles Part 3 | Animals for Kids | Wild Kratts",
+      "channel_title": "Wild Kratts",
+      "thumbnail": "https://i.ytimg.com/vi/8WS8SHWqooo/maxresdefault.jpg",
+      "duration_seconds": 1111,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "educational_score": 7,
+      "reason": "This is an episode from the trusted Wild Kratts channel, a calm educational show about real animals and how they live, which fits the parent's animals and science interests. The description notes a 'laugh-out-loud adventure' with creature power suits, which is mild animated fun rather than frantic or scary content, though the 'Halloween' tag is a slight concern that does not change the decision.",
+      "kind": "learning"
+    },
+    {
+      "id": "3w9lOwRi_cA",
+      "title": "Grade 1 Lesson Weather and Seasons",
+      "channel_title": "School Subjects Online",
+      "thumbnail": "https://i.ytimg.com/vi/3w9lOwRi_cA/maxresdefault.jpg",
+      "duration_seconds": 563,
+      "topics": [
+        "science",
+        "weather",
+        "seasons"
+      ],
+      "educational_score": 7,
+      "reason": "A calm, clearly structured Grade 1 science lesson on weather types and the four seasons with an outline of segments, no banned content, and no product promotion. Found via search from an unvetted channel, so the score is held to a moderate level and the parent may want to preview it.",
+      "kind": "learning"
+    },
+    {
+      "id": "9Z_9rQfBWNg",
+      "title": "🪱 ANNELIDS: A RARE BODY | Educational Videos for Children | @HappyLearningEN",
+      "channel_title": "Happy Learning English",
+      "thumbnail": "https://i.ytimg.com/vi/9Z_9rQfBWNg/maxresdefault.jpg",
+      "duration_seconds": 241,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "educational_score": 8,
+      "reason": "A calm, educational children's video from a trusted channel explaining annelids (segmented worms like earthworms and leeches), fitting the parent's science and animals priorities. The description is mostly playlist and app boilerplate, not a product advertisement, and nothing in it suggests frightening or banned content.",
+      "kind": "learning"
+    },
+    {
+      "id": "2KxHZU-4-Ww",
+      "title": "🪄 THE GREAT ESCAPE - Read Aloud with Ms. Linda | Brightly Storytime",
+      "channel_title": "Brightly Storytime",
+      "thumbnail": "https://i.ytimg.com/vi/2KxHZU-4-Ww/maxresdefault.jpg",
+      "duration_seconds": 370,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "educational_score": 7,
+      "reason": "A calm read-aloud of a picture book from a channel the parent trusts, with gentle magical storytelling and no banned content. It promotes reading and picture-book engagement, though its learning value is mainly literacy rather than science or math.",
       "kind": "learning"
     },
     {
@@ -567,172 +808,31 @@
       "kind": "learning"
     },
     {
-      "id": "MLHCcMa5a4Q",
-      "title": "The Decider Bluey Book Read Aloud by Ash Barty 🏉 🌟 | Bluey Book Reads 💙 | Bluey",
-      "channel_title": "Bluey - Official Channel",
-      "thumbnail": "https://i.ytimg.com/vi/MLHCcMa5a4Q/maxresdefault.jpg",
-      "duration_seconds": 362,
-      "topics": [
-        "reading"
-      ],
-      "educational_score": 4,
-      "reason": "An official Bluey channel video, a calm read-aloud of the episode The Decider by Ash Barty, which the parent has chosen for fun. It is age-appropriate and gentle, with light educational value from the story reading, though the sports theme is only incidental.",
-      "kind": "fun"
-    },
-    {
-      "id": "PZ5ZJYuD1vw",
-      "title": "How does a Beaver build a Dam and a Lodge? 🦫 Animal Card Quest | Nat Geo Kids",
-      "channel_title": "Nat Geo Kids",
-      "thumbnail": "https://i.ytimg.com/vi/PZ5ZJYuD1vw/maxresdefault.jpg",
-      "duration_seconds": 362,
-      "topics": [
-        "animals",
-        "science"
-      ],
-      "educational_score": 8,
-      "reason": "A short, family-friendly Nat Geo Kids video from a trusted channel explaining how beavers build dams and lodges, which fits the parent's animals and science interests. The description is mostly standard channel boilerplate, not a product advertisement, and nothing in the details suggests frantic editing or unsafe content.",
-      "kind": "learning"
-    },
-    {
-      "id": "iPXxVqqq330",
-      "title": "Mexican Free-Tailed Bat! | Learn With Steve Backshall | BBC Earth Kids",
-      "channel_title": "BBC Earth Kids",
-      "thumbnail": "https://i.ytimg.com/vi/iPXxVqqq330/maxresdefault.jpg",
-      "duration_seconds": 384,
-      "topics": [
-        "animals",
-        "science"
-      ],
-      "educational_score": 8,
-      "reason": "A BBC Earth Kids clip from a trusted channel about the Mexican free-tailed bat, presented by Steve Backshall, a calm natural history segment that teaches animal biology at a child's level. The description shows only standard channel boilerplate and no product promotion, and the title and tags point to an educational wildlife topic.",
-      "kind": "learning"
-    },
-    {
-      "id": "uY02GTUOwYM",
-      "title": "Letter G | Get Ready, Get Set, Let's Learn About the Alphabet! | Jack Hartmann",
-      "channel_title": "Jack Hartmann Kids Music Channel",
-      "thumbnail": "https://i.ytimg.com/vi/uY02GTUOwYM/maxresdefault.jpg",
-      "duration_seconds": 214,
-      "topics": [
-        "reading",
-        "art"
-      ],
-      "educational_score": 8,
-      "reason": "A calm, clearly narrated alphabet song from a trusted channel that teaches the letter G, its uppercase and lowercase forms, and the /g/ sound, which fits the parent's reading priority. It has no banned content, and the handwriting air-writing is a light fit for the art priority.",
-      "kind": "learning"
-    },
-    {
-      "id": "qJ2RmlOUfpw",
-      "title": "Layers of the Atmosphere | Learn about the \"blanket\" that keeps the earth warm",
-      "channel_title": "Learn Bright",
-      "thumbnail": "https://i.ytimg.com/vi/qJ2RmlOUfpw/maxresdefault.jpg",
-      "duration_seconds": 353,
+      "id": "0ZS1LSd-IdY",
+      "title": "Amazing Sea Creatures | Marine Biology | Science for Kids | The Magic School Bus",
+      "channel_title": "The Magic School Bus",
+      "thumbnail": "https://i.ytimg.com/vi/0ZS1LSd-IdY/maxresdefault.jpg",
+      "duration_seconds": 880,
       "topics": [
         "science",
-        "space"
+        "animals"
       ],
       "educational_score": 8,
-      "reason": "A calm, educational science video from a trusted channel explaining the layers of the atmosphere, weather, and the ozone layer for kids. It has no banned content, and its links and sign-off are normal boilerplate rather than advertising.",
+      "reason": "A trusted channel's marine biology episode from a well-known science series with a calm, narrated, kid-friendly format that teaches sea creature facts. The description is only standard channel boilerplate and nothing suggests frightening or inappropriate content.",
       "kind": "learning"
     },
     {
-      "id": "6N-7VZueIFA",
-      "title": "Alphablock O's Big Adventure | Learn to Read and Spell for Kids Compilation | Alphablocks",
+      "id": "3bepWxmLSKg",
+      "title": "The Wonderful Wizard of Az - An Alphalocks Dress Up Special | Halloween Cartoons | Alphablocks",
       "channel_title": "Alphablocks",
-      "thumbnail": "https://i.ytimg.com/vi/6N-7VZueIFA/maxresdefault.jpg",
-      "duration_seconds": 1530,
+      "thumbnail": "https://i.ytimg.com/vi/3bepWxmLSKg/maxresdefault.jpg",
+      "duration_seconds": 585,
       "topics": [
         "reading",
         "art"
       ],
       "educational_score": 8,
-      "reason": "From a trusted channel, this Alphablocks compilation teaches phonics, letter sounds, and spelling, which is a priority reading topic for the child. The description shows standard channel boilerplate and no banned content, though the fast-paced animated style is a minor concern.",
-      "kind": "learning"
-    },
-    {
-      "id": "4iTY4rum-WI",
-      "title": "Experiments with FOOD! | Science Max",
-      "channel_title": "Science Max - Scholastic",
-      "thumbnail": "https://i.ytimg.com/vi/4iTY4rum-WI/maxresdefault.jpg",
-      "duration_seconds": 1346,
-      "topics": [
-        "science",
-        "animals",
-        "art"
-      ],
-      "educational_score": 7,
-      "reason": "A trusted channel's science series demonstrating home experiments with food at a larger scale, which teaches cause and effect at a child's level. The description shows no banned content, though the 'extreme' framing and experiment-showcase style keep the score at the threshold.",
-      "kind": "learning"
-    },
-    {
-      "id": "AVqMU_E7A9U",
-      "title": "Superlatives | Monsters Learn English | Scratch Garden",
-      "channel_title": "Scratch Garden",
-      "thumbnail": "https://i.ytimg.com/vi/AVqMU_E7A9U/maxresdefault.jpg",
-      "duration_seconds": 398,
-      "topics": [
-        "reading",
-        "art"
-      ],
-      "educational_score": 7,
-      "reason": "A trusted Scratch Garden English grammar lesson on superlatives, calm and clearly narrated, appropriate for a six-year-old and aligned with the parent's reading priority. Its educational value is moderate, but it is a learning video rather than an advertisement.",
-      "kind": "learning"
-    },
-    {
-      "id": "3SNJrKdxDvE",
-      "title": "🎸🐳 Bilingual Book + Sing Along | BABY BALLENA by MISTER G (Ben Gundersheimer) | English + Spanish",
-      "channel_title": "Brightly Storytime",
-      "thumbnail": "https://i.ytimg.com/vi/3SNJrKdxDvE/maxresdefault.jpg",
-      "duration_seconds": 390,
-      "topics": [
-        "reading",
-        "animals",
-        "science"
-      ],
-      "educational_score": 7,
-      "reason": "A trusted channel's bilingual read-aloud of a picture book about a gray whale's migration from Mexico to Alaska, covering animal life cycles and ocean travel with English and Spanish text, followed by a sing-along. It is calm storytelling with no violence, ads, or banned topics, and it fits the parent's reading, animal, and science interests.",
-      "kind": "learning"
-    },
-    {
-      "id": "WK13XtYewUo",
-      "title": "Sound Waves Vibration DIY Bugle: Football Science Activity",
-      "channel_title": "GenerationGenius",
-      "thumbnail": "https://i.ytimg.com/vi/WK13XtYewUo/maxresdefault.jpg",
-      "duration_seconds": 252,
-      "topics": [
-        "science",
-        "art"
-      ],
-      "educational_score": 7,
-      "reason": "A calm, classroom-style science activity from a trusted channel explaining that sound is produced by vibrations through building a simple DIY bugle; it has no banned content and teaches a clear concept, though it is aimed at students and the topic is only moderately engaging for a 6-year-old.",
-      "kind": "learning"
-    },
-    {
-      "id": "0U4lOGo593k",
-      "title": "Yellowstone: The World’s First National Park! | SciShow Kids",
-      "channel_title": "SciShow Kids",
-      "thumbnail": "https://i.ytimg.com/vi/0U4lOGo593k/maxresdefault.jpg",
-      "duration_seconds": 435,
-      "topics": [
-        "science",
-        "animals",
-        "reading"
-      ],
-      "educational_score": 8,
-      "reason": "A calm, educational SciShow Kids episode from a trusted channel about Yellowstone National Park and its living things, aligned with science standards for early elementary learners. The description is standard channel boilerplate with no product advertising or banned content.",
-      "kind": "learning"
-    },
-    {
-      "id": "4_mSHBWYsNw",
-      "title": "Craziest Experiments |  Maxed Out Tub of Slime! | Science Max | NEW COMPILATION",
-      "channel_title": "Science Max - Scholastic",
-      "thumbnail": "https://i.ytimg.com/vi/4_mSHBWYsNw/maxresdefault.jpg",
-      "duration_seconds": 1226,
-      "topics": [
-        "science"
-      ],
-      "educational_score": 7,
-      "reason": "A Science Max compilation from a trusted channel that explains polymers through a giant slime experiment, which teaches a clear science concept at a young child's level. The description contains only standard channel links and no toy or product promotion, though the 'craziest' framing and possibly loud editing are not verified from the video itself.",
+      "reason": "A calm, narrated Alphablocks phonics episode from a trusted channel that teaches letter sounds and spelling through a dress-up story, with no scary content, banned topics, or heavy toy advertising. The Halloween theme is light and the educational value is clear for a 6-year-old.",
       "kind": "learning"
     }
   ]
