@@ -1,11 +1,287 @@
 {
-  "date": "2026-11-16",
-  "generated_at": "2026-11-17T02:51:32Z",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T10:35:00Z",
   "settings": {
-    "daily_watch_limit_minutes": 45.0,
+    "daily_watch_limit_minutes": 0.0,
     "pin_sha256": "a1fb4e703a9ef1fa4936801721ff285a97ac85330856674412e054892afe6972",
     "pin_length": 4,
     "repo": "Brandon-Russell-1/kidtube"
   },
-  "videos": []
+  "videos": [
+    {
+      "id": "4VinwOQkHGg",
+      "title": "The Yuckiest Animals | SciShow Kids Compilation",
+      "channel_title": "SciShow Kids",
+      "thumbnail": "https://i.ytimg.com/vi/4VinwOQkHGg/maxresdefault.jpg",
+      "duration_seconds": 1594,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "educational_score": 7,
+      "reason": "A SciShow Kids compilation about yucky animals like slugs and dung beetles, made for kids and aimed at early elementary learners with a calm science-learning format. The transcript is unavailable, and the description mentions streaming promotions and Patreon links, so there is some uncertainty about narration style and product content, but the core content is animal science."
+    },
+    {
+      "id": "AH7KGVjXOkE",
+      "title": "The Floor REALLY IS Lava! 🌋 Fun Volcano Facts | Nat Geo Kids",
+      "channel_title": "Nat Geo Kids",
+      "thumbnail": "https://i.ytimg.com/vi/AH7KGVjXOkE/maxresdefault.jpg",
+      "duration_seconds": 392,
+      "topics": [
+        "science",
+        "animals",
+        "volcanoes",
+        "earth science"
+      ],
+      "educational_score": 8,
+      "reason": "Nat Geo Kids video explaining how volcanic lava creates new land and becomes habitat for animals like iguanas and tortoises, a clear science and animals topic for a 6-year-old. The description is educational and family-friendly, though the transcript was unavailable so narration calmness is unverified."
+    },
+    {
+      "id": "WX_E1CAZjaQ",
+      "title": "KABOOM! All About Volcanoes! | SciShow Kids Compilation",
+      "channel_title": "SciShow Kids",
+      "thumbnail": "https://i.ytimg.com/vi/WX_E1CAZjaQ/maxresdefault.jpg",
+      "duration_seconds": 1277,
+      "topics": [
+        "science",
+        "volcanoes",
+        "animals"
+      ],
+      "educational_score": 8,
+      "reason": "SciShow Kids is a made-for-kids science series aimed at early elementary learners, and this compilation explains how volcanoes work, including Hawaii and Olympus Mons on Mars. The description shows no banned topics, frightening content, or product promotion, though the transcript was unavailable so narration style is unverified."
+    },
+    {
+      "id": "ei-y8-VST5Y",
+      "title": "'Petey Perfectpants and the Silly Sock Puppet Problem' read by Adam Brody",
+      "channel_title": "StorylineOnline",
+      "thumbnail": "https://i.ytimg.com/vi/ei-y8-VST5Y/maxresdefault.jpg",
+      "duration_seconds": 415,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "educational_score": 7,
+      "reason": "A celebrity read-aloud of a picture book from the Storyline Online channel, a calm narrated format that supports the parent's reading priority. The story mentions a prank-loving sock puppet, but it is gentle, classroom-level silliness rather than a banned pranks video, and the content is mild for a 6-year-old."
+    },
+    {
+      "id": "RtY1z8-qGYE",
+      "title": "Silly Animal Names for Monkeys, Bears, and More 🐵🐻 | You're Called What?! | Nat Geo Kids",
+      "channel_title": "Nat Geo Kids",
+      "thumbnail": "https://i.ytimg.com/vi/RtY1z8-qGYE/maxresdefault.jpg",
+      "duration_seconds": 1470,
+      "topics": [
+        "animals",
+        "reading",
+        "science"
+      ],
+      "educational_score": 7,
+      "reason": "This is a Nat Geo Kids full episode about real animals and their unusual names and features, with no violence, banned content, or heavy product promotion described. The transcript is unavailable, so my judgment relies on the description, which shows a calm, factual, kid-oriented format, though narration style is unverified."
+    },
+    {
+      "id": "iN63vWT2ZRI",
+      "title": "'Henry and the Buccaneer Bunnies' read by Jessica Chastain",
+      "channel_title": "StorylineOnline",
+      "thumbnail": "https://i.ytimg.com/vi/iN63vWT2ZRI/maxresdefault.jpg",
+      "duration_seconds": 525,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "educational_score": 7,
+      "reason": "A calm celebrity read-aloud of a picture book from Storyline Online, made for kids, that promotes reading and books with no violence or banned content; the pirate theme is mild with a storm but nothing frightening, and the narration style suits the child. Educational value is moderate, centered on literacy and storytelling, with a free activity guide linked."
+    },
+    {
+      "id": "qg6KK0iv9QI",
+      "title": "'Room on the Broom' read by Kate Winslet",
+      "channel_title": "StorylineOnline",
+      "thumbnail": "https://i.ytimg.com/vi/qg6KK0iv9QI/maxresdefault.jpg",
+      "duration_seconds": 432,
+      "topics": [
+        "reading",
+        "art",
+        "animals"
+      ],
+      "educational_score": 7,
+      "reason": "A calm, celebrity-narrated read-aloud of a gentle picture book that builds early literacy and rhyme, with an illustrated, non-frightening story about a witch and helpful animals. The mild dragon peril is brief and resolved kindly, and there is no product promotion, banned topic, or frantic editing evident from the description, though the transcript was unavailable."
+    },
+    {
+      "id": "raBGAvrk5fM",
+      "title": "My First One Syllable Words | Learn to Read and Spell for Kids Compilation | Alphablocks",
+      "channel_title": "Alphablocks",
+      "thumbnail": "https://i.ytimg.com/vi/raBGAvrk5fM/maxresdefault.jpg",
+      "duration_seconds": 2716,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "educational_score": 8,
+      "reason": "This is a 45-minute Alphablocks compilation teaching one-syllable words and phonics, a clear reading lesson for a 6-year-old from a known CBeebies educational channel marked made for kids. The transcript was unavailable, so I relied on the title and description, which show no banned content, though the parent should know the pacing is unverified."
+    },
+    {
+      "id": "Mux6Lzw0QC4",
+      "title": "How To Draw Cosmo The Space Mouse",
+      "channel_title": "Art for Kids Hub",
+      "thumbnail": "https://i.ytimg.com/vi/Mux6Lzw0QC4/maxresdefault.jpg",
+      "duration_seconds": 579,
+      "topics": [
+        "art",
+        "space",
+        "animals"
+      ],
+      "educational_score": 7,
+      "reason": "A calm, kid-made drawing tutorial teaching step-by-step how to draw a space mouse, which fits the parent's interest in space, art, and animals, with no banned content evident from the details. It has promotional links and a membership pitch, but the lesson itself is substantial, and the transcript is unavailable so approval rests on the description alone."
+    },
+    {
+      "id": "cNJK7uxJaU0",
+      "title": "Who Sent the Space Signal? | Learn to Count for Kids Compilation | Number Cartoon | Numberblocks",
+      "channel_title": "Numberblocks",
+      "thumbnail": "https://i.ytimg.com/vi/cNJK7uxJaU0/maxresdefault.jpg",
+      "duration_seconds": 3477,
+      "topics": [
+        "math",
+        "science",
+        "space"
+      ],
+      "educational_score": 8,
+      "reason": "Numberblocks is a CBeebies counting and addition cartoon from a known educational channel, marked made for kids, with a space-themed compilation teaching counting and sums suited to a 6-year-old. The transcript is unavailable, so the calm narration is unverified, but the title, description, and channel strongly indicate gentle, educational content with no banned topics."
+    },
+    {
+      "id": "2E6-G7PegV8",
+      "title": "Cassini: The Spacecraft That Flew Into Saturn 🪐 | Mission to Saturn Full Special | Nat Geo Kids",
+      "channel_title": "Nat Geo Kids",
+      "thumbnail": "https://i.ytimg.com/vi/2E6-G7PegV8/maxresdefault.jpg",
+      "duration_seconds": 2648,
+      "topics": [
+        "science",
+        "space",
+        "technology",
+        "reading"
+      ],
+      "educational_score": 8,
+      "reason": "A Nat Geo Kids documentary-style video explaining NASA's Cassini mission to Saturn, its spacecraft design, Titan, Enceladus, and the rings, with a chapter outline showing substantive factual content suited to a curious 6-year-old. No transcript was available, so the calm narration style is unverified, and the description carries some dramatic framing ('plunged to its death'), but it is not scary content, and the rest of the description is a standard channel blurb."
+    },
+    {
+      "id": "u3yeE7tnPSs",
+      "title": "The ABC's Phonics Song | Learn to Read and Spell for Kids Compilation | Alphablocks",
+      "channel_title": "Alphablocks",
+      "thumbnail": "https://i.ytimg.com/vi/u3yeE7tnPSs/maxresdefault.jpg",
+      "duration_seconds": 1443,
+      "topics": [
+        "reading",
+        "art",
+        "animals"
+      ],
+      "educational_score": 8,
+      "reason": "This is a made-for-kids Alphablocks phonics compilation teaching letter sounds, reading and spelling, which fits the parent's reading priority. Its description is educational and mentions no banned content, though the transcript is unavailable so narration style is unverified and the topic list is loose.}"
+    },
+    {
+      "id": "i8HP2Btj7kk",
+      "title": "Super Duper Counting Games with the Numberblocks | Learn to Count for Kids | Numberblocks",
+      "channel_title": "Numberblocks",
+      "thumbnail": "https://i.ytimg.com/vi/i8HP2Btj7kk/maxresdefault.jpg",
+      "duration_seconds": 3222,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "educational_score": 8,
+      "reason": "Numberblocks is a CBeebies, made-for-kids counting and addition series with calm narration and no banned content, clearly teaching counting and basic sums at a 6-year-old's level. Transcript was unavailable, so this rests on the title and description, which consistently describe a gentle educational cartoon."
+    },
+    {
+      "id": "Z-iBxPy-ims",
+      "title": "Wild Kratts FULL EPISODE | Turkey Day (ASL) 🦃 | PBS KIDS",
+      "channel_title": "PBS KIDS",
+      "thumbnail": "https://i.ytimg.com/vi/Z-iBxPy-ims/maxresdefault.jpg",
+      "duration_seconds": 1610,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "educational_score": 7,
+      "reason": "A PBS KIDS Wild Kratts episode about wild turkeys, an animal-science topic suited to a 6-year-old, with a kid-friendly cartoon format and ASL. The transcript is unavailable, so the calm narration and absence of frantic editing are unverified, which lowers confidence somewhat, but the description shows no banned content or product advertising."
+    },
+    {
+      "id": "8qdYCpSW2eY",
+      "title": "The Biggest Volcano Ever is in Space! | SciShow Kids",
+      "channel_title": "SciShow Kids",
+      "thumbnail": "https://i.ytimg.com/vi/8qdYCpSW2eY/maxresdefault.jpg",
+      "duration_seconds": 348,
+      "topics": [
+        "science",
+        "space",
+        "volcanoes",
+        "mars"
+      ],
+      "educational_score": 8,
+      "reason": "SciShow Kids is an educational science series for early elementary learners, and this episode explains Olympus Mons, the largest known volcano on Mars, fitting the parent's science interest and the child's love of space. The transcript was unavailable, so this rests on the title, description, and channel's established calm, narrated format."
+    },
+    {
+      "id": "uRqUixWz7R0",
+      "title": "How To Draw Flufferson Squirrel Mailman",
+      "channel_title": "Art for Kids Hub",
+      "thumbnail": "https://i.ytimg.com/vi/uRqUixWz7R0/maxresdefault.jpg",
+      "duration_seconds": 509,
+      "topics": [
+        "art",
+        "animals"
+      ],
+      "educational_score": 7,
+      "reason": "A calm step-by-step drawing tutorial for a cute squirrel mailman, with no banned content and a clear art-skill focus that fits the parent's art and animals interests. Ads and membership pitches appear in the description, but the video itself is a lesson rather than a product showcase, so approval is borderline."
+    },
+    {
+      "id": "JzSlrNSvAfE",
+      "title": "Phonics Songs - Learn with the Alphablocks | Learn to Read and Spell for Kids Compilation",
+      "channel_title": "Alphablocks",
+      "thumbnail": "https://i.ytimg.com/vi/JzSlrNSvAfE/maxresdefault.jpg",
+      "duration_seconds": 2395,
+      "topics": [
+        "reading",
+        "art",
+        "animals"
+      ],
+      "educational_score": 8,
+      "reason": "Alphablocks is a made-for-kids CBeebies phonics show that teaches letter sounds, reading and spelling through calm, clearly narrated songs, fitting the parent's reading priority. Transcript was unavailable, so this is based on metadata alone, and the description contains only app and subscribe links with no obvious toy or product focus."
+    },
+    {
+      "id": "f5N4dpyzXfk",
+      "title": "Cold Weather Counting for Kids | Learn to Count for Kids Compilation | Number Cartoon | Numberblocks",
+      "channel_title": "Numberblocks",
+      "thumbnail": "https://i.ytimg.com/vi/f5N4dpyzXfk/maxresdefault.jpg",
+      "duration_seconds": 3491,
+      "topics": [
+        "math",
+        "reading",
+        "art"
+      ],
+      "educational_score": 8,
+      "reason": "Numberblocks is a CBeebies counting and addition series made for young children, and this compilation teaches counting and simple sums in a calm narrated style with no banned content. The transcript was unavailable, so the approval rests on the channel's established educational reputation and the description, which describes gentle counting lessons and no toy or product promotion."
+    },
+    {
+      "id": "oZ-zn7QVTQQ",
+      "title": "'I'll Vote for That' - Real Life Maths | Learn to Count for Kids | Number Cartoon | Numberblocks",
+      "channel_title": "Numberblocks",
+      "thumbnail": "https://i.ytimg.com/vi/oZ-zn7QVTQQ/maxresdefault.jpg",
+      "duration_seconds": 3504,
+      "topics": [
+        "math",
+        "science"
+      ],
+      "educational_score": 7,
+      "reason": "Numberblocks is a CBeebies-produced, made-for-kids counting and maths series with calm narration and no banned content; this compilation shows how maths applies in real life. The transcript was unavailable, so the judgment rests on the title and description, and the score is held to 7 for clear teaching at a young child's level."
+    },
+    {
+      "id": "0jKoOUZ1GBM",
+      "title": "Every Kind of Volcano | SciShow Kids",
+      "channel_title": "SciShow Kids",
+      "thumbnail": "https://i.ytimg.com/vi/0jKoOUZ1GBM/maxresdefault.jpg",
+      "duration_seconds": 504,
+      "topics": [
+        "science",
+        "geology",
+        "volcanoes"
+      ],
+      "educational_score": 8,
+      "reason": "SciShow Kids episode explaining the different kinds of volcanoes at a level suited to early elementary learners, tied to NGSS standards and made for kids. The description shows no violence, banned topics, or product promotion, though the transcript was unavailable so narration style is judged from the description alone."
+    }
+  ]
 }
