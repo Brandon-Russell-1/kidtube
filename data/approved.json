@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:10:15Z",
+  "updated": "2026-11-17T19:20:54Z",
   "videos": [
     {
       "id": "4VinwOQkHGg",
@@ -1157,8 +1157,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:04:03Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "BltGPUU5OG0",
@@ -1839,8 +1839,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:05:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "KRK3BmXvIR8",
@@ -1953,8 +1953,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:05:33Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "FDvc2ChDnmo",
@@ -2272,8 +2272,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:06:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "iPXxVqqq330",
@@ -2573,8 +2573,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:34:49Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "XztmDxWgnko",
@@ -2736,8 +2736,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:35:05Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "OUq7EwW8kTo",
@@ -2923,8 +2923,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:35:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "oL_Vf9fYCpg",
@@ -2992,8 +2992,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:35:28Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "UZViXNxFYXE",
@@ -3063,8 +3063,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:35:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "MLHCcMa5a4Q",
@@ -3340,8 +3340,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:35:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "C5rjbfAPB64",
@@ -3363,8 +3363,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:36:01Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "8WS8SHWqooo",
@@ -3686,8 +3686,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:36:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "8pkHGhHIpRo",
@@ -3709,8 +3709,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:36:36Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "iqhBuvcQ1A8",
@@ -3984,8 +3984,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:37:02Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "XjR2B3YJH9U",
@@ -4007,8 +4007,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:37:04Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "11I6SH0HE9A",
@@ -4054,8 +4054,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:37:07Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "XQglDsXGQQo",
@@ -4314,8 +4314,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:37:26Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "Rf71QRZtVME",
@@ -4525,8 +4525,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:37:45Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "_As89c_Ofw4",
@@ -4548,8 +4548,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:37:46Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "QDU7Qr8-JUc",
@@ -4899,8 +4899,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:38:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "JVDHUOTlPso",
@@ -5342,8 +5342,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:47:49Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "i-C8P9H86Ps",
@@ -5481,8 +5481,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:47:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "-saTA2vr5hk",
@@ -5736,8 +5736,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:48:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "RnNv0gSqZSk",
@@ -5759,8 +5759,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:48:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "ZX-l4-C8rQo",
@@ -5992,8 +5992,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:48:47Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "yzwdJjo4vGw",
@@ -6204,8 +6204,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:05Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "7wG0q51x9js",
@@ -6275,8 +6275,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "5EGS0zw3mXE",
@@ -6299,8 +6299,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:11Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "9Z_9rQfBWNg",
@@ -6488,8 +6488,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:26Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "SXPsfr-Fnu4",
@@ -6651,8 +6651,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:40Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "gW4_9tVFf5Q",
@@ -6835,8 +6835,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "sqkODDcJG8w",
@@ -6882,8 +6882,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "kOP1fKCYi64",
@@ -6954,8 +6954,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:50:03Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "BXLhKuyciHE",
@@ -7048,8 +7048,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:50:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "_SDGlYj-f6Q",
@@ -7259,8 +7259,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:50:28Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "yIx1DplJMB4",
@@ -7374,8 +7374,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:50:42Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "XDGUroGprkQ",
@@ -7628,8 +7628,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:51:13Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "9q3uiSeT80M",
@@ -7863,8 +7863,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:51:30Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "m4rRs60bSaI",
@@ -7956,8 +7956,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:51:39Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "PeNuj2GH8xg",
@@ -8002,8 +8002,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:51:43Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "3rtYYZgqn0c",
@@ -8633,8 +8633,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:27:15Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "8_aCOnRF6RU",
@@ -8656,8 +8656,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:27:16Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "7SNAEQVbnPM",
@@ -8728,8 +8728,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:27:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "HI7ueffk0Qg",
@@ -8796,8 +8796,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:27:25Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "u5YiYep5toM",
@@ -8821,8 +8821,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:27:27Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "xIk76NbB4Wc",
@@ -9590,8 +9590,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:28:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "Pa0fOJPTJT8",
@@ -10046,8 +10046,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:28:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "cJpPDoTvTwo",
@@ -10770,8 +10770,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:29:52Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "RFyaYornjA0",
@@ -10795,8 +10795,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:29:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "tzc09NKMBNs",
@@ -10820,8 +10820,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:29:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "zXdvI7u4Mxo",
@@ -11102,8 +11102,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:30:16Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "UWVJ9-cRnsA",
@@ -11148,8 +11148,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:30:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "4AIl54tH89U",
@@ -11687,8 +11687,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:37:18Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "bWSI5S2LYmk",
@@ -11710,8 +11710,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:37:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "_28EcfFWuGA",
@@ -11734,8 +11734,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:37:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "6XBPwdoRWVQ",
@@ -12037,8 +12037,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:37:38Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "a68c5IEFuWw",
@@ -12245,8 +12245,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:37:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "dBDPupNpjV0",
@@ -12476,8 +12476,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:38:10Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "zPefOpHEpT0",
@@ -12619,8 +12619,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:38:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "JKVlgjAHGPs",
@@ -12928,8 +12928,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:38:36Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "2wUsdsae0ro",
@@ -13692,8 +13692,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:39:23Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "EHaOM32qVnI",
@@ -13763,8 +13763,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:39:27Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "Dvhl891zGqU",
@@ -13930,8 +13930,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:39:36Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "G49YN-WQhiQ",
@@ -14310,8 +14310,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:39:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "MsOvMC06r9Y",
@@ -14798,8 +14798,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:49:08Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "qY45ATnG8vg",
@@ -15032,8 +15032,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:49:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "TVVNyL2nWgg",
@@ -15079,8 +15079,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:49:25Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "qGVgOTaJF7U",
@@ -15194,8 +15194,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:49:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "7tylcOBB2Ts",
@@ -15634,8 +15634,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:07Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "_5_IvWRkRMg",
@@ -15872,8 +15872,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "tVf5kfuGvBY",
@@ -16037,8 +16037,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "okraTNro0tg",
@@ -16084,8 +16084,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:37Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "Fu_8KkQagAk",
@@ -16155,8 +16155,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:41Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "4kLPWMrSA5k",
@@ -16271,8 +16271,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:48Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "VU0Jq1STJb8",
@@ -17115,8 +17115,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:51:48Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "VsUVWMH_G2s",
@@ -17258,8 +17258,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:51:56Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "HuPGX8ycxlo",
@@ -17354,8 +17354,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:52:04Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "OMmciINGVNs",
@@ -17519,8 +17519,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:52:14Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "mNt8QH-fyyY",
@@ -17896,8 +17896,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:06:51Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "XaE3L0wBYmI",
@@ -17920,8 +17920,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:06:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "APMjFyTN8EU",
@@ -17945,8 +17945,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:06:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "-tUG7XDk5dc",
@@ -18133,8 +18133,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:05Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "063xXBMTsXM",
@@ -18201,8 +18201,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "zQgHqM1XvUY",
@@ -18271,8 +18271,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:13Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "mKSNQuQrsm0",
@@ -18295,8 +18295,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:14Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "hXQ0PowkCto",
@@ -18458,8 +18458,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:25Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "-yTVRvNMaPQ",
@@ -18784,8 +18784,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:50Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "tlMtzyC4ZvU",
@@ -18854,8 +18854,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "LTrMYeYeMo0",
@@ -18878,8 +18878,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "mWtp4ifeEjM",
@@ -18902,8 +18902,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:07:57Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "C6M4k8I2OoE",
@@ -19019,8 +19019,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:08:06Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "IUWNFEkKXXE",
@@ -19066,8 +19066,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:08:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "QUixxO5yxp4",
@@ -19373,8 +19373,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:08:27Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "WacilGHlhS4",
@@ -19467,8 +19467,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:08:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "W3PUTWCqPBo",
@@ -19514,8 +19514,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:08:36Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "hFEVHleCOU0",
@@ -19538,8 +19538,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:08:38Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "0G_FsSKlTKA",
@@ -19982,8 +19982,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:06Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "c0XGYvpLEWM",
@@ -20053,8 +20053,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:10Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "MhoR659xypU",
@@ -20121,8 +20121,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:14Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "x6eCybu_oyQ",
@@ -20336,8 +20336,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:29Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "2KoEwKYOr80",
@@ -20359,8 +20359,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:30Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "ic-jqvtNdzc",
@@ -20456,8 +20456,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:36Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "6t3DMk4-9KU",
@@ -20480,8 +20480,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:38Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "0DbYdEhH74Q",
@@ -20600,8 +20600,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:09:44Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     },
     {
       "id": "3XMDfGCZ-lU",
@@ -21089,6 +21089,3155 @@
       "screened_at": "2026-11-17T19:10:15Z",
       "last_shown": null,
       "shown_count": 0
+    },
+    {
+      "id": "ufd9qoNwzDY",
+      "title": "Can You Guess These Fall Animals with Jessi and Sam? | SciShow Kids Compilation",
+      "channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA",
+      "channel_title": "SciShow Kids",
+      "duration_seconds": 1083,
+      "published_at": "2023-10-09T10:00:46Z",
+      "thumbnail": "https://i.ytimg.com/vi/ufd9qoNwzDY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A SciShow Kids compilation from a trusted channel where the hosts use clue-based guessing to teach facts about fall animals, which fits the parent's science and animals interests. It is calm, educational, made for kids, and has no banned content or advertising beyond normal channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:05Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "l5OiIZeOtqs",
+      "title": "2 Hours of the World's Toughest Fixes 👷🏽👷🏽‍♀️ | Full Episode Compilation | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 7939,
+      "published_at": "2026-10-26T12:00:39Z",
+      "thumbnail": "https://i.ytimg.com/vi/l5OiIZeOtqs/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted Nat Geo Kids compilation about engineers repairing industrial machinery, bridges, and wind turbines, which fits the parent's interest in how machines work and science. Its descriptions suggest some danger such as hanging from power lines, but the content is about problem-solving rather than gore or frightening material.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "how machines work",
+        "engineering",
+        "renewable energy"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:07Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "WSz1oZG2K1I",
+      "title": "What's the most dangerous animal in the ocean?",
+      "channel_id": "UCPRCRM3JKm3sw55lB_427qg",
+      "channel_title": "Mystery Science",
+      "duration_seconds": 470,
+      "published_at": "2023-10-30T15:12:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/WSz1oZG2K1I/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated science explainer from a trusted channel answering a kid's question about dangerous ocean animals, with no banned content; the description is ordinary channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:09Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "eBIS17Va9sA",
+      "title": "The Zodiac Constellations: Crash Course Kids #37.1",
+      "channel_id": "UCONtPx56PSebXJOxbFv-2jQ",
+      "channel_title": "Crash Course Kids",
+      "duration_seconds": 249,
+      "published_at": "2015-12-10T00:21:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/eBIS17Va9sA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Crash Course Kids is a trusted channel, and this short video explains the zodiac constellations with a calm host and clear educational framing about the night sky, fitting the parent's science and space interests. The description is standard boilerplate with no product promotion or frightening content.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "space",
+        "astronomy",
+        "constellations"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:11Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "zHGx58mV1DI",
+      "title": "An Armored Dinosaur - Ankylosaurus | What if Anklyosaurus Never Went Extinct? | Dr. Binocs Show",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 400,
+      "published_at": "2026-06-23T12:30:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/zHGx58mV1DI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, narrated kids' science video about Ankylosaurus facts and an extinction 'what if' scenario, from a channel the parent trusts; it covers dinosaurs and prehistoric animals with no violence, banned topics, or shouting, though it is a fairly light explainer with some fantasy framing.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:13Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "rSsP1qzDmJk",
+      "title": "Creatures of the Wild | Creature Abilities | Wild Kratts",
+      "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
+      "channel_title": "Wild Kratts",
+      "duration_seconds": 3917,
+      "published_at": "2026-05-05T13:01:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/rSsP1qzDmJk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Wild Kratts is a trusted channel whose episodes teach about real animals and their abilities in a calm, narrated format suited to a six-year-old. The adventure elements are mild, with no frightening or gross content, and the description shows no product-selling focus.",
+      "educational_score": 8,
+      "topics": [
+        "animals",
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:14Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "1NFmRCKaY9I",
+      "title": "The Deadliest Animal On Earth May Surprise You | Deadly 60 | BBC Earth Kids",
+      "channel_id": "UCO_DaPp4ifhMAmiyybSLx9w",
+      "channel_title": "BBC Earth Kids",
+      "duration_seconds": 290,
+      "published_at": "2025-04-26T13:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/1NFmRCKaY9I/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted BBC Earth Kids episode in which Steve Backshall tests which substance best repels mosquitoes, a clear science and animals lesson with calm narration and no banned content or product advertising.",
+      "educational_score": 8,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:16Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "aNClvSYjyCg",
+      "title": "Under the sea! | Common Octopus, Tusk Fish & more! | Andy's Amazing Adventures",
+      "channel_id": "UCERIFsNgBE9wOUxXEFnz6Fw",
+      "channel_title": "Andy's Amazing Adventures",
+      "duration_seconds": 2753,
+      "published_at": "2024-09-15T13:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/aNClvSYjyCg/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Trusted channel producing calm, narrated kids' nature content about sea creatures like octopuses and tusk fish, with no banned topics or frantic editing evident. The educational value is moderate, so it is approved at a score of 7 though the content is mainly a general wildlife tour rather than deep teaching.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:17Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "hIgk9erZjfM",
+      "title": "Asteroids, Planets & Stars | Space | Science for Kids | Full Episodes | The Magic School Bus",
+      "channel_id": "UCi7STzPDqcOvmjm7-bEsvDg",
+      "channel_title": "The Magic School Bus",
+      "duration_seconds": 4335,
+      "published_at": "2026-05-14T14:01:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/hIgk9erZjfM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A full-episode compilation from a trusted channel of The Magic School Bus, a science cartoon about asteroids, planets and stars that clearly teaches space concepts at a child's level with gentle, kid-friendly humor and no violence or banned content.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "space",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:18Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "xLaxASe2phM",
+      "title": "Octonauts 🐧⚓  Incredible Ocean Rescues 🐙 Full Episodes 3 Hour Marathon",
+      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
+      "channel_title": "Octonauts",
+      "duration_seconds": 11358,
+      "published_at": "2026-11-06T22:00:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/xLaxASe2phM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Octonauts is a calm, educational animated series about ocean creatures and how rescue vehicles work, from a channel the parent trusts. The 3-hour compilation of full episodes is a children's cartoon with gentle humor and no shouting, frightening, or product-focused content, so it fits the parent's wanted topics of science and animals.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:20Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "LV45RZ5_t1w",
+      "title": "Learn ALL About The Plant & Water Cycles! | Earth Science Compilation For Kids | KLT",
+      "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
+      "channel_title": "KLT",
+      "duration_seconds": 916,
+      "published_at": "2024-05-30T12:00:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/LV45RZ5_t1w/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted educational channel's compilation teaching plant parts and the water cycle, with no violence, banned topics, or shouting hosts evident in the details. The music-and-animation format is somewhat busy, but the content is clearly instructional and appropriate for a 6-year-old.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "plants",
+        "water cycle"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:21Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "oRwA2O19mTs",
+      "title": "🌍 The great journey of HUMAN EVOLUTION | Educational Videos for Children | @HappyLearningEN",
+      "channel_id": "UC8eJxPzmvTb12v7LlZUJcLQ",
+      "channel_title": "Happy Learning English",
+      "duration_seconds": 1814,
+      "published_at": "2026-06-19T13:00:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/oRwA2O19mTs/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted educational channel's kids' video on human evolution, covering hominids, stone tools, fire, and natural selection in a clear, curriculum-style way with no banned content. Its topics fit the parent's science priority, though the description is long on playlist and app boilerplate and the transcript is unavailable.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:25Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "L58JFJ_r0O8",
+      "title": "Patterns to Learn this Autumn | Learn to Count for Kids Compilation | Number Cartoon | Numberblocks",
+      "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+      "channel_title": "Numberblocks",
+      "duration_seconds": 4835,
+      "published_at": "2026-11-06T12:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/L58JFJ_r0O8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A Numberblocks compilation from a trusted channel teaching counting, patterns, shapes and simple sums in a calm, clearly narrated style suited to a 6-year-old. It is educational math content with no banned topics or frantic editing, though the description's app and social links are ordinary channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "art",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:26Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "XKL37Swop88",
+      "title": "Puppet Show Storytime - The Gingerbread Man | Learn to Read & Spell Compilation | Alphablocks",
+      "channel_id": "UC_qs3c0ehDvZkbiEbOj6Drg",
+      "channel_title": "Alphablocks",
+      "duration_seconds": 4223,
+      "published_at": "2026-06-05T11:00:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/XKL37Swop88/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A 70-minute Alphablocks compilation from a trusted channel that teaches phonics by spelling words through a calm, narrated story of The Gingerbread Man, matching the parent's reading priority. Nothing in the description suggests violence, banned content, or heavy product promotion.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:28Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "xA1XEVWzAYg",
+      "title": "Fun 1st Grade Math Lessons!",
+      "channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g",
+      "channel_title": "Homeschool Pop",
+      "duration_seconds": 4905,
+      "published_at": "2025-07-23T13:13:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/xA1XEVWzAYg/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted educational channel offering a long first-grade math lesson covering addition, subtraction, clocks, patterns, place value, coins, and symmetry, with calm, clearly structured content and no banned topics. Music credits and the Patreon link are normal boilerplate and do not make it an advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:30Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "zdByOFgemFU",
+      "title": "SUMMER Stories ☀️📚 Adventures, Classics, Nature, and Values",
+      "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
+      "channel_title": "Smile and Learn - English",
+      "duration_seconds": 7796,
+      "published_at": "2026-08-04T15:30:19Z",
+      "thumbnail": "https://i.ytimg.com/vi/zdByOFgemFU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted channel's collection of educational stories covering classic tales, nature, animals, and life values, with no sign of violence, banned content, or heavy advertising. Its topics fit the parent's reading and animals interests, and it is a long narrated story compilation rather than frantic or shouting content.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "animals",
+        "art",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:32Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "l3R6wdHs9n8",
+      "title": "The Counting by Hundreds Song | Counting Songs | Scratch Garden",
+      "channel_id": "UC8NFs-VWUsyuq4zaYVVMgCQ",
+      "channel_title": "Scratch Garden",
+      "duration_seconds": 180,
+      "published_at": "2020-03-23T12:30:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/l3R6wdHs9n8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, short educational counting song from a channel the parent trusts, teaching skip counting by hundreds with no banned content or frantic editing. It fits the parent's math priority and is appropriate for a six-year-old.",
+      "educational_score": 7,
+      "topics": [
+        "math",
+        "counting by hundreds",
+        "skip counting"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:34Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "XAgtDp5reiA",
+      "title": "Dinos A to Z: Giganotosaurus | Learn about this T-Rex dinosaur lookalike",
+      "channel_id": "UCKCsVSA5THlkHbnkZTPm6-g",
+      "channel_title": "Learn Bright",
+      "duration_seconds": 227,
+      "published_at": "2026-07-23T15:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/XAgtDp5reiA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, educational kids' video from a trusted channel explaining the Giganotosaurus dinosaur, its size, diet, and predator role, with no banned content; the description's website and social links are routine boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:35Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "dNcJ4-JVN5M",
+      "title": "Math Antics - Measuring Distance",
+      "channel_id": "UCBuMwlP7kHkNxdPAqtFSJTw",
+      "channel_title": "mathantics",
+      "duration_seconds": 658,
+      "published_at": "2020-05-11T19:01:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/dNcJ4-JVN5M/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm math lesson on measuring distance from a channel the parent trusts, with no banned content, and the description is only normal channel boilerplate. Its educational value on measurement fits the parent's math priority.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "measuring",
+        "units"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:37Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "P8pbU4kcdhI",
+      "title": "Valor Posicional de Los Numeros Decimales | Décimas, Centésimas, y Milésimas Para Niños",
+      "channel_id": "UCt9SZgFExNwWTH5T_JnyF-A",
+      "channel_title": "Numberock",
+      "duration_seconds": 207,
+      "published_at": "2022-04-28T18:58:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/P8pbU4kcdhI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted math channel's short kid-friendly song teaching decimal place value (tenths, hundredths, thousandths) in Spanish, which fits the parent's math priority. The description is aimed at teachers and has a trial link, but it is mostly educational content rather than a product showcase.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:38Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "4o_maDx1oQs",
+      "title": "Addition & Subtraction Country | Facts up to and from 18 | Country Music Math Songs",
+      "channel_id": "UCExx109KH5msQR0n52ZzyAw",
+      "channel_title": "Rock 'N Learn",
+      "duration_seconds": 1641,
+      "published_at": "2022-07-19T15:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/4o_maDx1oQs/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A math facts video from a trusted educational channel teaching addition and subtraction up to 18 through calm, traditional country songs with delayed answers for self-checking. It is clearly math-focused, not an advertisement, and suitable for a 6-year-old.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "addition",
+        "subtraction"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:40Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "oEf5ymRl3UI",
+      "title": "Halloween Count to 100 Song | Spooky Count to 100 Song for Kids | Jack Hartmann",
+      "channel_id": "UCVcQH8A634mauPrGbWs7QlQ",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "duration_seconds": 235,
+      "published_at": "2025-09-30T11:01:27Z",
+      "thumbnail": "https://i.ytimg.com/vi/oEf5ymRl3UI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly sung counting-to-100 song from a trusted kids' channel that teaches numbers with gentle Halloween costumes, with no scary content, banned topics, or heavy advertising. Counting is the parent's math priority, and the costume theme is a light creative touch.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:41Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "slJkSLeHXUU",
+      "title": "'Memoirs of a Hamster' read by Melanie Lynskey",
+      "channel_id": "UCnBdzaRy-Ky9Vh54XJlFz1Q",
+      "channel_title": "StorylineOnline",
+      "duration_seconds": 649,
+      "published_at": "2023-10-10T07:20:57Z",
+      "thumbnail": "https://i.ytimg.com/vi/slJkSLeHXUU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated read-aloud of a picture book by a trusted channel, matching the parent's reading and animals interests with no violence, banned content, or shouting. The mild cat-and-hamster peril in the story is gentle and the lesson about appreciating home is kind.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:43Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "U18zKF4RtEw",
+      "title": "🌮 MISTACO! A Tale of Tragedy y Tortillas | Read Aloud with the author | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 541,
+      "published_at": "2025-06-04T13:06:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/U18zKF4RtEw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm read-aloud of a picture book from a trusted channel, with gentle silly humor, no violence, and a positive message about owning mistakes. It supports reading and is not an advertisement beyond a book link in the description.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:44Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "kQcBPgfPEJ8",
+      "title": "How To Draw A Haunted Monster Truck",
+      "channel_id": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channel_title": "Art for Kids Hub",
+      "duration_seconds": 660,
+      "published_at": "2026-09-28T16:07:51Z",
+      "thumbnail": "https://i.ytimg.com/vi/kQcBPgfPEJ8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, step-by-step drawing lesson from a trusted channel with no scary or violent content; the ghost and jack-o'-lantern theme is mild Halloween fun, and the shop and membership links are normal boilerplate rather than an advertisement.",
+      "educational_score": 7,
+      "topics": [
+        "art",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:47Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ALyoYO37fGE",
+      "title": "2 HOURS of Silly Moments | Bingo acts SILLY in her onesie😱🐆! | Bluey",
+      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
+      "channel_title": "Bluey - Official Channel",
+      "duration_seconds": 6773,
+      "published_at": "2026-11-11T16:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/ALyoYO37fGE/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an official Bluey compilation of silly family moments from a channel the parent picked for fun, with gentle humor and no banned content. It is entertainment with little educational value, but it is appropriate and approved for fun viewing.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:48Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "54Ohj6GnmpA",
+      "title": "Humdinger’s Falling Off a Cliff! 🚨 Chase Rushes to the Rescue | Compilation | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 7724,
+      "published_at": "2026-11-11T13:00:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/54Ohj6GnmpA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A compilation of PAW Patrol rescue episodes from the official channel, a show the parent has named for viewing; the cartoon rescues are mild and fit the parent's guidance. It is entertainment with little teaching value, but this is a fun channel, so it is approved on quality and suitability.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:50Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "Kcsl-B4uNaA",
+      "title": "Megan and Cupcake Learn Patterns w/ Mira! 🧁 | Megan and Cupcake Ready For Preschool | Disney Jr.",
+      "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
+      "channel_title": "Disney Jr. ",
+      "duration_seconds": 473,
+      "published_at": "2026-10-28T12:45:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/Kcsl-B4uNaA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A calm preschool short from the Disney Jr. channel the parent chose for fun, about pirates and learning patterns with a gentle song. It has no banned content and is appropriate for a 6-year-old, though its teaching is light and only touches on patterns, which is a math skill.",
+      "educational_score": 6,
+      "topics": [
+        "math",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:52Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "rgCdFBQDuS4",
+      "title": "Planet Doom | Marvel's Avengers Assemble S1 E15 | Full Episode | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 1329,
+      "published_at": "2026-10-22T13:00:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/rgCdFBQDuS4/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a full episode of Marvel's Avengers Assemble from the official Marvel HQ channel the parent picked for fun, marked made for kids. Superhero battles and a villain's scheme are the kind of cartoon action the parent allows, with no gore, bad language, or banned topics.",
+      "educational_score": 3,
+      "topics": [
+        "superheroes",
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:54Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "z5IUWUA2kdU",
+      "title": "Mixed Up Story Chaos! Farm Rescue Mystery! | Super Why - WildBrain | Full Episodes for Kids",
+      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
+      "channel_title": "Super Why - WildBrain",
+      "duration_seconds": 8605,
+      "published_at": "2026-09-25T15:00:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/z5IUWUA2kdU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Super Why is a parent-named show focused on early reading skills, with calm narration and gentle cartoon adventure fitting the parent's guidance. The episode is from a fun channel, so educational value is not required, and it is good-quality, non-banned entertainment with no ads or scary content evident.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:59Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "QW7BEr9aC6Y",
+      "title": "1 Hour of Henry Hart's Best Moments from Season 2 of Henry Danger 🦸 | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 4107,
+      "published_at": "2026-11-01T14:59:50Z",
+      "thumbnail": "https://i.ytimg.com/vi/QW7BEr9aC6Y/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of Henry Danger sitcom highlights from Nickelodeon, marked made for kids, with superhero action and slapstick but no banned topics or frightening content. Its educational value is low, but as entertainment it fits the fun-channel rule.",
+      "educational_score": 2,
+      "topics": [
+        "comedy",
+        "superheroes",
+        "live-action sitcom"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:00Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "Jg5ZKbJv_MY",
+      "title": "1 Hour of the Best School Moments 📚 | SpongeBob, Loud House & More | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 3674,
+      "published_at": "2026-11-08T14:59:55Z",
+      "thumbnail": "https://i.ytimg.com/vi/Jg5ZKbJv_MY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of Nicktoons classroom moments from SpongeBob and The Loud House, with no banned topics, gross-out or frightening content shown in the description. It is entertainment with little to learn, but it fits the fun-channel exception and the parent's named cartoons.",
+      "educational_score": 2,
+      "topics": [
+        "school",
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:02Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "WHQv7DHK3xk",
+      "title": "PAW Patrol Mega Robot Rescues! 🤖 w/ Robo-Dog, Rubble, & Rocky #4 | 120 Minutes | Nick Jr.",
+      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
+      "channel_title": "Nick Jr.",
+      "duration_seconds": 7251,
+      "published_at": "2026-11-14T13:59:47Z",
+      "thumbnail": "https://i.ytimg.com/vi/WHQv7DHK3xk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A two-hour PAW Patrol compilation from the official Nick Jr. channel, which the parent picked for fun, so educational value is not required. It is mild cartoon rescue action with robots and no banned content, though its ad-style description links to apps and games and is noted as a passing concern.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:03Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "Lne-gruBnuA",
+      "title": "The Ninja Turtles Fight Muckman with Soda Super Soakers!! 🥤 Tales of the TMNT | TMNT",
+      "channel_id": "UCTsgmnXbWotzbR36vU0YPrA",
+      "channel_title": "Teenage Mutant Ninja Turtles",
+      "duration_seconds": 335,
+      "published_at": "2026-11-06T13:59:50Z",
+      "thumbnail": "https://i.ytimg.com/vi/Lne-gruBnuA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an official clip from Tales of the Teenage Mutant Ninja Turtles, a show the parent named as acceptable, showing a cartoon battle with slapstick-style action and no gore. It has little educational value, but it is a fun-channel video that is good-quality entertainment for this child.",
+      "educational_score": 2,
+      "topics": [
+        "cartoon",
+        "superhero battle"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:04Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "j5LktsJx84k",
+      "title": "That's one BIG Turkey 🦃 👀 | Scooby-Doo and the Witch's Ghost | @wbkids",
+      "channel_id": "UC9trsD1jCTXXtN3xIOIU8gg",
+      "channel_title": "WB Kids",
+      "duration_seconds": 230,
+      "published_at": "2026-11-05T12:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/j5LktsJx84k/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 3.8-minute WB Kids clip of Scooby-Doo and the Witch's Ghost, a show the parent has named, so cartoon chases and spooky-villain gags are acceptable and the video is not an advertisement beyond standard channel boilerplate. Educational value is low, but it is an acceptable fun-channel pick.",
+      "educational_score": 2,
+      "topics": [
+        "cartoons",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:06Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "t9StweJSuDU",
+      "title": "Tales of Puppy Past! 🐶🎄 | Krypto Saves the Day S2 FULL EPISODE |  #KidsCartoons @dckids",
+      "channel_id": "UCyu8StPfZWapR6rfW_JgqcA",
+      "channel_title": "DC Kids",
+      "duration_seconds": 309,
+      "published_at": "2026-11-05T12:00:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/t9StweJSuDU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a short, kid-friendly DC Kids episode from a channel the parent picked for fun, about Krypto the dog and a holiday scrapbook with no violence or banned content. It is entertainment with little learning, but it fits the fun-channel standard and is not mainly an advertisement.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "superheroes",
+        "cartoon"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:07Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "fb7PMvMeH8s",
+      "title": "Stop the Snow Machine! | Inspector Gadget - WildBrain | Full HD Episodes",
+      "channel_id": "UCI-lg_sDdzBtYKVpebqasIA",
+      "channel_title": "Inspector Gadget - WildBrain",
+      "duration_seconds": 4909,
+      "published_at": "2026-06-27T14:00:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/fb7PMvMeH8s/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a full episode of Inspector Gadget, a parent-named cartoon whose superhero, villain, and gadget action is allowed, and it comes from a channel the parent picked for fun, so educational value is not required. Its topics do not clearly match the parent's wanted subjects, so I've listed them with low educational value, and the episode is a classic cartoon adventure with no gore or banned content.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:09Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "TJmmLviquWo",
+      "title": "Crazy Weather! Fake Doctor's Trap! | The Smurfs 3D | Cartoon movies",
+      "channel_id": "UCeY4C8Sbx8B4bIyREPSvORQ",
+      "channel_title": "The Smurfs • Official Channel!",
+      "duration_seconds": 655,
+      "published_at": "2026-10-26T15:36:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/TJmmLviquWo/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an official Smurfs cartoon episode from a channel the parent picked for fun, with cartoon-style adventure (Gargamel's disguise and scheme) that the parent's guidance allows. It is mild, not mainly an advertisement, and has little educational value, but it is acceptable entertainment for this child.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:13Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "knBXKwnDu-M",
+      "title": "1 Hour Exploring the Earth Kingdom! ⛰️ w/ Toph | Avatar: The Last Airbender",
+      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
+      "channel_title": "Avatar: The Last Airbender",
+      "duration_seconds": 3618,
+      "published_at": "2026-05-05T12:01:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/knBXKwnDu-M/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an official compilation from the Avatar: The Last Airbender channel, a show the parent named, featuring its usual cartoon action and fantasy adventure. It is a fun-channel video with little educational content, but it is not mainly an advertisement and is suitable entertainment for this child.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:14Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "GWvVDHw_xiY",
+      "title": "Seabrook Senior Searchnanigans Day! 📚💚 | ZOMBIES: The Re-Animated Series Season 2 | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 237,
+      "published_at": "2026-10-27T14:45:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/GWvVDHw_xiY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a 4-minute official Disney Channel clip from ZOMBIES: The Re-Animated Series, a made-for-kids show about a high school mystery with musical numbers and light, silly humor. It is from a channel the parent picked for fun, is not mainly an advertisement, and has no clear violence or frightening content, though it is low on educational value.",
+      "educational_score": 2,
+      "topics": [
+        "animated series",
+        "music"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:15Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "y8KoQot_6FI",
+      "title": "Building a Bridge with Pasta? | Construction Experiment | Full Episodes | Science Max",
+      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
+      "channel_title": "Science Max - Scholastic",
+      "duration_seconds": 3769,
+      "published_at": "2025-09-17T13:02:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/y8KoQot_6FI/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A Science Max episode from a trusted channel showing pasta bridge and sandcastle construction experiments that teach structural engineering concepts clearly. Found via a trusted channel, it fits the parent's science priority with no banned content, though the length and energetic tone of the series is a mild concern.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "math",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:17Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "Bq5Ahis6yv0",
+      "title": "How do you test a spacecraft? | James Webb Space Telescope | Maddie Moate",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 577,
+      "published_at": "2021-12-23T14:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/Bq5Ahis6yv0/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated science video from a trusted channel explaining how the James Webb Space Telescope is tested before launch, with a presenter visiting a real facility. The description's links and thanks are normal boilerplate and it is not a product advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "space",
+        "machines"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:18Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "O6fgKssz1QU",
+      "title": "Big Puddle Rescue Mission 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
+      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
+      "channel_title": "Curious George Official",
+      "duration_seconds": 4425,
+      "published_at": "2026-11-15T15:00:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/O6fgKssz1QU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A Curious George episode from a trusted channel about a monkey helping a fish return to its pond, which introduces simple science concepts in a gentle, kid-friendly way. It is a long-running educational children's show with no banned content, though the 74-minute length is a single full episode compilation rather than a short clip.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:20Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "Z4a0ATe0nFY",
+      "title": "Pink Panther’s WILD Adventure! | Episode Compilation",
+      "channel_id": "UCFeUyPY6W8qX8w2o6oSiRmw",
+      "channel_title": "Official Pink Panther",
+      "duration_seconds": 890,
+      "published_at": "2026-10-17T15:01:58Z",
+      "thumbnail": "https://i.ytimg.com/vi/Z4a0ATe0nFY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "Classic Pink Panther cartoon compilation from a trusted-for-fun channel, with slapstick and gentle gags (a stork delivering a baby crocodile, a mouse raid, a clockwork duck) and no violence, scary content, or product showcase; it has little real learning value but meets the fun-channel standard.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:23Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "Zi1rLfu9G10",
+      "title": "He-Man helps Orko get his powers back | He-Man Official | Masters of the Universe Official",
+      "channel_id": "UCWV0Qgo4Yz7E5_oNF4VJ6Rg",
+      "channel_title": "Masters of the Universe: He-Man & She-Ra",
+      "duration_seconds": 1204,
+      "published_at": "2023-10-20T12:00:27Z",
+      "thumbnail": "https://i.ytimg.com/vi/Zi1rLfu9G10/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A He-Man episode about battles and villain schemes, which the parent's guidance allows as cartoon action from a named show; it is a fun-channel pick, so low educational value is acceptable. The description shows no gore, frightening material, or product advertising, but the video is from a channel the parent picked, so it is approved on that basis.",
+      "educational_score": 3,
+      "topics": [
+        "animation",
+        "fantasy adventure"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:25Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "yuYiMDXJrrk",
+      "title": "Earth Day Oil Spill Clean-up DIY Activity",
+      "channel_id": "UCjxu5mHqZnVlb_8-Zjv-D1A",
+      "channel_title": "GenerationGenius",
+      "duration_seconds": 502,
+      "published_at": "2026-04-22T18:36:50Z",
+      "thumbnail": "https://i.ytimg.com/vi/yuYiMDXJrrk/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A science DIY activity from a trusted educational channel about cleaning up an oil spill, a hands-on demonstration of how materials absorb oil, with no banned content or sign of frantic editing or product promotion visible in the metadata. The description is thin, so the score is moderate, but it appears to teach a clear environmental science lesson.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:27Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ujh-dtEvyIw",
+      "title": "Meet the Mars Rovers! | Let's Explore Mars! | SciShow Kids",
+      "channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA",
+      "channel_title": "SciShow Kids",
+      "duration_seconds": 408,
+      "published_at": "2023-05-22T10:00:42Z",
+      "thumbnail": "https://i.ytimg.com/vi/ujh-dtEvyIw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted SciShow Kids episode explaining how Mars rovers explore and do science, a calm educational topic matching the parent's interest in space and how machines work. The description is mostly standard channel boilerplate and does not make it an advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "space",
+        "machines",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:28Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "e--YPxNdjkI",
+      "title": "Why is it called a funny bone?",
+      "channel_id": "UCPRCRM3JKm3sw55lB_427qg",
+      "channel_title": "Mystery Science",
+      "duration_seconds": 411,
+      "published_at": "2026-03-30T16:00:50Z",
+      "thumbnail": "https://i.ytimg.com/vi/e--YPxNdjkI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, kid-directed science explainer from a trusted channel answering a question about the human body's nerves and the elbow, with no banned content. Its description is standard boilerplate and it is marked made for kids, so it fits the parent's science priority.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:31Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "RD-2dvaG4UY",
+      "title": "Weather Channels: Crash Course Kids #34.2",
+      "channel_id": "UCONtPx56PSebXJOxbFv-2jQ",
+      "channel_title": "Crash Course Kids",
+      "duration_seconds": 310,
+      "published_at": "2015-11-12T20:55:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/RD-2dvaG4UY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated Crash Course Kids episode from a trusted channel that explains how jet streams and ocean currents move weather, which fits the parent's science priority. Nothing in the description suggests frightening content, advertising, or banned topics.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "weather",
+        "wind",
+        "ocean currents"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:32Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "coWqgO5mgaA",
+      "title": "Climate Phenomenon | What occurs during an El Niño event? | What are El Nino and La Nina? |Dr Binocs",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 375,
+      "published_at": "2026-06-16T12:30:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/coWqgO5mgaA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A kid-targeted, narrated science explainer from a channel the parent trusts, covering how El Niño ocean temperature changes affect weather worldwide; it has no banned content, frightening material, or product promotion, and the boilerplate links are normal channel footers.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "weather",
+        "ocean currents",
+        "climate"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:34Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "bJLFg1nY7Ck",
+      "title": "Tales of the Crocodile | Wild Kratts",
+      "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
+      "channel_title": "Wild Kratts",
+      "duration_seconds": 4062,
+      "published_at": "2026-05-02T12:01:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/bJLFg1nY7Ck/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A full-length Wild Kratts episode from a trusted channel about crocodiles, which teaches real animal facts through a calm narrated adventure with mild cartoon action in a show the parent has approved for animals and science content.",
+      "educational_score": 7,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:35Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "nGohIddbBuU",
+      "title": "Spectacular Bird of Prey Flies at 30MPH | Deadly 60 | BBC Earth Kids",
+      "channel_id": "UCO_DaPp4ifhMAmiyybSLx9w",
+      "channel_title": "BBC Earth Kids",
+      "duration_seconds": 180,
+      "published_at": "2025-04-23T15:05:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/nGohIddbBuU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted BBC Earth Kids clip of a goshawk flying through a forest to hunt prey, calm narration-friendly nature footage with no banned content. It teaches about animals and bird flight, though the predator-hunting theme is mild and the clip is short.",
+      "educational_score": 7,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:37Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "sMAScaNC_s4",
+      "title": "MORE Nocturnal Creatures! | Andy's Adventures | Andy's Amazing Adventures",
+      "channel_id": "UCERIFsNgBE9wOUxXEFnz6Fw",
+      "channel_title": "Andy's Amazing Adventures",
+      "duration_seconds": 869,
+      "published_at": "2024-09-13T15:00:57Z",
+      "thumbnail": "https://i.ytimg.com/vi/sMAScaNC_s4/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "From a trusted BBC CBeebies-linked channel, this episode follows Andy exploring nocturnal animals in a calm, narrated, kid-friendly way with no banned content or product focus. It clearly teaches about animals at a young child's level.",
+      "educational_score": 7,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:38Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "mvUKg4W8QYw",
+      "title": "The Food Chain | Full Episodes | The Magic School Bus",
+      "channel_id": "UCi7STzPDqcOvmjm7-bEsvDg",
+      "channel_title": "The Magic School Bus",
+      "duration_seconds": 4335,
+      "published_at": "2026-11-12T15:00:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/mvUKg4W8QYw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A full episode of The Magic School Bus, a trusted channel, teaching food chains through calm, clearly narrated science adventures with gentle humor and no banned content. Topic fits the parent's science priority and the series is a well-regarded educational show for this age.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:40Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "8pcRvXCvWwI",
+      "title": "Octonauts 🐠🔍 Underwater Mysteries & Discoveries 🌊 Kids Cartoon 3 Hours of Learning Full Episodes",
+      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
+      "channel_title": "Octonauts",
+      "duration_seconds": 11293,
+      "published_at": "2026-11-03T00:11:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/8pcRvXCvWwI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Octonauts is a trusted channel with a calm, narrated educational cartoon about ocean creatures, habitats, and rescue missions, matching the parent's animals and science interests. The video is a compilation of full episodes with no banned content, and the description's shop and subscribe links are normal boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "animals",
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:41Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "E8BsPQe76JA",
+      "title": "The Best Space Size Comparisons! | Size Comparison Compilation For Kids | KLT",
+      "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
+      "channel_title": "KLT",
+      "duration_seconds": 684,
+      "published_at": "2024-05-25T12:00:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/E8BsPQe76JA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted educational channel's compilation comparing the sizes of space objects, which teaches science and scale concepts suited to a 6-year-old. The description is mostly standard channel boilerplate with shop and app links, not a product advertisement, and nothing in the details suggests frightening or inappropriate content.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "space",
+        "math"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:43Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ziSvMGfta6U",
+      "title": "🐙🌊 Secrets of Marine Life and Oceans | Educational Videos for Children | @HappyLearningEN",
+      "channel_id": "UC8eJxPzmvTb12v7LlZUJcLQ",
+      "channel_title": "Happy Learning English",
+      "duration_seconds": 3622,
+      "published_at": "2026-06-11T15:00:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/ziSvMGfta6U/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted educational channel's 60-minute kids' video on marine life and oceans, a wanted science and animals topic with no banned content or apparent advertising. The description is mostly playlist and app boilerplate, and it is clearly educational.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:44Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "gD70VpIrEIk",
+      "title": "Fireworks Maths and More! | Learn to Count for Kids Compilation | Number Cartoon | Numberblocks",
+      "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+      "channel_title": "Numberblocks",
+      "duration_seconds": 3970,
+      "published_at": "2026-11-05T12:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/gD70VpIrEIk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted Numberblocks channel compilation teaching counting, addition and subtraction through a calm, child-friendly cartoon about fireworks; the content is appropriate and clearly educational, with only the usual channel boilerplate links in the description.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:46Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "gmp6sKFESy0",
+      "title": "Simple Reading Practice for Kids | Learn to Read and Spell for Kids Compilation | Alphablocks",
+      "channel_id": "UC_qs3c0ehDvZkbiEbOj6Drg",
+      "channel_title": "Alphablocks",
+      "duration_seconds": 4361,
+      "published_at": "2026-11-13T12:00:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/gmp6sKFESy0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted channel's compilation of Alphablocks phonics episodes teaching reading and spelling to young children, with no banned content evident from the details. The description's app and social links are normal boilerplate, not advertising.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:47Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "j_gXbum8EH0",
+      "title": "Fun Kindergarten Math Lessons!",
+      "channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g",
+      "channel_title": "Homeschool Pop",
+      "duration_seconds": 3745,
+      "published_at": "2025-07-21T13:30:41Z",
+      "thumbnail": "https://i.ytimg.com/vi/j_gXbum8EH0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted channel's kindergarten math lesson covering addition, subtraction, analog clocks, patterns, symmetry and coins, which fits the parent's math priority with no banned content visible. The description is a normal channel boilerplate and the excessive exclamation and music credits are minor, though the tone is somewhat hyped and the transcript was unavailable.",
+      "educational_score": 7,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:49Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "9tdSJx5odwY",
+      "title": "Hero Elementary FULL EPISODE | Teacher of the Year / The Sweet Smell of Success 🏆 | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 1529,
+      "published_at": "2026-09-04T19:00:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/9tdSJx5odwY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted PBS KIDS full episode of Hero Elementary about problem solving and teamwork, with calm kid-friendly storylines about cake batter mixtures and using smell to find a missing cake. The episode is gentle and nothing in the details suggests violence, scary content, or heavy product promotion, though the episode is mainly about teamwork and problem solving rather than explicit science lessons.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "math",
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:50Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "2Dffr6OjToI",
+      "title": "ARTIFICIAL INTELLIGENCE for Kids 🤖 What is AI and How to Use It Safely 🔎",
+      "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
+      "channel_title": "Smile and Learn - English",
+      "duration_seconds": 1045,
+      "published_at": "2026-05-25T15:30:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/2Dffr6OjToI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "An educational video from a trusted channel explaining what AI is, how it works, and how to use it safely and critically, with calm, clear content and no banned topics or advertising focus. Topics fit the parent's science interest, though it is not a strong match for the child's listed favorites, and the description's app promotion is only standard channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "art",
+        "reading",
+        "technology"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:52Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "CburCnkIaPg",
+      "title": "Dinos A to Z: Hadrosaurus | Learn fun facts about this interesting dinosaur",
+      "channel_id": "UCKCsVSA5THlkHbnkZTPm6-g",
+      "channel_title": "Learn Bright",
+      "duration_seconds": 214,
+      "published_at": "2026-07-16T15:00:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/CburCnkIaPg/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, educational kids' video from a trusted channel teaching facts about the Hadrosaurus dinosaur (diet, size, fossil discovery), with reading-comprehension framing and no banned content. Boilerplate links and lesson-plan promotion are normal channel endings, not an advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "reading",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:55Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "2mejAHKMBiM",
+      "title": "Math Antic - Simplifying Square Roots",
+      "channel_id": "UCBuMwlP7kHkNxdPAqtFSJTw",
+      "channel_title": "mathantics",
+      "duration_seconds": 721,
+      "published_at": "2019-11-25T21:10:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/2mejAHKMBiM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated math lesson on simplifying square roots from a trusted channel, which fits the parent's math priority. The description is only a standard link to the channel's site and does not make it an advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "math"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:56Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "wXQoSlyMI8I",
+      "title": "Cuenta de 100 en 100 | Números de 100 en 100 al 1000 | Contar de a 100 | Skip Count by 100 - Spanish",
+      "channel_id": "UCt9SZgFExNwWTH5T_JnyF-A",
+      "channel_title": "Numberock",
+      "duration_seconds": 202,
+      "published_at": "2022-03-23T17:08:44Z",
+      "thumbnail": "https://i.ytimg.com/vi/wXQoSlyMI8I/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted math channel teaching skip counting by 100 in Spanish with calm narration and no banned content; the avalanche and blue jay mentions are mild story beats. Approved as a clear math lesson at a young child's level.",
+      "educational_score": 7,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:58Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "N-oyEUOjLGw",
+      "title": "Letter C | Get Ready, Get Set, Let's Learn About the Alphabet! | Jack Hartmann",
+      "channel_id": "UCVcQH8A634mauPrGbWs7QlQ",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "duration_seconds": 214,
+      "published_at": "2026-11-05T00:00:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/N-oyEUOjLGw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted channel's alphabet song teaching the letter C, its uppercase and lowercase forms, and its sounds, which fits the parent's reading priority. Its sing-along style is upbeat but not frantic, and nothing in the details is banned or inappropriate.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:01Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "NHJAVkwPKIo",
+      "title": "'Velma Gratch and the Way Cool Butterfly' read by Kyra Sedgwick",
+      "channel_id": "UCnBdzaRy-Ky9Vh54XJlFz1Q",
+      "channel_title": "StorylineOnline",
+      "duration_seconds": 943,
+      "published_at": "2023-09-06T15:01:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/NHJAVkwPKIo/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, celebrity-narrated read-aloud of a picture book about a first grader and a monarch butterfly at a butterfly conservatory, from a trusted channel with a gentle story and no banned content. It builds reading skills and touches on butterflies and nature.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:02Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "IQXMkLiIYGk",
+      "title": "✈️ LET'S FLY! ✈️ Read Aloud with the Author | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 481,
+      "published_at": "2025-05-23T14:23:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/IQXMkLiIYGk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm read-aloud of a picture book about aviator Barrington Irving's true story, from a trusted channel, with no banned content. It teaches about flight, maps, and perseverance, and the parent's wanted topics of reading and science fit; the description's shop links are ordinary boilerplate.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "science",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:04Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "BIKBV3iD7iY",
+      "title": "We Will Rock Our Classmates | Penelope Rex story | being yourself read aloud | dinosaur read aloud",
+      "channel_id": "UCEPsNDUhUm-7yZhUjQQNqwQ",
+      "channel_title": "KidTimeStoryTime",
+      "duration_seconds": 716,
+      "published_at": "2026-08-21T13:00:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/BIKBV3iD7iY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted channel's read-aloud of the picture book Penelope Rex, a gentle story about being yourself and being brave at a talent show, with a calm storyteller and no banned content. The description's shop and social links are routine boilerplate, and the reading and dinosaur theme fits the parent's interests.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "dinosaurs",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:06Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "kjV7CxqY9jU",
+      "title": "How To Draw A Cool Fossil",
+      "channel_id": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channel_title": "Art for Kids Hub",
+      "duration_seconds": 271,
+      "published_at": "2026-09-25T15:06:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/kjV7CxqY9jU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm step-by-step drawing lesson from a trusted channel on drawing a fossil with a dinosaur footprint, touching on science and art. The description is mostly standard channel boilerplate and shop links, not an advertisement, and nothing in it is frightening or inappropriate.",
+      "educational_score": 7,
+      "topics": [
+        "art",
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:07Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "vee1E9RpIiM",
+      "title": "2 HOURS of Games | Bingo Does a Handstand for Nana! 💙 🙌 👵 | Bluey",
+      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
+      "channel_title": "Bluey - Official Channel",
+      "duration_seconds": 6205,
+      "published_at": "2026-11-09T16:00:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/vee1E9RpIiM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 2-hour compilation of Bluey family play from the parent's trusted-for-fun channel, marked made for kids, with calm, gentle content and no banned topics. Educational value is low, but it is good-quality entertainment for a fun channel, and Bluey is a show the parent named.",
+      "educational_score": 3,
+      "topics": [
+        "games",
+        "family"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:08Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "clzjFnvDv48",
+      "title": "Tal Thinks He’s a Chicken! 🐔 Skye Goes on a Wild Topiary Chase! | Compilation | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 4334,
+      "published_at": "2026-11-10T13:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/clzjFnvDv48/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A PAW Patrol compilation from a fun channel the parent picked; the cartoon rescue adventures with pups are in line with the parent's guidance and the show is a named favorite. It has little educational content, but it is not mainly an advertisement and the description is ordinary channel boilerplate.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:10Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "2FBgRUPhmQM",
+      "title": "Megan and Cupcake Sort Blocks with Mickey and Friends! 🧩❤️ | Ready For Preschool | Disney Jr.",
+      "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
+      "channel_title": "Disney Jr. ",
+      "duration_seconds": 542,
+      "published_at": "2026-10-27T12:45:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/2FBgRUPhmQM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A trusted-channel preschool short about sorting blocks into groups to rebuild a castle, with gentle Disney Jr. characters and no violence, scary content, or banned topics. Its educational value is modest (basic sorting and grouping), but it is approved as good-quality fun for a fun-picked channel and is not mainly an advertisement.",
+      "educational_score": 5,
+      "topics": [
+        "math",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:11Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ZumtNLoxYWk",
+      "title": "Horizon High: Part Two | Marvel's Spider-Man S1 E3 | Full Episode | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 1329,
+      "published_at": "2026-10-21T13:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZumtNLoxYWk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A full episode of Marvel's Spider-Man from the parent-approved fun channel Marvel HQ, marked made for kids; superhero battles with a villain are within the cartoon action the parent allows, and it is not an advertisement or a banned topic. It offers little learning, so the low educational score reflects entertainment value only.",
+      "educational_score": 2,
+      "topics": [
+        "superhero",
+        "villains"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:15Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "VnQkK-zENjo",
+      "title": "Ghost Crew Underground Escape 🕳️💥 | Star Wars Rebels | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 236,
+      "published_at": "2026-09-28T13:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/VnQkK-zENjo/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A short clip from the Star Wars Rebels animated series, a fun-channel pick, showing a tunnel escape from Imperial forces with cartoon action that fits the parent's allowance for named-style cartoon adventure; it has little educational value but no visible violence beyond cartoon action, bad language, or product promotion.",
+      "educational_score": 2,
+      "topics": [
+        "animated series",
+        "adventure"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:16Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "BEOsq3AOF8Y",
+      "title": "Oona & Baba's BEST Sibling Moments! ❤️ Puffin Rock | Netflix Jr",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 788,
+      "published_at": "2026-09-11T13:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/BEOsq3AOF8Y/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A gentle, calm compilation of Puffin Rock sibling moments from the official Netflix Jr. channel, the kind of fun-channel content the parent allowed, with nature and animal themes and no banned content or frantic editing. Its educational value is incidental, so it scores in the middle range.",
+      "educational_score": 5,
+      "topics": [
+        "animals",
+        "art",
+        "nature"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:18Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "laQ4juk3gwI",
+      "title": "Puppy Obstacle Race Rescue! | Super Why - WildBrain | Full Episodes for Kids",
+      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
+      "channel_title": "Super Why - WildBrain",
+      "duration_seconds": 2870,
+      "published_at": "2026-11-02T16:00:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/laQ4juk3gwI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Super Why is a named approved show that teaches early reading and focus through a gentle story about a puppy obstacle race, with no violence or frightening content. Found via a fun channel, it is good-quality entertainment with clear reading value, so I approve it.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:19Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "jydhJbWKrXs",
+      "title": "The Thundermans & Henry Danger's Spookiest Halloween Moments 🎃 | 30 Minutes | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 2050,
+      "published_at": "2026-10-31T13:59:56Z",
+      "thumbnail": "https://i.ytimg.com/vi/jydhJbWKrXs/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "An official Nickelodeon compilation of kid-friendly sitcom clips from The Thundermans and Henry Danger, a channel the parent picked for fun, with no banned content evident; the Halloween theme is playful rather than frightening, and it has little educational value but is acceptable entertainment.",
+      "educational_score": 2,
+      "topics": [
+        "halloween",
+        "comedy",
+        "kids sitcom"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:21Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "v54k2FgJ-gE",
+      "title": "2 Hours of Plankton's Schemes 😈👁️ | SpongeBob | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 7298,
+      "published_at": "2026-11-07T14:59:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/v54k2FgJ-gE/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of SpongeBob cartoon episodes focused on Plankton's comedic schemes, a slapstick cartoon style the parent allows; no gore, crude content, or product advertising is evident from the details, so it is approved as entertainment despite low educational value.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:22Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ZzuHlhVS3Sk",
+      "title": "PAW Patrol Winter Sports Rescues! 🏂❄️ 60 Minute Compilation | Nick Jr.",
+      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
+      "channel_title": "Nick Jr.",
+      "duration_seconds": 7212,
+      "published_at": "2026-11-09T11:59:57Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZzuHlhVS3Sk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 120-minute PAW Patrol compilation from the parent-chosen Nick Jr. channel, with calm rescue cartoon content the parent's guidance allows and no banned topics. It is entertainment with little to learn and includes an advertisement segment, but it is a fun-channel video and meets the safety and appropriateness conditions.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:24Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "6RukO1ljPuo",
+      "title": "Classic Cartoon MARATHON Vol. 5 📺 | Tom & Jerry, Looney Tunes, Scooby-Doo! MEGA COMP ⭐️ | @wbkids",
+      "channel_id": "UC9trsD1jCTXXtN3xIOIU8gg",
+      "channel_title": "WB Kids",
+      "duration_seconds": 5278,
+      "published_at": "2026-10-31T11:00:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/6RukO1ljPuo/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of classic WB cartoons (Tom & Jerry, Looney Tunes, Scooby-Doo) marked made for kids; the slapstick and chase gags fit the named-cartoon guidance, with no banned topics or obvious frightening or crude content, though the description is thin and it is mostly entertainment.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:27Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "rGfnzllIzMk",
+      "title": "A Doom Patrol Thanksgiving 🦃🧡 | Teen Titans Go! FULL EPISODE Cutdown | #KidsCartoons @dckids",
+      "channel_id": "UCyu8StPfZWapR6rfW_JgqcA",
+      "channel_title": "DC Kids",
+      "duration_seconds": 484,
+      "published_at": "2026-11-03T12:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/rGfnzllIzMk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a Teen Titans Go! episode from DC Kids, a fun channel the parent chose, and it has cartoon superhero action with no banned topics, gore, or grown-up content. It offers little educational value, but it is acceptable entertainment for this child.",
+      "educational_score": 2,
+      "topics": [
+        "superheroes",
+        "cartoon adventure"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:29Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "CgMR8OA2kI0",
+      "title": "Fortune Cookies & Virus Chaos! | Inspector Gadget - WildBrain | Full HD Episodes",
+      "channel_id": "UCI-lg_sDdzBtYKVpebqasIA",
+      "channel_title": "Inspector Gadget - WildBrain",
+      "duration_seconds": 5030,
+      "published_at": "2026-11-15T14:00:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/CgMR8OA2kI0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a full episode of Inspector Gadget, a parent-approved cartoon, and its content is cartoon villain schemes and gadget action suited to the guidance. It is from a fun channel, so educational value isn't required, and it scores low because it teaches little.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:30Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "yvbyr3Q5yL4",
+      "title": "RHYTHM BATTLE: Soundwave VS Jazz! | S02 | E05 | Transformers: CYBERWORLD",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 2541,
+      "published_at": "2026-10-03T13:00:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/yvbyr3Q5yL4/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an episode of Transformers: CYBERWORLD, a cartoon the parent has named as fine, and the battles, robots and rivalry are the usual cartoon action the parent allows. It is a fun-channel video with little learning value, and the description mentions a game-like challenge theme but nothing frightening or gory.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:32Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "aFtkYjIdn1Q",
+      "title": "Gargamel's Crazy Love Potion! | The Smurfs 3D | Cartoon movies",
+      "channel_id": "UCeY4C8Sbx8B4bIyREPSvORQ",
+      "channel_title": "The Smurfs • Official Channel!",
+      "duration_seconds": 655,
+      "published_at": "2026-10-26T15:36:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/aFtkYjIdn1Q/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an official Smurfs cartoon episode from a channel the parent chose for fun, about a love potion and a rescue with gentle slapstick and magic, which fits the parent's named cartoon list and is not an advertisement. It has little educational value, but fun channels do not require it.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "cartoon adventure"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:33Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "MYnbce2j64Y",
+      "title": "1 Hour of Wholesome & Funny ATLA Scenes 😌 | Avatar: The Last Airbender",
+      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
+      "channel_title": "Avatar: The Last Airbender",
+      "duration_seconds": 3682,
+      "published_at": "2026-04-30T10:00:44Z",
+      "thumbnail": "https://i.ytimg.com/vi/MYnbce2j64Y/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "Official Nickelodeon channel the parent picked for fun, and the compilation is described as lighter, silly, heartwarming scenes from a show the parent has named as acceptable. Educational value is low, but the video is fun, kid-friendly entertainment rather than an ad, and no banned topics or gore are indicated.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "avatar: the last airbender"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:35Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "1nv6ktfXaRw",
+      "title": "Descendants Chibi Tiny Tales Compilation! ❤️🎶 | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 491,
+      "published_at": "2026-10-23T16:45:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/1nv6ktfXaRw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of Disney Channel Chibi-style Descendants clips with singing and light, tiny-adventure humor, marked made for kids and with no banned topics, gore, or obvious advertising beyond normal links. It is entertainment with little to learn, so it scores low but meets the fun-channel standard.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "music",
+        "friendship"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:36Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ZM-chwFVrAM",
+      "title": "Building a Rocket Car | Newton's Thrid Law Experiment | Full Episodes | Science Max",
+      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
+      "channel_title": "Science Max - Scholastic",
+      "duration_seconds": 3772,
+      "published_at": "2025-09-10T13:01:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZM-chwFVrAM/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A Science Max episode from a trusted channel that demonstrates Newton's Third Law through a calm, clearly narrated balloon-car experiment, with brief segments on Newton's cradle and guinea pig names. The description shows no banned topics, frantic editing, or product advertising, so it teaches physics at this child's level.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "math",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:38Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "3rhFYTSv0Dw",
+      "title": "What is the James Webb Space Telescope?! | Maddie Moate",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 509,
+      "published_at": "2021-12-21T14:00:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/3rhFYTSv0Dw/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "This is a trusted science presenter explaining the James Webb Space Telescope and its MIRI camera at a real research facility, which fits the parent's love of space and how machines work. The description is mostly credits and social links, not a product ad, and nothing in it suggests frightening or inappropriate content.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "space",
+        "machines"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:39Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "jZlral-M38w",
+      "title": "All About Sea Lions for Kids: Sea Lion Facts and Information for Children - FreeSchool",
+      "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+      "channel_title": "Free School",
+      "duration_seconds": 492,
+      "published_at": "2023-03-20T12:00:27Z",
+      "thumbnail": "https://i.ytimg.com/vi/jZlral-M38w/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm educational video from a trusted channel about sea lion biology, adaptations, colony behavior, and how to tell sea lions from seals, fitting the animals and science interests. The description is an ordinary educational pitch with only standard social and Patreon links, and nothing in the details suggests frightening or inappropriate content.",
+      "educational_score": 7,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:42Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "WSE7nGzpwN0",
+      "title": "Pink Panther | Pink Did WHAT To Stay Warm? | Episode Compilation",
+      "channel_id": "UCFeUyPY6W8qX8w2o6oSiRmw",
+      "channel_title": "Official Pink Panther",
+      "duration_seconds": 747,
+      "published_at": "2026-10-11T17:02:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/WSE7nGzpwN0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a compilation of classic Pink Panther cartoon episodes, a show the parent has named as fine, with slapstick and gentle gags and no frightening or gory content. It is a fun-channel pick, so low educational value is acceptable, and the description is just standard channel boilerplate.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:44Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "o5pR9Jg3rc4",
+      "title": "He-Man fights 1000 tiny Skeletors | He-Man Official | Masters of the Universe Official",
+      "channel_id": "UCWV0Qgo4Yz7E5_oNF4VJ6Rg",
+      "channel_title": "Masters of the Universe: He-Man & She-Ra",
+      "duration_seconds": 1211,
+      "published_at": "2023-10-13T12:00:47Z",
+      "thumbnail": "https://i.ytimg.com/vi/o5pR9Jg3rc4/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "He-Man is one of the parent's named cartoons, and this episode is a standard cartoon plot about Skeletor's clone army with the cartoon battle action the parent allows. It is found through a fun channel the parent picked, so low educational value is acceptable, and it is not an ad or banned content.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "superhero battles"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:46Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "cf-JUz3gqdk",
+      "title": "How Will Humans Live on Mars? | Let's Explore Mars! | SciShow Kids",
+      "channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA",
+      "channel_title": "SciShow Kids",
+      "duration_seconds": 314,
+      "published_at": "2023-05-15T10:00:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/cf-JUz3gqdk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated SciShow Kids episode from a trusted channel about the challenges of living on Mars, aligned with the parent's love of space and science. Mentions of a museum partner and Roblox link are boilerplate and do not make it mainly an advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:47Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "YBGPMztHR4Y",
+      "title": "Octopus Showdown 🐙 | Whoa Factor | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 282,
+      "published_at": "2026-10-07T11:00:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/YBGPMztHR4Y/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted Nat Geo Kids episode about octopus facts (three hearts, blue blood, mimicry, camouflage) with a calm, kid-friendly quiz format and no banned content. It is a Disney+ episode promo with ordinary boilerplate links, which does not make it an advertisement.",
+      "educational_score": 7,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:49Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "t6iGq0E8oQ0",
+      "title": "How does AI work?",
+      "channel_id": "UCPRCRM3JKm3sw55lB_427qg",
+      "channel_title": "Mystery Science",
+      "duration_seconds": 472,
+      "published_at": "2026-03-02T16:01:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/t6iGq0E8oQ0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Trusted educational science channel answering a child's question about how AI works, with a calm, classroom-style format and no banned content; the description is just standard channel boilerplate and the topic is a clear science explanation at a suitable level.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:50Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "RrJ1-YofCaA",
+      "title": "Astronaut Experiment: Crash Course Kids #32.2",
+      "channel_id": "UCONtPx56PSebXJOxbFv-2jQ",
+      "channel_title": "Crash Course Kids",
+      "duration_seconds": 241,
+      "published_at": "2015-10-23T21:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/RrJ1-YofCaA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, kid-directed science episode from a trusted channel explaining air resistance and gravity through a simple experiment, with no banned content or frantic editing. The description is ordinary channel boilerplate and the video itself is educational.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "astronomy",
+        "physics"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:51Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "UsEkVuGN294",
+      "title": "Can a Hornet Sting Be Dangerous? | What If a Hornet Stings You? | Hornets vs Humans | Dr. Binocs",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 378,
+      "published_at": "2026-06-09T12:30:04Z",
+      "thumbnail": "https://i.ytimg.com/vi/UsEkVuGN294/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, educational Dr. Binocs video from a trusted channel explaining how hornet stings affect the body and basic safety tips, with no banned content. It fits the parent's science and animals interests, though it covers stings and allergic reactions in a mild way.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals",
+        "insects",
+        "safety"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:53Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "HvgoVbIjLJc",
+      "title": "Search for the Buckaroo | Creature Rescue | Wild Kratts",
+      "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
+      "channel_title": "Wild Kratts",
+      "duration_seconds": 3984,
+      "published_at": "2026-04-19T13:00:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/HvgoVbIjLJc/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A Wild Kratts episode from a channel the parent trusts, teaching about animals and creatures in a calm, narrated adventure format with no banned content. Its cartoon action (creature power suits, rescues) fits the parent's guidance, and the description is only normal channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:54Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "mTMvlziz-ys",
+      "title": "How Do Animals Survive Freezing Winters? | How Nature Works | BBC Earth Kids",
+      "channel_id": "UCO_DaPp4ifhMAmiyybSLx9w",
+      "channel_title": "BBC Earth Kids",
+      "duration_seconds": 249,
+      "published_at": "2025-03-15T12:01:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/mTMvlziz-ys/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm BBC Earth Kids nature clip from a trusted channel explaining how animals survive freezing winters, which fits the parent's animals and science interests with no banned or frightening content apparent from the details.",
+      "educational_score": 8,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:56Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "XRISrBTLsog",
+      "title": "Wildest Creatures of History! | DINOSAUR MARATHON | Andy's Amazing Adventures",
+      "channel_id": "UCERIFsNgBE9wOUxXEFnz6Fw",
+      "channel_title": "Andy's Amazing Adventures",
+      "duration_seconds": 2594,
+      "published_at": "2024-09-08T13:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/XRISrBTLsog/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Trusted BBC CBeebies channel, marked made for kids, with a calm narrated format about dinosaurs and prehistoric creatures that fits the parent's interest in animals and science. The description is mostly channel boilerplate and the content is educational, though it is a 43-minute compilation and the tags include some exercise and song material.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals",
+        "dinosaurs"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:57Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "IOgB4QDT8TA",
+      "title": "Food Science for Thanksgiving | Full Episodes | The Magic School Bus",
+      "channel_id": "UCi7STzPDqcOvmjm7-bEsvDg",
+      "channel_title": "The Magic School Bus",
+      "duration_seconds": 4276,
+      "published_at": "2026-11-05T15:00:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/IOgB4QDT8TA/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A full episode of The Magic School Bus from a trusted channel, teaching food science in a gentle, narrated cartoon style that fits the parent's preference for science. The description and tags show no banned content, ads, or frightening material.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:58Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ivC0s8MMJe8",
+      "title": "OCTONAUTS 🦈 3 Hours of Ocean Emergencies & Rescue Missions 🛟 Full Episodes for Toddler Learning",
+      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
+      "channel_title": "Octonauts",
+      "duration_seconds": 10698,
+      "published_at": "2026-10-30T21:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/ivC0s8MMJe8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "From a channel the parent trusts, this Octonauts compilation teaches ocean life, animal rescue, and habitats in a gentle, kid-directed cartoon with no banned content. Its educational value is moderate but solid for a six-year-old, so I'm approving it at 7.",
+      "educational_score": 7,
+      "topics": [
+        "animals",
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:00Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "A8ytG9_EZxU",
+      "title": "How Are Asteroids & Dwarf Planets Different? | Space Compilation For Kids | KLT",
+      "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
+      "channel_title": "KLT",
+      "duration_seconds": 1565,
+      "published_at": "2024-05-23T12:00:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/A8ytG9_EZxU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A 26-minute KLT compilation from a trusted channel explaining asteroids and dwarf planets for kids, matching the parent's science priority and space interest. The description is mostly standard channel boilerplate and shop links, not a product advertisement, and nothing in the details suggests frantic editing, scary content, or banned topics.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "space",
+        "asteroids",
+        "dwarf planets"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:02Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "KDYGj1G3Plw",
+      "title": "🐝 BEES and more amazing insects | World Bee Day | Educational Videos for Children | @HappyLearningEN",
+      "channel_id": "UC8eJxPzmvTb12v7LlZUJcLQ",
+      "channel_title": "Happy Learning English",
+      "duration_seconds": 1874,
+      "published_at": "2026-05-15T13:00:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/KDYGj1G3Plw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "From a channel the parent trusts, this 31-minute educational video covers bees, pollination, and other insects, matching the parent's science and animals interests. The description shows no banned content, shouting, or product showcase, and the playlist links are normal channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals",
+        "environment"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:03Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "kRMZhfGCnlo",
+      "title": "The Octonaughty Halloween Takeover! | Halloween Math for Kids Compilation | Numberblocks",
+      "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+      "channel_title": "Numberblocks",
+      "duration_seconds": 5382,
+      "published_at": "2026-10-31T12:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/kRMZhfGCnlo/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted Numberblocks compilation teaching counting, addition and subtraction in a gentle CBeebies style, with a mild playful Halloween villain theme that is not frightening. It is long at about 90 minutes but fits the parent's math priority.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:05Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "KzuTwFXGnwY",
+      "title": "The Best Bonfire Night Reading | Learn to Read and Spell for Kids Compilation | Alphablocks",
+      "channel_id": "UC_qs3c0ehDvZkbiEbOj6Drg",
+      "channel_title": "Alphablocks",
+      "duration_seconds": 3675,
+      "published_at": "2026-11-06T12:00:04Z",
+      "thumbnail": "https://i.ytimg.com/vi/KzuTwFXGnwY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A compilation of Alphablocks episodes from a trusted channel, teaching phonics, reading and spelling in a calm, narrated style suited to a 6-year-old. Topics fit the parent's reading priority; the long description is ordinary channel boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:06Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "r85EMNbWMiE",
+      "title": "Long Multiplication for Kids | Step-by-Step Math Lesson",
+      "channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g",
+      "channel_title": "Homeschool Pop",
+      "duration_seconds": 1261,
+      "published_at": "2025-03-17T13:30:42Z",
+      "thumbnail": "https://i.ytimg.com/vi/r85EMNbWMiE/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, step-by-step math lesson on long multiplication from a channel the parent trusts, with no banned content and only routine boilerplate links in the description. It clearly teaches a math skill at an elementary level, though it is a bit advanced for a 6-year-old and the music credits suggest background music.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "multiplication"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:08Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "0LMBFpddAGc",
+      "title": "Alma's Way | Borrowing a Ukulele 🎶 NEW Full Episode Premiering September 7th! | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 227,
+      "published_at": "2026-09-02T19:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/0LMBFpddAGc/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm PBS KIDS episode from a trusted channel about borrowing a ukulele from a library, which gently teaches about libraries and sharing; music and community themes fit the parent's wanted topics. Description is mostly standard channel boilerplate, not a product advertisement.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "art",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:09Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "otGrl5cYGnY",
+      "title": "Letter A 🚀🎵 The New ABCs from Smile and Learn",
+      "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
+      "channel_title": "Smile and Learn - English",
+      "duration_seconds": 336,
+      "published_at": "2026-05-21T15:30:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/otGrl5cYGnY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated alphabet video from a trusted channel teaching the letter A, its sound, and how to write it, with words and a short song. It is made for young children, is not an advertisement, and fits the parent's reading priority; the astronaut and ant themes also touch science and animals.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art",
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:11Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "UGzKzBsRKrs",
+      "title": "Comparatives | Monsters Learn English | Scratch Garden",
+      "channel_id": "UC8NFs-VWUsyuq4zaYVVMgCQ",
+      "channel_title": "Scratch Garden",
+      "duration_seconds": 374,
+      "published_at": "2022-03-07T13:00:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/UGzKzBsRKrs/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted-channel English grammar lesson on comparative adjectives with music and monster characters, calm and kid-appropriate, with no banned content. It fits the parent's reading priority, though the lesson is fairly basic.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:12Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "v5RjueE-l6g",
+      "title": "Dinos A to Z: Velociraptor | Learn fun facts about this popular dinosaur!",
+      "channel_id": "UCKCsVSA5THlkHbnkZTPm6-g",
+      "channel_title": "Learn Bright",
+      "duration_seconds": 215,
+      "published_at": "2026-07-09T15:00:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/v5RjueE-l6g/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, educational kids' video from a trusted channel teaching real facts about the Velociraptor's size and speed, with no violence or product advertising; the shop and social links are normal boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "dinosaurs",
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:14Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "BrYy1bgh3Y0",
+      "title": "Math Antics - Absolute Value",
+      "channel_id": "UCBuMwlP7kHkNxdPAqtFSJTw",
+      "channel_title": "mathantics",
+      "duration_seconds": 795,
+      "published_at": "2019-09-25T16:16:56Z",
+      "thumbnail": "https://i.ytimg.com/vi/BrYy1bgh3Y0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Math Antics is a trusted channel teaching absolute value and integers on the number line, a clear educational math topic. The description is only standard boilerplate links to the channel's website, with no toy, gaming, or scary content.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "absolute value",
+        "number line",
+        "integers"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:15Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
+    },
+    {
+      "id": "_UYhb8oEGRg",
+      "title": "Cuenta de 10 en 10 |  Los Números del 10 al 120",
+      "channel_id": "UCt9SZgFExNwWTH5T_JnyF-A",
+      "channel_title": "Numberock",
+      "duration_seconds": 200,
+      "published_at": "2022-03-23T16:10:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/_UYhb8oEGRg/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated math video from a trusted channel that teaches counting by tens up to 120, matching the parent's math priority. The mild adventure setting (balloon, mountain, skydiving) is harmless, and the Spanish-language description and tags suggest a learning focus rather than an ad.",
+      "educational_score": 7,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:17Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "bBUgtAYbdbw",
+      "title": "Multiplication Country | Learn to Multiply 2s - 12s | Country Music Math Songs",
+      "channel_id": "UCExx109KH5msQR0n52ZzyAw",
+      "channel_title": "Rock 'N Learn",
+      "duration_seconds": 1357,
+      "published_at": "2022-06-28T15:00:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/bBUgtAYbdbw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, trusted-channel multiplication song series teaching facts 2 through 12 with clear, simple songs and no banned content. It fits the parent's math priority and is appropriate for a six-year-old.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:19Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "7kpTJuYFWNQ",
+      "title": "Letter B | Get Ready, Get Set, Let's Learn About the Alphabet! | Jack Hartmann",
+      "channel_id": "UCVcQH8A634mauPrGbWs7QlQ",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "duration_seconds": 214,
+      "published_at": "2026-11-04T00:00:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/7kpTJuYFWNQ/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated alphabet song from a trusted channel teaching the letter B's uppercase and lowercase forms, sounds, and phonics, with mouth-position close-ups. Nothing frightening, banned, or product-focused, and the teaching value is clear for a 6-year-old.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:20Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "NqBzMd3FGJg",
+      "title": "'Being Frank' read by Bob Odenkirk",
+      "channel_id": "UCnBdzaRy-Ky9Vh54XJlFz1Q",
+      "channel_title": "StorylineOnline",
+      "duration_seconds": 540,
+      "published_at": "2023-06-05T07:08:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/NqBzMd3FGJg/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, celebrity-narrated picture-book reading from a trusted channel about honesty and kindness, with illustrated pages and no violence, gaming, or banned content. It supports reading and art (illustrations) and is clearly narrated, though its learning value is mainly literacy and a gentle social lesson.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:22Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "cWTEo8ATMc0",
+      "title": "👑 IT STARTED WITH A P - Read Aloud with Ms. Linda | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 442,
+      "published_at": "2025-05-21T14:11:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/cWTEo8ATMc0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated read-aloud of a picture book from a trusted channel, promoting reading with gentle, silly humor and no violence, scary content, or banned topics. The description's book link and social links are normal boilerplate rather than an advertisement.",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:23Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "_ZNaRD3zU00",
+      "title": "How To Draw A Wheelbarrow",
+      "channel_id": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channel_title": "Art for Kids Hub",
+      "duration_seconds": 326,
+      "published_at": "2026-09-24T19:48:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/_ZNaRD3zU00/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, step-by-step art lesson on drawing a wheelbarrow from a channel the parent trusts, with no banned content; the boilerplate shop and membership links are normal channel endings, not an advertisement. Topics are mapped loosely to art (drawing skills) with garden and farm context.",
+      "educational_score": 7,
+      "topics": [
+        "art",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:26Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "4SYoxPEN4S8",
+      "title": "1 HOUR! | ﻿Bluey and Bingo LOVE dancing to the Lollipop song! 🍭 🕺 🎶 | Bluey",
+      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
+      "channel_title": "Bluey - Official Channel",
+      "duration_seconds": 4083,
+      "published_at": "2026-11-08T16:00:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/4SYoxPEN4S8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A trusted-for-fun Bluey compilation of the family dancing to a song, calm and kid-friendly with no banned content, though it offers little real learning. Approved as good-quality fun for a fan of the show, with a low educational score.",
+      "educational_score": 3,
+      "topics": [
+        "art",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:28Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "JFZdpC0EoPk",
+      "title": "Garbie Gets Jealous of the New Baby! 👶 Baby Shower Rescue! | Compilation | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 4334,
+      "published_at": "2026-11-07T13:00:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/JFZdpC0EoPk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A PAW Patrol compilation from a fun channel the parent picked; the cartoon rescue-and-adventure content is fine under the parent's guidance and the video is not mainly an advertisement. It has little educational value, which is acceptable for a fun-channel pick, so it scores low.",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:30Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "44dndstwznQ",
+      "title": "Megan and Cupcake Learn Shapes with Mickey Mouse! 🔸🐭 | Ready For Preschool | Disney Jr.",
+      "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
+      "channel_title": "Disney Jr. ",
+      "duration_seconds": 484,
+      "published_at": "2026-10-26T12:45:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/44dndstwznQ/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A Disney Jr. preschool short from a channel the parent picked for fun, teaching basic shapes in a gentle, kid-friendly way with no scary, violent, or banned content. It has some incidental learning, though it is mainly entertainment.",
+      "educational_score": 6,
+      "topics": [
+        "math",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:31Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "6DMDtH5TKn0",
+      "title": "You Camp Take it With You | Goof Troop S1 E5 | Full Episode | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 1370,
+      "published_at": "2026-10-28T13:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/6DMDtH5TKn0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "Goof Troop episode from a channel the parent picked for fun, a classic Disney cartoon with slapstick camping mishaps and a bear, with no banned topics, gore, or adult themes. Low educational value but acceptable as good-quality entertainment for this child.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:32Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "25SmRzd25sw",
+      "title": "Iron, Forged in Fire: Part Two | Iron Man Armored Adventures S1 E2 | Full Episode | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 1349,
+      "published_at": "2026-10-18T13:00:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/25SmRzd25sw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a full episode of Iron Man Armored Adventures, a Marvel animated superhero series from a fun channel the parent chose; it features cartoon robot battles and villain schemes, which the parent's guidance allows, with no gore or grown-up themes evident in the details. It offers little learning value but is acceptable entertainment for this child.",
+      "educational_score": 2,
+      "topics": [
+        "superheroes",
+        "robots"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:34Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "jF2CbO3em2o",
+      "title": "Trash Truck Finds the Perfect Instrument 🥁🎶 Trash Truck | Netflix Jr",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 242,
+      "published_at": "2026-09-10T13:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/jF2CbO3em2o/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "Fun-channel video from Netflix Jr. about a gentle, kid-friendly character trying out musical instruments, with no banned content or frantic editing evident from the details. It has only incidental learning about instruments, so it scores low but is approved as good-quality entertainment.",
+      "educational_score": 4,
+      "topics": [
+        "music",
+        "friendship"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:37Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "53-fuLwbjfM",
+      "title": "Pinocchio's Growing Nose Secret! | Super Why - WildBrain | Full Episodes for Kids",
+      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
+      "channel_title": "Super Why - WildBrain",
+      "duration_seconds": 2868,
+      "published_at": "2026-11-01T16:00:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/53-fuLwbjfM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Super Why is one of the parent's named shows, and this episode teaches early reading and honesty through the Pinocchio story with gentle, kid-friendly content. Because it is a fun-channel video, educational value isn't required, and it is not an advertisement or banned-topic video.(note: topic list uses reading; art and animals were not clearly present, so the wanted topics are approximate)",
+      "educational_score": 7,
+      "topics": [
+        "reading",
+        "art",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:38Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "IEciKjkoaQw",
+      "title": "Chloe Breaks the Rules 😯 | The Thundermans: Undercover | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 303,
+      "published_at": "2026-10-30T13:59:55Z",
+      "thumbnail": "https://i.ytimg.com/vi/IEciKjkoaQw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A five-minute Nickelodeon clip from The Thundermans: Undercover, a kids' sitcom with slapstick and mild spy-play chaos but no gore, scary content, or crude material, from a fun channel the parent chose. It is entertainment with little to learn, so it scores low, but it is acceptable for fun viewing.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:40Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "VquZI_psVJo",
+      "title": "Squidward Being Annoyed for 90 Minutes 😂 | SpongeBob, Kamp Koral & The Patrick Star Show | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 5507,
+      "published_at": "2026-11-01T14:59:50Z",
+      "thumbnail": "https://i.ytimg.com/vi/VquZI_psVJo/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 90-minute compilation from the official Nicktoons channel, which the parent picked for fun, of SpongeBob-universe cartoon comedy with gentle humor and no banned topics or product showcase. It has little educational value, but as a fun-channel video it meets the safety and quality conditions.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "cartoon comedy"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:41Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "tqhSvso9Gkg",
+      "title": "Every Time SHREDDER Appears! PART 2 | TMNT (2012) | Teenage Mutant Ninja Turtles",
+      "channel_id": "UCTsgmnXbWotzbR36vU0YPrA",
+      "channel_title": "Teenage Mutant Ninja Turtles",
+      "duration_seconds": 5635,
+      "published_at": "2026-11-01T13:59:56Z",
+      "thumbnail": "https://i.ytimg.com/vi/tqhSvso9Gkg/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a compilation of Shredder scenes from the 2012 TMNT cartoon, a show the parent has named as fine, with cartoon ninja and robot battles that the guidance allows. It is from a channel the parent picked for fun, and the description is standard channel boilerplate, so it is approved as good-quality entertainment with little to learn.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:45Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "NFPo9SRS5hI",
+      "title": "Pumpkin Spice 😋🎃 | Tom and Jerry Gokko FULL EPISODES | @wbkids",
+      "channel_id": "UC9trsD1jCTXXtN3xIOIU8gg",
+      "channel_title": "WB Kids",
+      "duration_seconds": 1156,
+      "published_at": "2026-10-30T11:00:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/NFPo9SRS5hI/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel WB Kids episode of Tom and Jerry, a classic slapstick cartoon the parent has named as acceptable, with no banned topics or advertising in the video itself. It offers little educational value, but it is fine entertainment for a fun pick.",
+      "educational_score": 2,
+      "topics": [
+        "animation",
+        "cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:46Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "nv6wTMWg6u8",
+      "title": "Raven vs Trigon MARATHON 👿📺 | Teen Titans MEGA COMP | @dckids",
+      "channel_id": "UCyu8StPfZWapR6rfW_JgqcA",
+      "channel_title": "DC Kids",
+      "duration_seconds": 2401,
+      "published_at": "2026-10-31T11:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/nv6wTMWg6u8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 40-minute compilation of Teen Titans cartoon episodes from the DC Kids channel the parent chose for fun; the cartoon superhero action and villain schemes fit the parent's named-show allowance, and nothing suggests gore or grown-up themes, though the title's Trigon villain is a bit more intense than typical. Educational value is low, but it is acceptable entertainment for a fun channel.",
+      "educational_score": 2,
+      "topics": [
+        "superheroes",
+        "villains"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:48Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "sbxKpZ6uAI8",
+      "title": "Penny's Underground Mission! | Inspector Gadget - WildBrain | Full HD Episodes",
+      "channel_id": "UCI-lg_sDdzBtYKVpebqasIA",
+      "channel_title": "Inspector Gadget - WildBrain",
+      "duration_seconds": 5016,
+      "published_at": "2026-11-14T14:00:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/sbxKpZ6uAI8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A full Inspector Gadget episode from a channel the parent picked for fun; the named show's usual cartoon action (villains, schemes, tunnels, a cave-in rescue) is allowed, with no gore or grown-up themes apparent. It has little educational value, so it scores low, but it is fine entertainment for this child.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:49Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "kHrGywzilaU",
+      "title": "Bumblebee VS 100 Levels of Underground TRAPS! | S02 | E04 | Transformers: CYBERWORLD",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 2548,
+      "published_at": "2026-09-19T13:00:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/kHrGywzilaU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is an episode of Transformers: Cyberworld, a show the parent named, and its robot battles and cartoon traps fall within the allowed cartoon action. It is fun-channel content with little educational value, and nothing in the description suggests gore, frightening material, or product advertising.",
+      "educational_score": 2,
+      "topics": [
+        "transformers",
+        "robots",
+        "action"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:51Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "GUBc2ER0XU8",
+      "title": "Frozen Village Rescue Mission! | The Smurfs 3D | Cartoon movies",
+      "channel_id": "UCeY4C8Sbx8B4bIyREPSvORQ",
+      "channel_title": "The Smurfs • Official Channel!",
+      "duration_seconds": 655,
+      "published_at": "2026-10-26T15:36:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/GUBc2ER0XU8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "Official Smurfs channel, a fun-channel pick, with a cartoon adventure about a freezing mishap and a rescue from Gargamel that fits the parent's named cartoon-action allowance. It has little educational value, but it is not frightening, gory, or an advertisement.",
+      "educational_score": 3,
+      "topics": [
+        "animation",
+        "adventure"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:52Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "PBM8N0jktso",
+      "title": "Weather, Seasons, & Patterns 📅 Fun Science with Ms. Shelley | Kindergarten Grade NGSS",
+      "channel_id": "UC7ZK7NGsnjeGoHZASbc7WNA",
+      "channel_title": "Ms Shelley's Science Show",
+      "duration_seconds": 296,
+      "published_at": "2024-03-31T15:00:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/PBM8N0jktso/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A kindergarten science lesson on weather, seasons, and patterns aligned with NGSS, from an unvetted channel found by search. The description suggests a playful Wednesday Addams and weather-reporter bit and a time-lapse, but the content looks like calm instruction with no violence, banned topics, or product pitches; the score is borderline, so the parent may want to preview it.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "weather",
+        "seasons",
+        "patterns"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:54Z",
+      "last_shown": "2026-11-17",
+      "shown_count": 1
     }
   ]
 }

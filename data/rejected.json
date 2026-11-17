@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:10:15Z",
+  "updated": "2026-11-17T19:20:54Z",
   "videos": [
     {
       "id": "GJuO4MzYrtI",
@@ -285,17 +285,6 @@
       "stage": "hard_filter",
       "code": "short",
       "reason": "Video is a YouTube Short.",
-      "screened_at": "2026-11-17T10:33:42Z"
-    },
-    {
-      "id": "l5OiIZeOtqs",
-      "title": "2 Hours of the World's Toughest Fixes 👷🏽👷🏽‍♀️ | Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7939,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 132.3 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T10:33:42Z"
     },
     {
@@ -2950,17 +2939,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "HwSarE09HqE",
-      "title": "2 Hours of America's Funniest Videos: Animal Edition | Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7935,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 132.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "9hADH1YQn08",
       "title": "Teaching Baby Meerkats at Survival School! 🎒 Animal Card Quest | Nat Geo Kids",
       "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
@@ -2972,17 +2950,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "TXr69MV_flw",
-      "title": "Positive Energy Across the World!⚡🌎| Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7852,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 130.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "z29spc041dM",
       "title": "Wild World of Squirrels! 🐿️🌰 Animal Card Quest | Nat Geo Kids",
       "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
@@ -2991,28 +2958,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.8 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "lzWbRuE20YU",
-      "title": "All Greeking Out S4 Full Episodes⚡| Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 10556,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 175.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "gQ0urWUYDMg",
-      "title": "Beginning of a Black Bear's Rescue Journey 🐻 | Cub Camp Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7770,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.5 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -3090,72 +3035,6 @@
       "stage": "hard_filter",
       "code": "short",
       "reason": "Video is a YouTube Short.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "JC34ro6fQwg",
-      "title": "Halloween Pumpkin-Carving SCIENCE Experiment! | Halloween Science | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7405,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "muErQYN1dLg",
-      "title": "Tinfoil Boat Challenge + More Fun Experiments - Full Episode - Science Max Season 1",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11009,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 183.5 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "TE8ZYU9m1bM",
-      "title": "How To Stack Cups + More Amazing Science Experiments | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7209,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "FZ32tLbL9ks",
-      "title": "Mini Max Science | Quick and Fun Science Experiments | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7443,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "_rb6pq-1jqA",
-      "title": "This Pasta Bridge Can Hold a Human! | Fun Science Experiments | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7389,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "HPHhP6SX1ug",
-      "title": "WE MADE A GIANT MESS! Fun & Messy Science | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7386,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.1 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -4369,39 +4248,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "xLaxASe2phM",
-      "title": "Octonauts 🐧⚓  Incredible Ocean Rescues 🐙 Full Episodes 3 Hour Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11358,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 189.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "8pcRvXCvWwI",
-      "title": "Octonauts 🐠🔍 Underwater Mysteries & Discoveries 🌊 Kids Cartoon 3 Hours of Learning Full Episodes",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11293,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 188.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "ivC0s8MMJe8",
-      "title": "OCTONAUTS 🦈 3 Hours of Ocean Emergencies & Rescue Missions 🛟 Full Episodes for Toddler Learning",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 10698,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 178.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "ot6bEv23MDY",
       "title": "Octonauts SPOOKFISH 🐟 Creature Report Song 🎵 Kids Cartoon",
       "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
@@ -4410,17 +4256,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.0 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "cIGAkGT9U4w",
-      "title": "OCTONAUTS Spooky Full Episodes for Halloween 🧛🎃 3 HOUR Marathon 🏴‍☠️ Cartoons for Kids",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11896,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 198.3 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -4435,17 +4270,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "MxMASSbNICA",
-      "title": "Octonauts 🦑 Vampire Squid and Creepy Deep Sea Animals 🪼 Full Episodes of Kids Cartoons",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 7266,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "zxTlk43UaDQ",
       "title": "MIDNIGHT ZONE 🎵🌑 Octonauts Creature Report Song 🐟 Kids Animated Music Video",
       "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
@@ -4457,17 +4281,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "u1rnVmayIaQ",
-      "title": "Octonauts 🪼 Learning About WEIRD Sea Creatures 🦑 Full Episodes of Kids Animated TV",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 8295,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "Q51j_2yqkS4",
       "title": "Octonauts 🐳 Orcas Creature Report Song 🎵 Music for Kids",
       "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
@@ -4476,61 +4289,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.0 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "mbUmffSlvq0",
-      "title": "Dangerous Ocean Missions 🦈☢️ OCTONAUTS 🪼 Halloween Kids Cartoon Full Episodes",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 7779,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "LsqS5KUtsOs",
-      "title": "🪬 Incredible Sea Creature Mysteries 🦑 | 2 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 9077,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 151.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "TqEx_l34bAE",
-      "title": "🐻‍❄️🐙 BIGGEST Ocean Rescues! ⛑️🛟 Octonauts 3 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 10884,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 181.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "0EMkfy72Pyc",
-      "title": "Octonauts ☀️ Summer Ocean Big Wave Adventures 🌊 | 3 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11357,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 189.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "Kg-klSGAa8o",
-      "title": "Octonauts 🦦 Helping Baby Sea Creatures 🐬 | 2 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 9096,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 151.6 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -5161,28 +4919,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "i7D6fuRTTow",
-      "title": "Exciting Counting Songs 4 Back to School! | Learn to Count for Kids | Number Cartoon | Numberblocks",
-      "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
-      "channel_title": "Numberblocks",
-      "duration_seconds": 7242,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "FPJJ2UPPJks",
-      "title": "Reading Day! - 2 Hours of Alphablocks | Learn to Read and Spell for Kids Compilation | Alphablocks",
-      "channel_id": "UC_qs3c0ehDvZkbiEbOj6Drg",
-      "channel_title": "Alphablocks",
-      "duration_seconds": 7360,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 122.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "UANcugbRHBU",
       "title": "FreeSchool Presents: Shakespeare's Invented Words - Words and Phrases Invented by Shakespeare",
       "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
@@ -5370,17 +5106,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "dk9WiEfJlC0",
-      "title": "Grandparents Day COMPILATION | Celebrate with Grandparents Stories from Arthur & More! ♥️ | PBS KIDS",
-      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
-      "channel_title": "PBS KIDS",
-      "duration_seconds": 8025,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 133.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "eX1CKnTTuqw",
       "title": "Alma's Way | Library Run! 📚🏃‍♀️ NEW Full Episode Premiering September 7th! | PBS KIDS",
       "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
@@ -5433,17 +5158,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.8 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "zdByOFgemFU",
-      "title": "SUMMER Stories ☀️📚 Adventures, Classics, Nature, and Values",
-      "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
-      "channel_title": "Smile and Learn - English",
-      "duration_seconds": 7796,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.9 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -6305,17 +6019,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "U_kXAIQzeJk",
-      "title": "Learn to Read with Phonics | Complete Program by Rock ‘N Learn",
-      "channel_id": "UCExx109KH5msQR0n52ZzyAw",
-      "channel_title": "Rock 'N Learn",
-      "duration_seconds": 8202,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 136.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "w7X4qBRf_Bg",
       "title": "Learn About Numbers | Number of the Day | 1-9 Compilation",
       "channel_id": "UCExx109KH5msQR0n52ZzyAw",
@@ -6976,17 +6679,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "DuLwwsfm5YM",
-      "title": "2+ Full Hours of Star Wars Rebels 💥🔥⚔️ Full Episode Marathon! | @StarWarsKids",
-      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
-      "channel_title": "Star Wars Kids",
-      "duration_seconds": 7915,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 131.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "LJRFFTBdbwQ",
       "title": "Star Wars Fandom Lasts a Lifetime ❤️ | @StarWarsKids",
       "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
@@ -7141,17 +6833,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "CaEw7egI6jc",
-      "title": "2 HOURS of Bluey's SPOOKY Adventures 👻 ⭐️ | Happy Halloween with the Heelers 🎃 | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 7429,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "2ILj1jpx938",
       "title": "How to Make Bluey Grannies Glasses | Halloween Dress Up | Bluey",
       "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
@@ -7160,17 +6841,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.7 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "1niX6Ah61zk",
-      "title": "2 HOURS | Happy Halloween with Bluey and Bingo 🎃🦇 | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 7767,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.4 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -7196,17 +6866,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "GsTLfZaeYd4",
-      "title": "Bingo Pretends to be a TIGER! 🐯🧡 | 2 HOURS of Curry Quest + MORE! | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 7417,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "PakqQFeOd6w",
       "title": "Let's Play…Sticky Gecko🦎💙 | Bluey and Bingo Playtime | Bluey",
       "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
@@ -7218,17 +6877,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "5N-Nn4-PNOQ",
-      "title": "Bluey Flies with BATS 🦇💙 | 2 HOURS of Fruitbat + MORE! | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 7450,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "0O2RM4u8sPQ",
       "title": "Let's Play…Dirt💙😆 | Bluey and Bingo Playtime | Bluey",
       "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
@@ -7237,17 +6885,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.4 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "zjmstliaU9Y",
-      "title": "2 HOURS 💙 | Bingo has a MAGIC Featherwand! 🪶✨ | Featherwand and MORE! | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 7414,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.6 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -7328,17 +6965,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "54Ohj6GnmpA",
-      "title": "Humdinger’s Falling Off a Cliff! 🚨 Chase Rushes to the Rescue | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7724,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 128.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "ZWPrQQvwapI",
       "title": "You Can Count On ME! ❤🎵 | Official PAW Patrol Music Video | Songs for Kids",
       "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
@@ -7350,17 +6976,6 @@
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
-      "id": "q2llKtSzTnI",
-      "title": "The Turbots Are Heading for a Waterfall! 😱 Skye & Zuma to the Rescue! | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7673,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 127.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
       "id": "SeGBFgm-Sog",
       "title": "Help Zuma, Rubble, & Rocky Complete Their Missions! 🛟🚜 | PAW Patrol: Squad Missions | Interactive",
       "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
@@ -7369,28 +6984,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.9 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "MVI37UY9IxY",
-      "title": "Yoga on the Mountain Goes Wrong! 🚨 Skye’s Mountain Rescue! 🚁  | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7639,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 127.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:02:33Z"
-    },
-    {
-      "id": "kkD-85qvOAY",
-      "title": "Chicken Traffic Trouble! 🚦 Chase to the Rescue! 🐔 | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7709,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 128.5 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:02:33Z"
     },
     {
@@ -8295,17 +7888,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "zwNXQ6fNnno",
-      "title": "Your Brain's Hidden Secrets 🧠 | Brain Games Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7983,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 133.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "IFvInaD41dY",
       "title": "Kids React to Baby Lions 🦁 | Nat Geo Kids",
       "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
@@ -8372,17 +7954,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "RrUrpD90haU",
-      "title": "The Science of Sound | Air Pressure | Vibration | Full Episodes | Science Experiments | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7524,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 125.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "TtYaId4Ph-4",
       "title": "How to Make Stuff Levitate with Magnets | Home Science Experiments | Science Max",
       "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
@@ -8405,28 +7976,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "86r3Qvs5mEE",
-      "title": "CRAZY EXPERIMENTS | Maxed Out Drag Racer | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11190,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.5 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "oSck6X-_xwg",
-      "title": "CRAZY EXPERIMENTS | Maxed Out Balance | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11187,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "rrD3RIKXess",
       "title": "How to Make a Mini Hot Air Balloon | Home Science Experiments | Science Max",
       "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
@@ -8435,17 +7984,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.7 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "m39zdeGZgDs",
-      "title": "CRAZY EXPERIMENTS | Maxed Out Paper Airplane | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11182,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.4 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
@@ -8460,28 +7998,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "InBRxsaxhv0",
-      "title": "CRAZY EXPERIMENTS | Maxed Out States of Matter | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11159,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "Phwu6kTfex8",
-      "title": "CRAZY EXPERIMENTS | Maxed Out Simple Machines | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11220,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 187.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "aVMxnF0-vHg",
       "title": "Caveman Learns Newton's Second Law | Caveman Science | Science Max",
       "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
@@ -8490,17 +8006,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.3 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "iGJlNe7PerI",
-      "title": "CRAZY EXPERIMENTS | Maxed Out Air Pressure | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11187,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.4 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
@@ -8548,28 +8053,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "ebN88nn6nrM",
-      "title": "CRAZY EXPERIMENTS | The Science of Light | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11187,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "QTgFVdObDbs",
-      "title": "CRAZY EXPERIMENTS | Building a Sugar Cube Bridge | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7451,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "pM6PsLS4YEQ",
       "title": "SLIME EXPERIMENT | How to Make Cornstarch Mud | Science Max",
       "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
@@ -8578,17 +8061,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.6 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "C_Fl9nScowA",
-      "title": "CRAZY EXPERIMENTS | Water Powered Car | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11160,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.0 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
@@ -9230,182 +8702,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "TmwmEeLXNHg",
-      "title": "​@Octonauts - 🌎 World Ocean Day Special!  🌊 | 3 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11359,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 189.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "34LpRNhimCo",
-      "title": "@Octonauts - 🫶 Friendly Ocean 🪸 | 3 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11358,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 189.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "EJBD6WDg1uI",
-      "title": "@Octonauts - 💦  Splashy Sea Creatures! 🦑 | 3 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11359,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 189.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "vlyFcBR_VvU",
-      "title": "@Octonauts - 🐻‍❄️😼🐧 Animal Ocean Rescue Team! 🛟 | 3 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 10884,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 181.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "RzWx5iR4vgk",
-      "title": "@Octonauts - 🧑‍🍼 Moms Who Rule the Ocean 🌸 | 2 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 8619,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "B7uVVQksMYM",
-      "title": "@Octonauts - 🪬 Mythological Sea Creatures 🦑 | 2 Hours+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 9095,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 151.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "Ce5FY4PJG2o",
-      "title": "​@Octonauts - 🌎 Earth Day Adventures! 🌳  | 2 Hours+ Full Episodes Marathon | Cartoons for Kids",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 7811,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 130.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "igb3PyocTcA",
-      "title": "Surviving Winter With George!❄️ 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8795,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "xZ25817yId0",
-      "title": "George Saves The Show!🎪 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8605,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "L6ktr83pEww",
-      "title": "Playing Nut Hockey with a Squirrel! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8527,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 142.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "u0KfdCj5yDA",
-      "title": "Monkey Acrobat! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8323,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "1Syuu9Mvntk",
-      "title": "The Floating Hat Experiment 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8857,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "jp-vfzQqEBQ",
-      "title": "Charkie Stole the Baton! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8806,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "9zFRv8IYJKI",
-      "title": "Underwater Friends!🐢🐵 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8795,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "CSO0D8OrlyI",
-      "title": "George Repairs The Wagon!🛞🐵 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8604,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "LkdBwGR9YrI",
-      "title": "Let's Dig A Huge Hole!🪏🙊 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8649,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 144.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "pIdRZgtV-ac",
       "title": "The 4 Districts of Brunei! | KLT",
       "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
@@ -9612,17 +8908,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.8 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "pLgAouN3T0c",
-      "title": "The Artiest, Most Craftiest Counting 🎨 | Learn to Count for Kids | Number Cartoon | Numberblocks",
-      "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
-      "channel_title": "Numberblocks",
-      "duration_seconds": 7466,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.4 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
@@ -10385,17 +9670,6 @@
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
-      "id": "B268_2E0MbY",
-      "title": "Bluey and Bingo Build the Bedroom! 😴 🧸 | 2 HOURS of Imaginative Play 💙 | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 7384,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
       "id": "BfqV7muTtMU",
       "title": "Bingo Read Aloud By Isla Fisher ⭐️ | Bluey Book Reads Series 3 💙 | Bluey",
       "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
@@ -10481,17 +9755,6 @@
       "stage": "hard_filter",
       "code": "short",
       "reason": "Video is a YouTube Short.",
-      "screened_at": "2026-11-17T11:34:40Z"
-    },
-    {
-      "id": "KgdjNNW5-fY",
-      "title": "🚨 Humdinger Steals the Lookout! 😱 Can the Pups Get Their Home Back? | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7744,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.1 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:34:40Z"
     },
     {
@@ -11409,94 +10672,6 @@
       "screened_at": "2026-11-17T11:47:40Z"
     },
     {
-      "id": "J1cm8yKC4GI",
-      "title": "Enchanting Creatures of the Mountains and Waters ✨ | Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7640,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 127.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "9CnZvd8vFdg",
-      "title": "CRAZY EXPERIMENTS | Stomp Rocket and Air Pressure | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7480,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "AM93euVasOk",
-      "title": "CRAZY EXPERIMENTS | Hot and Cold | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11203,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "8RDLtEb19CI",
-      "title": "CRAZY EXPERIMENTS | Vibration and Frequency | Full Episodes | Science Max",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7444,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "5rLUP8sbZNs",
-      "title": "Electromagnetic Gloves Hold Up a Person's Weight! | Full Episodes | Science Max #Electromagnet",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11190,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 186.5 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "qZm4xk9q4u4",
-      "title": "Defying Gravity? Nope! It's Science! | Full Episodes | Science Max #Gravity",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7422,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "31BxwZSgAMo",
-      "title": "The Loudest Sound Ever! | Full Episodes | Science Max #ScienceOfSound",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 11156,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 185.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "-scuxTLH5Ss",
-      "title": "How Science Makes Buildings Safe from Earthquakes | Full Episodes | Science Max #EarthquakeScience",
-      "channel_id": "UCbprhISv-0ReKPPyhf7-Dtw",
-      "channel_title": "Science Max - Scholastic",
-      "duration_seconds": 7444,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 124.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
       "id": "jnHvx_O6UeI",
       "title": "Intro to Angles Lesson for Kids",
       "channel_id": "UCjxu5mHqZnVlb_8-Zjv-D1A",
@@ -12091,171 +11266,6 @@
       "screened_at": "2026-11-17T11:47:40Z"
     },
     {
-      "id": "SWcU8KMGUiI",
-      "title": "​@Octonauts -  🤿  Exploring Different Oceans 🌊 | 2 Hours+ Full Episodes Marathon | Cartoons for Kids",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 8373,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 139.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "xj952-GEBDY",
-      "title": "​@Octonauts - 🌎 World Water Day Special! 💦 | 3 Hours+ Full Episodes Marathon | Cartoons for Kids",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 11359,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 189.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "R954BTxQm6k",
-      "title": "The Winning Ticket!🎟️🎶 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8701,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 145.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "6lA0eu8UmF8",
-      "title": "Some Animals Live in Dirt?! 😱 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8527,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 142.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "AeLzmSDw2CI",
-      "title": "George Breaks the Wagon! 😱 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8323,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "5LGjvxABmYE",
-      "title": "Farmwork is HARD Work! 🌾 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8857,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "urEfvFKICm8",
-      "title": "Look at all the Fish! 🐟 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8806,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "gsZaPUFYZa4",
-      "title": "There's Only ONE Lobby Dog!  🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8795,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "bqkanj7bi_E",
-      "title": "What's That Noise?! 💥 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8323,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "GuKPk95f6ps",
-      "title": "Farmer George! 🚜 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8649,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 144.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "vPszakgKvdA",
-      "title": "George Explores the Ocean!  🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8701,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 145.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "4Ni9Xt6B_as",
-      "title": "What Animal is George? 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8527,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 142.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "uIVCMipZB0U",
-      "title": "Theres An Elephant Upstairs 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8323,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "MNi0VhXTVTM",
-      "title": "Where's Georges Lucky Hat Gone!? 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8857,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "Z9PP33kjFmE",
-      "title": "George Brings Hundley Home! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8806,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
       "id": "zvB3spVZyuE",
       "title": "How Long Does It Take Planets To Orbit The Sun? | Space Song For Kids | KLT",
       "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
@@ -12737,28 +11747,6 @@
       "stage": "hard_filter",
       "code": "livestream",
       "reason": "Video is a live stream or a recording of one.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "CQ-RXH7WQPE",
-      "title": "🐊 Helga Humdinger's Wild Alligator Ride! Zuma Rushes to the Rescue! | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7805,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 130.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T11:47:40Z"
-    },
-    {
-      "id": "c6Htg1jx9s8",
-      "title": "Mix Visits Adventure Bay! Rubble's Cousin Joins the PAW Patrol 🐾 | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7718,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 128.6 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T11:47:40Z"
     },
     {
@@ -13358,17 +12346,6 @@
       "screened_at": "2026-11-17T11:52:02Z"
     },
     {
-      "id": "BFjV99KJRaE",
-      "title": "America's Funniest Animal Videos! 🤣 | Full Episode Compilation | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7917,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 131.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "4krR7Hqbon4",
       "title": "A Day In The Life Of A Whale Shark 🦈 | Nat Geo Kids",
       "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
@@ -13809,116 +12786,6 @@
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
-      "id": "AK-vgs8rMFY",
-      "title": "@Octonauts - 🐻‍❄️ Barnacles' Polar Scouting Adventure! 🐾 | 90 Mins+ Full Episodes Marathon",
-      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
-      "channel_title": "Octonauts",
-      "duration_seconds": 7551,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 125.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "v1iCVAw7oT4",
-      "title": "Georges Amazing Sand Castle! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8795,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "g9d68pbZ9zw",
-      "title": "Georges Musical Day! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8604,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "YnCwpixtzhs",
-      "title": "George's Amazing Lucky Cap! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8649,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 144.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "BRMMaYcbeF4",
-      "title": "Hundley is Royality!? 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8701,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 145.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "L5OogtFR5bo",
-      "title": "George Wants to build A Sandcastle! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8527,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 142.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "tuzporWrQV4",
-      "title": "George Loves Making Instruments! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8329,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "-vLNrh16GB0",
-      "title": "George Learns About Saving Money! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8857,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "hz9JsQUIURI",
-      "title": "Don't Sink the Pirate Ship! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8806,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "2Ueo_tDJ2BY",
-      "title": "George the Helpful Monkey! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8795,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "8cg7A4UWRa8",
       "title": "Which Berries Grow On Bushes? | Songs For Kids | KLT",
       "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
@@ -14249,17 +13116,6 @@
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
-      "id": "YlJFstX8DSI",
-      "title": "👽 Who Made the Crop Circles?! The PAW Patrol Investigates! | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7758,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "jjibxh5ZzE4",
       "title": "Dasher Official Trailer! 🦌🎄 | A Runaway Reindeer Changes Christmas Forever | Disney Jr.",
       "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
@@ -14447,50 +13303,6 @@
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
-      "id": "8sudyEVzp1c",
-      "title": "The Rolling Rice Cake Chase! Mouse Hole Mystery! | Super Why - WildBrain | Full Episodes for Kids",
-      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
-      "channel_title": "Super Why - WildBrain",
-      "duration_seconds": 8606,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "5olW1Cr6Nfw",
-      "title": "Sleeping Princess Wake-Up Challenge! | Super Why - WildBrain | Full Episodes for Kids",
-      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
-      "channel_title": "Super Why - WildBrain",
-      "duration_seconds": 8605,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "z5IUWUA2kdU",
-      "title": "Mixed Up Story Chaos! Farm Rescue Mystery! | Super Why - WildBrain | Full Episodes for Kids",
-      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
-      "channel_title": "Super Why - WildBrain",
-      "duration_seconds": 8605,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "47STgjCjUaQ",
-      "title": "Secret Egyptian Treasure Map Mystery! | Super Why - WildBrain | Full Episodes for Kids",
-      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
-      "channel_title": "Super Why - WildBrain",
-      "duration_seconds": 8605,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "nck-_IFCLGI",
       "title": "SOFI TUKKER - TSUNAMI Live at the Kids' Choice Awards 2026 | Nickelodeon",
       "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
@@ -14535,17 +13347,6 @@
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
-      "id": "v54k2FgJ-gE",
-      "title": "2 Hours of Plankton's Schemes 😈👁️ | SpongeBob | Nicktoons",
-      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
-      "channel_title": "Nicktoons",
-      "duration_seconds": 7298,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "tV7blABGvm4",
       "title": "Skye’s Pup Squad 🐶✈️ Official Teaser Trailer | NEW Series from the PAW Patrol Universe | Nick Jr.",
       "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
@@ -14554,83 +13355,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.0 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "WHQv7DHK3xk",
-      "title": "PAW Patrol Mega Robot Rescues! 🤖 w/ Robo-Dog, Rubble, & Rocky #4 | 120 Minutes | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7251,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "ZzuHlhVS3Sk",
-      "title": "PAW Patrol Winter Sports Rescues! 🏂❄️ 60 Minute Compilation | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7212,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "jeO3UAfl7rY",
-      "title": "PAW Patrol Pups Have Weird Dreams! #6 w/ Marshall | 120 Minutes | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7270,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "_Oay8xSgm2A",
-      "title": "PAW Patrol Teamwork Rescues & Adventures! #5 ft. Dino Island 🦖 | 180 Minutes | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 10984,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 183.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "AJaAgvd0kLg",
-      "title": "PAW Patrol BABY Rescues! 👶 with Chase & Baby Humdinger! | 120 Minutes | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 9069,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 151.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "u7vQpxRTm10",
-      "title": "PAW Patrol's Halloween Rescue Missions & More! 🎃🕷️ w/ Marshall! | 120 Minutes | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7674,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 127.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "oj0kqptANcM",
-      "title": "PAW Patrol Ultimate Sky Flying Vehicles! 🚁 ft. Rubble | 2 Hours | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7269,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.2 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
@@ -14755,17 +13479,6 @@
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
-      "id": "rionylwyQ44",
-      "title": "Transformers: CYBERWORLD | COMPLETE SEASON 1 | E1-E36 | FULL EPISODE COMPILATION",
-      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
-      "channel_title": "TRANSFORMERS HQ",
-      "duration_seconds": 10684,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 178.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "K5_-x1o35OI",
       "title": "Transformers: CYBERWORLD | Season 1 FINALE Teaser",
       "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
@@ -14777,17 +13490,6 @@
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
-      "id": "ydSU_qJDOOE",
-      "title": "Transformers: CYBERWORLD | E01-E30 | FULL EPISODE COMPILATION!",
-      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
-      "channel_title": "TRANSFORMERS HQ",
-      "duration_seconds": 8876,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
       "id": "rogSNXcEfFo",
       "title": "Smurfs Adventures – The Great Magic Showdown – Official Trailer.",
       "channel_id": "UCeY4C8Sbx8B4bIyREPSvORQ",
@@ -14796,39 +13498,6 @@
       "stage": "hard_filter",
       "code": "short",
       "reason": "Video is a YouTube Short.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "heweJDx522Q",
-      "title": "2 Hours of Katara Being the Best ATLA Character 🌊 | Avatar: The Last Airbender",
-      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
-      "channel_title": "Avatar: The Last Airbender",
-      "duration_seconds": 7406,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 123.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "iYGLi5IwIdw",
-      "title": "2 Hours of Sokka Being the BEST Character! | Avatar: The Last Airbender",
-      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
-      "channel_title": "Avatar: The Last Airbender",
-      "duration_seconds": 7300,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:26:47Z"
-    },
-    {
-      "id": "M2FHKi-LaSE",
-      "title": "2 Hours of Avatar’s Most Exciting Moments! 🔥 | Avatar: The Last Airbender",
-      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
-      "channel_title": "Avatar: The Last Airbender",
-      "duration_seconds": 7778,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.6 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:26:47Z"
     },
     {
@@ -15391,17 +14060,6 @@
       "screened_at": "2026-11-17T18:30:33Z"
     },
     {
-      "id": "2dmaCb5sf9w",
-      "title": "Sharks Found Where?! | Full Episode Compilation | SHARKFEST 🦈 | Nat Geo Kids",
-      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
-      "channel_title": "Nat Geo Kids",
-      "duration_seconds": 7873,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 131.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
       "id": "R0tOs6e-KT4",
       "title": "Kids React to Animal Superpowers 🦸💥 | Nat Geo Kids",
       "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
@@ -15487,105 +14145,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 1.9 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "-5BEIGe-HIY",
-      "title": "George Visits His Neighbor! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8604,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "MLUIYW7oi8g",
-      "title": "George Wants a New Toy! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8649,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 144.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "TMA0KoJ5FMc",
-      "title": "George the Pirate Monkey! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8701,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 145.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "3siQg0YB_w8",
-      "title": "What Animal is George!? 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8527,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 142.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "lcjny0yjUJg",
-      "title": "What's That Loud Sound!? 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8323,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 138.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "N6xzxYO9CPQ",
-      "title": "George Can't go to Sleep! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8857,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "jW4kLxxrkGk",
-      "title": "George's Big Spider Web! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8806,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "oPZmIBapX4s",
-      "title": "Curious George 🐵  Animals from the Lake! 🐵 Kids Cartoon 🐵 Kids Movies 🐵 Videos for Kids",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8795,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "v4Rz0bNW2jE",
-      "title": "Lets Fix a Wagon! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8604,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 143.4 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:36:55Z"
     },
     {
@@ -15908,17 +14467,6 @@
       "screened_at": "2026-11-17T18:36:55Z"
     },
     {
-      "id": "9n-loCycZYM",
-      "title": "🦛 Humdinger's Wild Hippo Ride! PAW Patrol to the Rescue! | Compilation | PAW Patrol",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 7768,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 129.5 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
       "id": "Eu9GJIt0vRM",
       "title": "Symbie Unleashes Naughty Mini Symbies! 😈🕸️ | Marvel's Spidey and his Amazing Friends | Disney Jr.",
       "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
@@ -16125,61 +14673,6 @@
       "stage": "hard_filter",
       "code": "short",
       "reason": "Video is a YouTube Short.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "Hm_qG_-bfSE",
-      "title": "PAW Patrol's Best Halloween Costumes! w/ Rubble, Rocky, and Chase 🎃 | 3 Hours | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 10988,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 183.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "I5hbx4qUNw4",
-      "title": "Ryder Calls PAW Patrol Pups to the Lookout Tower! #23 w/ Rex | 2 Hours | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7293,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.5 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "dn8GQmQ5hgk",
-      "title": "Try Not to Laugh TMNT (2012) Challenge! 🤭 240 Minutes of the Funniest Moments! | TMNT",
-      "channel_id": "UCTsgmnXbWotzbR36vU0YPrA",
-      "channel_title": "Teenage Mutant Ninja Turtles",
-      "duration_seconds": 10907,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 181.8 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "qG5Lhbv786Q",
-      "title": "The Ninja Turtles' BIGGEST Friend vs. Foe BATTLES! 💥 180 Minutes | TMNT (2012)",
-      "channel_id": "UCTsgmnXbWotzbR36vU0YPrA",
-      "channel_title": "Teenage Mutant Ninja Turtles",
-      "duration_seconds": 10915,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 181.9 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:36:55Z"
-    },
-    {
-      "id": "piX_PkPlCIo",
-      "title": "2 Hours of the Best Battles in Avatar! 💥⚔️💥 | Avatar: The Last Airbender",
-      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
-      "channel_title": "Avatar: The Last Airbender",
-      "duration_seconds": 7319,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 122.0 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:36:55Z"
     },
     {
@@ -16603,28 +15096,6 @@
       "screened_at": "2026-11-17T18:48:54Z"
     },
     {
-      "id": "EcKROqyUq2s",
-      "title": "Activate Giant Otter Powers | Creature Transformations | Animals for Kids | Wild Kratts",
-      "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
-      "channel_title": "Wild Kratts",
-      "duration_seconds": 7226,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.4 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "ChUovoY9D9E",
-      "title": "African Wild Dogs Vs Crocodile | Creature Combat | Animals for Kids | Wild Kratts",
-      "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
-      "channel_title": "Wild Kratts",
-      "duration_seconds": 7299,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.7 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
       "id": "DymTTgmFc08",
       "title": "Buzz Pollination | Bumblebee Facts | Season 7 | Wild Kratts",
       "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
@@ -16633,17 +15104,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 3.0 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "mZigAUeYhUA",
-      "title": "Anaconda Attacks Capybara | Creature Rescues | Animals for Kids | Wild Kratts",
-      "channel_id": "UCxEmDFo1yUbbxjEb9RjitVA",
-      "channel_title": "Wild Kratts",
-      "duration_seconds": 7360,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 122.7 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:48:54Z"
     },
     {
@@ -16688,61 +15148,6 @@
       "stage": "hard_filter",
       "code": "too_short",
       "reason": "Video is 2.4 min; the minimum is 3 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "mwtOUejS9A0",
-      "title": "Don't Loose Your Coat! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8649,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 144.2 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "eWIjQgHD3hs",
-      "title": "Amazing Spider Webs! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8701,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 145.0 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "_ak8bhfyFpw",
-      "title": "Underwater Animals! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8527,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 142.1 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "bsm9QeMlfcY",
-      "title": "Catch That Snake! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8857,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 147.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "_COKQsr976M",
-      "title": "The Robot Monkey! 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
-      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
-      "channel_title": "Curious George Official",
-      "duration_seconds": 8806,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 146.8 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:48:54Z"
     },
     {
@@ -17175,17 +15580,6 @@
       "screened_at": "2026-11-17T18:48:54Z"
     },
     {
-      "id": "S_YPk8kjJT0",
-      "title": "Star Wars Rebels Full Episode Marathon 📺🍿✨ | 6 Full Episodes From S3! | @StarWarsKids",
-      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
-      "channel_title": "Star Wars Kids",
-      "duration_seconds": 8018,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 133.6 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
       "id": "ZbwdqiomnKU",
       "title": "Storm on Sesame Street ⛈️ TRAILER | Netflix Jr",
       "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
@@ -17205,50 +15599,6 @@
       "stage": "hard_filter",
       "code": "short",
       "reason": "Video is a YouTube Short.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "WnpxVLgyscI",
-      "title": "PAW Patrol NEW EPISODES Compilation! w/ Chase, Zuma, and Marshall | 120 Minutes | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7293,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.5 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "RPieSs9hnxA",
-      "title": "PAW Patrol's Jungle Pups Rescue Animals! 🐯 w/ Marshall & Tracker | 2 Hours | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 7216,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "Rm3vQOyDe3A",
-      "title": "Team Avatar Marathon: 2 Hours of Epic Moments! | Avatar: The Last Airbender",
-      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
-      "channel_title": "Avatar: The Last Airbender",
-      "duration_seconds": 7218,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 120.3 min; the maximum is 60 min.",
-      "screened_at": "2026-11-17T18:48:54Z"
-    },
-    {
-      "id": "cTVAlPDA5rU",
-      "title": "The Legend of Aang: 2 Hours of Iconic Avatar Moments | Avatar: The Last Airbender",
-      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
-      "channel_title": "Avatar: The Last Airbender",
-      "duration_seconds": 7313,
-      "stage": "hard_filter",
-      "code": "too_long",
-      "reason": "Video is 121.9 min; the maximum is 60 min.",
       "screened_at": "2026-11-17T18:48:54Z"
     },
     {
@@ -18179,6 +16529,499 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:10:01Z"
+    },
+    {
+      "id": "u5FozklC3us",
+      "title": "Discoveries and DIYs | New Year, New Ideas!",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 68,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.1 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "MRPN8J4iIgI",
+      "title": "A Rat Snake?! 🐀 🐍 | Andy's Aquatic Adventures | Andy's Amazing Adventures",
+      "channel_id": "UCERIFsNgBE9wOUxXEFnz6Fw",
+      "channel_title": "Andy's Amazing Adventures",
+      "duration_seconds": 153,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "U2PvQSaTCBo",
+      "title": "A Hungry Eustreptospondylus! | Andy's Dinosaur Adventures | Andy's Amazing Adventures",
+      "channel_id": "UCERIFsNgBE9wOUxXEFnz6Fw",
+      "channel_title": "Andy's Amazing Adventures",
+      "duration_seconds": 152,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "umPBE_sUvSc",
+      "title": "What is an Equinox? 60 Second Science Questions for Children - FreeSchool",
+      "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+      "channel_title": "Free School",
+      "duration_seconds": 68,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.1 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "qTSWVjo1S94",
+      "title": "What is a Light Year for Children? 60 Second Science Questions for Kids - FreeSchool",
+      "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+      "channel_title": "Free School",
+      "duration_seconds": 70,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.2 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "AvlcVwVqbKM",
+      "title": "The ABC Rap 😎🎤 Alphabet Song for Kids",
+      "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
+      "channel_title": "Smile and Learn - English",
+      "duration_seconds": 132,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.2 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "LR2S0TOJimc",
+      "title": "Adding & Subtracting Fractions Song: LIKE and UNLIKE Denominators",
+      "channel_id": "UCt9SZgFExNwWTH5T_JnyF-A",
+      "channel_title": "Numberock",
+      "duration_seconds": 159,
+      "stage": "hard_filter",
+      "code": "not_embeddable",
+      "reason": "The uploader does not allow this video to be embedded.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "n-OcbG1FlBQ",
+      "title": "Adding & Subtracting Decimals Song | 4th & 5th Grade",
+      "channel_id": "UCt9SZgFExNwWTH5T_JnyF-A",
+      "channel_title": "Numberock",
+      "duration_seconds": 166,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.8 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "wW49gzeYCtg",
+      "title": "☃️ SNOWMEN'S TWELVE NIGHTS OF CHRISTMAS - Read Aloud Picture Book | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 351,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "HYtlWGJDfpU",
+      "title": "🦌 RUDOLPH THE RED-NOSED REINDEER - Read Aloud Picture Book | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 611,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "66TvZSloor0",
+      "title": "👧 MY LITTLE BRAVE GIRL - Read Aloud with Hilary Duff | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 133,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "d4OOLatVLfc",
+      "title": "❄️🎁 WINTER'S GIFTS - Read Aloud with the Author | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 394,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "MFCVJ2xGdmE",
+      "title": "The Ultimate Princess Team-Up! 👑✨ | LEGO Disney Princess | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 73,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.2 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "6ZiY44ziTj4",
+      "title": "Lilo & Stitch Defend Their Home from Jumba 🏠🚀 | Lilo & Stitch | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 113,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.9 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "YzfmTacidzU",
+      "title": "Nick & Judy's Biggest Argument Yet? 🦊🐰🥕 | Zootopia 2 | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 137,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.3 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "Kbs-7ydELjY",
+      "title": "Bruda's Plankton Pie Problem 🥧 Sea of Love | Netflix Jr",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 169,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.8 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "hQEdSrsT7E8",
+      "title": "Descendants' Red and Chloe Cartoon Comes to Life! 😍✏️ | How Not To Draw | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 131,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.2 min; the minimum is 3 min.",
+      "screened_at": "2026-11-17T19:17:01Z"
+    },
+    {
+      "id": "dk9WiEfJlC0",
+      "title": "Grandparents Day COMPILATION | Celebrate with Grandparents Stories from Arthur & More! ♥️ | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 8025,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A trusted PBS KIDS compilation of calm, educational shows such as Sid the Science Kid, Dinosaur Train, and Arthur, with a gentle family theme. It includes a brief mention of video games, which is minor and not the focus, so it is approved with a moderate educational score.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "reading",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:31Z"
+    },
+    {
+      "id": "RuZjgjBjV_8",
+      "title": "Capybara Disco Dreams | fun read aloud | fun songs for kids",
+      "channel_id": "UCEPsNDUhUm-7yZhUjQQNqwQ",
+      "channel_title": "KidTimeStoryTime",
+      "duration_seconds": 402,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm read-aloud of a picture book about a capybara dancing with confidence, from a channel the parent trusts, with gentle content and a reading focus. Its educational value is moderate; the descriptive links are routine channel boilerplate and do not make it an advertisement.",
+      "educational_score": 6,
+      "topics": [
+        "reading",
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:46Z"
+    },
+    {
+      "id": "UgV6ogoJ_Qw",
+      "title": "Ursula, Gaston, Jafar & More Face their WORST Nightmares! | Disney Villains’ Halloween Nightmares 😈💤",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 920,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a fun-channel compilation built around villains facing nightmares, with themes of 'horror' and 'nightmares' and mockery of villains that feel scary and not calm, which falls outside the parent's guidance and the 'scary content' ban. Being a fun channel, it is not rejected for lacking learning value, but the frightening framing makes it unsafe for this child.",
+      "educational_score": 1,
+      "topics": [
+        "animation",
+        "halloween"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:53Z"
+    },
+    {
+      "id": "X3VIjiJYBqk",
+      "title": "LEGO Star Wars: Terrifying Tales | Full Episode | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 2688,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a fun-channel episode of LEGO Star Wars whose description centers on 'terrifying tales' told in a creepy castle with villains, which conflicts with the parent's ban on scary content. It is also a promotional tie-in to a streaming service, so I reject it rather than risk a frightening episode reaching the child.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:56Z"
+    },
+    {
+      "id": "iLHm-XDIRyY",
+      "title": "Ready, Set, RACE! 🏁 PJ Masks, Bad Dinosaurs, Dr. Seuss's Horton! & MORE | Netflix Playground",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 555,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a gameplay promotion for Netflix Playground racing games, which is product showcasing and mostly about playing games, a banned topic. Found by search-free fun channel but the content is an app advertisement with little substance, so it is rejected.",
+      "educational_score": 2,
+      "topics": [
+        "racing",
+        "games"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:17:57Z"
+    },
+    {
+      "id": "WEIkrNJ6J-k",
+      "title": "Halloween STORM at Sea: Grimlock VS Soundwave! | S02 | E06 | Transformers: CYBERWORLD",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 2373,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a fun-channel episode of Transformers: CYBERWORLD, a robot cartoon, but it is built around a corrupted Kraken sea monster battle during a Halloween storm and a gauntlet of extreme, game-like challenges that lean toward the banned gaming and challenge themes. The parent's allowed shows include Transformers, yet this episode's framing is dark and frightening, so I'm rejecting it to be safe.",
+      "educational_score": 1,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:11Z"
+    },
+    {
+      "id": "DV8RcGtVP9U",
+      "title": "A FreeSchool Simplified Classic: Jane Eyre by Charlotte Brontë (Sample Chapter) - FreeSchool",
+      "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+      "channel_title": "Free School",
+      "duration_seconds": 761,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a read-aloud-style sample of a simplified adult classic novel that centers on a book sale, with its description aimed at teenagers and adults and its content touching on grown-up themes of love, secrets, and peril. Although it is from a trusted channel and relates to reading, it does not fit a 6-year-old's needs and is mainly a promotion for the book.",
+      "educational_score": 5,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:22Z"
+    },
+    {
+      "id": "w4n93HV5i-Q",
+      "title": "The One Where a Marble Statue Comes to Life | Greeking Out Podcast | S5 E2 FULL EP | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 926,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A Nat Geo Kids podcast from a trusted channel retelling the Pygmalion and Galatea myth, with calm narration and a sculpting/art theme. Its description mentions \"questionable themes\" (the myth's romantic undertone), which is mild and not graphic, but the educational value is mostly storytelling rather than clear teaching.",
+      "educational_score": 6,
+      "topics": [
+        "mythology",
+        "art",
+        "storytelling"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:30Z"
+    },
+    {
+      "id": "4aTX0Ki10pQ",
+      "title": "The Dance Freeze Song 5! | Sports Freeze Dance | Scratch Garden",
+      "channel_id": "UC8NFs-VWUsyuq4zaYVVMgCQ",
+      "channel_title": "Scratch Garden",
+      "duration_seconds": 279,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 4 is below the minimum of 7. AI said: A calm-ish music and movement video from a trusted channel about sports-themed freeze dancing, with no violence, banned content, or frantic editing described. It offers only light incidental learning (sports names, movement), so it scores low on education, and its topics fit the parent's list only loosely.",
+      "educational_score": 4,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:54Z"
+    },
+    {
+      "id": "BKNHozHth_4",
+      "title": "Old MacDonald | Song for Kids with Lyrics | Rock 'N Learn",
+      "channel_id": "UCExx109KH5msQR0n52ZzyAw",
+      "channel_title": "Rock 'N Learn",
+      "duration_seconds": 267,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a calm, safe nursery song about farm animals from a trusted channel, but it is a simple sing-along with little instructional content, so it scores low on educational value and does not meet the 7-or-higher bar for a learning video.",
+      "educational_score": 4,
+      "topics": [
+        "animals",
+        "music"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:18:59Z"
+    },
+    {
+      "id": "xwErlIIBdk4",
+      "title": "The Evil Stepsisters Fight for the Prince! | Disney Villains’ Halloween Nightmares 😈💤 | Cinderella",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 201,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a Disney Villains' Nightmares short built around villain characters with Halloween-themed nightmares and chaotic slapstick, which is not calm, educational, or clearly suitable for this child. It is also a fun-channel video whose content is an episodic promo for other shorts, so it does not meet the bar for approval.",
+      "educational_score": 1,
+      "topics": [
+        "animation",
+        "villains"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:13Z"
+    },
+    {
+      "id": "1wo1-infa-s",
+      "title": "The Ninja Turtles Get Lost in a Real-Life Tabletop Game Maze with Zombies! 🧟 TMNT (2012) | TMNT",
+      "channel_id": "UCTsgmnXbWotzbR36vU0YPrA",
+      "channel_title": "Teenage Mutant Ninja Turtles",
+      "duration_seconds": 367,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a clip from the 2012 TMNT series framed around real zombies in a sewer maze, which leans toward the scary content the parent banned, and the description is mostly promotional boilerplate with no educational substance. Even though the channel was picked for fun, the zombie theme makes it unsuitable for this child.",
+      "educational_score": 1,
+      "topics": [
+        "zombies",
+        "cartoon action"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:25Z"
+    },
+    {
+      "id": "6sWiLTVbr1o",
+      "title": "George's Guide To Staying Healthy 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
+      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
+      "channel_title": "Curious George Official",
+      "duration_seconds": 4425,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A Curious George episode from a trusted channel about a monkey catching a cold and getting well, with gentle curiosity-driven science and no banned content or frightening material. It is a long, mostly fun cartoon with some incidental learning about germs and health.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:19:41Z"
+    },
+    {
+      "id": "aKaNVQOQYug",
+      "title": "The Day the Crayons Quit | really funny read aloud | crayons story",
+      "channel_id": "UCEPsNDUhUm-7yZhUjQQNqwQ",
+      "channel_title": "KidTimeStoryTime",
+      "duration_seconds": 814,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm read-aloud of The Day the Crayons Quit from a channel the parent trusts, with gentle humor and no banned content. It builds reading and a bit of art/color awareness, though the description's shop and store links are ordinary boilerplate rather than a product showcase.",
+      "educational_score": 6,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:25Z"
+    },
+    {
+      "id": "DuLwwsfm5YM",
+      "title": "2+ Full Hours of Star Wars Rebels 💥🔥⚔️ Full Episode Marathon! | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 7915,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 2+ hour marathon of Star Wars Rebels, which is a war-themed series about an Empire oppressing and fighting the Rebellion, with a description of frantic battle content and 'epic' marketing hype. Star Wars Rebels is not on the parent's list of approved cartoons, and the marathon format and fan-channel marketing do not meet the parent's guidance for calm, clearly narrated viewing.",
+      "educational_score": 3,
+      "topics": [
+        "star wars",
+        "animated series"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:35Z"
+    },
+    {
+      "id": "jeO3UAfl7rY",
+      "title": "PAW Patrol Pups Have Weird Dreams! #6 w/ Marshall | 120 Minutes | Nick Jr.",
+      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
+      "channel_title": "Nick Jr.",
+      "duration_seconds": 7270,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a two-hour PAW Patrol compilation from a fun channel, and it appears to be mostly an ad-laden loop of nothing much, with an explicit advertisement section and app/product promotion. Its content is thin and unverifiable without a transcript, so I reject it under the rule to reject when unsure.",
+      "educational_score": 2,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-17T19:20:43Z"
     }
   ]
 }
