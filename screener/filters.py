@@ -110,8 +110,8 @@ def hard_filter(
     return True, "", ""
 
 
-def order_candidates(videos: list[dict], limit: int) -> list[dict]:
-    """Pick up to `limit` videos to screen: madeForKids first, channels interleaved."""
+def _interleave(videos: list[dict], limit: int) -> list[dict]:
+    """Up to `limit` videos, madeForKids first, taking one per channel in turn."""
     by_channel: dict[str, list[dict]] = {}
     for video in sorted(videos, key=lambda v: not v.get("made_for_kids")):
         by_channel.setdefault(video.get("channel_id", ""), []).append(video)
@@ -126,3 +126,17 @@ def order_candidates(videos: list[dict], limit: int) -> list[dict]:
             if not queue:
                 queues.remove(queue)
     return ordered
+
+
+def order_candidates(videos: list[dict], limit: int, search_share: float = 0.0) -> list[dict]:
+    """Pick up to `limit` videos to screen.
+
+    Videos from trusted channels come first. Up to `search_share` of the slots
+    are kept for search results (videos with source "search"), and search
+    results also fill any slots the trusted channels leave empty.
+    """
+    trusted = [v for v in videos if v.get("source") != "search"]
+    searched = [v for v in videos if v.get("source") == "search"]
+    reserved = min(len(searched), int(limit * search_share))
+    ordered = _interleave(trusted, limit - reserved)
+    return ordered + _interleave(searched, limit - len(ordered))

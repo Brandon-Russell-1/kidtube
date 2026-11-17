@@ -4,9 +4,23 @@ from pathlib import Path
 
 # The Claude model that screens videos. Change it here and nowhere else.
 MODEL_ID = "claude-haiku-5-5"
+# Its list price in US dollars per million tokens, used only for the cost
+# estimate in the run summary. Update these if you change MODEL_ID.
+PRICE_PER_MTOK_INPUT = 0.10
+PRICE_PER_MTOK_OUTPUT = 0.50
 
-# Most new videos sent to the AI in one run. Controls Anthropic cost.
-MAX_SCREENED_PER_RUN = 40
+# How many new videos go to the AI per run is max_videos_screened_per_run in
+# rules.yaml. This is the ceiling on that setting, as a guard on cost.
+MAX_SCREENED_PER_RUN_CEILING = 500
+
+# Share of each run's screening reserved for search results, so search_terms
+# keep contributing once the trusted channels have plenty of new videos.
+SEARCH_SHARE = 0.2
+
+# A trusted channel listed by handle must have at least this many subscribers.
+# Handles can be given up and claimed by copycats; a channel listed by its
+# "UC..." ID is never second-guessed.
+MIN_SUBSCRIBERS_FOR_HANDLE = 10_000
 
 # YouTube quota controls. playlistItems.list and videos.list cost 1 unit per
 # call; search.list costs 100. The free daily quota is 10,000 units.

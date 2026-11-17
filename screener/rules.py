@@ -7,6 +7,8 @@ from pathlib import Path
 
 import yaml
 
+from . import config
+
 DEFAULTS = {
     "child_age": 6,
     "timezone": "UTC",
@@ -20,6 +22,7 @@ DEFAULTS = {
     "daily_lineup_count": 8,
     "repeat_after_days": 14,
     "min_educational_score": 7,
+    "max_videos_screened_per_run": 40,
     "daily_watch_limit_minutes": 45,
     "parent_pin": "1234",
     "free_text_guidance": "",
@@ -112,6 +115,10 @@ def parse_rules(raw: dict | None) -> dict:
     )
     score = _number(rules["min_educational_score"], "min_educational_score", 1, integer=True)
     rules["min_educational_score"] = min(score, 10)
+    screened = _number(
+        rules["max_videos_screened_per_run"], "max_videos_screened_per_run", 1, integer=True
+    )
+    rules["max_videos_screened_per_run"] = min(screened, config.MAX_SCREENED_PER_RUN_CEILING)
     rules["daily_watch_limit_minutes"] = _number(
         rules["daily_watch_limit_minutes"], "daily_watch_limit_minutes", 0
     )

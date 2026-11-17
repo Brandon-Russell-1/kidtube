@@ -130,3 +130,38 @@ def test_order_candidates_prefers_made_for_kids_and_mixes_channels():
     ordered = [v["id"] for v in order_candidates(videos, 3)]
     assert ordered == ["a2", "b1", "c1"]
     assert len(order_candidates(videos, 40)) == 5
+
+
+def test_order_candidates_reserves_a_share_for_search_results():
+    trusted = [make_video(id=f"t{i}", channel_id=f"T{i % 3}") for i in range(20)]
+    searched = [make_video(id=f"s{i}", channel_id=f"S{i}", source="search") for i in range(5)]
+    ordered = order_candidates(trusted + searched, 10, search_share=0.2)
+    ids = [v["id"] for v in ordered]
+    assert len(ids) == 10
+    assert sum(i.startswith("s") for i in ids) == 2       # a fifth of 10
+    assert all(i.startswith("t") for i in ids[:8])        # trusted channels go first
+
+
+def test_search_results_fill_slots_trusted_channels_leave_empty():
+    trusted = [make_video(id="t1", channel_id="T")]
+    searched = [make_video(id=f"s{i}", channel_id=f"S{i}", source="search") for i in range(5)]
+    ids = [v["id"] for v in order_candidates(trusted + searched, 4, search_share=0.2)]
+    assert ids[0] == "t1" and len(ids) == 4
+
+
+def test_no_search_results_means_trusted_channels_get_every_slot():
+    trusted = [make_video(id=f"t{i}", channel_id="T") for i in range(10)]
+    assert len(order_candidates(trusted, 10, search_share=0.2)) == 10
+
+
+def test_screening_cap_default_and_ceiling():
+    assert parse_rules({})["max_videos_screened_per_run"] == 40
+    assert parse_rules({"max_videos_screened_per_run": 150})["max_videos_screened_per_run"] == 150
+    assert parse_rules({"max_videos_screened_per_run": 99999})["max_videos_screened_per_run"] == 500
+    with pytest.raises(ValueError):
+        parse_rules({"max_videos_screened_per_run": 0})
+
+
+def test_long_form_playlist_id():
+    from screener.youtube import YouTube
+    assert YouTube.long_form_playlist("UCRFIPG2u1DxKLNuE3y2SjHA") == "UULFRFIPG2u1DxKLNuE3y2SjHA"

@@ -42,7 +42,15 @@ The parent's rules:
 - Topics that are banned: {banned}
 - The parent's own guidance: {guidance}
 
-For each video you receive its title, channel, description, tags, and, when available, an excerpt from the start of its transcript. Decide whether it is safe, age-appropriate, and worth this child's time.
+The wanted topics set priorities, not limits: a good video on another subject can still be approved.
+
+For each video you receive its title, channel, where it was found, description, tags, and, when available, an excerpt from the start of its transcript. Decide whether it is safe, age-appropriate, and worth this child's time.
+
+Transcripts are usually unavailable. A missing transcript is normal and is not by itself a reason to reject a video or lower its score; judge from the other details.
+
+Most channels end their descriptions with links to their shop, memberships, Patreon, apps, or social accounts. That boilerplate is normal and does not make a video an advertisement; judge what the video itself is about.
+
+Videos from a channel the parent trusts come from a channel the parent has already chosen. Videos found by YouTube search come from channels nobody has vetted, so hold them to a stricter standard.
 
 Approve a video only when all of these hold:
 - It is appropriate for a {rules['child_age']}-year-old: no violence, frightening or disturbing material, crude or sexual content, or bad language.
@@ -73,13 +81,16 @@ def build_user_prompt(video: dict, transcript: str | None) -> str:
             f"{transcript}\n</transcript_excerpt>"
         )
     else:
-        transcript_block = (
-            "<transcript_excerpt>Not available. Judge from the details above, and "
-            "reject if they are not enough to be confident.</transcript_excerpt>"
-        )
+        transcript_block = "<transcript_excerpt>Not available.</transcript_excerpt>"
+    found_by = (
+        "YouTube search; the parent has not vetted this channel"
+        if video.get("source") == "search"
+        else "a channel the parent trusts"
+    )
     return f"""<video>
 <title>{video.get('title', '')}</title>
 <channel>{video.get('channel_title', '')}</channel>
+<found_by>{found_by}</found_by>
 <length_minutes>{minutes:.1f}</length_minutes>
 <marked_made_for_kids_by_uploader>{'yes' if video.get('made_for_kids') else 'no'}</marked_made_for_kids_by_uploader>
 <description>
@@ -125,8 +136,11 @@ def final_verdict(decision: dict, rules: dict) -> tuple[bool, str]:
 
 
 def screen_video(client: anthropic.Anthropic, system_prompt: str, video: dict,
-                 transcript: str | None) -> dict:
-    """Return a decision dict. Anything unclear comes back as a rejection."""
+                 transcript: str | None) -> tuple[dict, tuple[int, int]]:
+    """Return (decision, (input_tokens, output_tokens)).
+
+    Anything unclear comes back as a rejection.
+    """
     try:
         response = client.messages.create(
             model=config.MODEL_ID,
@@ -149,16 +163,17 @@ def screen_video(client: anthropic.Anthropic, system_prompt: str, video: dict,
     except anthropic.APIConnectionError:
         raise AITransientError("could not reach the Anthropic API")
 
+    usage = (response.usage.input_tokens, response.usage.output_tokens)
     if response.stop_reason == "refusal":
         return {
             "approve": False, "educational_score": 1, "topics": [],
             "reason": "The AI declined to evaluate this video, so it was rejected.",
-        }
+        }, usage
     text = next((block.text for block in response.content if block.type == "text"), "")
     decision = parse_decision(text)
     if decision is None:
         return {
             "approve": False, "educational_score": 1, "topics": [],
             "reason": "The AI's answer could not be read, so the video was rejected.",
-        }
-    return decision
+        }, usage
+    return decision, usage

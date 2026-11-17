@@ -52,16 +52,30 @@ class YouTube:
     def resolve_channel(self, kind: str, value: str) -> dict | None:
         """Look up a channel by ("id", "UC...") or ("handle", "@name"). 1 unit."""
         lookup = {"id": value} if kind == "id" else {"forHandle": value}
-        data = self._get("channels", 1, part="snippet,contentDetails", **lookup)
+        data = self._get("channels", 1, part="snippet,contentDetails,statistics", **lookup)
         items = data.get("items") or []
         if not items:
             return None
         item = items[0]
+        stats = item.get("statistics") or {}
+        subscribers = None
+        if not stats.get("hiddenSubscriberCount") and stats.get("subscriberCount") is not None:
+            subscribers = int(stats["subscriberCount"])
         return {
             "id": item["id"],
             "title": item["snippet"]["title"],
             "uploads_playlist": item["contentDetails"]["relatedPlaylists"]["uploads"],
+            "subscribers": subscribers,   # None when the channel hides it
         }
+
+    @staticmethod
+    def long_form_playlist(channel_id: str) -> str:
+        """YouTube's auto-made playlist of a channel's regular videos.
+
+        "UULF" + the channel ID without "UC" lists uploads minus Shorts and live
+        streams, which the hard filters would reject anyway.
+        """
+        return "UULF" + channel_id[2:]
 
     def playlist_page(self, playlist_id: str, page_token: str | None = None):
         """One page (up to 50) of video IDs from a playlist, newest first. 1 unit."""
@@ -73,10 +87,14 @@ class YouTube:
         return ids, data.get("nextPageToken")
 
     def search(self, query: str, max_results: int) -> list[str]:
-        """Video IDs for a search query. 100 units - use sparingly."""
+        """Video IDs for a search query. 100 units - use sparingly.
+
+        Asks only for 4-20 minute videos, which leaves out Shorts.
+        """
         data = self._get(
             "search", 100, part="id", q=query, type="video", maxResults=max_results,
             safeSearch="strict", videoEmbeddable="true", relevanceLanguage="en",
+            videoDuration="medium",
         )
         return [
             item["id"]["videoId"]

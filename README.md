@@ -20,8 +20,9 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
 ```
 
 1. **Gather.** The job reads the recent uploads of every channel in
-   `trusted_channels`. If those have nothing new, it runs one of your
-   `search_terms`. Videos already in `approved.json` or `rejected.json` are skipped.
+   `trusted_channels` (regular videos only; YouTube leaves Shorts and live
+   streams out of that list), and runs one of your `search_terms`, a different
+   one each night. Videos already in `approved.json` or `rejected.json` are skipped.
 2. **Hard filters**, before any AI cost: the video must be public, embeddable,
    not age-restricted, within your length limits, not from a blocked channel,
    not a Short, and not a live stream. Videos marked "made for kids" go to the
@@ -29,8 +30,11 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
 3. **AI screening.** Each survivor goes to Claude with your rules, along with
    the title, description, tags, and the transcript when YouTube will hand it
    over. Claude returns `approve`, an `educational_score` from 1 to 10, `topics`,
-   and a `reason`. It is told to reject when unsure. At most 40 new videos are
-   screened per run.
+   and a `reason`. It is told to reject when unsure, and to be stricter with
+   search results than with your trusted channels. Each run screens up to
+   `max_videos_screened_per_run` new videos, trusted channels first, with up to
+   a fifth of the slots kept for search results. Videos left over wait for the
+   next run.
 4. **Lineup.** The job picks `daily_lineup_count` videos from the approved pool,
    favoring your higher-weighted topics, spreading picks across channels, and
    skipping anything shown in the last `repeat_after_days` days.
@@ -39,8 +43,11 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
 
 Hosting is free: GitHub Pages, GitHub Actions on a public repo, and the YouTube
 Data API's free quota. The one thing that costs money is the Anthropic API,
-which is pay-as-you-go. With the small model this job uses, a full night of 40
-videos costs a few cents at most, and most nights screen far fewer.
+which is pay-as-you-go. With the small model this job uses, screening costs
+about a twentieth of a cent per video, so even a full night of 150 is well
+under 10 cents. Once the backlog from your channels is worked through, most
+nights only see a handful of new uploads. Every run summary shows what that
+run actually cost.
 
 ## Setup
 
@@ -57,7 +64,7 @@ videos costs a few cents at most, and most nights screen far fewer.
 6. Copy the key.
 
 No billing account is needed. The free quota is 10,000 units a day and a normal
-run uses well under 200.
+run uses a few hundred.
 
 ### 2. Get an Anthropic API key
 
@@ -109,6 +116,15 @@ What happens when you change things:
   rules, delete its entry from `data/rejected.json` or `data/approved.json`.
 - **`daily_watch_limit_minutes` and `parent_pin`** reach the site with the next
   lineup.
+- **`daily_lineup_count`** can only be met once the approved pool is that big.
+  Until then the lineup shows every approved video. Raising
+  `max_videos_screened_per_run` grows the pool faster.
+
+Adding a trusted channel: a handle like `"@SciShowKids"` is easiest. Handles
+can be given up and claimed by copycats, so the job skips any handle that
+points at a channel with fewer than 10,000 subscribers and says so in the run
+summary. To trust a small channel on purpose, list it by its channel ID
+(`"UC..."`), which never changes hands. The summary's warning gives you the ID.
 
 To remove one video by hand, delete its entry from `data/approved.json` and add
 its channel to `blocked_channels` if you want the whole channel gone. A video
@@ -127,7 +143,8 @@ gh workflow run screen.yml --repo Brandon-Russell-1/kidtube
 ```
 
 The run takes a few minutes. Click into it to see a summary: how many videos
-were approved and rejected, how much YouTube quota was used, and any problems.
+were approved and rejected, how much YouTube quota was used, what the AI
+screening cost, and any problems.
 A red ✗ means something needs your attention, usually a missing or wrong key,
 and the summary says which. Even then, the site keeps working from the videos
 already approved.
@@ -211,7 +228,8 @@ requires signing in to GitHub, which is the real protection.
 - **The AI can be wrong.** It mostly judges from the title, description, and
   tags, because YouTube usually refuses transcript requests from GitHub's
   servers. Trusted channels are the main safeguard, so choose them with care
-  and skim `approved.json` now and then.
+  and skim `approved.json` now and then. Each entry's `"source"` says whether
+  it came from a trusted channel or from search.
 - **Everything here is public.** The repo, the lists of approved and rejected
   videos, and the site address can be seen by anyone who finds them. Nothing
   identifies your child unless you write it into `rules.yaml`.

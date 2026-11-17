@@ -66,7 +66,8 @@ class Run:
         self.rejected = load_videos(config.REJECTED_PATH)
         self.problems: list[str] = []   # things the parent should fix; fail the run
         self.warnings: list[str] = []
-        self.stats = {"hard_rejected": 0, "ai_approved": 0, "ai_rejected": 0, "removed": 0}
+        self.stats = {"hard_rejected": 0, "ai_approved": 0, "ai_rejected": 0, "removed": 0,
+                      "input_tokens": 0, "output_tokens": 0}
         self.blocked_ids: set[str] = set()
 
     def known_ids(self) -> set[str]:
@@ -137,10 +138,54 @@ class Run:
                 self.stats["removed"] += 1
         self.approved = kept
 
+    def _unseen_uploads(self, yt: YouTube, channel: dict, known: set[str]) -> list[str]:
+        """Newest unseen video IDs from a channel.
+
+        Reads the channel's long-form playlist, which already leaves out Shorts
+        and live streams, and falls back to the full uploads playlist when
+        YouTube doesn't offer the long-form one.
+        """
+        playlists = [YouTube.long_form_playlist(channel["id"]), channel["uploads_playlist"]]
+        for attempt, playlist in enumerate(playlists):
+            found, token = [], None
+            try:
+                for _ in range(config.MAX_UPLOAD_PAGES_PER_CHANNEL):
+                    ids, token = yt.playlist_page(playlist, token)
+                    found.extend(i for i in ids if i not in known and i not in found)
+                    if len(found) >= config.MAX_NEW_IDS_PER_CHANNEL or not token:
+                        break
+            except YouTubeError as exc:
+                fallback_left = attempt + 1 < len(playlists)
+                if fallback_left and not exc.is_quota and not exc.is_bad_key:
+                    continue
+                raise
+            return found[: config.MAX_NEW_IDS_PER_CHANNEL]
+        return []
+
+    def _looks_like_copycat(self, ref: str, kind: str, channel: dict) -> bool:
+        """True (with a warning) if a handle points at a suspiciously small channel."""
+        if kind == "id":
+            return False
+        subscribers = channel.get("subscribers")
+        if subscribers is not None and subscribers >= config.MIN_SUBSCRIBERS_FOR_HANDLE:
+            return False
+        count = "a hidden number of" if subscribers is None else f"only {subscribers:,}"
+        self.warnings.append(
+            f"Skipped trusted channel {ref}: it belongs to \"{channel['title']}\", which has "
+            f"{count} subscribers, so it may be a copycat. If it is the channel you want, "
+            f"list it by its ID instead: \"{channel['id']}\"."
+        )
+        return True
+
     def gather_candidates(self, yt: YouTube) -> list[dict]:
-        """Unseen videos from trusted channels (and maybe one search), normalized."""
+        """Unseen videos from trusted channels plus one search, normalized.
+
+        Each video gets a "source": "trusted" if it is from a trusted channel,
+        otherwise "search".
+        """
         known = self.known_ids()
         new_ids: list[str] = []
+        trusted_ids: set[str] = set()
 
         for ref in self.rules["trusted_channels"]:
             kind, value = normalize_channel_ref(ref)
@@ -149,15 +194,10 @@ class Run:
                 if channel is None:
                     self.warnings.append(f"Trusted channel {ref} was not found on YouTube.")
                     continue
-                if channel["id"] in self.blocked_ids:
+                if channel["id"] in self.blocked_ids or self._looks_like_copycat(ref, kind, channel):
                     continue
-                found, token = [], None
-                for _ in range(config.MAX_UPLOAD_PAGES_PER_CHANNEL):
-                    ids, token = yt.playlist_page(channel["uploads_playlist"], token)
-                    found.extend(i for i in ids if i not in known and i not in found)
-                    if len(found) >= config.MAX_NEW_IDS_PER_CHANNEL or not token:
-                        break
-                found = found[: config.MAX_NEW_IDS_PER_CHANNEL]
+                trusted_ids.add(channel["id"])
+                found = self._unseen_uploads(yt, channel, known)
                 print(f"  {channel['title']}: {len(found)} unseen videos")
                 new_ids.extend(i for i in found if i not in new_ids)
             except YouTubeError as exc:
@@ -165,7 +205,7 @@ class Run:
                     break
 
         terms = self.rules["search_terms"]
-        if terms and len(new_ids) < config.MAX_SCREENED_PER_RUN and not self.problems:
+        if terms and not self.problems:
             start = date.today().toordinal()
             for offset in range(min(config.MAX_SEARCHES_PER_RUN, len(terms))):
                 term = terms[(start + offset) % len(terms)]
@@ -181,10 +221,13 @@ class Run:
         if not new_ids:
             return []
         try:
-            return [normalize_video(item) for item in yt.videos(new_ids)]
+            videos = [normalize_video(item) for item in yt.videos(new_ids)]
         except YouTubeError as exc:
             self._youtube_failed(exc, "fetching video details")
             return []
+        for video in videos:
+            video["source"] = "trusted" if video["channel_id"] in trusted_ids else "search"
+        return videos
 
     # ── Screening ────────────────────────────────────────────────────────────
 
@@ -223,7 +266,8 @@ class Run:
         for video in videos:
             transcript = transcripts.fetch(video["id"])
             try:
-                decision = ai.screen_video(client, system_prompt, video, transcript)
+                decision, (tokens_in, tokens_out) = ai.screen_video(
+                    client, system_prompt, video, transcript)
             except ai.AIFatalError as exc:
                 self.problems.append(f"{exc} Check the ANTHROPIC_API_KEY secret.")
                 break
@@ -235,16 +279,20 @@ class Run:
                     break
                 continue
             failures = 0
+            self.stats["input_tokens"] += tokens_in
+            self.stats["output_tokens"] += tokens_out
 
             approved, reason = ai.final_verdict(decision, self.rules)
             audit = {
                 "educational_score": decision["educational_score"],
                 "topics": decision["topics"],
                 "used_transcript": transcript is not None,
+                "source": video.get("source", "trusted"),
                 "model": config.MODEL_ID,
             }
             mark = "APPROVED" if approved else "rejected"
-            print(f"  {mark} [{decision['educational_score']}/10] {video['title'][:70]}")
+            where = " (search)" if video.get("source") == "search" else ""
+            print(f"  {mark} [{decision['educational_score']}/10] {video['title'][:70]}{where}")
             if approved:
                 self.approved.append({
                     "id": video["id"],
@@ -294,6 +342,11 @@ class Run:
         return lineup
 
 
+def estimated_ai_cost(stats: dict) -> float:
+    return (stats["input_tokens"] * config.PRICE_PER_MTOK_INPUT
+            + stats["output_tokens"] * config.PRICE_PER_MTOK_OUTPUT) / 1_000_000
+
+
 def summarize(run: Run, lineup: list[dict], today: date, quota: int) -> str:
     s = run.stats
     lines = [
@@ -306,6 +359,8 @@ def summarize(run: Run, lineup: list[dict], today: date, quota: int) -> str:
         f"- Approved pool: **{len(run.approved)}** videos",
         f"- Today's lineup: **{len(lineup)}** videos",
         f"- YouTube API quota used: about **{quota}** of 10,000 units",
+        f"- AI tokens: {s['input_tokens']:,} in, {s['output_tokens']:,} out "
+        f"(about **${estimated_ai_cost(s):.3f}** at list price)",
     ]
     if run.problems:
         lines += ["", "### Problems to fix", *[f"- {p}" for p in run.problems]]
@@ -344,8 +399,8 @@ def main() -> int:
         quota = yt.quota_used
 
         survivors = run.apply_hard_filters(candidates)
-        to_screen = run.drop_confirmed_shorts(
-            order_candidates(survivors, config.MAX_SCREENED_PER_RUN))
+        to_screen = run.drop_confirmed_shorts(order_candidates(
+            survivors, rules["max_videos_screened_per_run"], config.SEARCH_SHARE))
         print(
             f"{len(candidates)} unseen videos, {len(survivors)} passed the hard filters, "
             f"screening {len(to_screen)} with {config.MODEL_ID}."

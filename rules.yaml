@@ -37,36 +37,85 @@ topics_banned:
 # costs almost no YouTube API quota. Use a handle ("@SciShowKids"), a channel ID
 # ("UC..."), or a channel URL. A handle that can't be found is skipped with a
 # warning in the run log; it never fails the run.
+#
+# Handles can be given up and then claimed by copycats, so a handle that points
+# at a channel with fewer than 10,000 subscribers is skipped with a warning.
+# To trust a small channel, list it by its channel ID instead.
 trusted_channels:
+  # Science, nature, and how things work
   - "@SciShowKids"
   - "@natgeokids"
+  - "@MysterySci"            # Mystery Science
+  - "@crashcoursekids"       # Crash Course Kids
+  - "@ScienceMax"            # Science Max: hands-on experiments
+  - "@GenerationGenius"      # Generation Genius
+  - "@Peekaboo_Kidz"         # The Dr. Binocs Show
+  - "@maddiemoate"           # Maddie Moate: how things are made, factory visits
+  - "@WildKratts"            # Wild Kratts
+  - "@BBCEarthKids"          # BBC Earth Kids: animals
+  - "@AndysAmazingAdventures"  # Andy's Dinosaur Adventures and more
+  - "@TheMagicSchoolBusOfficial"  # The Magic School Bus
+  - "@Octonauts"             # Octonauts: ocean animals
+  - "@CuriousGeorge"         # Curious George
+  - "@klt"                   # Kids Learning Tube: space and animal songs
+  - "@HappyLearningENG"      # Happy Learning English: science explainers
+  # Reading, math, and general learning
   - "@Numberblocks"
   - "@officialalphablocks"
-  - "@StorylineOnline"
-  - "@ArtforKidsHub"
   - "@FreeSchool"
   - "@HomeschoolPop"
-  - "@MysteryScience"
   - "@PBSKIDS"
-  - "@disneyjunior"
+  - "@SmileandLearnEnglish"  # Smile and Learn
+  - "@ScratchGarden"         # Scratch Garden
+  - "@LearnBright"           # Learn Bright
+  - "@mathantics"            # Math Antics (best for ages 7-8)
+  - "@NUMBEROCKLLC"          # Numberock: math songs
+  - "@rocknlearn"            # Rock 'N Learn: phonics and math
+  - "@JackHartmann"          # Jack Hartmann: learning songs
+  # Stories and drawing
+  - "@StorylineOnline"
+  - "@BrightlyStorytime"     # Brightly Storytime: read-alouds
+  - "@KidTimeStoryTime"      # KidTime StoryTime: read-alouds
+  - "@ArtforKidsHub"
+  # Shows he likes. Mostly entertainment, so few of these pass
+  # min_educational_score: 7.
+  - "@disneyjr"              # Disney Jr. (the old "@disneyjunior" handle now belongs to a copycat)
   - "@disneykids"
   - "@marvelhq"
   - "@starwarskids"
-  
+  - "@BlueyOfficialChannel"  # Bluey
+  - "@PAWPatrolOfficial"     # PAW Patrol
+  - "@NetflixJr"             # StoryBots, Ada Twist Scientist, Octonauts
 
 # Never show anything from these channels, even if a search finds them.
 # Same formats as trusted_channels. Already-approved videos from a channel you
 # add here are removed on the next run.
 blocked_channels: []
 
-# Optional extra discovery through YouTube search. Search is expensive on API
-# quota, so the job runs at most one of these per night (rotating through the
-# list), and only when the trusted channels have run out of new videos.
-# Search results still go through every filter and the AI.
+# Extra discovery through YouTube search, from channels you haven't listed.
+# Search is expensive on API quota, so the job runs one of these per night,
+# rotating through the list, and gives its results up to a fifth of that night's
+# screening. Search results still go through every filter, and the AI holds
+# them to a stricter standard than videos from trusted channels.
 search_terms:
   - science experiments for kids
   - read aloud picture books for kids
   - how do animals live for kids
+  - how things are made for kids
+  - how machines work for kids
+  - simple machines for kids
+  - engineering for kids
+  - solar system and planets for kids
+  - astronauts and space travel for kids
+  - dinosaur facts for kids
+  - ocean animals for kids
+  - weather and seasons for kids
+  - human body for kids
+  - countries of the world for kids
+  - first grade math lesson
+  - second grade math lesson
+  - phonics read along first grade
+  - draw along for kids
 
 # Video length limits, in minutes. The 3-minute floor also keeps YouTube Shorts
 # out (Shorts can be up to 3 minutes long).
@@ -84,6 +133,12 @@ repeat_after_days: 14
 # The AI scores each video 1-10 for educational value. Only videos at or above
 # this score are approved.
 min_educational_score: 7
+
+# How many new videos the AI screens per run. More means the approved pool
+# grows faster. Each video costs about a twentieth of a cent to screen (the run
+# summary shows the actual cost). Most nights only a few new uploads appear,
+# so the real number is usually far lower. Maximum 500.
+max_videos_screened_per_run: 150
 
 # Total watch time allowed per day on the kid site, in minutes. 0 = no limit.
 daily_watch_limit_minutes: 0
