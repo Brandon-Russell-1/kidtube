@@ -212,7 +212,7 @@ search_terms:
 # Video length limits, in minutes. The 3-minute floor also keeps YouTube Shorts
 # out (Shorts can be up to 3 minutes long).
 min_video_minutes: 3
-max_video_minutes: 60
+max_video_minutes: 120
 
 # How many videos he gets each day.
 daily_lineup_count: 100
