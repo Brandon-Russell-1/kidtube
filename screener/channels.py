@@ -56,6 +56,37 @@ def merge(cache: dict, looked_up: list[str], found: dict[str, dict], today: date
     return merged
 
 
+def button_ids(refs: list[tuple[str, str]], known: dict[tuple[str, str], str],
+               lookup) -> tuple[list[str], list[tuple[str, str]]]:
+    """Channel IDs for the parent's channel_buttons, in the parent's order.
+
+    refs and the keys of known are ("id", "UC...") or ("handle", "@name") pairs.
+    known holds channels this run already looked up; lookup(kind, value) asks
+    YouTube for the rest and returns an ID or None. Also returns the refs that
+    were not found. Handles are matched without regard to case.
+    """
+    def key(ref):
+        kind, value = ref
+        return (kind, value.lower() if kind == "handle" else value)
+
+    seen = {key(ref): cid for ref, cid in known.items()}
+    ids: list[str] = []
+    missing = []
+    for ref in refs:
+        kind, value = ref
+        if kind == "id":
+            cid = value
+        elif key(ref) in seen:
+            cid = seen[key(ref)]
+        else:
+            cid = seen[key(ref)] = lookup(kind, value)
+        if cid is None:
+            missing.append(ref)
+        elif cid not in ids:
+            ids.append(cid)
+    return ids, missing
+
+
 def prune(cache: dict, channel_ids: set[str]) -> dict:
     """Keep only channels that still have approved videos."""
     return {cid: entry for cid, entry in cache.items() if cid in channel_ids}

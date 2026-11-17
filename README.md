@@ -116,8 +116,9 @@ What happens when you change things:
 - **Topics, score threshold, and guidance** apply to videos screened from then
   on. Past AI decisions are not re-run. To have a video judged again under new
   rules, delete its entry from `data/rejected.json` or `data/approved.json`.
-- **`daily_watch_limit_minutes`, `parent_pin`, and `search_buttons`** reach the
-  site with the next lineup.
+- **`daily_watch_limit_minutes`, `learning_minutes_before_fun`, `parent_pin`,
+  `search_buttons`, and `channel_buttons`** reach the site with the next
+  lineup.
 - **`daily_lineup_count`** can only be met once the approved pool is that big.
   Until then the lineup shows every approved video. Raising
   `max_videos_screened_per_run` grows the pool faster.
@@ -145,6 +146,19 @@ fun approvals leave the pool on the next run.
 Search buttons look through the whole approved pool, fun videos included, so a
 button for a fun show (like "bluey"), or for the word "fun", lets him watch
 more of those than `fun_videos_per_day`.
+
+### Learning first
+
+`learning_minutes_before_fun` keeps cartoons locked each day until he has
+watched that many minutes of learning videos. While they are locked, fun
+videos are left out of the feed, the shelves, the buttons, and "What next?".
+A word or channel button that only finds cartoons shows a 🔒, and a pill at
+the top counts down ("🔒 Cartoons in 12 min"). When he gets there, the pill
+turns to "🎉 Cartoons unlocked!" and the cartoons appear. Set it to `0` to
+turn this off. The parent page has a button that unlocks cartoons for the day.
+
+The minutes are counted on the device, like the watch limit, so each iPad has
+its own count.
 
 ### Adding channels
 
@@ -235,8 +249,9 @@ any other app.
   scrolls, and ends with a "you reached the end" note.
   - **Shelves:** after every 12 videos comes a sideways shelf of one search
     button's videos from the rest of the approved pool (🐢 Ninja Turtles,
-    🚀 Space, ...), plus 🆕 New and ⭐ Watch again shelves. Learning and
-    cartoon shelves take turns. Tapping a shelf's title opens that button.
+    🚀 Space, ...), plus 🆕 New, ❤️ My favorites, and ⭐ Watch again shelves.
+    Learning and cartoon shelves take turns. Tapping a shelf's title opens
+    that button.
     Shelves draw from the whole pool, like the buttons, so they show more
     cartoons than `fun_videos_per_day` alone.
   - **Order:** the feed reshuffles each time he opens the app, or comes back
@@ -247,25 +262,35 @@ any other app.
   - **Favorites:** the iPad notes what he watches for at least a minute, by
     channel, topic, and button. Interest fades by half every two weeks. This
     stays on the iPad, and the parent page lists the channels it has learned.
+  - **Keep watching:** a video he leaves partway through goes on a ▶️ Keep
+    watching shelf at the top of the feed, with a bar showing how far he got.
+    Tapping it picks up a few seconds before where he stopped. A video he
+    left in the first 30 seconds, or within a minute of the end, is not kept.
   - **NEW:** videos approved in the last two days get a NEW tag. Each video
     shows its channel's icon, which the nightly job saves in
     `data/channels.json`.
-- **Search buttons:** big word buttons from `search_buttons` in `rules.yaml`,
-  such as 🚀 Space or 🦕 Dinosaurs. Tapping one shows the approved videos that
+- **Search buttons:** a sideways row of word buttons from `search_buttons` in
+  `rules.yaml`, such as 🚀 Space or 🦕 Dinosaurs. Tapping one shows the approved videos that
   match it; ☀️ Today goes back to the daily lineup. There is still no text box.
   A button only filters `approved.json`, which the iPad has already
   downloaded, so tapping never reaches YouTube or the AI and costs nothing.
   A button with no matches stays hidden until the nightly job approves one,
   and the job screens videos matching your buttons first.
-- **Channel buttons:** under the word buttons, a sideways row of round channel
-  icons, one for each of the 24 channels with the most approved videos, the
-  channels he watches most first. Tapping one shows that channel's approved
-  videos. The row is built from
-  `approved.json`, so there is nothing to set up, and like the word buttons it
-  includes fun channels.
+- **Channel buttons:** under the word buttons, a sideways row of up to 24
+  round channel icons. Tapping one shows that channel's approved videos.
+  Channels you list in `channel_buttons` come first, in your order. The rest
+  of the row is the channels with the most approved videos, the ones he
+  watches most first. Like the word buttons, the row includes fun channels.
 - **Player:** a back button, play/pause, buttons to jump back or forward 10
-  seconds, and a progress bar he can tap or drag to move through the video.
-  When a video ends he lands back in the feed where he left it.
+  seconds, a ❤️ button, and a progress bar he can tap or drag to move through
+  the video. The back button returns him to the feed where he left it.
+- **Hearts:** tapping ❤️ in the player saves the video. Saved videos get a
+  ❤️ Favorites button in the top row and a shelf in the feed. Hearts stay on
+  the iPad.
+- **What next?:** when a video ends he gets four more to pick from: up to two
+  from the same channel, then learning videos on the same topics. Nothing
+  plays by itself. Cartoons are offered only after a cartoon, and only from
+  that cartoon's channel.
 - **Daily limit:** watch time is counted while a video is playing. When it
   reaches `daily_watch_limit_minutes`, an "All done for today" screen replaces
   everything until tomorrow.
@@ -274,14 +299,29 @@ any other app.
 
 Press and hold the **top-right corner** of the screen for two seconds, then
 enter the PIN from `rules.yaml` (`2468` until you change it). It shows today's
-lineup, recent approvals and rejections with reasons, today's watch time, a
-link to edit `rules.yaml`, and buttons to give 15 more minutes or reset today's
-watch time.
+lineup, recent approvals and rejections with reasons, today's watch time, what
+he watched on that device over the last 7 days, a link to edit `rules.yaml`,
+and buttons to give 15 more minutes, reset today's watch time, or unlock
+cartoons for the day.
+
+### Weekly summary
+
+Every Sunday the "Weekly summary" workflow posts an issue in this repo with
+the week's screening: how many videos were approved and rejected, the new
+videos by channel, and a sample of what the AI turned down with its reasons.
+GitHub emails new issues to the repo owner, so this arrives as an email with
+no mail server to set up. If it doesn't arrive, check that email is turned on
+for "Participating" under GitHub → Settings → Notifications. Each new summary
+closes the one before it. To get one now, run the workflow by hand from the
+Actions tab.
+
+What he watched is not in the email. That history never leaves the iPad, and
+the issue is public like the rest of the repo. It is on the parent page.
 
 **The PIN is a speed bump, not security.** This repo is public, the site is
 static, and the PIN check runs in the browser. Anyone who can read the code can
-get past it. All it guards is a read-only audit view and the watch-time
-buttons. It keeps a six-year-old out and nothing more. Changing the rules
+get past it. All it guards is a read-only audit view, the watch history, and
+the watch-time and unlock buttons. It keeps a six-year-old out and nothing more. Changing the rules
 requires signing in to GitHub, which is the real protection.
 
 ## Limits you should know about
@@ -294,8 +334,9 @@ requires signing in to GitHub, which is the real protection.
 - **Everything here is public.** The repo, the lists of approved and rejected
   videos, and the site address can be seen by anyone who finds them. Nothing
   identifies your child unless you write it into `rules.yaml`.
-- **The watch limit lives on the device.** It is stored in the browser, per
-  device. Clearing Safari's website data resets it.
+- **Watch time, learning minutes, hearts, and history live on the device.**
+  They are stored in the browser, per device. Clearing Safari's website data
+  resets them.
 - **YouTube controls the video frame.** The site covers the player with
   transparent shields, sandboxes it so its links cannot open, and closes it
   before the end screen. YouTube may still show ads inside the frame on some
@@ -324,8 +365,10 @@ environment and run `python -m screener.run`. To preview the site, run
 | `screener/filters.py` | Hard filters |
 | `screener/ai.py` | The prompt and the Claude call |
 | `screener/lineup.py` | Daily lineup picker |
-| `screener/channels.py` | Channel icon cache for the feed |
+| `screener/channels.py` | Channel icon cache and channel buttons |
+| `screener/weekly.py` | The weekly summary |
 | `screener/run.py` | The job itself |
 | `index.html`, `site/` | Kid site |
 | `.github/workflows/screen.yml` | Nightly and manual screening job |
-| `tests/` | Unit tests for the filters, lineup picker, matching, and icon cache |
+| `.github/workflows/weekly.yml` | Sunday summary, posted as an issue |
+| `tests/` | Unit tests for the rules, filters, lineup picker, matching, channels, and weekly summary |

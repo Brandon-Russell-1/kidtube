@@ -48,6 +48,15 @@ def load_channel_cache(path: Path) -> dict:
     return channels if isinstance(channels, dict) else {}
 
 
+def load_channel_buttons(path: Path) -> list[str]:
+    """The channel button IDs published last time, kept if YouTube can't be asked."""
+    try:
+        ids = json.loads(path.read_text(encoding="utf-8"))["settings"]["channel_buttons"]
+    except (FileNotFoundError, ValueError, KeyError, TypeError):
+        return []
+    return [i for i in ids if isinstance(i, str)] if isinstance(ids, list) else []
+
+
 def save_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -85,6 +94,7 @@ class Run:
         self.fun_ids: set[str] = set()
         self.sources_complete = False   # True only if every channel lookup worked
         self.channel_info = load_channel_cache(config.CHANNELS_PATH)   # icons for the site
+        self.channel_button_ids = load_channel_buttons(config.LINEUP_PATH)
 
     def known_ids(self) -> set[str]:
         return {v["id"] for v in self.approved} | {v["id"] for v in self.rejected}
@@ -145,6 +155,29 @@ class Run:
         self.sources = list(by_id.values())
         self.fun_ids = {cid for cid, entry in by_id.items() if entry["fun"]}
         self.sources_complete = complete and not self.problems
+
+    def resolve_channel_buttons(self, yt: YouTube) -> None:
+        """Turn channel_buttons into channel IDs for the kid site.
+
+        The buttons are a convenience, so a failed lookup is only a warning and
+        the list published last time stays.
+        """
+        refs = [normalize_channel_ref(ref) for ref in self.rules["channel_buttons"]]
+        known = {normalize_channel_ref(entry["ref"]): entry["channel"]["id"]
+                 for entry in self.sources}
+
+        def lookup(kind: str, value: str) -> str | None:
+            channel = yt.resolve_channel(kind, value)
+            return channel["id"] if channel else None
+
+        try:
+            ids, missing = channel_icons.button_ids(refs, known, lookup)
+        except YouTubeError as exc:
+            self.warnings.append(f"Could not look up channel_buttons: {exc}")
+            return
+        for _, value in missing:
+            self.warnings.append(f"channel_buttons: {value} was not found on YouTube.")
+        self.channel_button_ids = ids
 
     def recheck_rule_dependent_rejections(self) -> None:
         """Forget rejections that a rules.yaml change has since made obsolete."""
@@ -418,6 +451,8 @@ class Run:
                 "pin_length": len(self.rules["parent_pin"]),
                 "repo": os.environ.get("GITHUB_REPOSITORY", ""),
                 "search_buttons": self.rules["search_buttons"],
+                "channel_buttons": self.channel_button_ids,
+                "learning_minutes_before_fun": self.rules["learning_minutes_before_fun"],
             },
             "videos": [
                 {**{key: v[key] for key in (
@@ -487,6 +522,7 @@ def main() -> int:
         try:
             run.resolve_blocked(yt)
             run.resolve_sources(yt)
+            run.resolve_channel_buttons(yt)
             run.recheck_rule_dependent_rejections()
             run.recheck_approved(yt)
             print("Gathering candidates...")

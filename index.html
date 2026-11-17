@@ -29,7 +29,11 @@
   <main id="home" class="screen">
     <header class="masthead">
       <h1 id="heading">Today's videos</h1>
-      <div id="time-left" class="time-left" hidden></div>
+      <div class="pills">
+        <!-- Learning first: how long until cartoons unlock (learning_minutes_before_fun). -->
+        <div id="fun-lock" class="time-left" hidden></div>
+        <div id="time-left" class="time-left" hidden></div>
+      </div>
     </header>
     <!-- Word buttons from rules.yaml. They filter videos already approved; no typing, no live search. -->
     <nav id="chips" class="chips" aria-label="Pick a kind of video" hidden></nav>
@@ -66,6 +70,8 @@
       <button id="btn-forward" class="ctl ctl-round ctl-skip" aria-label="Forward 10 seconds">
         <span class="skip-arrow">↻</span><span class="skip-num">10</span>
       </button>
+      <!-- Saves the video to his "My favorites" on this iPad. -->
+      <button id="btn-heart" class="ctl ctl-round ctl-heart" aria-label="Favorite" aria-pressed="false">🤍</button>
       <!-- Tap or drag anywhere on the bar to jump to that part of the video. -->
       <div id="progress" class="progress" role="slider" aria-label="Video position"
            aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -74,6 +80,15 @@
       </div>
       <div id="time-label" class="time-label"></div>
     </div>
+  </div>
+
+  <!-- A video ended: a few more to pick from. Nothing plays by itself. -->
+  <div id="next-screen" class="screen next" hidden>
+    <h1>What next?</h1>
+    <div id="next-grid" class="next-grid"></div>
+    <button id="next-home" class="ctl ctl-back" aria-label="Back to videos">
+      <span class="ctl-icon">◀</span><span>All videos</span>
+    </button>
   </div>
 
   <!-- Daily limit reached -->
@@ -107,7 +122,10 @@
         <a id="link-actions" class="pbtn" target="_blank" rel="noopener">Run the screening job</a>
         <button id="btn-more-time" class="pbtn">Give 15 more minutes today</button>
         <button id="btn-reset-time" class="pbtn">Reset today's watch time</button>
+        <button id="btn-unlock-fun" class="pbtn" hidden>Unlock cartoons for today</button>
       </div>
+      <h3>Watched on this device, last 7 days</h3>
+      <div id="parent-history" class="audit"></div>
       <h3>Today's lineup</h3>
       <div id="parent-lineup" class="audit"></div>
       <h3>Recent approvals</h3>

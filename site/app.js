@@ -24,6 +24,12 @@
   const CHANNEL_BUTTONS_MAX = 24;          // round channel buttons under the word buttons
   const CHANNEL_BUTTON_MIN_VIDEOS = 5;     // a channel needs this many approved videos to get one
   const AUDIT_MAX = 40;
+  const KEEP_WATCHING_MAX = 12;
+  const RESUME_MIN_SECONDS = 30;           // leaving earlier than this starts over next time
+  const RESUME_END_SECONDS = 60;           // this close to the end counts as finished
+  const RESUME_KEEP_DAYS = 30;
+  const UP_NEXT_COUNT = 4;                 // choices offered when a video ends
+  const HISTORY_DAYS = 7;                  // what he watched, kept for the parent page
   const VIDEO_ID = /^[\w-]{11}$/;
 
   // The home feed.
@@ -61,20 +67,21 @@
     },
   };
 
-  function todayKey() {
-    const d = new Date();
+  function dayKey(d) {
     const pad = (n) => String(n).padStart(2, '0');
     return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   }
 
+  const todayKey = () => dayKey(new Date());
   const watchedSeconds = () => store.get(`kt.watch.${todayKey()}`, 0);
+  const learnedSeconds = () => store.get(`kt.learn.${todayKey()}`, 0);   // learning videos only
   const bonusMinutes = () => store.get(`kt.bonus.${todayKey()}`, 0);
 
   function pruneOldDays() {
     try {
       const keep = todayKey();
       Object.keys(localStorage)
-        .filter((k) => /^kt\.(watch|bonus)\./.test(k) && !k.endsWith(keep))
+        .filter((k) => /^kt\.(watch|learn|funopen|bonus)\./.test(k) && !k.endsWith(keep))
         .forEach((k) => localStorage.removeItem(k));
     } catch (e) { /* ignore */ }
   }
@@ -136,7 +143,35 @@
   }
 
   const watchedMap = () => store.get('kt.watched', {});
-  let watchedNow = {};   // read once per render rather than once per tile
+
+  // Learning first: cartoons stay locked each day until he has watched the
+  // parent's number of learning minutes, or a parent unlocks them.
+  function learningNeeded() {
+    return (Number(lineup.settings.learning_minutes_before_fun) || 0) * 60;
+  }
+
+  function funLocked() {
+    const need = learningNeeded();
+    return need > 0 && !store.get(`kt.funopen.${todayKey()}`, false) && learnedSeconds() < need;
+  }
+
+  // Read once per render rather than once per tile.
+  let watchedNow = {};
+  let heartsNow = {};
+  let positionsNow = {};
+  let lockedNow = false;
+
+  function readState() {
+    watchedNow = watchedMap();
+    heartsNow = store.get('kt.hearts', {});
+    positionsNow = store.get('kt.pos', {});
+    lockedNow = funLocked();
+  }
+
+  // False for a video that failed to play, and for a cartoon while cartoons are locked.
+  function playable(video) {
+    return Boolean(video) && !broken.has(video.id) && !(lockedNow && video.kind === 'fun');
+  }
 
   function isNew(video) {
     const approvedAt = Date.parse(video.screened_at || '');
@@ -185,6 +220,15 @@
     if (video.duration_seconds) thumb.append(el('div', 'badge', formatLength(video.duration_seconds)));
     if (watchedNow[video.id]) thumb.append(el('div', 'watched', '✓'));
     else if (isNew(video)) thumb.append(el('div', 'new-badge', 'NEW'));
+    if (heartsNow[video.id]) thumb.append(el('div', 'heart-badge', '❤️'));
+    const left = positionsNow[video.id];
+    if (left && left.d > 0) {   // a bar showing how far he got
+      const bar = el('div', 'resume');
+      const fill = el('i');
+      fill.style.width = `${Math.min(100, Math.max(4, (left.t / left.d) * 100))}%`;
+      bar.append(fill);
+      thumb.append(bar);
+    }
     const text = el('div', 'meta-text');
     text.append(el('div', 'title', video.title), el('div', 'channel', video.channel_title));
     const meta = el('div', 'meta');
@@ -217,8 +261,9 @@
   // word in the title, channel, or topics, ignoring case, hyphens, apostrophes,
   // and a trailing "s". Only videos already in approved.json are ever searched.
 
-  let activeWord = null;      // the tapped button's word, or null
-  let activeChannel = null;   // the tapped channel's id, or null; both null is today's feed
+  // What the home screen shows: today's feed, one word button's videos, one
+  // channel's videos, or the videos he gave a heart.
+  let view = { kind: 'today' };   // or { kind: 'button', word }, { kind: 'channel', id }, { kind: 'hearts' }
 
   function norm(text) {
     return ` ${String(text || '').toLowerCase().replace(/['’-]/g, '')
@@ -256,50 +301,61 @@
     return raw.filter((b) => b && typeof b.word === 'string' && b.word.trim()).slice(0, BUTTONS_MAX);
   }
 
-  function buttonResults(button, limit = BUTTON_RESULTS_MAX) {
-    const stems = buttonStems(button);
+  // Unwatched first, then newest.
+  function newestUnwatched(videos, limit) {
     const watched = watchedMap();
-    return [...approved.values()]
-      .filter((v) => !broken.has(v.id))
-      .filter((v) => matchesStems(v, stems))
+    return videos
       .sort((a, b) => {
-        const seen = (watched[a.id] ? 1 : 0) - (watched[b.id] ? 1 : 0);   // unwatched first
+        const seen = (watched[a.id] ? 1 : 0) - (watched[b.id] ? 1 : 0);
         if (seen) return seen;
-        return (b.screened_at || '').localeCompare(a.screened_at || '');  // then newest
+        return (b.screened_at || '').localeCompare(a.screened_at || '');
       })
       .slice(0, limit);
   }
 
-  function openView(word, channelId) {
-    activeWord = word;
-    activeChannel = channelId;
+  // includeLocked also counts cartoons that are locked right now.
+  function buttonResults(button, limit = BUTTON_RESULTS_MAX, includeLocked = false) {
+    const stems = buttonStems(button);
+    return newestUnwatched([...approved.values()].filter((v) =>
+      (includeLocked ? !broken.has(v.id) : playable(v)) && matchesStems(v, stems)), limit);
+  }
+
+  function openView(next) {
+    view = next;
     renderHome();
     window.scrollTo(0, 0);
   }
 
-  function chip(label, emoji, active, word) {
-    const button = el('button', active ? 'chip active' : 'chip');
-    if (emoji) button.append(el('span', 'chip-emoji', emoji));
+  // A locked chip is one that only finds cartoons while cartoons are locked.
+  function chip(label, emoji, active, target, locked) {
+    const button = el('button', `chip${active ? ' active' : ''}${locked ? ' locked' : ''}`);
+    if (emoji || locked) button.append(el('span', 'chip-emoji', locked ? '🔒' : emoji));
     button.append(el('span', '', label));
-    button.addEventListener('click', () => openView(word, null));
+    button.addEventListener('click', () => (locked ? nudgeLock() : openView(target)));
     return button;
   }
 
-  function drawChips(buttons, results) {
-    // A button with nothing approved yet stays hidden, so he never taps into an empty page.
-    const usable = buttons.filter((b, i) => results[i].length);
+  function drawChips(buttons, results, locked, hasHearts, hasChannels) {
     const nav = $('chips');
-    nav.hidden = usable.length === 0;
-    if (!usable.length) { nav.replaceChildren(); return; }
-    nav.replaceChildren(
-      chip('Today', '☀️', activeWord === null && activeChannel === null, null),
-      ...usable.map((b) => chip(b.word, b.emoji, activeWord === b.word, b.word))
-    );
+    const scrolled = nav.scrollLeft;
+    const chips = [];
+    if (hasHearts) chips.push(chip('Favorites', '❤️', view.kind === 'hearts', { kind: 'hearts' }, false));
+    buttons.forEach((b, i) => {
+      // A button with nothing approved yet stays hidden, so he never taps into an empty page.
+      if (!results[i].length && !locked[i]) return;
+      chips.push(chip(b.word, b.emoji, view.kind === 'button' && view.word === b.word,
+        { kind: 'button', word: b.word }, locked[i]));
+    });
+    nav.hidden = !(chips.length || hasChannels);
+    nav.replaceChildren(...(nav.hidden ? []
+      : [chip('Today', '☀️', view.kind === 'today', { kind: 'today' }, false), ...chips]));
+    nav.scrollLeft = scrolled;   // redrawing keeps the row where he had slid it
   }
 
   // ── Channel buttons ───────────────────────────────────────────────────────
-  // One round button for each channel with the most approved videos, his
-  // favorite channels first. The row keeps its order for the whole visit. Like
+  // One round button per channel: first the channels the parent listed in
+  // channel_buttons, then the channels with the most approved videos, his
+  // favorite ones first. The row keeps its order for the whole visit. Like
   // the word buttons, a channel button only filters approved.json.
 
   let channelRow = null;   // { key, ids } for this visit
@@ -319,41 +375,43 @@
     approved.forEach((v) => {
       if (v.channel_id && !broken.has(v.id)) counts.set(v.channel_id, (counts.get(v.channel_id) || 0) + 1);
     });
-    const ids = [...counts.entries()]
-      .filter(([, count]) => count >= CHANNEL_BUTTON_MIN_VIDEOS)
+    const listed = Array.isArray(lineup.settings.channel_buttons) ? lineup.settings.channel_buttons : [];
+    const pinned = listed
+      .filter((id, i) => typeof id === 'string' && counts.has(id) && listed.indexOf(id) === i)
+      .slice(0, CHANNEL_BUTTONS_MAX);
+    const rest = [...counts.entries()]
+      .filter(([id, count]) => count >= CHANNEL_BUTTON_MIN_VIDEOS && !pinned.includes(id))
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-      .slice(0, CHANNEL_BUTTONS_MAX)
+      .slice(0, CHANNEL_BUTTONS_MAX - pinned.length)
       .map(([id]) => id)
       .sort((a, b) => liked(b) - liked(a));   // stable: ties stay in most-videos order
-    channelRow = { key, ids };
-    return ids;
+    channelRow = { key, ids: [...pinned, ...rest] };
+    return channelRow.ids;
   }
 
   function channelResults(id) {
-    const watched = watchedMap();
-    return [...approved.values()]
-      .filter((v) => v.channel_id === id && !broken.has(v.id))
-      .sort((a, b) => {
-        const seen = (watched[a.id] ? 1 : 0) - (watched[b.id] ? 1 : 0);   // unwatched first
-        if (seen) return seen;
-        return (b.screened_at || '').localeCompare(a.screened_at || '');  // then newest
-      })
-      .slice(0, BUTTON_RESULTS_MAX);
+    return newestUnwatched(
+      [...approved.values()].filter((v) => v.channel_id === id && playable(v)), BUTTON_RESULTS_MAX);
   }
 
   function drawChannels(ids) {
     const nav = $('channels');
     const scrolled = nav.scrollLeft;
+    const open = new Set();   // channels with something he can watch right now
+    approved.forEach((v) => { if (playable(v)) open.add(v.channel_id); });
     nav.hidden = ids.length === 0;
     nav.replaceChildren(...ids.map((id) => {
       const name = channelName(id);
-      const button = el('button', id === activeChannel ? 'chan active' : 'chan');
+      const locked = !open.has(id);
+      const active = view.kind === 'channel' && view.id === id;
+      const button = el('button', `chan${active ? ' active' : ''}${locked ? ' locked' : ''}`);
       button.setAttribute('aria-label', name);
-      button.append(avatar({ channel_id: id, channel_title: name }, true), el('span', 'chan-name', name));
-      button.addEventListener('click', () => openView(null, id));
+      button.append(avatar({ channel_id: id, channel_title: name }, true),
+        el('span', 'chan-name', locked ? `🔒 ${name}` : name));
+      button.addEventListener('click', () => (locked ? nudgeLock() : openView({ kind: 'channel', id })));
       return button;
     }));
-    nav.scrollLeft = scrolled;   // redrawing keeps the row where he had slid it
+    nav.scrollLeft = scrolled;
   }
 
   // ── Favorites (per device; nothing leaves the iPad) ──────────────────────
@@ -409,12 +467,12 @@
   let shown = { view: '', count: 0 };     // how many entries are on screen
   let moreObserver = null;
   let homeScroll = 0;
+  let homeAnchor = null;                  // where the first video sat when he left home
 
   function startVisit() {
     visitSeed = (Math.random() * 4294967296) >>> 0;
     feed = null;
-    activeWord = null;
-    activeChannel = null;
+    view = { kind: 'today' };
     shown = { view: '', count: 0 };
   }
 
@@ -447,9 +505,23 @@
     return result;
   }
 
+  // The videos he gave a heart, newest heart first.
+  function heartVideos() {
+    const hearts = store.get('kt.hearts', {});
+    return Object.keys(hearts).sort((a, b) => hearts[b] - hearts[a])
+      .map((id) => approved.get(id)).filter(playable);
+  }
+
+  // Videos he left partway through, the most recent first.
+  function keepWatchingVideos() {
+    const saved = store.get('kt.pos', {});
+    return Object.keys(saved).sort((a, b) => saved[b].at - saved[a].at)
+      .map((id) => approved.get(id)).filter(playable).slice(0, KEEP_WATCHING_MAX);
+  }
+
   function buildShelves(feedIds, fav, now, rng, watched) {
     const weight = (v) => (1 + liking(v, fav, now)) * (isNew(v) ? 1.5 : 1);
-    const pool = [...approved.values()].filter((v) => !feedIds.has(v.id));
+    const pool = [...approved.values()].filter((v) => !feedIds.has(v.id) && playable(v));
     const learning = [];
     const fun = [];
     searchButtons().forEach((button) => {
@@ -457,6 +529,7 @@
       const all = [...approved.values()].filter((v) => matchesStems(v, stems));
       if (!all.length) return;
       const shelf = { title: button.word, emoji: button.emoji || '', word: button.word,
+                      view: { kind: 'button', word: button.word },
                       videos: pool.filter((v) => matchesStems(v, stems)) };
       (all.filter((v) => v.kind === 'fun').length * 2 > all.length ? fun : learning).push(shelf);
     });
@@ -471,6 +544,8 @@
     }
     const ordered = [
       { title: 'New', emoji: '🆕', videos: pool.filter(isNew) },
+      { title: 'My favorites', emoji: '❤️', keepOrder: true, min: 1, view: { kind: 'hearts' },
+        videos: heartVideos() },
       ...byButton.slice(0, 2),
       { title: 'Watch again', emoji: '⭐', keepOrder: true,
         videos: watchAgainIds().map((id) => approved.get(id)) },
@@ -480,13 +555,13 @@
     const used = new Set();   // each video appears on one shelf at most
     const shelves = [];
     ordered.forEach((shelf) => {
-      let videos = shelf.videos.filter((v) => !used.has(v.id) && !broken.has(v.id));
+      let videos = shelf.videos.filter((v) => !used.has(v.id) && playable(v));
       if (!shelf.keepOrder) {
         videos = [...weightedShuffle(videos.filter((v) => !watched[v.id]), weight, rng),
                   ...weightedShuffle(videos.filter((v) => watched[v.id]), weight, rng)];
       }
       videos = videos.slice(0, SHELF_SIZE);
-      if (videos.length < SHELF_MIN) return;
+      if (videos.length < (shelf.min || SHELF_MIN)) return;
       videos.forEach((v) => used.add(v.id));
       shelves.push({ ...shelf, videos });
     });
@@ -499,7 +574,7 @@
     const now = Date.now();
     const watched = watchedMap();
     const weight = (v) => (1 + liking(v, fav, now)) * (isNew(v) ? 1.5 : 1);
-    const today = lineupIds.map((id) => approved.get(id));
+    const today = lineupIds.map((id) => approved.get(id)).filter(playable);
     const order = (seen) => {
       const group = today.filter((v) => Boolean(watched[v.id]) === seen);
       return spread(weightedShuffle(group.filter((v) => v.kind !== 'fun'), weight, rng),
@@ -517,15 +592,15 @@
 
   function shelfNode(shelf) {
     const section = el('section', 'shelf');
-    const head = el(shelf.word ? 'button' : 'div', 'shelf-head');
+    const head = el(shelf.view ? 'button' : 'div', 'shelf-head');
     if (shelf.emoji) head.append(el('span', 'shelf-emoji', shelf.emoji));
     head.append(el('span', 'shelf-title', shelf.title));
-    if (shelf.word) {
+    if (shelf.view) {
       head.append(el('span', 'shelf-more', '›'));
-      head.addEventListener('click', () => openView(shelf.word, null));
+      head.addEventListener('click', () => openView(shelf.view));
     }
     const row = el('div', 'row');
-    row.append(...shelf.videos.filter((v) => !broken.has(v.id)).map(tile));
+    row.append(...shelf.videos.filter(playable).map(tile));
     section.append(head, row);
     return section;
   }
@@ -533,7 +608,7 @@
   function nodesFor(from, to) {
     return entries.slice(from, to)
       .map((entry) => (entry.shelf ? shelfNode(entry.shelf)
-        : broken.has(entry.video.id) ? null : tile(entry.video)))
+        : playable(entry.video) ? tile(entry.video) : null))
       .filter(Boolean);
   }
 
@@ -579,47 +654,92 @@
     moreObserver.observe(marker);
   }
 
+  // The pill that says how long until cartoons unlock.
+  function drawLock() {
+    const pill = $('fun-lock');
+    const need = learningNeeded();
+    pill.hidden = need === 0;
+    if (!need) return;
+    pill.classList.toggle('open', !lockedNow);
+    pill.textContent = lockedNow
+      ? `🔒 Cartoons in ${Math.max(1, Math.ceil((need - learnedSeconds()) / 60))} min`
+      : '🎉 Cartoons unlocked!';
+  }
+
+  // He tapped something locked: make the pill jump so he sees why.
+  function nudgeLock() {
+    const pill = $('fun-lock');
+    pill.classList.remove('nudge');
+    void pill.offsetWidth;   // lets the animation start over
+    pill.classList.add('nudge');
+  }
+
+  // How far down the first video sits. A shelf appearing above the feed moves
+  // everything, and this is how the scroll position follows it.
+  function feedTop() {
+    const first = $('today').querySelector(':scope > .tile');
+    return first ? first.offsetTop : 0;
+  }
+
   function renderHome() {
     if (limitReached()) { show('done-screen'); return; }
     show('home');
-    watchedNow = watchedMap();
+    readState();
 
     const buttons = searchButtons();
     const results = buttons.map((button) => buttonResults(button));
-    let index = buttons.findIndex((b) => b.word === activeWord);
-    if (index < 0 || !results[index].length) { activeWord = null; index = -1; }
+    const lockedButtons = buttons.map((button, i) =>
+      lockedNow && !results[i].length && buttonResults(button, 1, true).length > 0);
     const channelIds = topChannels();
-    if (index >= 0 || !channelIds.includes(activeChannel)) activeChannel = null;
-    drawChips(buttons, results);
-    drawChannels(channelIds);
+    const hearts = heartVideos();
 
-    const searching = index >= 0;
-    const heading = $('heading');
-    heading.classList.toggle('searching', searching);
-    heading.textContent = searching ? `${buttons[index].emoji || '🔎'} ${buttons[index].word}`
-      : activeChannel ? channelName(activeChannel)
-      : "Today's videos";
-
-    const view = searching ? `button:${activeWord}` : activeChannel ? `channel:${activeChannel}` : 'today';
-    if (searching) {
-      entries = results[index].map((video) => ({ video }));
-    } else if (activeChannel) {
-      entries = channelResults(activeChannel).map((video) => ({ video }));
-    } else {
-      const key = `${lineup.generated_at}|${visitSeed}`;
-      if (!feed || feed.key !== key) {
-        feed = { key, entries: buildFeed() };
-        if (shown.view === view) shown.count = 0;
+    // What this view lists; a view with nothing to show falls back to today.
+    let list = null;
+    let title = "Today's videos";
+    if (view.kind === 'button') {
+      const i = buttons.findIndex((b) => b.word === view.word);
+      if (i >= 0 && results[i].length) {
+        list = results[i];
+        title = `${buttons[i].emoji || '🔎'} ${buttons[i].word}`;
       }
+    } else if (view.kind === 'channel') {
+      const found = channelIds.includes(view.id) ? channelResults(view.id) : [];
+      if (found.length) { list = found; title = channelName(view.id); }
+    } else if (view.kind === 'hearts' && hearts.length) {
+      list = hearts;
+      title = '❤️ My favorites';
+    }
+    if (!list) view = { kind: 'today' };
+    drawChips(buttons, results, lockedButtons, hearts.length > 0, channelIds.length > 0);
+    drawChannels(channelIds);
+    drawLock();
+
+    const heading = $('heading');
+    heading.classList.toggle('searching', Boolean(list));
+    heading.textContent = title;
+
+    const name = list ? `${view.kind}:${view.word || view.id || ''}` : 'today';
+    if (list) {
+      entries = list.map((video) => ({ video }));
+    } else {
+      // Unlocking cartoons rebuilds the feed with them in it; the learning
+      // videos keep their order because the visit's seed is the same.
+      const key = `${lineup.generated_at}|${visitSeed}|${lockedNow}`;
+      if (!feed || feed.key !== key) feed = { key, entries: buildFeed() };
       entries = feed.entries;
     }
-    if (shown.view !== view) shown = { view, count: 0 };
+    if (shown.view !== name) shown = { view: name, count: 0 };
     shown.count = 'IntersectionObserver' in window
       ? Math.min(entries.length, Math.max(shown.count, pageEnd(0)))
       : entries.length;
 
-    $('today').replaceChildren(...(entries.length ? [...nodesFor(0, shown.count), feedFooter()] : []));
-    $('empty').hidden = entries.length > 0;
+    // Videos he left partway through sit above today's feed, always up to date.
+    const unfinished = list ? [] : keepWatchingVideos();
+    const lead = unfinished.length
+      ? [shelfNode({ title: 'Keep watching', emoji: '▶️', videos: unfinished })] : [];
+    $('today').replaceChildren(...lead,
+      ...(entries.length ? [...nodesFor(0, shown.count), feedFooter()] : []));
+    $('empty').hidden = entries.length > 0 || lead.length > 0;
     if ('IntersectionObserver' in window) watchFooter();
 
     const limit = limitSeconds();
@@ -632,7 +752,7 @@
   }
 
   function show(screenId) {
-    ['home', 'player-screen', 'done-screen'].forEach((id) => { $(id).hidden = id !== screenId; });
+    ['home', 'player-screen', 'next-screen', 'done-screen'].forEach((id) => { $(id).hidden = id !== screenId; });
   }
 
   // ── Player ────────────────────────────────────────────────────────────────
@@ -661,13 +781,18 @@
 
   function openPlayer(id) {
     // The allowlist check: nothing outside approved.json ever reaches an iframe.
-    if (!approved.has(id) || !VIDEO_ID.test(id)) return;
+    readState();
+    if (!approved.has(id) || !VIDEO_ID.test(id) || !playable(approved.get(id))) return;
     if (limitReached()) { show('done-screen'); return; }
 
-    if (!$('home').hidden) homeScroll = window.scrollY;
+    if (!$('home').hidden) {
+      homeScroll = window.scrollY;
+      homeAnchor = feedTop();
+    }
     closePlayer(false);
     currentId = id;
     playedSeconds = 0;
+    drawHeart();
     show('player-screen');
     setNeedsTap(false);
     $('pause-cover').hidden = true;
@@ -679,6 +804,9 @@
       rel: '0', modestbranding: '1', controls: '0', fs: '0', disablekb: '1',
       iv_load_policy: '3',
     });
+    // Pick up a few seconds before where he left off.
+    const left = store.get('kt.pos', {})[id];
+    if (left && left.t >= RESUME_MIN_SECONDS) params.set('start', String(Math.max(0, left.t - 3)));
     const iframe = document.createElement('iframe');
     iframe.allow = 'autoplay; encrypted-media';
     iframe.referrerPolicy = 'strict-origin-when-cross-origin';
@@ -739,7 +867,7 @@
       // Hides YouTube's "more videos" shelf, which appears while paused.
       if (!$('frame-box').classList.contains('needs-tap')) $('pause-cover').hidden = false;
     } else if (state === YT_ENDED) {
-      closePlayer(true);
+      finishVideo();
     }
   }
 
@@ -826,10 +954,97 @@
   }
 
   function saveWatchTime(force) {
-    if (unsavedSeconds >= 5 || (force && unsavedSeconds > 0)) {
-      store.set(`kt.watch.${todayKey()}`, watchedSeconds() + unsavedSeconds);
-      unsavedSeconds = 0;
+    if (!(unsavedSeconds >= 5 || (force && unsavedSeconds > 0))) return;
+    const day = todayKey();
+    store.set(`kt.watch.${day}`, watchedSeconds() + unsavedSeconds);
+    const video = approved.get(currentId);
+    if (video && video.kind !== 'fun') store.set(`kt.learn.${day}`, learnedSeconds() + unsavedSeconds);
+    if (currentId) {
+      // What he watched, by day, for the parent page. It stays on this device.
+      const log = store.get('kt.log', {});
+      const oldest = dayKey(new Date(Date.now() - (HISTORY_DAYS - 1) * 86400000));
+      Object.keys(log).forEach((key) => { if (key < oldest) delete log[key]; });
+      log[day] = log[day] || {};
+      log[day][currentId] = Math.round(((log[day][currentId] || 0) + unsavedSeconds) * 10) / 10;
+      store.set('kt.log', log);
     }
+    unsavedSeconds = 0;
+    savePosition();
+  }
+
+  // Remembers where he is in the video so "Keep watching" can pick it up.
+  function savePosition() {
+    if (!currentId || !player || playedSeconds < 1) return;
+    const { current, duration } = timing();
+    if (!(duration > 0)) return;
+    const saved = store.get('kt.pos', {});
+    if (current >= RESUME_MIN_SECONDS && duration - current > RESUME_END_SECONDS) {
+      saved[currentId] = { t: Math.floor(current), d: Math.floor(duration), at: Date.now() };
+    } else {
+      delete saved[currentId];   // barely started, or as good as finished
+    }
+    const oldest = Date.now() - RESUME_KEEP_DAYS * 86400000;
+    Object.keys(saved).forEach((id) => { if (!(saved[id].at > oldest)) delete saved[id]; });
+    store.set('kt.pos', saved);
+  }
+
+  // ── Hearts ────────────────────────────────────────────────────────────────
+
+  function drawHeart() {
+    const on = Boolean(currentId && store.get('kt.hearts', {})[currentId]);
+    const button = $('btn-heart');
+    button.textContent = on ? '❤️' : '🤍';
+    button.classList.toggle('on', on);
+    button.setAttribute('aria-pressed', String(on));
+  }
+
+  function toggleHeart() {
+    if (!currentId) return;
+    const hearts = store.get('kt.hearts', {});
+    if (hearts[currentId]) delete hearts[currentId];
+    else hearts[currentId] = Date.now();
+    store.set('kt.hearts', hearts);
+    drawHeart();
+  }
+
+  // ── Up next ───────────────────────────────────────────────────────────────
+  // When a video ends he picks from a few more: up to two from the same
+  // channel, then learning videos on the same topics, then today's lineup.
+  // Nothing plays by itself. Cartoons are only offered after a cartoon, and
+  // only from that cartoon's channel.
+
+  function upNext(id) {
+    const last = approved.get(id);
+    if (!last) return [];
+    const fav = loadFavorites();
+    const now = Date.now();
+    const topics = new Set(last.topics || []);
+    const shared = (v) => (v.topics || []).filter((t) => topics.has(t)).length;
+    const weight = (v) => (1 + shared(v)) * (1 + liking(v, fav, now));
+    const fresh = [...approved.values()].filter((v) => v.id !== id && playable(v) && !watchedNow[v.id]);
+    const same = fresh.filter((v) => v.channel_id === last.channel_id
+      && (v.kind !== 'fun' || last.kind === 'fun'));
+    const related = fresh.filter((v) => v.channel_id !== last.channel_id && v.kind !== 'fun' && shared(v) > 0);
+    const today = new Set(lineupIds);
+    const fill = fresh.filter((v) => today.has(v.id) && v.kind !== 'fun');
+    const picks = [];
+    [weightedShuffle(same, weight, Math.random).slice(0, 2),
+      weightedShuffle(related, weight, Math.random),
+      weightedShuffle(fill, weight, Math.random)].forEach((group) => group.forEach((v) => {
+      if (picks.length < UP_NEXT_COUNT && !picks.includes(v)) picks.push(v);
+    }));
+    return picks;
+  }
+
+  function finishVideo() {
+    const id = currentId;
+    closePlayer(false);
+    readState();
+    const picks = limitReached() ? [] : upNext(id);
+    if (picks.length < 2) { goHome(); return; }
+    $('next-grid').replaceChildren(...picks.map(tile));
+    show('next-screen');
+    window.scrollTo(0, 0);
   }
 
   function tick() {
@@ -849,26 +1064,30 @@
     if (duration > 0) {
       if (!scrubbing) drawProgress(current, duration);
       // Leave just before the end so YouTube's end screen never appears.
-      if (duration - current < END_GUARD_SECONDS) { closePlayer(true); return; }
+      if (duration - current < END_GUARD_SECONDS) { finishVideo(); return; }
     }
 
     const limit = limitSeconds();
     if (limit > 0 && watchedSeconds() + unsavedSeconds >= limit) closePlayer(true);
   }
 
-  function closePlayer(goHome) {
+  function closePlayer(home) {
     clearInterval(ticker);
     clearTimeout(playWait);
     ticker = null;
     saveWatchTime(true);
+    savePosition();
     if (player) { try { player.destroy(); } catch (e) { /* ignore */ } }
     player = null;
     currentId = null;
     $('frame-holder').replaceChildren();
-    if (goHome) {
-      renderHome();
-      window.scrollTo(0, homeScroll);   // back to where he was in the feed
-    }
+    if (home) goHome();
+  }
+
+  // Back to where he was in the feed.
+  function goHome() {
+    renderHome();
+    window.scrollTo(0, homeScroll + (homeAnchor === null ? 0 : feedTop() - homeAnchor));
   }
 
   // ── Parent page ───────────────────────────────────────────────────────────
@@ -985,7 +1204,12 @@
     const buttons = searchButtons();
     if (buttons.length) {
       lines.push('Search buttons (videos each one finds; buttons with 0 are hidden): ' +
-        buttons.map((b) => `${b.word} ${buttonResults(b, Infinity).length}`).join(', '));
+        buttons.map((b) => `${b.word} ${buttonResults(b, Infinity, true).length}`).join(', '));
+    }
+    const need = learningNeeded();
+    if (need) {
+      lines.push(`Learning first: ${Math.floor(learnedSeconds() / 60)} of ${Math.round(need / 60)} ` +
+        `learning minutes watched today on this device. Cartoons are ${funLocked() ? 'locked' : 'unlocked'}.`);
     }
     const fav = loadFavorites();
     const now = Date.now();
@@ -1002,10 +1226,35 @@
     $('parent-status').replaceChildren(...lines.map((line) => el('div', '', line)));
   }
 
+  // What he watched on this device over the last week, a day at a time.
+  function drawHistory() {
+    const log = store.get('kt.log', {});
+    const items = Object.keys(log).sort().reverse().slice(0, HISTORY_DAYS).map((day) => {
+      const rows = Object.entries(log[day]).sort((a, b) => b[1] - a[1]);
+      const total = rows.reduce((sum, [, seconds]) => sum + seconds, 0);
+      const date = new Date(`${day}T12:00:00`).toLocaleDateString(undefined,
+        { weekday: 'long', month: 'short', day: 'numeric' });
+      const item = el('div', 'audit-item');
+      item.append(el('b', '', `${date}: ${Math.max(1, Math.round(total / 60))} min`));
+      rows.forEach(([id, seconds]) => {
+        const video = approved.get(id);
+        const what = video
+          ? `${video.title} (${video.channel_title}${video.kind === 'fun' ? ', fun' : ''})`
+          : 'A video that is no longer approved';
+        item.append(el('small', '', `${Math.max(1, Math.round(seconds / 60))} min · ${what}`));
+      });
+      return item;
+    });
+    $('parent-history').replaceChildren(
+      ...(items.length ? items : [el('div', 'audit-empty', 'Nothing watched on this device yet.')]));
+  }
+
   async function openParent() {
     $('parent-screen').hidden = false;
     $('parent-screen').scrollTop = 0;
     drawParentStatus();
+    drawHistory();
+    $('btn-unlock-fun').hidden = learningNeeded() === 0;
 
     const slug = repoSlug();
     $('link-rules').hidden = $('link-actions').hidden = !slug;
@@ -1049,6 +1298,10 @@
       store.set(`kt.bonus.${todayKey()}`, bonusMinutes() + 15);
       drawParentStatus();
     });
+    $('btn-unlock-fun').addEventListener('click', () => {
+      store.set(`kt.funopen.${todayKey()}`, true);
+      drawParentStatus();
+    });
     $('btn-reset-time').addEventListener('click', () => {
       store.set(`kt.watch.${todayKey()}`, 0);
       store.set(`kt.bonus.${todayKey()}`, 0);
@@ -1063,6 +1316,7 @@
   async function refresh(fresh) {
     await loadData();
     if (!$('player-screen').hidden || !$('parent-screen').hidden) return;
+    if (!fresh && !$('next-screen').hidden) return;   // he is choosing what to watch next
     if (fresh) {
       startVisit();
       renderHome();
@@ -1084,6 +1338,8 @@
     $('btn-toggle').addEventListener('click', togglePlayback);
     $('btn-rewind').addEventListener('click', () => skip(-SKIP_SECONDS));
     $('btn-forward').addEventListener('click', () => skip(SKIP_SECONDS));
+    $('btn-heart').addEventListener('click', toggleHeart);
+    $('next-home').addEventListener('click', goHome);
     wireScrubber();
     document.querySelectorAll('.shield').forEach((shield) =>
       shield.addEventListener('click', togglePlayback));

@@ -1,0 +1,46 @@
+name: Weekly summary
+
+# Posts a summary of the week's screening as an issue in this repo. GitHub
+# emails new issues to the repo owner, so this is the weekly email, with no
+# mail server or extra secret.
+
+on:
+  schedule:
+    # 14:30 UTC every Sunday, which is Sunday morning in the Americas.
+    - cron: "30 14 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write the summary
+        run: python -m screener.weekly > "$RUNNER_TEMP/summary.md"
+
+      - name: Post it as an issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh label create weekly-summary --color FFC93C \
+            --description "The weekly KidTube summary" --force
+          # Last week's summary is closed so only the newest one stays open.
+          for number in $(gh issue list --label weekly-summary --state open --json number --jq '.[].number'); do
+            gh issue close "$number"
+          done
+          # The mention makes sure GitHub sends the email.
+          printf '\ncc @%s\n' "$OWNER" >> "$RUNNER_TEMP/summary.md"
+          gh issue create --label weekly-summary \
+            --title "KidTube weekly summary: $(date -u +%Y-%m-%d)" \
+            --body-file "$RUNNER_TEMP/summary.md"

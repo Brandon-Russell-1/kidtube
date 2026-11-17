@@ -2,7 +2,7 @@ from datetime import date
 
 import pytest
 
-from screener.channels import icon_from_snippet, merge, needs_lookup, prune, safe_icon
+from screener.channels import button_ids, icon_from_snippet, merge, needs_lookup, prune, safe_icon
 
 TODAY = date(2026, 11, 17)
 ICON = "https://yt3.ggpht.com/abc-123=s88-c-k-c0x00ffffff-no-rj"
@@ -53,3 +53,23 @@ def test_merge_records_lookups_and_drops_unsafe_icons():
 def test_prune_keeps_pool_channels_only():
     cache = {"UCa": {}, "UCb": {}}
     assert prune(cache, {"UCa"}) == {"UCa": {}}
+
+
+def test_button_ids_keep_the_parents_order_and_reuse_known_channels():
+    asked = []
+
+    def lookup(kind, value):
+        asked.append(value)
+        return {"@wbkids": "UCwb"}.get(value)
+
+    refs = [("handle", "@Nickelodeon"), ("id", "UCdirect"), ("handle", "@wbkids"),
+            ("handle", "@gone"), ("handle", "@nickelodeon")]
+    known = {("handle", "@nickelodeon"): "UCnick"}
+    ids, missing = button_ids(refs, known, lookup)
+    assert ids == ["UCnick", "UCdirect", "UCwb"]
+    assert missing == [("handle", "@gone")]
+    assert asked == ["@wbkids", "@gone"]   # known and repeated channels cost nothing
+
+
+def test_button_ids_empty():
+    assert button_ids([], {}, lambda kind, value: None) == ([], [])

@@ -29,6 +29,8 @@ DEFAULTS = {
     "parent_pin": "1234",
     "free_text_guidance": "",
     "search_buttons": [],
+    "channel_buttons": [],
+    "learning_minutes_before_fun": 0,
 }
 
 SEARCH_BUTTON_MAX_CHARS = 20
@@ -136,7 +138,7 @@ def parse_rules(raw: dict | None) -> dict:
     rules["timezone"] = str(rules["timezone"]).strip() or "UTC"
     rules["topics_wanted"] = _topic_weights(rules["topics_wanted"])
     for field in ("topics_banned", "trusted_channels", "fun_channels", "blocked_channels",
-                  "search_terms"):
+                  "search_terms", "channel_buttons"):
         rules[field] = _string_list(rules[field], field)
     rules["fun_videos_per_day"] = _number(
         rules["fun_videos_per_day"], "fun_videos_per_day", 0, integer=True
@@ -159,6 +161,9 @@ def parse_rules(raw: dict | None) -> dict:
     rules["max_videos_screened_per_run"] = min(screened, config.MAX_SCREENED_PER_RUN_CEILING)
     rules["daily_watch_limit_minutes"] = _number(
         rules["daily_watch_limit_minutes"], "daily_watch_limit_minutes", 0
+    )
+    rules["learning_minutes_before_fun"] = _number(
+        rules["learning_minutes_before_fun"], "learning_minutes_before_fun", 0
     )
     rules["parent_pin"] = str(rules["parent_pin"]).strip()
     if not rules["parent_pin"].isdigit():
