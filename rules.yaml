@@ -153,6 +153,29 @@ search_buttons:
   - word: spiderman
     emoji: "🕷️"
     also_match: [spidey]
+  - word: nickelodeon
+    emoji: "🟠"
+    also_match: [nicktoons, nick jr, spongebob, loud house, rugrats]
+  - word: ninja turtles
+    emoji: "🐢"
+    also_match: [tmnt, teenage mutant]
+  - word: looney tunes
+    emoji: "🐰"
+    also_match: [wb kids, road runner, bugs bunny, animaniacs, pinky and the brain, scooby]
+  - word: marvel
+    emoji: "🦸"
+    also_match: [avengers, super hero squad]
+  - word: x-men
+    emoji: "✖️"
+  - word: batman
+    emoji: "🦇"
+    also_match: [superman, justice league, super friends, dc kids]
+  - word: transformers
+    emoji: "🤖"
+    also_match: [optimus prime, autobot]
+  - word: disney
+    emoji: "🏰"
+    also_match: [mickey, ducktales, darkwing]
   # - word: fun
   #   emoji: "🎉"
 
@@ -192,7 +215,7 @@ min_video_minutes: 3
 max_video_minutes: 60
 
 # How many videos he gets each day.
-daily_lineup_count: 50
+daily_lineup_count: 100
 
 # Don't show the same video again within this many days. If the approved pool
 # is too small to fill a day without repeating, the least-recently-shown videos
