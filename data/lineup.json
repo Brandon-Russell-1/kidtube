@@ -1,6 +1,11 @@
 {
-  "date": "",
-  "generated_at": "",
-  "settings": {},
+  "date": "2026-11-16",
+  "generated_at": "2026-11-17T02:51:32Z",
+  "settings": {
+    "daily_watch_limit_minutes": 45.0,
+    "pin_sha256": "a1fb4e703a9ef1fa4936801721ff285a97ac85330856674412e054892afe6972",
+    "pin_length": 4,
+    "repo": "Brandon-Russell-1/kidtube"
+  },
   "videos": []
 }
