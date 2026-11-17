@@ -35,6 +35,11 @@ def build_system_prompt(rules: dict) -> str:
     ) or "none listed"
     banned = ", ".join(rules["topics_banned"]) or "none listed"
     guidance = rules["free_text_guidance"] or "None."
+    fun = ""
+    if rules.get("fun_channels"):
+        fun = """
+Some videos come from channels the parent picked for fun. For those, educational value is not required: approve a fun-channel video if it meets the first three conditions above and is good-quality entertainment for this child, not mainly an advertisement, a product showcase, or made to hook attention with little substance. Score its educational_score honestly all the same; the parent uses the score to tell fun videos from learning ones, and a fun video can score low and still be approved.
+"""
     return f"""You screen YouTube videos for a {rules['child_age']}-year-old child on behalf of the child's parent. The parent will show the child only the videos you approve, and the child watches alone, so your decision is the last check before the video reaches the child.
 
 The parent's rules:
@@ -57,10 +62,10 @@ Approve a video only when all of these hold:
 - It is not mainly about a banned topic.
 - It respects the parent's guidance.
 - It has real educational or enriching value, and is not mainly an advertisement, a product showcase, or made to hook attention with little substance.
-
+{fun}
 When you are unsure about any of these, or the information is too thin to tell what the video contains, reject it. A wrongly rejected video costs nothing; a wrongly approved one reaches the child.
 
-Score educational_score from 1 to 10: 1-3 is entertainment with nothing to learn, 4-6 has some incidental learning, 7-8 clearly teaches something at this child's level, 9-10 is excellent teaching that is also engaging. The parent approves only videos scoring {rules['min_educational_score']} or higher, so score honestly rather than generously.
+Score educational_score from 1 to 10: 1-3 is entertainment with nothing to learn, 4-6 has some incidental learning, 7-8 clearly teaches something at this child's level, 9-10 is excellent teaching that is also engaging. Apart from fun-channel videos, the parent approves only videos scoring {rules['min_educational_score']} or higher, so score honestly rather than generously.
 
 For topics, list one to four short lowercase topics the video covers. Use the parent's wanted-topic names exactly as written above whenever they fit, and add other topics only if none of those fit.
 
@@ -82,11 +87,10 @@ def build_user_prompt(video: dict, transcript: str | None) -> str:
         )
     else:
         transcript_block = "<transcript_excerpt>Not available.</transcript_excerpt>"
-    found_by = (
-        "YouTube search; the parent has not vetted this channel"
-        if video.get("source") == "search"
-        else "a channel the parent trusts"
-    )
+    found_by = {
+        "search": "YouTube search; the parent has not vetted this channel",
+        "fun": "a channel the parent picked for fun; educational value is not required",
+    }.get(video.get("source"), "a channel the parent trusts")
     return f"""<video>
 <title>{video.get('title', '')}</title>
 <channel>{video.get('channel_title', '')}</channel>
@@ -123,16 +127,22 @@ def parse_decision(text: str) -> dict | None:
     }
 
 
-def final_verdict(decision: dict, rules: dict) -> tuple[bool, str]:
-    """Apply the parent's score threshold on top of the model's own verdict."""
+def final_verdict(decision: dict, rules: dict, fun: bool = False) -> tuple[bool, str, str]:
+    """Apply the parent's score threshold on top of the model's own verdict.
+
+    Returns (approved, reason, kind). kind is "learning" for videos that meet
+    min_educational_score and "fun" for fun-channel videos that don't.
+    """
     if not decision["approve"]:
-        return False, decision["reason"]
-    if decision["educational_score"] < rules["min_educational_score"]:
-        return False, (
-            f"Educational score {decision['educational_score']} is below the minimum "
-            f"of {rules['min_educational_score']}. AI said: {decision['reason']}"
-        )
-    return True, decision["reason"]
+        return False, decision["reason"], ""
+    if decision["educational_score"] >= rules["min_educational_score"]:
+        return True, decision["reason"], "learning"
+    if fun:
+        return True, decision["reason"], "fun"
+    return False, (
+        f"Educational score {decision['educational_score']} is below the minimum "
+        f"of {rules['min_educational_score']}. AI said: {decision['reason']}"
+    ), ""
 
 
 def screen_video(client: anthropic.Anthropic, system_prompt: str, video: dict,

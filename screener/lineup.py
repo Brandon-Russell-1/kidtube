@@ -73,6 +73,32 @@ def _weighted_mixed_pick(
     return picked
 
 
+def _pick(
+    pool: list[dict], count: int, rules: dict, today: date, rng: random.Random,
+    per_channel: dict[str, int],
+) -> list[dict]:
+    """Fresh weighted picks, topped up with the least-recently-shown videos."""
+    fresh = [v for v in pool if is_eligible(v, today, rules["repeat_after_days"])]
+    picks = _weighted_mixed_pick(fresh, count, rules["topics_wanted"], rng, per_channel)
+    if len(picks) < count:
+        chosen = {v["id"] for v in picks}
+        repeats = sorted(
+            (v for v in pool if v["id"] not in chosen),
+            key=lambda v: (-(_days_since_shown(v, today) or 0), v["id"]),
+        )
+        picks.extend(repeats[: count - len(picks)])
+    return picks
+
+
+def _spread(main: list[dict], extras: list[dict]) -> list[dict]:
+    """Insert `extras` at even intervals through `main`."""
+    result = list(main)
+    step = (len(main) + len(extras)) / (len(extras) + 1)
+    for i, video in enumerate(extras):
+        result.insert(min(len(result), round(step * (i + 1))), video)
+    return result
+
+
 def pick_lineup(
     approved: list[dict], rules: dict, today: date, rng: random.Random | None = None
 ) -> list[dict]:
@@ -81,26 +107,24 @@ def pick_lineup(
     Picks are weighted by topics_wanted and educational score, spread across
     channels, and skip anything shown within repeat_after_days. If that leaves
     too few, the least-recently-shown videos fill the remaining slots.
+
+    Up to fun_videos_per_day of the slots go to fun videos (kind "fun"), spread
+    through the lineup. Fun videos never fill slots beyond that number.
     """
     if rng is None:
         rng = random.Random(today.isoformat())
     count = rules["daily_lineup_count"]
-    topics_wanted = rules["topics_wanted"]
 
     # Sort first so the result depends only on the pool and the seed.
     pool = sorted(approved, key=lambda v: v["id"])
-    fresh = [v for v in pool if is_eligible(v, today, rules["repeat_after_days"])]
-    per_channel: dict[str, int] = {}
-    lineup = _weighted_mixed_pick(fresh, count, topics_wanted, rng, per_channel)
+    fun_pool = [v for v in pool if v.get("kind") == "fun"]
+    learning_pool = [v for v in pool if v.get("kind") != "fun"]
 
-    if len(lineup) < count:
-        chosen = {v["id"] for v in lineup}
-        repeats = sorted(
-            (v for v in pool if v["id"] not in chosen),
-            key=lambda v: (-(_days_since_shown(v, today) or 0), v["id"]),
-        )
-        lineup.extend(repeats[: count - len(lineup)])
-    return lineup
+    per_channel: dict[str, int] = {}
+    fun_slots = min(rules.get("fun_videos_per_day", 0), count)
+    fun = _pick(fun_pool, fun_slots, rules, today, rng, per_channel)
+    learning = _pick(learning_pool, count - len(fun), rules, today, rng, per_channel)
+    return _spread(learning, fun)
 
 
 def mark_shown(lineup: list[dict], today: date) -> None:

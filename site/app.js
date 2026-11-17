@@ -14,6 +14,10 @@
   const LONG_PRESS_MS = 2000;
   const PLAY_WAIT_MS = 3500;
   const END_GUARD_SECONDS = 0.8;
+  const SKIP_SECONDS = 10;
+  // A jump never lands closer than this to the end, so it can't skip straight
+  // into YouTube's end screen; the player closes itself just before the end.
+  const SEEK_END_MARGIN = 3;
   const WATCH_AGAIN_MAX = 12;
   const AUDIT_MAX = 40;
   const VIDEO_ID = /^[\w-]{11}$/;
@@ -139,6 +143,8 @@
     const seen = new Set();
     return [...mine, ...shown].filter((id) => {
       if (seen.has(id) || today.has(id) || !approved.has(id) || broken.has(id)) return false;
+      // Fun videos only come in the daily allowance, never as extras here.
+      if (approved.get(id).kind === 'fun') return false;
       seen.add(id);
       return true;
     }).slice(0, WATCH_AGAIN_MAX);
@@ -202,7 +208,7 @@
     show('player-screen');
     setNeedsTap(false);
     $('pause-cover').hidden = true;
-    $('progress-fill').style.width = '0';
+    drawProgress(0, 0);
     $('btn-toggle').textContent = '⏸';
 
     const params = new URLSearchParams({
@@ -284,6 +290,78 @@
     }
   }
 
+  // ── Seeking ───────────────────────────────────────────────────────────────
+
+  let scrubbing = false;
+
+  function timing() {
+    try { return { current: player.getCurrentTime() || 0, duration: player.getDuration() || 0 }; }
+    catch (e) { return { current: 0, duration: 0 }; }
+  }
+
+  function clock(seconds) {
+    const s = Math.max(0, Math.floor(seconds));
+    const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), r = String(s % 60).padStart(2, '0');
+    return h ? `${h}:${String(m).padStart(2, '0')}:${r}` : `${m}:${r}`;
+  }
+
+  function drawProgress(current, duration) {
+    const percent = duration > 0 ? Math.min(100, Math.max(0, (current / duration) * 100)) : 0;
+    $('progress-fill').style.width = `${percent}%`;
+    $('progress-knob').style.left = `${percent}%`;
+    $('progress').setAttribute('aria-valuenow', String(Math.round(percent)));
+    $('time-label').textContent = duration > 0 ? `${clock(current)} / ${clock(duration)}` : '';
+  }
+
+  function seekTo(seconds) {
+    if (!player || !player.seekTo) return;
+    const { duration } = timing();
+    if (!(duration > 0)) return;
+    const target = Math.max(0, Math.min(seconds, duration - SEEK_END_MARGIN));
+    try { player.seekTo(target, true); } catch (e) { return; }
+    drawProgress(target, duration);
+  }
+
+  function skip(delta) {
+    if (!player) return;
+    seekTo(timing().current + delta);
+  }
+
+  function wireScrubber() {
+    const bar = $('progress');
+    let pointerId = null;
+    const fraction = (event) => {
+      const box = bar.getBoundingClientRect();
+      return box.width ? Math.min(1, Math.max(0, (event.clientX - box.left) / box.width)) : 0;
+    };
+    const preview = (event) => {
+      const { duration } = timing();
+      drawProgress(fraction(event) * duration, duration);
+    };
+    const finish = (event, commit) => {
+      if (event.pointerId !== pointerId) return;
+      pointerId = null;
+      scrubbing = false;
+      bar.classList.remove('scrubbing');
+      if (commit) seekTo(fraction(event) * timing().duration);
+    };
+
+    bar.addEventListener('pointerdown', (event) => {
+      if (!player || !(timing().duration > 0)) return;
+      event.preventDefault();
+      pointerId = event.pointerId;
+      scrubbing = true;
+      bar.classList.add('scrubbing');
+      try { bar.setPointerCapture(pointerId); } catch (e) { /* ignore */ }
+      preview(event);
+    });
+    bar.addEventListener('pointermove', (event) => {
+      if (event.pointerId === pointerId) preview(event);
+    });
+    bar.addEventListener('pointerup', (event) => finish(event, true));
+    bar.addEventListener('pointercancel', (event) => finish(event, false));
+  }
+
   function saveWatchTime(force) {
     if (unsavedSeconds >= 5 || (force && unsavedSeconds > 0)) {
       store.set(`kt.watch.${todayKey()}`, watchedSeconds() + unsavedSeconds);
@@ -300,10 +378,9 @@
     unsavedSeconds += elapsed;
     saveWatchTime(false);
 
-    let current = 0, duration = 0;
-    try { current = player.getCurrentTime(); duration = player.getDuration(); } catch (e) { /* ignore */ }
+    const { current, duration } = timing();
     if (duration > 0) {
-      $('progress-fill').style.width = `${Math.min(100, (current / duration) * 100)}%`;
+      if (!scrubbing) drawProgress(current, duration);
       // Leave just before the end so YouTube's end screen never appears.
       if (duration - current < END_GUARD_SECONDS) { closePlayer(true); return; }
     }
@@ -404,6 +481,7 @@
     const item = el('div', `audit-item ${ok ? 'ok' : 'no'}`);
     item.append(el('b', '', video.title || video.id));
     const facts = [video.channel_title];
+    if (video.kind === 'fun') facts.push('fun');
     if (video.educational_score) facts.push(`score ${video.educational_score}/10`);
     if (video.topics && video.topics.length) facts.push(video.topics.join(', '));
     if (video.stage === 'hard_filter') facts.push('hard filter');
@@ -505,6 +583,9 @@
 
     $('btn-back').addEventListener('click', () => closePlayer(true));
     $('btn-toggle').addEventListener('click', togglePlayback);
+    $('btn-rewind').addEventListener('click', () => skip(-SKIP_SECONDS));
+    $('btn-forward').addEventListener('click', () => skip(SKIP_SECONDS));
+    wireScrubber();
     document.querySelectorAll('.shield').forEach((shield) =>
       shield.addEventListener('click', togglePlayback));
 

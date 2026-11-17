@@ -315,8 +315,24 @@ h2 {
 .ctl-back { background: var(--sun); color: var(--ink); }
 .ctl-round { width: 76px; padding: 0; justify-content: center; font-size: 30px; }
 
+.ctl-skip { flex-direction: column; gap: 0; line-height: 1; }
+.ctl-skip .skip-arrow { font-size: 30px; }
+.ctl-skip .skip-num { font-size: 15px; font-weight: 900; margin-top: -2px; }
+
+/* The whole 76px-tall strip takes taps and drags; the visible track is 16px. */
 .progress {
+  position: relative;
   flex: 1;
+  min-width: 120px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.progress-track {
+  width: 100%;
   height: 16px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.16);
@@ -324,6 +340,36 @@ h2 {
 }
 
 #progress-fill { width: 0; height: 100%; border-radius: 999px; background: var(--mint); }
+
+.progress-knob {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  margin: -18px 0 0 -18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+  transition: transform 0.1s ease;
+}
+
+.progress.scrubbing .progress-knob { transform: scale(1.3); }
+
+.time-label {
+  flex: none;
+  min-width: 118px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 900px) {
+  .time-label { display: none; }
+}
 
 /* ── All done ─────────────────────────────────────────────────────────── */
 
@@ -442,7 +488,13 @@ h2 {
 .audit-item p { margin: 6px 0 0; }
 .audit-empty { color: #6a7388; font-size: 15px; }
 
-@media (max-width: 560px) {
+@media (max-width: 760px) {
   .ctl-back span:last-child { display: none; }
   .controls { gap: 12px; padding: 10px 14px; }
+}
+
+@media (max-width: 480px) {
+  .ctl { height: 60px; padding: 0 18px; }
+  .ctl-round { width: 60px; padding: 0; }
+  .progress { height: 60px; }
 }

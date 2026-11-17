@@ -69,6 +69,10 @@ class Run:
         self.stats = {"hard_rejected": 0, "ai_approved": 0, "ai_rejected": 0, "removed": 0,
                       "input_tokens": 0, "output_tokens": 0}
         self.blocked_ids: set[str] = set()
+        # Filled by resolve_sources: the channels to read and which are fun ones.
+        self.sources: list[dict] = []
+        self.fun_ids: set[str] = set()
+        self.sources_complete = False   # True only if every channel lookup worked
 
     def known_ids(self) -> set[str]:
         return {v["id"] for v in self.approved} | {v["id"] for v in self.rejected}
@@ -101,10 +105,44 @@ class Run:
             else:
                 self.warnings.append(f"Blocked channel {ref} was not found on YouTube.")
 
+    def resolve_sources(self, yt: YouTube) -> None:
+        """Look up every trusted and fun channel once, before anything else uses them.
+
+        A channel listed in both lists counts as a fun channel.
+        """
+        listed = [(ref, False) for ref in self.rules["trusted_channels"]]
+        listed += [(ref, True) for ref in self.rules["fun_channels"]]
+        by_id: dict[str, dict] = {}
+        complete = True
+        for ref, fun in listed:
+            kind, value = normalize_channel_ref(ref)
+            try:
+                channel = yt.resolve_channel(kind, value)
+            except YouTubeError as exc:
+                complete = False
+                if self._youtube_failed(exc, f"looking up channel {ref}"):
+                    break
+                continue
+            if channel is None:
+                self.warnings.append(f"Channel {ref} was not found on YouTube.")
+                continue
+            if channel["id"] in self.blocked_ids or self._looks_like_copycat(ref, kind, channel):
+                continue
+            entry = by_id.setdefault(channel["id"], {"ref": ref, "channel": channel, "fun": False})
+            entry["fun"] = entry["fun"] or fun
+        self.sources = list(by_id.values())
+        self.fun_ids = {cid for cid, entry in by_id.items() if entry["fun"]}
+        self.sources_complete = complete and not self.problems
+
     def recheck_rule_dependent_rejections(self) -> None:
         """Forget rejections that a rules.yaml change has since made obsolete."""
         kept = []
         for entry in self.rejected:
+            # A channel added to fun_channels gets its earlier AI rejections
+            # judged again under the fun rules.
+            if (entry.get("stage") == "ai" and entry.get("channel_id") in self.fun_ids
+                    and entry.get("source") != "fun"):
+                continue
             if entry.get("stage") == "hard_filter" and entry.get("code") in RULE_DEPENDENT_CODES:
                 minutes = entry.get("duration_seconds", 0) / 60
                 still_fails = {
@@ -119,6 +157,13 @@ class Run:
 
     def recheck_approved(self, yt: YouTube) -> None:
         """Remove approved videos that were deleted, restricted, or now break a hard rule."""
+        if self.sources_complete:
+            # Fun approvals from a channel no longer in fun_channels are dropped
+            # without a rejection, so the next screening judges them as ordinary videos.
+            before = len(self.approved)
+            self.approved = [v for v in self.approved
+                             if v.get("kind") != "fun" or v.get("channel_id") in self.fun_ids]
+            self.stats["removed"] += before - len(self.approved)
         if not self.approved:
             return
         live = {item["id"]: normalize_video(item) for item in
@@ -171,37 +216,31 @@ class Run:
             return False
         count = "a hidden number of" if subscribers is None else f"only {subscribers:,}"
         self.warnings.append(
-            f"Skipped trusted channel {ref}: it belongs to \"{channel['title']}\", which has "
+            f"Skipped channel {ref}: it belongs to \"{channel['title']}\", which has "
             f"{count} subscribers, so it may be a copycat. If it is the channel you want, "
             f"list it by its ID instead: \"{channel['id']}\"."
         )
         return True
 
     def gather_candidates(self, yt: YouTube) -> list[dict]:
-        """Unseen videos from trusted channels plus one search, normalized.
+        """Unseen videos from trusted and fun channels plus one search, normalized.
 
-        Each video gets a "source": "trusted" if it is from a trusted channel,
-        otherwise "search".
+        Each video gets a "source": "fun" or "trusted" for the channel lists it
+        came from, otherwise "search".
         """
         known = self.known_ids()
         new_ids: list[str] = []
-        trusted_ids: set[str] = set()
+        listed_ids = {entry["channel"]["id"] for entry in self.sources}
 
-        for ref in self.rules["trusted_channels"]:
-            kind, value = normalize_channel_ref(ref)
+        for entry in self.sources:
+            channel = entry["channel"]
             try:
-                channel = yt.resolve_channel(kind, value)
-                if channel is None:
-                    self.warnings.append(f"Trusted channel {ref} was not found on YouTube.")
-                    continue
-                if channel["id"] in self.blocked_ids or self._looks_like_copycat(ref, kind, channel):
-                    continue
-                trusted_ids.add(channel["id"])
                 found = self._unseen_uploads(yt, channel, known)
-                print(f"  {channel['title']}: {len(found)} unseen videos")
+                tag = " (fun)" if entry["fun"] else ""
+                print(f"  {channel['title']}{tag}: {len(found)} unseen videos")
                 new_ids.extend(i for i in found if i not in new_ids)
             except YouTubeError as exc:
-                if self._youtube_failed(exc, f"reading channel {ref}"):
+                if self._youtube_failed(exc, f"reading channel {entry['ref']}"):
                     break
 
         terms = self.rules["search_terms"]
@@ -226,7 +265,12 @@ class Run:
             self._youtube_failed(exc, "fetching video details")
             return []
         for video in videos:
-            video["source"] = "trusted" if video["channel_id"] in trusted_ids else "search"
+            if video["channel_id"] in self.fun_ids:
+                video["source"] = "fun"
+            elif video["channel_id"] in listed_ids:
+                video["source"] = "trusted"
+            else:
+                video["source"] = "search"
         return videos
 
     # ── Screening ────────────────────────────────────────────────────────────
@@ -282,7 +326,8 @@ class Run:
             self.stats["input_tokens"] += tokens_in
             self.stats["output_tokens"] += tokens_out
 
-            approved, reason = ai.final_verdict(decision, self.rules)
+            approved, reason, kind = ai.final_verdict(
+                decision, self.rules, fun=video.get("source") == "fun")
             audit = {
                 "educational_score": decision["educational_score"],
                 "topics": decision["topics"],
@@ -290,7 +335,7 @@ class Run:
                 "source": video.get("source", "trusted"),
                 "model": config.MODEL_ID,
             }
-            mark = "APPROVED" if approved else "rejected"
+            mark = ("APPROVED (fun)" if kind == "fun" else "APPROVED") if approved else "rejected"
             where = " (search)" if video.get("source") == "search" else ""
             print(f"  {mark} [{decision['educational_score']}/10] {video['title'][:70]}{where}")
             if approved:
@@ -303,6 +348,7 @@ class Run:
                     "published_at": video["published_at"],
                     "thumbnail": video["thumbnail"],
                     "made_for_kids": video["made_for_kids"],
+                    "kind": kind,
                     "reason": reason,
                     **audit,
                     "screened_at": now_iso(),
@@ -333,9 +379,10 @@ class Run:
                 "repo": os.environ.get("GITHUB_REPOSITORY", ""),
             },
             "videos": [
-                {key: v[key] for key in (
+                {**{key: v[key] for key in (
                     "id", "title", "channel_title", "thumbnail", "duration_seconds",
-                    "topics", "educational_score", "reason")}
+                    "topics", "educational_score", "reason")},
+                 "kind": v.get("kind", "learning")}
                 for v in lineup
             ],
         })
@@ -356,8 +403,10 @@ def summarize(run: Run, lineup: list[dict], today: date, quota: int) -> str:
         f"- New videos rejected by AI: **{s['ai_rejected']}**",
         f"- Rejected by hard filters: **{s['hard_rejected']}**",
         f"- Previously approved videos removed: **{s['removed']}**",
-        f"- Approved pool: **{len(run.approved)}** videos",
-        f"- Today's lineup: **{len(lineup)}** videos",
+        f"- Approved pool: **{len(run.approved)}** videos, "
+        f"{sum(v.get('kind') == 'fun' for v in run.approved)} of them fun",
+        f"- Today's lineup: **{len(lineup)}** videos, "
+        f"{sum(v.get('kind') == 'fun' for v in lineup)} of them fun",
         f"- YouTube API quota used: about **{quota}** of 10,000 units",
         f"- AI tokens: {s['input_tokens']:,} in, {s['output_tokens']:,} out "
         f"(about **${estimated_ai_cost(s):.3f}** at list price)",
@@ -389,6 +438,7 @@ def main() -> int:
         yt = YouTube(youtube_key)
         try:
             run.resolve_blocked(yt)
+            run.resolve_sources(yt)
             run.recheck_rule_dependent_rejections()
             run.recheck_approved(yt)
             print("Gathering candidates...")

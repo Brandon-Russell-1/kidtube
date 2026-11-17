@@ -37,7 +37,8 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
    next run.
 4. **Lineup.** The job picks `daily_lineup_count` videos from the approved pool,
    favoring your higher-weighted topics, spreading picks across channels, and
-   skipping anything shown in the last `repeat_after_days` days.
+   skipping anything shown in the last `repeat_after_days` days. Up to
+   `fun_videos_per_day` of them come from your fun channels (see below).
 5. **Publish.** The three JSON files are committed back to the repo and GitHub
    Pages serves them to the kid site.
 
@@ -120,11 +121,29 @@ What happens when you change things:
   Until then the lineup shows every approved video. Raising
   `max_videos_screened_per_run` grows the pool faster.
 
-Adding a trusted channel: a handle like `"@SciShowKids"` is easiest. Handles
+### Fun channels
+
+`fun_channels` is for shows he loves that are mostly entertainment, like Bluey
+or PAW Patrol. Their videos skip `min_educational_score`, but the AI still
+checks each one for safety, age-appropriateness, banned topics, and your
+guidance. Each day's lineup includes up to `fun_videos_per_day` of them, spread
+through the list, and they never appear in "Watch again", so the daily number
+holds. A fun-channel video that does reach `min_educational_score` counts as an
+ordinary learning video.
+
+Move a channel into `fun_channels` and the videos the AI rejected from it are
+judged again under the fun rules on the next run. Take a channel out and its
+fun approvals leave the pool on the next run.
+
+### Adding channels
+
+A handle like `"@SciShowKids"` is easiest. Handles
 can be given up and claimed by copycats, so the job skips any handle that
 points at a channel with fewer than 10,000 subscribers and says so in the run
 summary. To trust a small channel on purpose, list it by its channel ID
 (`"UC..."`), which never changes hands. The summary's warning gives you the ID.
+
+### Removing a video
 
 To remove one video by hand, delete its entry from `data/approved.json` and add
 its channel to `blocked_channels` if you want the whole channel gone. A video
@@ -203,8 +222,9 @@ any other app.
 
 - **Today's videos:** big thumbnails from today's lineup.
 - **Watch again:** videos he has already watched or that were in earlier lineups.
-- **Player:** one back button, one play/pause button, a progress bar. When a
-  video ends he lands back on the grid.
+- **Player:** a back button, play/pause, buttons to jump back or forward 10
+  seconds, and a progress bar he can tap or drag to move through the video.
+  When a video ends he lands back on the grid.
 - **Daily limit:** watch time is counted while a video is playing. When it
   reaches `daily_watch_limit_minutes`, an "All done for today" screen replaces
   everything until tomorrow.

@@ -15,6 +15,8 @@ DEFAULTS = {
     "topics_wanted": {},
     "topics_banned": [],
     "trusted_channels": [],
+    "fun_channels": [],
+    "fun_videos_per_day": 3,
     "blocked_channels": [],
     "search_terms": [],
     "min_video_minutes": 3,
@@ -101,8 +103,12 @@ def parse_rules(raw: dict | None) -> dict:
     rules["child_age"] = _number(rules["child_age"], "child_age", 1, integer=True)
     rules["timezone"] = str(rules["timezone"]).strip() or "UTC"
     rules["topics_wanted"] = _topic_weights(rules["topics_wanted"])
-    for field in ("topics_banned", "trusted_channels", "blocked_channels", "search_terms"):
+    for field in ("topics_banned", "trusted_channels", "fun_channels", "blocked_channels",
+                  "search_terms"):
         rules[field] = _string_list(rules[field], field)
+    rules["fun_videos_per_day"] = _number(
+        rules["fun_videos_per_day"], "fun_videos_per_day", 0, integer=True
+    )
     rules["min_video_minutes"] = _number(rules["min_video_minutes"], "min_video_minutes", 0)
     rules["max_video_minutes"] = _number(rules["max_video_minutes"], "max_video_minutes", 0)
     if rules["max_video_minutes"] < rules["min_video_minutes"]:

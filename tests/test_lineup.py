@@ -141,3 +141,42 @@ def test_mark_shown_counts_once_per_day():
     assert video == {"id": "a", "last_shown": TODAY.isoformat(), "shown_count": 1}
     mark_shown([video], TODAY + timedelta(days=20))
     assert video["shown_count"] == 2
+
+
+def make_fun(n, channel="UCfun"):
+    return [
+        {"id": f"fun{i}", "channel_id": channel, "topics": ["cartoons"], "educational_score": 3,
+         "kind": "fun", "last_shown": None, "shown_count": 0}
+        for i in range(n)
+    ]
+
+
+def test_fun_videos_get_their_slots_spread_through_the_lineup():
+    lineup = pick_lineup(make_pool() + make_fun(10), rules(daily_lineup_count=12, fun_videos_per_day=3), TODAY)
+    kinds = [v.get("kind") for v in lineup]
+    assert len(lineup) == 12
+    assert kinds.count("fun") == 3
+    positions = [i for i, k in enumerate(kinds) if k == "fun"]
+    assert positions == [3, 6, 9]
+
+
+def test_fun_videos_never_fill_extra_slots():
+    small_learning_pool = make_pool(channels=1, per_channel=2)
+    lineup = pick_lineup(small_learning_pool + make_fun(10), rules(fun_videos_per_day=3), TODAY)
+    assert [v.get("kind") for v in lineup].count("fun") == 3
+    assert len(lineup) == 5
+
+
+def test_no_fun_videos_when_the_allowance_is_zero():
+    lineup = pick_lineup(make_pool() + make_fun(10), rules(fun_videos_per_day=0), TODAY)
+    assert all(v.get("kind") != "fun" for v in lineup)
+    assert len(lineup) == 8
+
+
+def test_a_small_fun_pool_repeats_rather_than_stealing_learning_slots():
+    fun = make_fun(2)
+    for video in fun:
+        video["last_shown"] = days_ago(1)
+    lineup = pick_lineup(make_pool() + fun, rules(fun_videos_per_day=3), TODAY)
+    assert [v.get("kind") for v in lineup].count("fun") == 2
+    assert len(lineup) == 8

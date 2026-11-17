@@ -77,15 +77,24 @@ trusted_channels:
   - "@BrightlyStorytime"     # Brightly Storytime: read-alouds
   - "@KidTimeStoryTime"      # KidTime StoryTime: read-alouds
   - "@ArtforKidsHub"
-  # Shows he likes. Mostly entertainment, so few of these pass
-  # min_educational_score: 7.
-  - "@disneyjr"              # Disney Jr. (the old "@disneyjunior" handle now belongs to a copycat)
-  - "@disneykids"
-  - "@marvelhq"
-  - "@starwarskids"
+
+# Channels for fun: shows he loves that are mostly entertainment. Their videos
+# skip min_educational_score, but the AI still checks every one for safety,
+# age-appropriateness, banned topics, and your guidance below. A fun-channel
+# video that does score min_educational_score or higher counts as a regular
+# learning video. Same formats as trusted_channels.
+fun_channels:
   - "@BlueyOfficialChannel"  # Bluey
   - "@PAWPatrolOfficial"     # PAW Patrol
+  - "@disneyjr"              # Disney Jr., incl. Spidey and His Amazing Friends (the old "@disneyjunior" handle now belongs to a copycat)
+  - "@disneykids"            # Disney Kids
+  - "@marvelhq"              # Marvel HQ
+  - "@starwarskids"          # Star Wars Kids
   - "@NetflixJr"             # StoryBots, Ada Twist Scientist, Octonauts
+
+# How many of each day's videos (out of daily_lineup_count) can come from the
+# fun channels. They are spread through the lineup. 0 turns fun videos off.
+fun_videos_per_day: 3
 
 # Never show anything from these channels, even if a search finds them.
 # Same formats as trusted_channels. Already-approved videos from a channel you
