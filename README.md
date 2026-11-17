@@ -222,8 +222,10 @@ requires signing in to GitHub, which is the real protection.
   before the end screen. YouTube may still show ads inside the frame on some
   videos; they cannot be tapped through.
 - **Shorts** have no flag in YouTube's API. The job treats anything up to 60
-  seconds or tagged `#shorts` as a Short, and `min_video_minutes: 3` keeps out
-  the rest. Lower that setting and some Shorts may get through to the AI.
+  seconds or tagged `#shorts` as a Short, checks every video of three minutes
+  or less against youtube.com, and `min_video_minutes: 3` keeps out the rest.
+  If you lower that setting, the youtube.com check is what stands between a
+  Short and the AI, and it can fail open when YouTube doesn't answer.
 
 ## Development
 

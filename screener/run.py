@@ -199,6 +199,19 @@ class Run:
                 self.stats["hard_rejected"] += 1
         return survivors
 
+    def drop_confirmed_shorts(self, videos: list[dict]) -> list[dict]:
+        """Second Shorts check for brief videos, which the API cannot flag."""
+        kept = []
+        for video in videos:
+            brief = video["duration_seconds"] <= config.SHORTS_MAX_SECONDS
+            if brief and YouTube.is_short_url(video["id"]):
+                self.rejected.append(rejection(
+                    video, "hard_filter", "short", "Video is a YouTube Short."))
+                self.stats["hard_rejected"] += 1
+            else:
+                kept.append(video)
+        return kept
+
     def screen_with_ai(self, videos: list[dict]) -> None:
         import anthropic
 
@@ -331,7 +344,8 @@ def main() -> int:
         quota = yt.quota_used
 
         survivors = run.apply_hard_filters(candidates)
-        to_screen = order_candidates(survivors, config.MAX_SCREENED_PER_RUN)
+        to_screen = run.drop_confirmed_shorts(
+            order_candidates(survivors, config.MAX_SCREENED_PER_RUN))
         print(
             f"{len(candidates)} unseen videos, {len(survivors)} passed the hard filters, "
             f"screening {len(to_screen)} with {config.MODEL_ID}."

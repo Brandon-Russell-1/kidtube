@@ -84,6 +84,25 @@ class YouTube:
             if item.get("id", {}).get("videoId")
         ]
 
+    @staticmethod
+    def is_short_url(video_id: str) -> bool | None:
+        """Ask youtube.com whether this video is a Short. No API quota.
+
+        youtube.com/shorts/<id> answers 200 for a Short and redirects to the
+        normal watch page otherwise. Returns None if the answer is unclear.
+        """
+        try:
+            response = requests.head(
+                f"https://www.youtube.com/shorts/{video_id}", allow_redirects=False, timeout=10
+            )
+        except requests.RequestException:
+            return None
+        if response.status_code == 200:
+            return True
+        if response.status_code in (301, 302, 303, 307, 308):
+            return "/shorts/" in response.headers.get("Location", "")
+        return None
+
     def videos(self, ids: list[str]) -> list[dict]:
         """Full details for the given IDs. 1 unit per 50 videos.
 

@@ -15,6 +15,10 @@ MAX_NEW_IDS_PER_CHANNEL = 50          # unseen videos considered per channel per
 MAX_SEARCHES_PER_RUN = 1
 SEARCH_RESULTS_PER_QUERY = 25
 
+# Shorts can run up to three minutes. Videos at or under this length get an
+# extra check against youtube.com before they are sent to the AI.
+SHORTS_MAX_SECONDS = 185
+
 # Transcript handling. The excerpt length bounds the AI input size per video.
 TRANSCRIPT_MAX_CHARS = 12000
 TRANSCRIPT_FAILURES_BEFORE_GIVING_UP = 3
