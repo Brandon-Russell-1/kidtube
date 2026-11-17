@@ -48,6 +48,11 @@ trusted_channels:
   - "@HomeschoolPop"
   - "@MysteryScience"
   - "@PBSKIDS"
+  - "@disneyjunior"
+  - "@disneykids"
+  - "@marvelhq"
+  - "@starwarskids"
+  
 
 # Never show anything from these channels, even if a search finds them.
 # Same formats as trusted_channels. Already-approved videos from a channel you
@@ -66,10 +71,10 @@ search_terms:
 # Video length limits, in minutes. The 3-minute floor also keeps YouTube Shorts
 # out (Shorts can be up to 3 minutes long).
 min_video_minutes: 3
-max_video_minutes: 20
+max_video_minutes: 60
 
 # How many videos he gets each day.
-daily_lineup_count: 8
+daily_lineup_count: 50
 
 # Don't show the same video again within this many days. If the approved pool
 # is too small to fill a day without repeating, the least-recently-shown videos
@@ -81,7 +86,7 @@ repeat_after_days: 14
 min_educational_score: 7
 
 # Total watch time allowed per day on the kid site, in minutes. 0 = no limit.
-daily_watch_limit_minutes: 45
+daily_watch_limit_minutes: 0
 
 # PIN for the hidden parent page (long-press the top-right corner of the site).
 # Digits only. This repo is public, so this is a speed bump, not security.
@@ -90,7 +95,7 @@ parent_pin: "2468"
 # Anything else the AI should know, in plain English. This paragraph goes
 # straight into the AI's instructions.
 free_text_guidance: >
-  He loves space, dinosaurs, and how machines work. Calm, clearly narrated
+  He loves space, dinosaurs, paw patrol, bluey, spiderman, and how machines work. Calm, clearly narrated
   videos are best. Avoid videos with frantic editing, shouting hosts, or
   constant sound effects. No videos that are mostly an advertisement for a toy
   or product. Gentle, kind humor is fine; mean-spirited or gross-out humor is
