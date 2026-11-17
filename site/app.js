@@ -19,7 +19,7 @@
   // into YouTube's end screen; the player closes itself just before the end.
   const SEEK_END_MARGIN = 3;
   const WATCH_AGAIN_MAX = 12;
-  const BUTTON_RESULTS_MAX = 100;
+  const BUTTON_RESULTS_MAX = 200;
   const BUTTONS_MAX = 24;
   const AUDIT_MAX = 40;
   const VIDEO_ID = /^[\w-]{11}$/;
