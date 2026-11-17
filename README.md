@@ -257,6 +257,12 @@ any other app.
   downloaded, so tapping never reaches YouTube or the AI and costs nothing.
   A button with no matches stays hidden until the nightly job approves one,
   and the job screens videos matching your buttons first.
+- **Channel buttons:** under the word buttons, a sideways row of round channel
+  icons, one for each of the 24 channels with the most approved videos, the
+  channels he watches most first. Tapping one shows that channel's approved
+  videos. The row is built from
+  `approved.json`, so there is nothing to set up, and like the word buttons it
+  includes fun channels.
 - **Player:** a back button, play/pause, buttons to jump back or forward 10
   seconds, and a progress bar he can tap or drag to move through the video.
   When a video ends he lands back in the feed where he left it.

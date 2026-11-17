@@ -21,6 +21,8 @@
   const WATCH_AGAIN_MAX = 12;
   const BUTTON_RESULTS_MAX = 200;
   const BUTTONS_MAX = 24;
+  const CHANNEL_BUTTONS_MAX = 24;          // round channel buttons under the word buttons
+  const CHANNEL_BUTTON_MIN_VIDEOS = 5;     // a channel needs this many approved videos to get one
   const AUDIT_MAX = 40;
   const VIDEO_ID = /^[\w-]{11}$/;
 
@@ -144,7 +146,7 @@
   const AVATAR_COLORS = ['#ff6b5e', '#7cc6fe', '#3ddc97', '#ffc93c', '#b28dff', '#ff9f43'];
 
   // The channel's round icon, or a colored circle with its first letter.
-  function avatar(video) {
+  function avatar(video, large) {
     const box = el('div', 'avatar');
     const info = channels.get(video.channel_id) || {};
     const showLetter = () => {
@@ -161,7 +163,8 @@
     img.draggable = false;
     img.referrerPolicy = 'no-referrer';
     img.onerror = showLetter;
-    img.src = info.icon;
+    // The saved icon is 88px; the big channel buttons ask for a sharper one.
+    img.src = large ? info.icon.replace('=s88-', '=s176-') : info.icon;
     box.append(img);
     return box;
   }
@@ -214,7 +217,8 @@
   // word in the title, channel, or topics, ignoring case, hyphens, apostrophes,
   // and a trailing "s". Only videos already in approved.json are ever searched.
 
-  let activeWord = null;   // the tapped button's word, or null for today's lineup
+  let activeWord = null;      // the tapped button's word, or null
+  let activeChannel = null;   // the tapped channel's id, or null; both null is today's feed
 
   function norm(text) {
     return ` ${String(text || '').toLowerCase().replace(/['’-]/g, '')
@@ -266,15 +270,18 @@
       .slice(0, limit);
   }
 
-  function chip(label, emoji, active, onTap) {
+  function openView(word, channelId) {
+    activeWord = word;
+    activeChannel = channelId;
+    renderHome();
+    window.scrollTo(0, 0);
+  }
+
+  function chip(label, emoji, active, word) {
     const button = el('button', active ? 'chip active' : 'chip');
     if (emoji) button.append(el('span', 'chip-emoji', emoji));
     button.append(el('span', '', label));
-    button.addEventListener('click', () => {
-      onTap();
-      renderHome();
-      window.scrollTo(0, 0);
-    });
+    button.addEventListener('click', () => openView(word, null));
     return button;
   }
 
@@ -285,9 +292,68 @@
     nav.hidden = usable.length === 0;
     if (!usable.length) { nav.replaceChildren(); return; }
     nav.replaceChildren(
-      chip('Today', '☀️', activeWord === null, () => { activeWord = null; }),
-      ...usable.map((b) => chip(b.word, b.emoji, activeWord === b.word, () => { activeWord = b.word; }))
+      chip('Today', '☀️', activeWord === null && activeChannel === null, null),
+      ...usable.map((b) => chip(b.word, b.emoji, activeWord === b.word, b.word))
     );
+  }
+
+  // ── Channel buttons ───────────────────────────────────────────────────────
+  // One round button for each channel with the most approved videos, his
+  // favorite channels first. The row keeps its order for the whole visit. Like
+  // the word buttons, a channel button only filters approved.json.
+
+  let channelRow = null;   // { key, ids } for this visit
+
+  function channelName(id) {
+    return (channels.get(id) || {}).title
+      || ([...approved.values()].find((v) => v.channel_id === id) || {}).channel_title || '';
+  }
+
+  function topChannels() {
+    const key = `${lineup.generated_at}|${visitSeed}|${approved.size}`;
+    if (channelRow && channelRow.key === key) return channelRow.ids;
+    const fav = loadFavorites();
+    const now = Date.now();
+    const liked = (id) => faded(fav.c[id], now);
+    const counts = new Map();
+    approved.forEach((v) => {
+      if (v.channel_id && !broken.has(v.id)) counts.set(v.channel_id, (counts.get(v.channel_id) || 0) + 1);
+    });
+    const ids = [...counts.entries()]
+      .filter(([, count]) => count >= CHANNEL_BUTTON_MIN_VIDEOS)
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, CHANNEL_BUTTONS_MAX)
+      .map(([id]) => id)
+      .sort((a, b) => liked(b) - liked(a));   // stable: ties stay in most-videos order
+    channelRow = { key, ids };
+    return ids;
+  }
+
+  function channelResults(id) {
+    const watched = watchedMap();
+    return [...approved.values()]
+      .filter((v) => v.channel_id === id && !broken.has(v.id))
+      .sort((a, b) => {
+        const seen = (watched[a.id] ? 1 : 0) - (watched[b.id] ? 1 : 0);   // unwatched first
+        if (seen) return seen;
+        return (b.screened_at || '').localeCompare(a.screened_at || '');  // then newest
+      })
+      .slice(0, BUTTON_RESULTS_MAX);
+  }
+
+  function drawChannels(ids) {
+    const nav = $('channels');
+    const scrolled = nav.scrollLeft;
+    nav.hidden = ids.length === 0;
+    nav.replaceChildren(...ids.map((id) => {
+      const name = channelName(id);
+      const button = el('button', id === activeChannel ? 'chan active' : 'chan');
+      button.setAttribute('aria-label', name);
+      button.append(avatar({ channel_id: id, channel_title: name }, true), el('span', 'chan-name', name));
+      button.addEventListener('click', () => openView(null, id));
+      return button;
+    }));
+    nav.scrollLeft = scrolled;   // redrawing keeps the row where he had slid it
   }
 
   // ── Favorites (per device; nothing leaves the iPad) ──────────────────────
@@ -348,6 +414,7 @@
     visitSeed = (Math.random() * 4294967296) >>> 0;
     feed = null;
     activeWord = null;
+    activeChannel = null;
     shown = { view: '', count: 0 };
   }
 
@@ -448,12 +515,6 @@
     return list;
   }
 
-  function openButton(word) {
-    activeWord = word;
-    renderHome();
-    window.scrollTo(0, 0);
-  }
-
   function shelfNode(shelf) {
     const section = el('section', 'shelf');
     const head = el(shelf.word ? 'button' : 'div', 'shelf-head');
@@ -461,7 +522,7 @@
     head.append(el('span', 'shelf-title', shelf.title));
     if (shelf.word) {
       head.append(el('span', 'shelf-more', '›'));
-      head.addEventListener('click', () => openButton(shelf.word));
+      head.addEventListener('click', () => openView(shelf.word, null));
     }
     const row = el('div', 'row');
     row.append(...shelf.videos.filter((v) => !broken.has(v.id)).map(tile));
@@ -491,7 +552,7 @@
     if (shown.count < entries.length) return el('div', 'feed-more');
     const end = el('div', 'feed-end');
     end.append(el('div', 'feed-end-emoji', '🎉'),
-      el('div', '', activeWord === null ? 'You reached the end of today\'s videos!' : 'That\'s all of them for now!'),
+      el('div', '', shown.view === 'today' ? 'You reached the end of today\'s videos!' : 'That\'s all of them for now!'),
       el('small', '', 'Tap a button at the top for more.'));
     return end;
   }
@@ -527,18 +588,23 @@
     const results = buttons.map((button) => buttonResults(button));
     let index = buttons.findIndex((b) => b.word === activeWord);
     if (index < 0 || !results[index].length) { activeWord = null; index = -1; }
+    const channelIds = topChannels();
+    if (index >= 0 || !channelIds.includes(activeChannel)) activeChannel = null;
     drawChips(buttons, results);
+    drawChannels(channelIds);
 
     const searching = index >= 0;
     const heading = $('heading');
     heading.classList.toggle('searching', searching);
-    heading.textContent = searching
-      ? `${buttons[index].emoji || '🔎'} ${buttons[index].word}`
+    heading.textContent = searching ? `${buttons[index].emoji || '🔎'} ${buttons[index].word}`
+      : activeChannel ? channelName(activeChannel)
       : "Today's videos";
 
-    const view = searching ? `button:${activeWord}` : 'today';
+    const view = searching ? `button:${activeWord}` : activeChannel ? `channel:${activeChannel}` : 'today';
     if (searching) {
       entries = results[index].map((video) => ({ video }));
+    } else if (activeChannel) {
+      entries = channelResults(activeChannel).map((video) => ({ video }));
     } else {
       const key = `${lineup.generated_at}|${visitSeed}`;
       if (!feed || feed.key !== key) {
