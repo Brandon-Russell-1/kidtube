@@ -5,7 +5,7 @@ channels, has Claude screen each new video against rules written by a parent,
 and publishes a short daily lineup to a simple site with no search box, no
 recommendations, and no way out to YouTube.
 
-- **Kid site:** https://brandon-russell-1.github.io/kidtube/
+- **Kid site:** https://brandonrussell.io/kidtube/
 - **Parent controls:** [`rules.yaml`](rules.yaml)
 - **Audit trail:** [`data/approved.json`](data/approved.json) and [`data/rejected.json`](data/rejected.json)
 
@@ -155,7 +155,7 @@ The parent page on the kid site shows the most recent entries from both.
 ### Add to the Home Screen
 
 1. On the iPad, open **Safari** and go to
-   https://brandon-russell-1.github.io/kidtube/
+   https://brandonrussell.io/kidtube/
 2. Tap the **Share** button (the square with an arrow).
 3. Tap **Add to Home Screen**, then **Add**.
 
