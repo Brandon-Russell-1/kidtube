@@ -30,7 +30,6 @@ DEFAULTS = {
     "free_text_guidance": "",
     "search_buttons": [],
     "channel_buttons": [],
-    "learning_minutes_before_fun": 0,
 }
 
 SEARCH_BUTTON_MAX_CHARS = 20
@@ -161,9 +160,6 @@ def parse_rules(raw: dict | None) -> dict:
     rules["max_videos_screened_per_run"] = min(screened, config.MAX_SCREENED_PER_RUN_CEILING)
     rules["daily_watch_limit_minutes"] = _number(
         rules["daily_watch_limit_minutes"], "daily_watch_limit_minutes", 0
-    )
-    rules["learning_minutes_before_fun"] = _number(
-        rules["learning_minutes_before_fun"], "learning_minutes_before_fun", 0
     )
     rules["parent_pin"] = str(rules["parent_pin"]).strip()
     if not rules["parent_pin"].isdigit():

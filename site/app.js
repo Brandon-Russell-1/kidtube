@@ -74,14 +74,13 @@
 
   const todayKey = () => dayKey(new Date());
   const watchedSeconds = () => store.get(`kt.watch.${todayKey()}`, 0);
-  const learnedSeconds = () => store.get(`kt.learn.${todayKey()}`, 0);   // learning videos only
   const bonusMinutes = () => store.get(`kt.bonus.${todayKey()}`, 0);
 
   function pruneOldDays() {
     try {
       const keep = todayKey();
       Object.keys(localStorage)
-        .filter((k) => /^kt\.(watch|learn|funopen|bonus)\./.test(k) && !k.endsWith(keep))
+        .filter((k) => /^kt\.(watch|bonus)\./.test(k) && !k.endsWith(keep))
         .forEach((k) => localStorage.removeItem(k));
     } catch (e) { /* ignore */ }
   }
@@ -144,33 +143,20 @@
 
   const watchedMap = () => store.get('kt.watched', {});
 
-  // Learning first: cartoons stay locked each day until he has watched the
-  // parent's number of learning minutes, or a parent unlocks them.
-  function learningNeeded() {
-    return (Number(lineup.settings.learning_minutes_before_fun) || 0) * 60;
-  }
-
-  function funLocked() {
-    const need = learningNeeded();
-    return need > 0 && !store.get(`kt.funopen.${todayKey()}`, false) && learnedSeconds() < need;
-  }
-
   // Read once per render rather than once per tile.
   let watchedNow = {};
   let heartsNow = {};
   let positionsNow = {};
-  let lockedNow = false;
 
   function readState() {
     watchedNow = watchedMap();
     heartsNow = store.get('kt.hearts', {});
     positionsNow = store.get('kt.pos', {});
-    lockedNow = funLocked();
   }
 
-  // False for a video that failed to play, and for a cartoon while cartoons are locked.
+  // False for a video that is gone from the pool or failed to play this session.
   function playable(video) {
-    return Boolean(video) && !broken.has(video.id) && !(lockedNow && video.kind === 'fun');
+    return Boolean(video) && !broken.has(video.id);
   }
 
   function isNew(video) {
@@ -313,11 +299,10 @@
       .slice(0, limit);
   }
 
-  // includeLocked also counts cartoons that are locked right now.
-  function buttonResults(button, limit = BUTTON_RESULTS_MAX, includeLocked = false) {
+  function buttonResults(button, limit = BUTTON_RESULTS_MAX) {
     const stems = buttonStems(button);
-    return newestUnwatched([...approved.values()].filter((v) =>
-      (includeLocked ? !broken.has(v.id) : playable(v)) && matchesStems(v, stems)), limit);
+    return newestUnwatched(
+      [...approved.values()].filter((v) => playable(v) && matchesStems(v, stems)), limit);
   }
 
   function openView(next) {
@@ -326,29 +311,28 @@
     window.scrollTo(0, 0);
   }
 
-  // A locked chip is one that only finds cartoons while cartoons are locked.
-  function chip(label, emoji, active, target, locked) {
-    const button = el('button', `chip${active ? ' active' : ''}${locked ? ' locked' : ''}`);
-    if (emoji || locked) button.append(el('span', 'chip-emoji', locked ? '🔒' : emoji));
+  function chip(label, emoji, active, target) {
+    const button = el('button', active ? 'chip active' : 'chip');
+    if (emoji) button.append(el('span', 'chip-emoji', emoji));
     button.append(el('span', '', label));
-    button.addEventListener('click', () => (locked ? nudgeLock() : openView(target)));
+    button.addEventListener('click', () => openView(target));
     return button;
   }
 
-  function drawChips(buttons, results, locked, hasHearts, hasChannels) {
+  function drawChips(buttons, results, hasHearts, hasChannels) {
     const nav = $('chips');
     const scrolled = nav.scrollLeft;
     const chips = [];
-    if (hasHearts) chips.push(chip('Favorites', '❤️', view.kind === 'hearts', { kind: 'hearts' }, false));
+    if (hasHearts) chips.push(chip('Favorites', '❤️', view.kind === 'hearts', { kind: 'hearts' }));
     buttons.forEach((b, i) => {
       // A button with nothing approved yet stays hidden, so he never taps into an empty page.
-      if (!results[i].length && !locked[i]) return;
+      if (!results[i].length) return;
       chips.push(chip(b.word, b.emoji, view.kind === 'button' && view.word === b.word,
-        { kind: 'button', word: b.word }, locked[i]));
+        { kind: 'button', word: b.word }));
     });
     nav.hidden = !(chips.length || hasChannels);
     nav.replaceChildren(...(nav.hidden ? []
-      : [chip('Today', '☀️', view.kind === 'today', { kind: 'today' }, false), ...chips]));
+      : [chip('Today', '☀️', view.kind === 'today', { kind: 'today' }), ...chips]));
     nav.scrollLeft = scrolled;   // redrawing keeps the row where he had slid it
   }
 
@@ -397,18 +381,14 @@
   function drawChannels(ids) {
     const nav = $('channels');
     const scrolled = nav.scrollLeft;
-    const open = new Set();   // channels with something he can watch right now
-    approved.forEach((v) => { if (playable(v)) open.add(v.channel_id); });
     nav.hidden = ids.length === 0;
     nav.replaceChildren(...ids.map((id) => {
       const name = channelName(id);
-      const locked = !open.has(id);
       const active = view.kind === 'channel' && view.id === id;
-      const button = el('button', `chan${active ? ' active' : ''}${locked ? ' locked' : ''}`);
+      const button = el('button', active ? 'chan active' : 'chan');
       button.setAttribute('aria-label', name);
-      button.append(avatar({ channel_id: id, channel_title: name }, true),
-        el('span', 'chan-name', locked ? `🔒 ${name}` : name));
-      button.addEventListener('click', () => (locked ? nudgeLock() : openView({ kind: 'channel', id })));
+      button.append(avatar({ channel_id: id, channel_title: name }, true), el('span', 'chan-name', name));
+      button.addEventListener('click', () => openView({ kind: 'channel', id }));
       return button;
     }));
     nav.scrollLeft = scrolled;
@@ -654,26 +634,6 @@
     moreObserver.observe(marker);
   }
 
-  // The pill that says how long until cartoons unlock.
-  function drawLock() {
-    const pill = $('fun-lock');
-    const need = learningNeeded();
-    pill.hidden = need === 0;
-    if (!need) return;
-    pill.classList.toggle('open', !lockedNow);
-    pill.textContent = lockedNow
-      ? `🔒 Cartoons in ${Math.max(1, Math.ceil((need - learnedSeconds()) / 60))} min`
-      : '🎉 Cartoons unlocked!';
-  }
-
-  // He tapped something locked: make the pill jump so he sees why.
-  function nudgeLock() {
-    const pill = $('fun-lock');
-    pill.classList.remove('nudge');
-    void pill.offsetWidth;   // lets the animation start over
-    pill.classList.add('nudge');
-  }
-
   // How far down the first video sits. A shelf appearing above the feed moves
   // everything, and this is how the scroll position follows it.
   function feedTop() {
@@ -688,8 +648,6 @@
 
     const buttons = searchButtons();
     const results = buttons.map((button) => buttonResults(button));
-    const lockedButtons = buttons.map((button, i) =>
-      lockedNow && !results[i].length && buttonResults(button, 1, true).length > 0);
     const channelIds = topChannels();
     const hearts = heartVideos();
 
@@ -710,9 +668,8 @@
       title = '❤️ My favorites';
     }
     if (!list) view = { kind: 'today' };
-    drawChips(buttons, results, lockedButtons, hearts.length > 0, channelIds.length > 0);
+    drawChips(buttons, results, hearts.length > 0, channelIds.length > 0);
     drawChannels(channelIds);
-    drawLock();
 
     const heading = $('heading');
     heading.classList.toggle('searching', Boolean(list));
@@ -722,9 +679,7 @@
     if (list) {
       entries = list.map((video) => ({ video }));
     } else {
-      // Unlocking cartoons rebuilds the feed with them in it; the learning
-      // videos keep their order because the visit's seed is the same.
-      const key = `${lineup.generated_at}|${visitSeed}|${lockedNow}`;
+      const key = `${lineup.generated_at}|${visitSeed}`;
       if (!feed || feed.key !== key) feed = { key, entries: buildFeed() };
       entries = feed.entries;
     }
@@ -957,8 +912,6 @@
     if (!(unsavedSeconds >= 5 || (force && unsavedSeconds > 0))) return;
     const day = todayKey();
     store.set(`kt.watch.${day}`, watchedSeconds() + unsavedSeconds);
-    const video = approved.get(currentId);
-    if (video && video.kind !== 'fun') store.set(`kt.learn.${day}`, learnedSeconds() + unsavedSeconds);
     if (currentId) {
       // What he watched, by day, for the parent page. It stays on this device.
       const log = store.get('kt.log', {});
@@ -1204,12 +1157,7 @@
     const buttons = searchButtons();
     if (buttons.length) {
       lines.push('Search buttons (videos each one finds; buttons with 0 are hidden): ' +
-        buttons.map((b) => `${b.word} ${buttonResults(b, Infinity, true).length}`).join(', '));
-    }
-    const need = learningNeeded();
-    if (need) {
-      lines.push(`Learning first: ${Math.floor(learnedSeconds() / 60)} of ${Math.round(need / 60)} ` +
-        `learning minutes watched today on this device. Cartoons are ${funLocked() ? 'locked' : 'unlocked'}.`);
+        buttons.map((b) => `${b.word} ${buttonResults(b, Infinity).length}`).join(', '));
     }
     const fav = loadFavorites();
     const now = Date.now();
@@ -1254,7 +1202,6 @@
     $('parent-screen').scrollTop = 0;
     drawParentStatus();
     drawHistory();
-    $('btn-unlock-fun').hidden = learningNeeded() === 0;
 
     const slug = repoSlug();
     $('link-rules').hidden = $('link-actions').hidden = !slug;
@@ -1296,10 +1243,6 @@
     });
     $('btn-more-time').addEventListener('click', () => {
       store.set(`kt.bonus.${todayKey()}`, bonusMinutes() + 15);
-      drawParentStatus();
-    });
-    $('btn-unlock-fun').addEventListener('click', () => {
-      store.set(`kt.funopen.${todayKey()}`, true);
       drawParentStatus();
     });
     $('btn-reset-time').addEventListener('click', () => {

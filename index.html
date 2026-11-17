@@ -29,11 +29,7 @@
   <main id="home" class="screen">
     <header class="masthead">
       <h1 id="heading">Today's videos</h1>
-      <div class="pills">
-        <!-- Learning first: how long until cartoons unlock (learning_minutes_before_fun). -->
-        <div id="fun-lock" class="time-left" hidden></div>
-        <div id="time-left" class="time-left" hidden></div>
-      </div>
+      <div id="time-left" class="time-left" hidden></div>
     </header>
     <!-- Word buttons from rules.yaml. They filter videos already approved; no typing, no live search. -->
     <nav id="chips" class="chips" aria-label="Pick a kind of video" hidden></nav>
@@ -122,7 +118,6 @@
         <a id="link-actions" class="pbtn" target="_blank" rel="noopener">Run the screening job</a>
         <button id="btn-more-time" class="pbtn">Give 15 more minutes today</button>
         <button id="btn-reset-time" class="pbtn">Reset today's watch time</button>
-        <button id="btn-unlock-fun" class="pbtn" hidden>Unlock cartoons for today</button>
       </div>
       <h3>Watched on this device, last 7 days</h3>
       <div id="parent-history" class="audit"></div>

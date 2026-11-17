@@ -116,9 +116,8 @@ What happens when you change things:
 - **Topics, score threshold, and guidance** apply to videos screened from then
   on. Past AI decisions are not re-run. To have a video judged again under new
   rules, delete its entry from `data/rejected.json` or `data/approved.json`.
-- **`daily_watch_limit_minutes`, `learning_minutes_before_fun`, `parent_pin`,
-  `search_buttons`, and `channel_buttons`** reach the site with the next
-  lineup.
+- **`daily_watch_limit_minutes`, `parent_pin`, `search_buttons`, and
+  `channel_buttons`** reach the site with the next lineup.
 - **`daily_lineup_count`** can only be met once the approved pool is that big.
   Until then the lineup shows every approved video. Raising
   `max_videos_screened_per_run` grows the pool faster.
@@ -146,19 +145,6 @@ fun approvals leave the pool on the next run.
 Search buttons look through the whole approved pool, fun videos included, so a
 button for a fun show (like "bluey"), or for the word "fun", lets him watch
 more of those than `fun_videos_per_day`.
-
-### Learning first
-
-`learning_minutes_before_fun` keeps cartoons locked each day until he has
-watched that many minutes of learning videos. While they are locked, fun
-videos are left out of the feed, the shelves, the buttons, and "What next?".
-A word or channel button that only finds cartoons shows a 🔒, and a pill at
-the top counts down ("🔒 Cartoons in 12 min"). When he gets there, the pill
-turns to "🎉 Cartoons unlocked!" and the cartoons appear. Set it to `0` to
-turn this off. The parent page has a button that unlocks cartoons for the day.
-
-The minutes are counted on the device, like the watch limit, so each iPad has
-its own count.
 
 ### Adding channels
 
@@ -301,8 +287,7 @@ Press and hold the **top-right corner** of the screen for two seconds, then
 enter the PIN from `rules.yaml` (`2468` until you change it). It shows today's
 lineup, recent approvals and rejections with reasons, today's watch time, what
 he watched on that device over the last 7 days, a link to edit `rules.yaml`,
-and buttons to give 15 more minutes, reset today's watch time, or unlock
-cartoons for the day.
+and buttons to give 15 more minutes or reset today's watch time.
 
 ### Weekly summary
 
@@ -321,7 +306,7 @@ the issue is public like the rest of the repo. It is on the parent page.
 **The PIN is a speed bump, not security.** This repo is public, the site is
 static, and the PIN check runs in the browser. Anyone who can read the code can
 get past it. All it guards is a read-only audit view, the watch history, and
-the watch-time and unlock buttons. It keeps a six-year-old out and nothing more. Changing the rules
+the watch-time buttons. It keeps a six-year-old out and nothing more. Changing the rules
 requires signing in to GitHub, which is the real protection.
 
 ## Limits you should know about
@@ -334,7 +319,7 @@ requires signing in to GitHub, which is the real protection.
 - **Everything here is public.** The repo, the lists of approved and rejected
   videos, and the site address can be seen by anyone who finds them. Nothing
   identifies your child unless you write it into `rules.yaml`.
-- **Watch time, learning minutes, hearts, and history live on the device.**
+- **Watch time, hearts, and history live on the device.**
   They are stored in the browser, per device. Clearing Safari's website data
   resets them.
 - **YouTube controls the video frame.** The site covers the player with

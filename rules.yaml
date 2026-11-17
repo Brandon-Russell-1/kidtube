@@ -191,13 +191,6 @@ channel_buttons: []
 #   - "@wbkids"
 #   - "@marvelhq"
 
-# Learning first: cartoons stay locked each day until he has watched this many
-# minutes of learning videos on that iPad. While they are locked, fun videos
-# are left out of the feed, the shelves, and the buttons, and buttons that
-# only find cartoons show a lock. 0 turns this off. The parent page has a
-# button to unlock cartoons for the day.
-learning_minutes_before_fun: 15
-
 # Never show anything from these channels, even if a search finds them.
 # Same formats as trusted_channels. Already-approved videos from a channel you
 # add here are removed on the next run.

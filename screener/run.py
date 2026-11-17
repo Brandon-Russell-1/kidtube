@@ -452,7 +452,6 @@ class Run:
                 "repo": os.environ.get("GITHUB_REPOSITORY", ""),
                 "search_buttons": self.rules["search_buttons"],
                 "channel_buttons": self.channel_button_ids,
-                "learning_minutes_before_fun": self.rules["learning_minutes_before_fun"],
             },
             "videos": [
                 {**{key: v[key] for key in (
