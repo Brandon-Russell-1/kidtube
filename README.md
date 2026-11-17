@@ -44,8 +44,8 @@ rules.yaml ──► nightly GitHub Action ──► data/approved.json ──�
 Hosting is free: GitHub Pages, GitHub Actions on a public repo, and the YouTube
 Data API's free quota. The one thing that costs money is the Anthropic API,
 which is pay-as-you-go. With the small model this job uses, screening costs
-about a twentieth of a cent per video, so even a full night of 150 is well
-under 10 cents. Once the backlog from your channels is worked through, most
+about 3 cents per 100 videos; a full night of 150 cost about 4 cents. Once the
+backlog from your channels is worked through, most
 nights only see a handful of new uploads. Every run summary shows what that
 run actually cost.
 

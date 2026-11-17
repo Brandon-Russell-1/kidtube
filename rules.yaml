@@ -135,9 +135,9 @@ repeat_after_days: 14
 min_educational_score: 7
 
 # How many new videos the AI screens per run. More means the approved pool
-# grows faster. Each video costs about a twentieth of a cent to screen (the run
-# summary shows the actual cost). Most nights only a few new uploads appear,
-# so the real number is usually far lower. Maximum 500.
+# grows faster. Screening costs about 3 cents per 100 videos (the run summary
+# shows the actual cost). Once the backlog is worked through, most nights only
+# a few new uploads appear, so the real number is usually far lower. Max 500.
 max_videos_screened_per_run: 150
 
 # Total watch time allowed per day on the kid site, in minutes. 0 = no limit.
