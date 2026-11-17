@@ -96,6 +96,50 @@ fun_channels:
 # fun channels. They are spread through the lineup. 0 turns fun videos off.
 fun_videos_per_day: 3
 
+# Big word buttons at the top of the kid site. Tapping one shows the approved
+# videos that match it, like a search he can't type into. A button only looks
+# through videos already approved, never YouTube itself, so tapping costs
+# nothing. It finds videos whose title, channel name, or topics contain its
+# word or one of its also_match words ("dinosaurs" also finds "dinosaur";
+# "spiderman" also finds "Spider-Man"). The word "fun" also finds every video
+# from your fun channels. Buttons with no matching videos stay hidden.
+#
+# Buttons look through the whole approved pool, fun videos included. A button
+# for a fun show, or for "fun" itself, lets him watch more of those than
+# fun_videos_per_day. The nightly job screens videos matching these words
+# first, so a new button fills up within a few runs if your channels have them.
+search_buttons:
+  - word: space
+    emoji: "🚀"
+    also_match: [planet, solar system, rocket, astronaut, moon, galaxy]
+  - word: dinosaurs
+    emoji: "🦕"
+    also_match: [t rex, trex, fossil, prehistoric]
+  - word: animals
+    emoji: "🐾"
+    also_match: [wild kratts, ocean, sea creatures]
+  - word: machines
+    emoji: "⚙️"
+    also_match: [how is it made, how its made, engineering, robot, truck, construction, simple machine]
+  - word: stories
+    emoji: "📚"
+    also_match: [story, read aloud, storytime, book]
+  - word: drawing
+    emoji: "✏️"
+    also_match: [draw, art for kids hub]   # plain "art" would also find "Arthur"
+  - word: math
+    emoji: "🔢"
+    also_match: [counting, numbers, fractions, numberblocks]
+  - word: bluey
+    emoji: "🐶"
+  - word: paw patrol
+    emoji: "🚒"
+  - word: spiderman
+    emoji: "🕷️"
+    also_match: [spidey]
+  # - word: fun
+  #   emoji: "🎉"
+
 # Never show anything from these channels, even if a search finds them.
 # Same formats as trusted_channels. Already-approved videos from a channel you
 # add here are removed on the next run.

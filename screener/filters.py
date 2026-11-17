@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import re
 
+from .matching import candidate_text, matches
+
 _DURATION = re.compile(
     r"^P(?:(\d+)W)?(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$"
 )
@@ -110,10 +112,18 @@ def hard_filter(
     return True, "", ""
 
 
-def _interleave(videos: list[dict], limit: int) -> list[dict]:
-    """Up to `limit` videos, madeForKids first, taking one per channel in turn."""
+def _interleave(videos: list[dict], limit: int, priority_words: list[str]) -> list[dict]:
+    """Up to `limit` videos, taking one per channel in turn.
+
+    Within each channel, videos matching a search button's words go first,
+    then madeForKids ones.
+    """
+    def key(video: dict) -> tuple[bool, bool]:
+        wanted = bool(priority_words) and matches(candidate_text(video), priority_words)
+        return (not wanted, not video.get("made_for_kids"))
+
     by_channel: dict[str, list[dict]] = {}
-    for video in sorted(videos, key=lambda v: not v.get("made_for_kids")):
+    for video in sorted(videos, key=key):
         by_channel.setdefault(video.get("channel_id", ""), []).append(video)
 
     ordered: list[dict] = []
@@ -128,15 +138,18 @@ def _interleave(videos: list[dict], limit: int) -> list[dict]:
     return ordered
 
 
-def order_candidates(videos: list[dict], limit: int, search_share: float = 0.0) -> list[dict]:
+def order_candidates(videos: list[dict], limit: int, search_share: float = 0.0,
+                     priority_words: list[str] | None = None) -> list[dict]:
     """Pick up to `limit` videos to screen.
 
     Videos from trusted channels come first. Up to `search_share` of the slots
     are kept for search results (videos with source "search"), and search
-    results also fill any slots the trusted channels leave empty.
+    results also fill any slots the trusted channels leave empty. Within each
+    channel, videos matching `priority_words` are screened first.
     """
+    words = priority_words or []
     trusted = [v for v in videos if v.get("source") != "search"]
     searched = [v for v in videos if v.get("source") == "search"]
     reserved = min(len(searched), int(limit * search_share))
-    ordered = _interleave(trusted, limit - reserved)
-    return ordered + _interleave(searched, limit - len(ordered))
+    ordered = _interleave(trusted, limit - reserved, words)
+    return ordered + _interleave(searched, limit - len(ordered), words)

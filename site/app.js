@@ -19,6 +19,8 @@
   // into YouTube's end screen; the player closes itself just before the end.
   const SEEK_END_MARGIN = 3;
   const WATCH_AGAIN_MAX = 12;
+  const BUTTON_RESULTS_MAX = 48;
+  const BUTTONS_MAX = 24;
   const AUDIT_MAX = 40;
   const VIDEO_ID = /^[\w-]{11}$/;
 
@@ -150,15 +152,95 @@
     }).slice(0, WATCH_AGAIN_MAX);
   }
 
+  // ── Search buttons ────────────────────────────────────────────────────────
+  // Same matching rules as screener/matching.py: a word matches the start of a
+  // word in the title, channel, or topics, ignoring case, hyphens, apostrophes,
+  // and a trailing "s". Only videos already in approved.json are ever searched.
+
+  let activeWord = null;   // the tapped button's word, or null for today's lineup
+
+  function norm(text) {
+    return ` ${String(text || '').toLowerCase().replace(/['’-]/g, '')
+      .replace(/[^a-z0-9]+/g, ' ').trim()} `;
+  }
+
+  function stem(word) {
+    const w = norm(word).trim();
+    return w.length > 3 && w.endsWith('s') ? w.slice(0, -1) : w;
+  }
+
+  function searchText(video) {
+    return norm([video.title, video.channel_title, ...(video.topics || []),
+      video.kind === 'fun' ? 'fun' : ''].join(' '));
+  }
+
+  function searchButtons() {
+    const raw = Array.isArray(lineup.settings.search_buttons) ? lineup.settings.search_buttons : [];
+    return raw.filter((b) => b && typeof b.word === 'string' && b.word.trim()).slice(0, BUTTONS_MAX);
+  }
+
+  function buttonResults(button, limit = BUTTON_RESULTS_MAX) {
+    const stems = (Array.isArray(button.match) ? button.match : [button.word]).map(stem).filter(Boolean);
+    const watched = store.get('kt.watched', {});
+    return [...approved.values()]
+      .filter((v) => !broken.has(v.id))
+      .filter((v) => { const text = searchText(v); return stems.some((s) => text.includes(` ${s}`)); })
+      .sort((a, b) => {
+        const seen = (watched[a.id] ? 1 : 0) - (watched[b.id] ? 1 : 0);   // unwatched first
+        if (seen) return seen;
+        return (b.screened_at || '').localeCompare(a.screened_at || '');  // then newest
+      })
+      .slice(0, limit);
+  }
+
+  function chip(label, emoji, active, onTap) {
+    const button = el('button', active ? 'chip active' : 'chip');
+    if (emoji) button.append(el('span', 'chip-emoji', emoji));
+    button.append(el('span', '', label));
+    button.addEventListener('click', () => {
+      onTap();
+      renderHome();
+      window.scrollTo(0, 0);
+    });
+    return button;
+  }
+
+  function drawChips(buttons, results) {
+    // A button with nothing approved yet stays hidden, so he never taps into an empty page.
+    const usable = buttons.filter((b, i) => results[i].length);
+    const nav = $('chips');
+    nav.hidden = usable.length === 0;
+    if (!usable.length) { nav.replaceChildren(); return; }
+    nav.replaceChildren(
+      chip('Today', '☀️', activeWord === null, () => { activeWord = null; }),
+      ...usable.map((b) => chip(b.word, b.emoji, activeWord === b.word, () => { activeWord = b.word; }))
+    );
+  }
+
   function renderHome() {
     if (limitReached()) { show('done-screen'); return; }
     show('home');
 
-    const todayVideos = lineupIds.filter((id) => !broken.has(id)).map((id) => approved.get(id));
-    $('today').replaceChildren(...todayVideos.map(tile));
-    $('empty').hidden = todayVideos.length > 0;
+    const buttons = searchButtons();
+    const results = buttons.map((button) => buttonResults(button));
+    let index = buttons.findIndex((b) => b.word === activeWord);
+    if (index < 0 || !results[index].length) { activeWord = null; index = -1; }
+    drawChips(buttons, results);
 
-    const again = watchAgainIds().map((id) => approved.get(id));
+    const searching = index >= 0;
+    const heading = $('heading');
+    heading.classList.toggle('searching', searching);
+    heading.textContent = searching
+      ? `${buttons[index].emoji || '🔎'} ${buttons[index].word}`
+      : "Today's videos";
+
+    const videos = searching
+      ? results[index]
+      : lineupIds.filter((id) => !broken.has(id)).map((id) => approved.get(id));
+    $('today').replaceChildren(...videos.map(tile));
+    $('empty').hidden = videos.length > 0;
+
+    const again = searching ? [] : watchAgainIds().map((id) => approved.get(id));
     $('again').replaceChildren(...again.map(tile));
     $('again-section').hidden = again.length === 0;
 
@@ -512,6 +594,11 @@
         ? `Watched today on this device: ${watched} of ${limit + bonusMinutes()} minutes.`
         : `Watched today on this device: ${watched} minutes (no daily limit).`,
     ];
+    const buttons = searchButtons();
+    if (buttons.length) {
+      lines.push('Search buttons (videos each one finds; buttons with 0 are hidden): ' +
+        buttons.map((b) => `${b.word} ${buttonResults(b, Infinity).length}`).join(', '));
+    }
     $('parent-status').replaceChildren(...lines.map((line) => el('div', '', line)));
   }
 

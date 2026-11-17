@@ -28,9 +28,11 @@
   <!-- Home: today's lineup and the watch-again row -->
   <main id="home" class="screen">
     <header class="masthead">
-      <h1>Today's videos</h1>
+      <h1 id="heading">Today's videos</h1>
       <div id="time-left" class="time-left" hidden></div>
     </header>
+    <!-- Word buttons from rules.yaml. They filter videos already approved; no typing, no live search. -->
+    <nav id="chips" class="chips" aria-label="Pick a kind of video" hidden></nav>
     <section id="today" class="grid" aria-label="Today's videos"></section>
     <div id="empty" class="empty" hidden>
       <div class="big-emoji">🌱</div>

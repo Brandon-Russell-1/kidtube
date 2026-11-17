@@ -115,8 +115,8 @@ What happens when you change things:
 - **Topics, score threshold, and guidance** apply to videos screened from then
   on. Past AI decisions are not re-run. To have a video judged again under new
   rules, delete its entry from `data/rejected.json` or `data/approved.json`.
-- **`daily_watch_limit_minutes` and `parent_pin`** reach the site with the next
-  lineup.
+- **`daily_watch_limit_minutes`, `parent_pin`, and `search_buttons`** reach the
+  site with the next lineup.
 - **`daily_lineup_count`** can only be met once the approved pool is that big.
   Until then the lineup shows every approved video. Raising
   `max_videos_screened_per_run` grows the pool faster.
@@ -134,6 +134,10 @@ ordinary learning video.
 Move a channel into `fun_channels` and the videos the AI rejected from it are
 judged again under the fun rules on the next run. Take a channel out and its
 fun approvals leave the pool on the next run.
+
+Search buttons look through the whole approved pool, fun videos included, so a
+button for a fun show (like "bluey"), or for the word "fun", lets him watch
+more of those than `fun_videos_per_day`.
 
 ### Adding channels
 
@@ -221,6 +225,13 @@ any other app.
 ## The kid site
 
 - **Today's videos:** big thumbnails from today's lineup.
+- **Search buttons:** big word buttons from `search_buttons` in `rules.yaml`,
+  such as 🚀 Space or 🦕 Dinosaurs. Tapping one shows the approved videos that
+  match it; ☀️ Today goes back to the daily lineup. There is still no text box.
+  A button only filters `approved.json`, which the iPad has already
+  downloaded, so tapping never reaches YouTube or the AI and costs nothing.
+  A button with no matches stays hidden until the nightly job approves one,
+  and the job screens videos matching your buttons first.
 - **Watch again:** videos he has already watched or that were in earlier lineups.
 - **Player:** a back button, play/pause, buttons to jump back or forward 10
   seconds, and a progress bar he can tap or drag to move through the video.

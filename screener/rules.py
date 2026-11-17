@@ -28,7 +28,39 @@ DEFAULTS = {
     "daily_watch_limit_minutes": 45,
     "parent_pin": "1234",
     "free_text_guidance": "",
+    "search_buttons": [],
 }
+
+SEARCH_BUTTON_MAX_CHARS = 20
+
+
+def _search_buttons(raw) -> list[dict]:
+    """Accept a list of words or of {word, emoji, also_match} entries."""
+    if raw is None:
+        return []
+    if not isinstance(raw, list):
+        raise RulesError("search_buttons must be a list")
+    buttons = []
+    for item in raw:
+        if isinstance(item, str):
+            item = {"word": item}
+        if not isinstance(item, dict) or not str(item.get("word") or "").strip():
+            raise RulesError("every search_buttons entry needs a word")
+        word = " ".join(str(item["word"]).split())
+        if len(word) > SEARCH_BUTTON_MAX_CHARS:
+            raise RulesError(
+                f"search_buttons: {word!r} is too long ({SEARCH_BUTTON_MAX_CHARS} characters at most)")
+        also = item.get("also_match") or []
+        if isinstance(also, str):
+            also = [also]
+        if not isinstance(also, list):
+            raise RulesError(f"search_buttons: also_match for {word!r} must be a list")
+        buttons.append({
+            "word": word,
+            "emoji": str(item.get("emoji") or "").strip()[:8],
+            "match": [word] + [str(a).strip() for a in also if str(a).strip()],
+        })
+    return buttons
 
 
 class RulesError(ValueError):
@@ -132,6 +164,7 @@ def parse_rules(raw: dict | None) -> dict:
     if not rules["parent_pin"].isdigit():
         raise RulesError("parent_pin must contain digits only (put it in quotes)")
     rules["free_text_guidance"] = " ".join(str(rules["free_text_guidance"]).split())
+    rules["search_buttons"] = _search_buttons(rules["search_buttons"])
     return rules
 
 

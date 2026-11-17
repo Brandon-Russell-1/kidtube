@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 from . import ai, config
 from .filters import RULE_DEPENDENT_CODES, hard_filter, normalize_video, order_candidates
 from .lineup import mark_shown, pick_lineup
+from .matching import approved_text, matches
 from .rules import RulesError, load_rules, normalize_channel_ref
 from .transcripts import TranscriptFetcher
 from .youtube import YouTube, YouTubeError
@@ -377,6 +378,7 @@ class Run:
                 "pin_sha256": hashlib.sha256(self.rules["parent_pin"].encode()).hexdigest(),
                 "pin_length": len(self.rules["parent_pin"]),
                 "repo": os.environ.get("GITHUB_REPOSITORY", ""),
+                "search_buttons": self.rules["search_buttons"],
             },
             "videos": [
                 {**{key: v[key] for key in (
@@ -411,6 +413,13 @@ def summarize(run: Run, lineup: list[dict], today: date, quota: int) -> str:
         f"- AI tokens: {s['input_tokens']:,} in, {s['output_tokens']:,} out "
         f"(about **${estimated_ai_cost(s):.3f}** at list price)",
     ]
+    buttons = run.rules["search_buttons"]
+    if buttons:
+        counts = [
+            f"{b['word']} {sum(matches(approved_text(v), b['match']) for v in run.approved)}"
+            for b in buttons
+        ]
+        lines.append(f"- Search buttons (approved videos each one finds): {', '.join(counts)}")
     if run.problems:
         lines += ["", "### Problems to fix", *[f"- {p}" for p in run.problems]]
     if run.warnings:
@@ -449,8 +458,10 @@ def main() -> int:
         quota = yt.quota_used
 
         survivors = run.apply_hard_filters(candidates)
+        button_words = [w for button in rules["search_buttons"] for w in button["match"]]
         to_screen = run.drop_confirmed_shorts(order_candidates(
-            survivors, rules["max_videos_screened_per_run"], config.SEARCH_SHARE))
+            survivors, rules["max_videos_screened_per_run"], config.SEARCH_SHARE,
+            priority_words=button_words))
         print(
             f"{len(candidates)} unseen videos, {len(survivors)} passed the hard filters, "
             f"screening {len(to_screen)} with {config.MODEL_ID}."
