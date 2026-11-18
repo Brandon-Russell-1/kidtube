@@ -28,6 +28,7 @@
   const RESUME_MIN_SECONDS = 30;           // leaving earlier than this starts over next time
   const RESUME_END_SECONDS = 60;           // this close to the end counts as finished
   const RESUME_KEEP_DAYS = 30;
+  const LOW_PRIORITY_WEIGHT = 0.15;   // how much less often a low-priority video comes up
   const UP_NEXT_COUNT = 4;                 // choices offered when a video ends
   const HISTORY_DAYS = 7;                  // what he watched, kept for the parent page
   const VIDEO_ID = /^[\w-]{11}$/;
@@ -287,13 +288,29 @@
     return raw.filter((b) => b && typeof b.word === 'string' && b.word.trim()).slice(0, BUTTONS_MAX);
   }
 
-  // Unwatched first, then newest.
+  // Same as _norm_topic in screener/lineup.py.
+  function normTopic(topic) {
+    const t = String(topic).trim().toLowerCase();
+    return t.length > 3 && t.endsWith('s') ? t.slice(0, -1) : t;
+  }
+
+  // True for a video on a topic the parent allows but wants little of
+  // (topics_low_priority in rules.yaml). These come up less often and later.
+  function lowPriority(video) {
+    const listed = lineup.settings.low_priority_topics;
+    const low = (Array.isArray(listed) ? listed : []).map(normTopic);
+    return low.length > 0 && (video.topics || []).some((t) => low.includes(normTopic(t)));
+  }
+
+  // Unwatched first, low-priority topics after the rest, then newest.
   function newestUnwatched(videos, limit) {
     const watched = watchedMap();
     return videos
       .sort((a, b) => {
         const seen = (watched[a.id] ? 1 : 0) - (watched[b.id] ? 1 : 0);
         if (seen) return seen;
+        const low = (lowPriority(a) ? 1 : 0) - (lowPriority(b) ? 1 : 0);
+        if (low) return low;
         return (b.screened_at || '').localeCompare(a.screened_at || '');
       })
       .slice(0, limit);
@@ -500,7 +517,7 @@
   }
 
   function buildShelves(feedIds, fav, now, rng, watched) {
-    const weight = (v) => (1 + liking(v, fav, now)) * (isNew(v) ? 1.5 : 1);
+    const weight = (v) => (1 + liking(v, fav, now)) * (isNew(v) ? 1.5 : 1) * (lowPriority(v) ? LOW_PRIORITY_WEIGHT : 1);
     const pool = [...approved.values()].filter((v) => !feedIds.has(v.id) && playable(v));
     const learning = [];
     const fun = [];
@@ -553,7 +570,7 @@
     const fav = loadFavorites();
     const now = Date.now();
     const watched = watchedMap();
-    const weight = (v) => (1 + liking(v, fav, now)) * (isNew(v) ? 1.5 : 1);
+    const weight = (v) => (1 + liking(v, fav, now)) * (isNew(v) ? 1.5 : 1) * (lowPriority(v) ? LOW_PRIORITY_WEIGHT : 1);
     const today = lineupIds.map((id) => approved.get(id)).filter(playable);
     const order = (seen) => {
       const group = today.filter((v) => Boolean(watched[v.id]) === seen);
@@ -981,7 +998,7 @@
     const now = Date.now();
     const topics = new Set(last.topics || []);
     const shared = (v) => (v.topics || []).filter((t) => topics.has(t)).length;
-    const weight = (v) => (1 + shared(v)) * (1 + liking(v, fav, now));
+    const weight = (v) => (1 + shared(v)) * (1 + liking(v, fav, now)) * (lowPriority(v) ? LOW_PRIORITY_WEIGHT : 1);
     const fresh = [...approved.values()].filter((v) => v.id !== id && playable(v) && !watchedNow[v.id]);
     const same = fresh.filter((v) => v.channel_id === last.channel_id
       && (v.kind !== 'fun' || last.kind === 'fun'));

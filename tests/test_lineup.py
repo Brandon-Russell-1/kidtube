@@ -119,6 +119,13 @@ def test_topic_weight_matching():
     assert topic_weight({"topics": []}, wanted) == 0.5
 
 
+def test_low_priority_topic_beats_a_wanted_one():
+    wanted = rules()["topics_wanted"]
+    low = ["toy unboxing"]
+    assert topic_weight({"topics": ["science", "Toy Unboxing"]}, wanted, low) == 0.1
+    assert topic_weight({"topics": ["science"]}, wanted, low) == 3
+
+
 def test_higher_weighted_topics_appear_more_often():
     pool = []
     for topic in ("science", "art"):

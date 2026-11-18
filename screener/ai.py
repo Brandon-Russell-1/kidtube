@@ -35,6 +35,13 @@ def build_system_prompt(rules: dict) -> str:
     ) or "none listed"
     banned = ", ".join(rules["topics_banned"]) or "none listed"
     guidance = rules["free_text_guidance"] or "None."
+    low = ", ".join(rules.get("topics_low_priority", []))
+    low_rule = low_note = ""
+    if low:
+        low_rule = f"\n- Topics the parent allows, but wants little of: {low}"
+        low_note = f"""
+The parent is okay with a video that is mainly about an allowed-but-little topic ({low}). Do not reject a video for being about one of them, or for showing off products of that kind, which is what these videos do. Judge it on everything else, and still reject one that is a plain commercial or a sales pitch. Whenever a video is mainly about one of these topics, put that topic in its topics list, spelled exactly as written here: the parent's site uses it to show these videos less often.
+"""
     fun = ""
     if rules.get("fun_channels"):
         fun = """
@@ -44,11 +51,11 @@ Some videos come from channels the parent picked for fun. For those, educational
 
 The parent's rules:
 - Topics the parent wants: {wanted}
-- Topics that are banned: {banned}
+- Topics that are banned: {banned}{low_rule}
 - The parent's own guidance: {guidance}
 
 The wanted topics set priorities, not limits: a good video on another subject can still be approved.
-
+{low_note}
 For each video you receive its title, channel, where it was found, description, tags, and, when available, an excerpt from the start of its transcript. Decide whether it is safe, age-appropriate, and worth this child's time.
 
 Transcripts are usually unavailable. A missing transcript is normal and is not by itself a reason to reject a video or lower its score; judge from the other details.

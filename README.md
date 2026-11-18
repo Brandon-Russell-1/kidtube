@@ -146,6 +146,16 @@ Search buttons look through the whole approved pool, fun videos included, so a
 button for a fun show (like "bluey"), or for the word "fun", lets him watch
 more of those than `fun_videos_per_day`.
 
+### Topics that are okay in small doses
+
+`topics_low_priority` is for things you don't want banned but don't want much
+of, like toy unboxing. A video mainly about one of these can be approved, and
+is then picked for the daily lineup about a tenth as often as other videos,
+tends to sit late in the feed, and comes last under a word or channel button.
+It still has to pass every other check. A learning video must reach
+`min_educational_score`, which these rarely do, so in practice they come from
+your fun channels. To ban a topic outright, move it to `topics_banned`.
+
 ### Adding channels
 
 A handle like `"@SciShowKids"` is easiest. Handles

@@ -8,6 +8,8 @@ from datetime import date
 
 # Weight for an approved video that matches none of topics_wanted.
 UNMATCHED_TOPIC_WEIGHT = 0.5
+# Weight for a video on one of topics_low_priority, whatever else it covers.
+LOW_PRIORITY_WEIGHT = 0.1
 # Each extra pick from a channel already in the lineup is this much less likely.
 SAME_CHANNEL_PENALTY = 0.5
 
@@ -17,8 +19,14 @@ def _norm_topic(topic: str) -> str:
     return topic[:-1] if topic.endswith("s") and len(topic) > 3 else topic
 
 
-def topic_weight(video: dict, topics_wanted: dict[str, float]) -> float:
-    """Highest topics_wanted weight among the video's topics."""
+def topic_weight(video: dict, topics_wanted: dict[str, float], low_priority=()) -> float:
+    """Highest topics_wanted weight among the video's topics.
+
+    A video on any low_priority topic gets LOW_PRIORITY_WEIGHT instead.
+    """
+    topics = {_norm_topic(t) for t in video.get("topics", [])}
+    if topics & {_norm_topic(t) for t in low_priority}:
+        return LOW_PRIORITY_WEIGHT
     wanted = {_norm_topic(name): weight for name, weight in topics_wanted.items()}
     matches = [wanted[t] for t in map(_norm_topic, video.get("topics", [])) if t in wanted]
     return max(matches) if matches else UNMATCHED_TOPIC_WEIGHT
@@ -45,7 +53,7 @@ def is_eligible(video: dict, today: date, repeat_after_days: int) -> bool:
 
 
 def _weighted_mixed_pick(
-    pool: list[dict], count: int, topics_wanted: dict[str, float], rng: random.Random,
+    pool: list[dict], count: int, rules: dict, rng: random.Random,
     per_channel: dict[str, int],
 ) -> list[dict]:
     """Weighted sampling without replacement that spreads picks across channels."""
@@ -60,7 +68,7 @@ def _weighted_mixed_pick(
             cap += 1
             continue
         weights = [
-            topic_weight(v, topics_wanted)
+            topic_weight(v, rules["topics_wanted"], rules.get("topics_low_priority", ()))
             * (v.get("educational_score", 5) / 10)
             * SAME_CHANNEL_PENALTY ** per_channel.get(v.get("channel_id", ""), 0)
             for v in candidates
@@ -79,7 +87,7 @@ def _pick(
 ) -> list[dict]:
     """Fresh weighted picks, topped up with the least-recently-shown videos."""
     fresh = [v for v in pool if is_eligible(v, today, rules["repeat_after_days"])]
-    picks = _weighted_mixed_pick(fresh, count, rules["topics_wanted"], rng, per_channel)
+    picks = _weighted_mixed_pick(fresh, count, rules, rng, per_channel)
     if len(picks) < count:
         chosen = {v["id"] for v in picks}
         repeats = sorted(

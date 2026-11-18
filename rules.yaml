@@ -25,9 +25,16 @@ topics_wanted:
   animals: 2
   art: 1
 
+# Okay, but only a little. Videos mainly about these can be approved, and
+# then turn up much less often than everything else: rarely in the daily
+# lineup, late in the feed, and last under a button. They still need to pass
+# every other check, so in practice they come from your fun channels (a
+# learning video has to reach min_educational_score, which these rarely do).
+topics_low_priority:
+  - toy unboxing
+
 # Never approve videos that are mainly about these.
 topics_banned:
-  - toy unboxing
   - gaming
   - pranks
   - scary content
@@ -256,8 +263,8 @@ parent_pin: "2468"
 free_text_guidance: >
   He loves space, dinosaurs, paw patrol, bluey, spiderman, and how machines work. Calm, clearly narrated
   videos are best. Avoid videos with frantic editing, shouting hosts, or
-  constant sound effects. No videos that are mostly an advertisement for a toy
-  or product. Gentle, kind humor is fine; mean-spirited or gross-out humor is
+  constant sound effects. No videos that are mostly an advertisement for a
+  product. Toy unboxing and toy play videos are okay. Gentle, kind humor is fine; mean-spirited or gross-out humor is
   not.
 
   We're happy for him to watch these cartoons: Super Why, Teenage Mutant Ninja

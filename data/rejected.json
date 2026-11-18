@@ -10624,25 +10624,6 @@
       "screened_at": "2026-11-17T11:38:55Z"
     },
     {
-      "id": "H8dmzzx1Els",
-      "title": "Mean Green Grabbing Machine | PAW Patrol | Toy Play for Kids",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 1844,
-      "stage": "ai",
-      "code": "ai_rejected",
-      "reason": "Titled and described as a PAW Patrol toy play video with heavy toy-product framing, which falls under the banned toy unboxing/product showcase category and does not match the parent's wanted topics. Even as a fun-channel video, it is mainly a toy showcase with little substance, so it is rejected.",
-      "educational_score": 2,
-      "topics": [
-        "toy play",
-        "paw patrol"
-      ],
-      "used_transcript": false,
-      "source": "fun",
-      "model": "claude-haiku-5-5",
-      "screened_at": "2026-11-17T11:39:00Z"
-    },
-    {
       "id": "LYoJgbAl8z0",
       "title": "Learn About the Weather | It's Foggy, Chilly, and Snowy! | Stories for Kindergarten",
       "channel_id": "UCXRPWm72nrs5sK7fNTSXZrw",
@@ -12118,25 +12099,6 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:38Z"
-    },
-    {
-      "id": "HSrEOawizok",
-      "title": "Toy Machine SURPRISE! Collect Prizes from Gabby's Dollhouse 😻 Netflix Jr",
-      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
-      "channel_title": "Netflix Jr.",
-      "duration_seconds": 727,
-      "stage": "ai",
-      "code": "ai_rejected",
-      "reason": "The video centers on a toy machine surprise and product-style reveals promoting Netflix Gabby's Dollhouse, which leans toward a banned toy unboxing and product showcase rather than real learning. Although it is from a fun channel, the toy-surprise focus and promotional framing make it a poor fit for this child.",
-      "educational_score": 2,
-      "topics": [
-        "toy unboxing",
-        "entertainment"
-      ],
-      "used_transcript": false,
-      "source": "fun",
-      "model": "claude-haiku-5-5",
-      "screened_at": "2026-11-17T11:49:51Z"
     },
     {
       "id": "eklKUHyI9gI",
@@ -13909,25 +13871,6 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:28:49Z"
-    },
-    {
-      "id": "Ei4ndrKB8jw",
-      "title": "Marshall and MORE PAW Patrol Toys to the Rescue! 🌋 | Nick Jr.",
-      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
-      "channel_title": "Nick Jr.",
-      "duration_seconds": 210,
-      "stage": "ai",
-      "code": "ai_rejected",
-      "reason": "This is a short promotional clip built around PAW Patrol toys and product-style links, with a description that is mostly app and store advertising rather than substantive content. It is also a fun-channel video that shows toy-centered marketing and lacks any clear learning value, so I'm rejecting it.",
-      "educational_score": 2,
-      "topics": [
-        "animation",
-        "toys"
-      ],
-      "used_transcript": false,
-      "source": "fun",
-      "model": "claude-haiku-5-5",
-      "screened_at": "2026-11-17T18:29:13Z"
     },
     {
       "id": "6emySLrZWDw",
@@ -19855,25 +19798,6 @@
       "screened_at": "2026-11-17T23:42:30Z"
     },
     {
-      "id": "9SyKINCHY3g",
-      "title": "Let's Play…Cubby 💙 🧸 | Bluey and Bingo Playtime ⭐️ | Bluey",
-      "channel_id": "UCVzLLZkDuFGAE2BGdBuBNBg",
-      "channel_title": "Bluey - Official Channel",
-      "duration_seconds": 185,
-      "stage": "ai",
-      "code": "ai_rejected",
-      "reason": "This is a Bluey pretend-play video with a toy-focused framing (#BlueyToyVideos, #BlueyToys, 'new bluey toys' tags), which leans toward the banned toy-unboxing and product-showcase territory even though the show itself is approved. Its educational value is low and the toy emphasis makes it unsuitable to approve.",
-      "educational_score": 3,
-      "topics": [
-        "animals",
-        "art"
-      ],
-      "used_transcript": false,
-      "source": "fun",
-      "model": "claude-haiku-5-5",
-      "screened_at": "2026-11-17T23:43:34Z"
-    },
-    {
       "id": "skBEBJ7-SUg",
       "title": "Gaston Gets a Pimple!? | Disney Villains' Halloween Nightmares 😈💤 | Beauty and the Beast",
       "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
@@ -20836,25 +20760,6 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:15:43Z"
-    },
-    {
-      "id": "mQrAZy6KpXY",
-      "title": "Danny’s Beaver Dam Slam | PAW Patrol | Toy Play for Kids",
-      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "channel_title": "PAW Patrol Official & Friends",
-      "duration_seconds": 2295,
-      "stage": "ai",
-      "code": "ai_rejected",
-      "reason": "The title and description frame this as a toy play video built around product-driven pretend play with new toys, which the parent's guidance excludes as mainly a toy showcase. Although PAW Patrol is a favorite, the video itself is a toy-focused advertisement-style piece, so it is rejected.",
-      "educational_score": 2,
-      "topics": [
-        "toy play",
-        "animals"
-      ],
-      "used_transcript": false,
-      "source": "fun",
-      "model": "claude-haiku-5-5",
-      "screened_at": "2026-11-18T18:16:32Z"
     },
     {
       "id": "_VZHjZzLkVI",
