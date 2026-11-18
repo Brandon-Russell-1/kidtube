@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T18:21:18Z",
+  "updated": "2026-11-18T23:28:21Z",
   "videos": [
     {
       "id": "GJuO4MzYrtI",
@@ -21198,6 +21198,1318 @@
       "source": "search",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:21:16Z"
+    },
+    {
+      "id": "X5AvTuQ0jYI",
+      "title": "Kids React to Wolves Up Close | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 80,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.3 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "1WBcKryn_B8",
+      "title": "Explore the Grand Canyon, Redwoods & Niagara Falls 🌵| America 250 | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 91,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "OYw5i3J7BS8",
+      "title": "Explore Hawai'i Volcanoes National Park🌋 | America 250 | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 61,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.0 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "BlPtF_NqIQI",
+      "title": "Down to Earth: Crash Course Kids #4.2",
+      "channel_id": "UCONtPx56PSebXJOxbFv-2jQ",
+      "channel_title": "Crash Course Kids",
+      "duration_seconds": 179,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 3.0 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "jKlB8aNeSvQ",
+      "title": "Welcome to The Robot Zoo! | NEW SERIES | Maddie Moate",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 140,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.3 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "g4lEVrIyJmA",
+      "title": "Ostrich Chicks Get First Ever Drink of Water | Animal Babies | BBC Earth Kids",
+      "channel_id": "UCO_DaPp4ifhMAmiyybSLx9w",
+      "channel_title": "BBC Earth Kids",
+      "duration_seconds": 175,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.9 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "aDPAIHhzJx8",
+      "title": "Learn about Baby Animals MARATHON | Andy's Baby Animals | Andy's Amazing Adventures",
+      "channel_id": "UCERIFsNgBE9wOUxXEFnz6Fw",
+      "channel_title": "Andy's Amazing Adventures",
+      "duration_seconds": 3902,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "lmQpvMelBx4",
+      "title": "Octonauts Theme Song 🎵🐙 Cartoon Music for Kids 🎶",
+      "channel_id": "UCXLLQkbYE-G9jYrra7R4Qsw",
+      "channel_title": "Octonauts",
+      "duration_seconds": 45,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "fPZZHk4Rf50",
+      "title": "Half Term A to Z Fun! 🔤 | Learn to Read and Spell for Kids | Alphablocks",
+      "channel_id": "UC_qs3c0ehDvZkbiEbOj6Drg",
+      "channel_title": "Alphablocks",
+      "duration_seconds": 2026,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "jDbMBPXFmTg",
+      "title": "2 Minute Tour of Ohio: 50 States for Kids - FreeSchool",
+      "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+      "channel_title": "Free School",
+      "duration_seconds": 123,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.0 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "alfgay5-x2s",
+      "title": "2 Minute Tour of Tennessee: 50 States for Kids - FreeSchool",
+      "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+      "channel_title": "Free School",
+      "duration_seconds": 128,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.1 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "YuBOfUaxTpg",
+      "title": "Donkey Hodie | \"Hee-Haw-Firmations\" Music Video 🎵 | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 120,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.0 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "iPLXr5r9ScU",
+      "title": "Phoebe & Jay | 🎵 Sing and Dance Along to the Boogie Boo Bump! 🪩 | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 97,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.6 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "Ly-Sca4pHXM",
+      "title": "Up on the Housetop | Christmas song with Lyrics | Rock 'N Learn",
+      "channel_id": "UCExx109KH5msQR0n52ZzyAw",
+      "channel_title": "Rock 'N Learn",
+      "duration_seconds": 144,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.4 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "BVp4lbRbilI",
+      "title": "🧙‍♀️🎄 Read-Along with Aubrey Plaza | THE LEGEND OF THE CHRISTMAS WITCH | Brightly Storytime Together",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 598,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "pU8CTapGhSs",
+      "title": "💙 Read-Along with the Author | EVERYBODY FEELS FEAR! | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 193,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "DKQUhWNKGOs",
+      "title": "🐶 Bluey 5-Minute Stories - Read Aloud Picture Book | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 858,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "gtKHcsuHmoo",
+      "title": "🎃 Read Aloud Picture Book | THE HAPPY PUMPKIN | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 134,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "Qf9TH12wMh0",
+      "title": "MAGIC TREE HOUSE 🏡 The Knight at Dawn - Read Aloud Graphic Novel | Brightly Storytime Together",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 468,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "g6I6bOEHtxg",
+      "title": "Rosa's Song - Read Aloud Picture Book | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 495,
+      "stage": "hard_filter",
+      "code": "livestream",
+      "reason": "Video is a live stream or a recording of one.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "Tia9pI78yKo",
+      "title": "😄 📚 Elizabeth Olsen & Robbie Arnett present Read-Alongs #YouTubeKids #ReadingMonth",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 72,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.2 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "9bZviuy7pY4",
+      "title": "People are Wild - Read Aloud With The Author | Brightly Storytime",
+      "channel_id": "UCvQagFNHMrGgQpYunk4rHXg",
+      "channel_title": "Brightly Storytime",
+      "duration_seconds": 162,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.7 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "wM57k7xLjL4",
+      "title": "Water Maze Challenge: Moana, Maui or Pua?  🌊 🏝️ | Moana | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 59,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "nHLhEQp1vLI",
+      "title": "Frozen According to Olaf! ⛄❄️ | Frozen 2 | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 82,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.4 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "6Os4PEWtV5Q",
+      "title": "How many Heihei's can you count?  🌊 🏝️ | Moana | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 91,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "3JAdxIx19M0",
+      "title": "AD | The Princess Heist! | Rapunzel, Belle, Ariel, & Others! | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 89,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "qio81pwhTFQ",
+      "title": "The Princesses' Cozy Afternoon Indoors? 👑☔️ 😼 | LEGO Disney Princess | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 68,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.1 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "2cenLxOf0gk",
+      "title": "Match the Backpack to the Toy Story 5 Character! 🎒🤠👨‍🚀 | Pixar's Toy Story 5 | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 106,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.8 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "X52Ah1-yrh8",
+      "title": "AD | The LEGO Princess Lantern Festival! 🏮 | Rapunzel, Belle, & Others! | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 87,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.4 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "ezQw2FRQ8Io",
+      "title": "AD | Princesses to the Rescue! | Ariel, Rapunzel, Belle, & Others! | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 88,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "4Q68IrInxAQ",
+      "title": "Tangled | Maximus and Pascal Chase the Apple Thief! 🐴🦎🍎 | Disney Sidekick Adventures | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 171,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.9 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "ltwUarvOLE0",
+      "title": "This Is Moana 🌊✨ | Moana | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 47,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "jlvoF4Avm5Y",
+      "title": "AD | Stitch Crashes the Princess Tea Party! | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 80,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.3 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "EiybTGONkLU",
+      "title": "Jeff vs Jeff?! 🦈🍦 | Jeff & His Super Hero Friends | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 149,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "d5DCgo1S6yQ",
+      "title": "Captain America & Bucky Vs Mythical Cyclops | The Avengers: Earth's Mightiest Heroes | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 164,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.7 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "S_hxgPIrm1c",
+      "title": "Hulk Fights Without a Brain 🤯 | The Super Hero Squad Show | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 169,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.8 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "qk4qfO7olMI",
+      "title": "Han, Chewie, Luke, and Leia Are Stuck in a Crochet Trash Compactor 🧶🗑️ | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 106,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.8 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "0kgCkaTb1og",
+      "title": "Tower Takedown | LEGO Star Wars | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 120,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.0 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "0MFWnfg22hU",
+      "title": "Go Go Grogu! | LEGO Star Wars | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 121,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.0 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "hQ67VcoDO04",
+      "title": "PAW Patrol: Dino Movie Official Trailer 🦖 | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 148,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.5 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "xLUCZVnkd4Q",
+      "title": "Jasper Finds a MUTANT Egg in Henry's Backyard 😳🥚 | Henry Danger | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 154,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.6 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "zVysv-cvb1c",
+      "title": "Dive into some Family Fun at Parkdean Resorts! | Nickelodeon Zooms In | Nick Jr. | #AD",
+      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
+      "channel_title": "Nick Jr.",
+      "duration_seconds": 60,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "kPG-PS7Fusw",
+      "title": "Transformers: Prime | Mini Movie | S01 | E01-E15 | COMPILATION | Transformers HQ",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 19732,
+      "stage": "hard_filter",
+      "code": "too_long",
+      "reason": "Video is 328.9 min; the maximum is 240 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "KpsOtEvV0b0",
+      "title": "Milo, a Stopper for the Knights! 🛑🐉 | Dragon Striker: Gorotama Stars |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 41,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "gbN17a0HqHY",
+      "title": "Odward, a Striker for the Knights!👀🐉 | Dragon Striker: Gorotama Stars |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 41,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "ll22vC5-E_c",
+      "title": "Ssyelle, Captain for the Knights! 🤩 | Dragon Striker: Gorotama Stars |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 41,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "JjPTZPxLF1w",
+      "title": "Ameline, the Knights Midfielder! 🐉✨ | Dragon Striker: Gorotama Stars |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 41,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "s_69IUooPP4",
+      "title": "Key, a Striker for the Knights! 🐉⚔️ | Dragon Striker: Gorotama Stars | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 41,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "dAxl5eAc5tY",
+      "title": "Buford's sandwich turns into a monster🥪 | Locker Diaries: Phineas and Ferb |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 101,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.7 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "XgwRBbQuyEA",
+      "title": "Phineas and Ferb Invent a Time Traveling Remote! 🕰️🫢 | Locker Diaries |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 101,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.7 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "rcd67nS_Z2A",
+      "title": "Angel Cartoon Comes to Life! 💓🎤 | How NOT To Draw |  Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 131,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.2 min; the minimum is 3 min.",
+      "screened_at": "2026-11-18T23:18:41Z"
+    },
+    {
+      "id": "aVQHPU7FEs8",
+      "title": "Rudolph The Red Nosed Reindeer Story | Christmas Motivational Story for Kids | Dr. Binocs Show",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 362,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 5 is below the minimum of 7. AI said: A calm, gentle animated retelling of the Rudolph story with a kind moral about accepting differences, from a channel the parent trusts. It has some story and moral value but little science or other wanted-topic learning, so it scores in the middle range.",
+      "educational_score": 5,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:18:51Z"
+    },
+    {
+      "id": "XMvUdeKINKs",
+      "title": "🤣 The Best PBS KIDS Dad Jokes for Father's Day COMPILATION! 😂 | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 229,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 3 is below the minimum of 7. AI said: A trusted PBS KIDS channel compilation of gentle, corny dad jokes from kids' shows, calm and kid-safe with no banned content. It offers mostly light humor with little teaching, so it scores low, but it fits as a fun-channel video.",
+      "educational_score": 3,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:19:07Z"
+    },
+    {
+      "id": "Vq_UpOguNWU",
+      "title": "Multiply by 8's! | Multiply By Music | Jack Hartmann",
+      "channel_id": "UCVcQH8A634mauPrGbWs7QlQ",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "duration_seconds": 248,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A math song teaching the 8 times table from a trusted channel, calm and appropriate, but it is aimed at 2nd to 5th graders and is a drill-style multiplication song that is a stretch for a 6-year-old; the educational value is real but the score is borderline, so I am rejecting it under the rule to reject when unsure.",
+      "educational_score": 7,
+      "topics": [
+        "math"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:19:17Z"
+    },
+    {
+      "id": "u_5yCvQgDdg",
+      "title": "Spooky | Lilo & Stitch: The Series S1 E5 | Full Episode | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 1366,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a Lilo & Stitch episode about an experiment that turns people's worst fears into reality, which is a scary premise not on the parent's list of approved cartoons, so it is rejected despite coming from a fun channel.",
+      "educational_score": 1,
+      "topics": [
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:19:29Z"
+    },
+    {
+      "id": "ppSvLAnOreQ",
+      "title": "Playtime Party for Pretty Pups | Wonderful World of Puppies | BBC Earth Kids",
+      "channel_id": "UCO_DaPp4ifhMAmiyybSLx9w",
+      "channel_title": "BBC Earth Kids",
+      "duration_seconds": 197,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A short, calm BBC Earth Kids clip about puppies in training and playing, from a trusted channel with no violence, banned content, or product pitch. It is about animals, a wanted topic, but offers only modest learning, so the score is moderate.",
+      "educational_score": 6,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:19:51Z"
+    },
+    {
+      "id": "wF3ECvvHEBg",
+      "title": "The Dance Freeze Song 2! | Freeze Dance | Scratch Garden",
+      "channel_id": "UC8NFs-VWUsyuq4zaYVVMgCQ",
+      "channel_title": "Scratch Garden",
+      "duration_seconds": 271,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 4 is below the minimum of 7. AI said: A calm, kid-friendly freeze dance song from a trusted educational channel with movement play and no banned content, but its learning value is limited to incidental movement and rhythm, so the score is low and the topic is only loosely fitted to the parent's list.",
+      "educational_score": 4,
+      "topics": [
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:19:56Z"
+    },
+    {
+      "id": "_fCdzB-BQ5E",
+      "title": "Brain Becomes a Scary Werewolf! | Inspector Gadget - WildBrain | Full HD Episodes",
+      "channel_id": "UCI-lg_sDdzBtYKVpebqasIA",
+      "channel_title": "Inspector Gadget - WildBrain",
+      "duration_seconds": 5025,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is an 84-minute Inspector Gadget compilation whose first episode is a werewolf transformation story, which leans toward the frightening side for a 6-year-old, and the title emphasizes a 'scary' werewolf. The Inspector Gadget show is on the parent's approved list, but the content is a long, low-educational-value entertainment compilation, and the scary framing makes it unsafe to approve without review.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:20:03Z"
+    },
+    {
+      "id": "vOckAlpLhjs",
+      "title": "The Holy Story of Jesus Christ | A Christmas Story | The Birth of Jesus Christ | The Dr. Binocs Show",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 388,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a religious story about Jesus, including His sacrifice (crucifixion tag), which the parent's guidance does not cover, and it is a Christmas story from a Dr. Binocs kids' channel with thin, unverifiable substance. Rejected as off-guidance and unclear rather than as a clear fit for the parent's wanted topics.",
+      "educational_score": 4,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:20:12Z"
+    },
+    {
+      "id": "TACTtAcdT-4",
+      "title": "SONG about SEA ANIMALS for Kids 🐬🦈 Motion in the Ocean! 🐙🐢",
+      "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
+      "channel_title": "Smile and Learn - English",
+      "duration_seconds": 209,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, kid-friendly song that names and shows ocean animals and their movements, with brief facts and no violence or frightening content; it comes from a trusted channel. It is mostly a sing-along with light learning, so the educational score is moderate.",
+      "educational_score": 6,
+      "topics": [
+        "animals",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:20:31Z"
+    },
+    {
+      "id": "4steZuhnoNA",
+      "title": "Happy Mother's Day! | 15 Minutes of Mother's Day Songs for Kids! | Jack Hartmann",
+      "channel_id": "UCVcQH8A634mauPrGbWs7QlQ",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "duration_seconds": 814,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A Mother's Day song compilation from a trusted channel, calm and kid-safe, but it is mainly music with little science, reading, math, animal, or other learning content, so its educational value is low and it does not meet the approval bar of 7 or higher.",
+      "educational_score": 3,
+      "topics": [
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:20:37Z"
+    },
+    {
+      "id": "zGCDKWcIHKs",
+      "title": "Optimus Down! | E26 | Transformers: CYBERWORLD",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 317,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a Transformers: Cyberworld cartoon episode about a trap-filled gauntlet of laser grids, collapsing paths, and game-like challenges with danger escalating, which leans toward the banned gaming/challenge theme and suspense. The parent's list names Transformers, but the description frames it as a dangerous challenge course, and it offers little educational value, so I am rejecting it.",
+      "educational_score": 2,
+      "topics": [
+        "transformers",
+        "action",
+        "cartoon"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:20:55Z"
+    },
+    {
+      "id": "QCM9QIb4OY8",
+      "title": "Mountain Rescue Puppy Gets to Know New Pad | Wonderful World of Puppies | BBC Earth Kids",
+      "channel_id": "UCO_DaPp4ifhMAmiyybSLx9w",
+      "channel_title": "BBC Earth Kids",
+      "duration_seconds": 187,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, kid-friendly BBC Earth Kids clip about a young Springer Spaniel puppy exploring a new home, from a channel the parent trusts. It is about animals with gentle narration and no frightening or commercial content, though it offers only modest teaching.",
+      "educational_score": 6,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:21:00Z"
+    },
+    {
+      "id": "m70RTxxnczc",
+      "title": "Ms. Frizzle's Most Iconic Entrances | Celebrating 40 Years of The Magic School Bus",
+      "channel_id": "UCi7STzPDqcOvmjm7-bEsvDg",
+      "channel_title": "The Magic School Bus",
+      "duration_seconds": 1213,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 20-minute compilation of Ms. Frizzle's entrances from a retro science cartoon; it is from a trusted channel and is on-topic, but the description gives no clear sense of substantive science content, and a montage of entrances offers little real teaching, so it falls below the approval bar of 7.",
+      "educational_score": 4,
+      "topics": [
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:21:58Z"
+    },
+    {
+      "id": "1r7QnhVbu7g",
+      "title": "Just Fun Songs Compilation! | Fun for the Whole Family Music! | Scratch Garden",
+      "channel_id": "UC8NFs-VWUsyuq4zaYVVMgCQ",
+      "channel_title": "Scratch Garden",
+      "duration_seconds": 3615,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A trusted Scratch Garden compilation of kid-friendly songs, including nursery rhymes and a few songs with counting, letters and simple science (moon, animals), with no scary or gross content. It is a fun-channel style compilation with some incidental learning, and it is not mainly an advertisement.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:22:00Z"
+    },
+    {
+      "id": "P7KatJVKiB8",
+      "title": "City Island | Community Compilation! ♥️ | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 934,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A trusted PBS KIDS compilation of gentle community-helping episodes (volunteering at a pet shelter, running for class president, a class newspaper) with kind values and no scary or gross content. It has some incidental learning about community and reading-related activities, though it is more entertainment-focused than a clear lesson.",
+      "educational_score": 6,
+      "topics": [
+        "reading",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:22:22Z"
+    },
+    {
+      "id": "q-xaSFUTBzs",
+      "title": "Dino-mite Puzzle Reveal! 🧩💎 Bad Dinosaurs | Netflix Playground",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 271,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a promotional clip for a Netflix Playground puzzle game, centered on gaming, which the parent bans, and it is a product showcase with little educational substance. Although the channel is a fun pick and not required to be educational, the gaming focus and app promotion make it unsuitable.",
+      "educational_score": 3,
+      "topics": [
+        "gaming",
+        "dinosaurs"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:22:39Z"
+    },
+    {
+      "id": "TGviKgOb2nA",
+      "title": "Phoebe Helps Chloe Control Her New Powers 🧘‍♀️💥 | Clash of the Thundermans | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 319,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 5-minute promotional clip from a Nickelodeon live-action sitcom movie, mainly a scene plus channel boilerplate, with a fantasy superpower plot and no clear learning value. It is a fun-channel video, but the description is thin and it is mainly a promo for a new movie, so I'm rejecting it.",
+      "educational_score": 2,
+      "topics": [
+        "meditation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:22:40Z"
+    },
+    {
+      "id": "mYGIhDzSjUE",
+      "title": "90 Minutes of Avatar’s Most Iconic Villains 😈🔥 | Avatar: The Last Airbender",
+      "channel_id": "UC5UxQbRoUOSlDfE6PXpIz0g",
+      "channel_title": "Avatar: The Last Airbender",
+      "duration_seconds": 5394,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 90-minute compilation of villain scenes from Avatar: The Last Airbender, a show the parent named, but a long montage of villain scheming and chases with little substance; the parent's guidance favors shows with action in moderation and this is entirely villain-focused for an extended run, so the fit is uncertain and rejecting is the safer choice.",
+      "educational_score": 1,
+      "topics": [
+        "animated villains compilation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:22:49Z"
+    },
+    {
+      "id": "vizcybwj_j0",
+      "title": "What if a Polar Bear Attacks You? | How to Survive Bear Attack? | Deadliest Animals | Dr Binocs Show",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 353,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "The video is an animal fact show from a trusted channel, but its framing is about how to survive a deadly polar bear attack, which leans toward frightening content for a 6-year-old and is not a clearly calm, educational animal lesson. Rejecting it to be safe, since the parent wants calm, clearly narrated videos and this centers on danger and attack scenarios.",
+      "educational_score": 5,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:23:07Z"
+    },
+    {
+      "id": "bAXA_z106mg",
+      "title": "Everything You Need To Know About Colors! | Songs For Kids | KLT",
+      "channel_id": "UC7EFWpvc1wYuUwrtZ_BLi9A",
+      "channel_title": "KLT",
+      "duration_seconds": 2481,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A 41-minute colors song video from a trusted channel with a title and description that mention colors, but the tags drift into astronomy and solar system content that does not match, and the video is aimed at toddlers and is long for this child. The content is too thin to confirm it is calm, clearly narrated, and worth his time, so I am rejecting it.",
+      "educational_score": 5,
+      "topics": [
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:23:13Z"
+    },
+    {
+      "id": "stdh_rK7Iv0",
+      "title": "Netflix Playground Calm Gameplay Compilation +13 Mins | Sesame Street, Bad Dinosaurs, & More!",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 850,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a gameplay compilation of the Netflix Playground app, and gaming is a banned topic for the parent. It is also mainly a showcase for a product, so I reject it despite the calm tone and the fun-channel exemption.",
+      "educational_score": 4,
+      "topics": [
+        "gaming"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:23:36Z"
+    },
+    {
+      "id": "kngoRLCpwgk",
+      "title": "Did You Know This About Gingerbread?",
+      "channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g",
+      "channel_title": "Homeschool Pop",
+      "duration_seconds": 205,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, trusted homeschool channel video sharing a surprising fact about gingerbread during a holiday episode, with no banned content or product pitch. Its educational value is modest, a single fun fact plus a playlist mention, so it scores around 6.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:24:15Z"
+    },
+    {
+      "id": "qtyBzFV9yTs",
+      "title": "Earth Day Song For Kids | A Reduce, Reuse, Recycle Video Rap",
+      "channel_id": "UCt9SZgFExNwWTH5T_JnyF-A",
+      "channel_title": "Numberock",
+      "duration_seconds": 418,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A trusted channel's catchy kids' song teaching reduce, reuse, and recycle for Earth Day; it is a music video with some incidental environmental learning, not mainly an advertisement, though it has some promotional links in the boilerplate. Topics are set to science since it covers environmental care.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:24:20Z"
+    },
+    {
+      "id": "ZUmfPtIez2w",
+      "title": "The Thundermans’ LEAST Scary Villains 🤭 | 30 Minutes | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 1983,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 33-minute Thundermans compilation of villain clips, and the title and description frame it around scary villains, which the parent's guidance says to avoid. It is a fun-channel video but its content is not clearly suitable entertainment for a 6-year-old, and the description is thin, so it is rejected.",
+      "educational_score": 2,
+      "topics": [],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:24:36Z"
+    },
+    {
+      "id": "hNzQXn4ujm0",
+      "title": "What If You Accidentally Swallowed a Maggot? 🐛 | Maggots Inside Human Body | Learn with Dr. Binocs",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 365,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "The video is a science explainer from a trusted channel, but its premise is a maggot in food with gross-out and 'scary facts' framing, which conflicts with the parent's rule against gross-out and scary content for this child. Rejecting it because the material leans toward gross-out and scary content rather than calm, clear teaching.",
+      "educational_score": 5,
+      "topics": [
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:25:03Z"
+    },
+    {
+      "id": "7nRJJ9IuiUg",
+      "title": "Behind the Scenes of Cbeebies Hansel and Gretel! | Maddie Moate",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 432,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A behind-the-scenes look at a CBeebies Christmas stage show from a trusted channel; it is harmless, but it offers little real teaching and a 6-year-old gets little from it, so it does not reach the 7-point threshold for a learning video.",
+      "educational_score": 4,
+      "topics": [
+        "behind the scenes"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:25:04Z"
+    },
+    {
+      "id": "RdNuj44-ZDE",
+      "title": "Acoustic Rooster and His Barnyard Band FULL MOVIE SING-ALONG 🎵 | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 2684,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A PBS KIDS full-length sing-along movie from a trusted channel about a rooster learning to play jazz with a band, with calm, kid-friendly content and some incidental learning about music and teamwork. Its educational value is moderate rather than strong, but it is safe and fits the parent's guidance.",
+      "educational_score": 6,
+      "topics": [
+        "music",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:25:14Z"
+    },
+    {
+      "id": "L51t0tmTSM8",
+      "title": "Becoming 'Willow' for Cbeebies Hansel and Gretel! | Maddie Moate",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 455,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 5 is below the minimum of 7. AI said: A behind-the-scenes look at a presenter becoming a character for a Cbeebies theatre show, covering makeup and costume design; calm, non-violent, from a trusted channel. It has modest incidental learning about how a stage production is made, but it is not strongly educational.",
+      "educational_score": 5,
+      "topics": [
+        "art",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:25:59Z"
+    },
+    {
+      "id": "ur9pTnM7w-c",
+      "title": "Candy Canes Didn’t Always Look Like This!",
+      "channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g",
+      "channel_title": "Homeschool Pop",
+      "duration_seconds": 205,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A short, calm channel video from a trusted homeschool channel sharing a fact about the history of candy canes, with no banned content. The educational value is modest, a single interesting fact plus holiday schedule chat, so it scores a 6 and is approved as a trusted channel's video.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:26:08Z"
+    },
+    {
+      "id": "VPcwg4KBpig",
+      "title": "The FUNNIEST Picture Book Ever! 🌪️ funny read aloud",
+      "channel_id": "UCEPsNDUhUm-7yZhUjQQNqwQ",
+      "channel_title": "KidTimeStoryTime",
+      "duration_seconds": 997,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A read-aloud of a silly picture book from a trusted channel that encourages reading; the humor is potty-focused but gentle and not mean-spirited, though the description leans on product promotion and coupon codes, and the content is mostly a fart-themed gag, so the educational value is modest.",
+      "educational_score": 6,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:26:18Z"
+    },
+    {
+      "id": "EmRtjhEF_ks",
+      "title": "1 Hour of Kid Danger & Captain Man Being Unstoppable 🦸 | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 3753,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Henry Danger compilation from a fun channel is superhero action-comedy, but the parent's named shows list does not include Henry Danger and the guidance for fun-channel videos requires appropriateness that cannot be confirmed from the thin description and no transcript, so it is rejected under the uncertainty rule.",
+      "educational_score": 2,
+      "topics": [
+        "cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:26:27Z"
+    },
+    {
+      "id": "RB-p9PznNhI",
+      "title": "Tom & Jerry Shorts MARATHON! Vol.3 🐶🍗 | Classic Tom & Jerry MEGA COMP 🌟 | @wbkids",
+      "channel_id": "UC9trsD1jCTXXtN3xIOIU8gg",
+      "channel_title": "WB Kids",
+      "duration_seconds": 4082,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 68-minute compilation of classic Tom and Jerry and Looney Tunes shorts with little educational content; the parent's guidance allows named cartoons, but this is a generic mixed-show marathon, and its tags are a loose keyword dump including 'science' and 'stem' that the video itself does not clearly deliver.",
+      "educational_score": 1,
+      "topics": [
+        "cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:26:31Z"
+    },
+    {
+      "id": "X7OpaexZm38",
+      "title": "Optimus, Dodge the Lasers! | E26 | Transformers: CYBERWORLD",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 1290,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is an action cartoon episode about Transformers facing laser grids, collapsing paths, and a game-like gauntlet, which is intense and framed as a challenge. The parent's guidance on banned challenge content and the lack of any educational value make it a rejection, even though it is from a fun channel.",
+      "educational_score": 2,
+      "topics": [
+        "robots",
+        "cartoon action"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:26:33Z"
+    },
+    {
+      "id": "OeSFqvgkJ5Y",
+      "title": "Ezra and Sabine Rescue From Dish  🚀☁️🫣 | Star Wars Rebels | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 303,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a Star Wars Rebels clip about a chase with TIE Defenders and a rescue attempt, which is action-heavy, and it is not on the parent's named cartoon list. The description reads like a promotional clip for Disney+, and the tags are a keyword-stuffed list of unrelated Star Wars characters, so it offers little educational value and is unclear enough to reject.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:26:42Z"
+    },
+    {
+      "id": "3lZzjUFaPbs",
+      "title": "How Many Pumpkin Pies Are Eaten on Thanksgiving?",
+      "channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g",
+      "channel_title": "Homeschool Pop",
+      "duration_seconds": 187,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A trusted-channel episode about how many pumpkin pies are eaten at Thanksgiving, with some light counting-type learning, but the description is thin and mostly channel-talk about a course feature and Patreon; the topic is only loosely educational and the content is too vague to confirm it is clearly calm and substantive, so I am rejecting it under the uncertainty rule.",
+      "educational_score": 5,
+      "topics": [
+        "math"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:27:03Z"
+    },
+    {
+      "id": "2D5lBzS5qR4",
+      "title": "Rosie's Rules FULL EPISODE | Pop Star Rosie / Rosie's Tooth 🦷 | PBS KIDS",
+      "channel_id": "UCrNnk0wFBnCS1awGjq_ijGQ",
+      "channel_title": "PBS KIDS",
+      "duration_seconds": 1521,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm PBS KIDS full episode from a trusted channel about a girl putting on a concert and preparing for a lost tooth visit, with gentle, age-appropriate content and some incidental learning about rules and music. Topic tags are approximate since the episode is a story-based show rather than a clear lesson on any one wanted subject.",
+      "educational_score": 6,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:27:04Z"
+    },
+    {
+      "id": "g3QsOzN2quc",
+      "title": "Are You a Good Egg? | SEL read aloud",
+      "channel_id": "UCEPsNDUhUm-7yZhUjQQNqwQ",
+      "channel_title": "KidTimeStoryTime",
+      "duration_seconds": 436,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, gentle read-aloud of a rhyming picture book about feelings and kindness, from a trusted channel, with no scary or banned content. It has some social-emotional learning value and reading encouragement, though it is not a strong science, math, or reading-skills lesson, and the book-purchase links are ordinary boilerplate.",
+      "educational_score": 6,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:27:14Z"
+    },
+    {
+      "id": "VA4FKevPhhc",
+      "title": "Every Max & Phoebe Fight in The Thundermans: Undercover 👀 | 30 Minutes | Nickelodeon",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 1884,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 30-minute compilation of sibling arguments and superpowered battles from The Thundermans, a show not on the parent's approved list, and it is built around fights and chaos rather than anything calm or educational. Being from a trusted fun channel doesn't cover this kind of content, so I reject it.",
+      "educational_score": 1,
+      "topics": [
+        "sibling fights",
+        "superhero"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:27:22Z"
+    },
+    {
+      "id": "Nx74mYiO2Kw",
+      "title": "Cricket Fights Goliath at a Monster Wrestling Club! 🤼💥 | Chibiverse | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 463,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a fast-paced Chibiverse cartoon about a monster wrestling club and a fight for fame. Chibiverse is not one of the parent's named shows, and the parent asks to avoid frantic editing and constant sound effects, so I can't confirm it fits the guidance.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:27:34Z"
+    },
+    {
+      "id": "rKGfAlY1C4Q",
+      "title": "Do You Know? Behind the Scenes! | Meringue and Waves | Maddie Moate",
+      "channel_id": "UCQ0_JQL4wdQd-Xe5hC4PwTg",
+      "channel_title": "Maddie Moate",
+      "duration_seconds": 315,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A trusted channel's behind-the-scenes video about the Do You Know? science show, touching on how waves work and how meringues are made. It is calm, safe, and not a sales pitch, though it is a short behind-the-scenes piece with limited direct teaching, so the educational score is moderate.",
+      "educational_score": 6,
+      "topics": [
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:27:49Z"
+    },
+    {
+      "id": "Ndl27STt_as",
+      "title": "Sorry, Wrong Slusher | The New Adventures of Winnie the Pooh S4 E1 | Full Episode | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 1363,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a Winnie the Pooh episode from a fun channel; the description pitches an adventure with a monster-like 'Slusher' that the kids must escape, which is a mildly scary premise, and the video is not clearly calm, educational, or on the parent's wanted topics. Rejecting it as a safe-to-skip choice given the thin details and the spooky framing.",
+      "educational_score": 2,
+      "topics": [],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-18T23:28:15Z"
     }
   ]
 }
