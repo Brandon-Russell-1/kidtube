@@ -197,9 +197,11 @@ Everything the job decides is in two files you can read on GitHub:
 
 The parent page on the kid site shows the most recent entries from both.
 
-## Put it on the iPad
+## Put it on a tablet
 
-### Add to the Home Screen
+### iPad
+
+#### Add to the Home Screen
 
 1. On the iPad, open **Safari** and go to
    https://brandonrussell.io/kidtube/
@@ -208,7 +210,10 @@ The parent page on the kid site shows the most recent entries from both.
 
 Opening KidTube from the new icon runs it full screen with no address bar or tabs.
 
-### Lock the iPad to it with Guided Access
+Chrome works too on iPadOS 16.4 or newer: tap the **Share** button at the end
+of the address bar, then **Add to Home Screen**.
+
+#### Lock the iPad to it with Guided Access
 
 Guided Access keeps the iPad inside one app until you enter a passcode.
 
@@ -228,6 +233,45 @@ To exit, triple-click the same button, enter the passcode, and tap **End**.
 
 Guided Access is the real lock. Without it, he can swipe out of KidTube like
 any other app.
+
+### Amazon Fire tablet
+
+Menu names differ a little between Fire OS versions, so yours may not match
+these word for word.
+
+#### In an Amazon Kids profile
+
+A Kids profile has no Home Screen shortcuts and only opens websites a parent
+has added, so you add KidTube to his profile as a website.
+
+1. Open the **Amazon Kids** app from your own (adult) profile and tap the
+   settings gear next to his profile.
+2. Tap **Add Content**, then **Add Websites**.
+3. Enter `https://brandonrussell.io/kidtube/` and add it.
+4. In his profile's settings, make sure the **web browser** is turned on and
+   set to hand-selected websites only, so the browser opens nothing but the
+   sites you added.
+
+In his profile, KidTube now appears as a tile with his other content, usually
+under a **Web** or **Websites** tab. Tapping it opens the site in the kids'
+browser.
+
+The videos themselves are served by YouTube inside the KidTube page. If the
+page opens but videos stay blank, the kids' browser is blocking them. KidTube
+then cannot play in a Kids profile on that tablet. Do not fix it by adding
+youtube.com to his websites, which would give him all of YouTube. Use the
+Silk steps below instead.
+
+#### In a regular profile, with the Silk browser
+
+1. Open **Silk** and go to https://brandonrussell.io/kidtube/
+2. Tap the **menu** button (three dots or three lines).
+3. Tap **Add to Home Screen**, then **Add**.
+
+The icon lands on the Fire tablet's Home Screen and opens KidTube full screen.
+To keep him inside it, turn on **Settings → Security & Privacy → App Pinning**
+(called Screen Pinning on some versions), open KidTube, open the recent-apps
+view, and pin it. Leaving a pinned app takes your lock-screen PIN.
 
 ## The kid site
 

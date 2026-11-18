@@ -734,6 +734,13 @@
     catch (e) { return -1; }
   }
 
+  // YouTube turns subtitles on by itself for some videos. The player has no
+  // "off" setting, so its captions part is unloaded when the video is ready
+  // and again when it starts playing.
+  function captionsOff() {
+    try { player.unloadModule('captions'); } catch (e) { /* ignore */ }
+  }
+
   function openPlayer(id) {
     // The allowlist check: nothing outside approved.json ever reaches an iframe.
     readState();
@@ -757,7 +764,7 @@
     const params = new URLSearchParams({
       enablejsapi: '1', origin: location.origin, autoplay: '1', playsinline: '1',
       rel: '0', modestbranding: '1', controls: '0', fs: '0', disablekb: '1',
-      iv_load_policy: '3',
+      iv_load_policy: '3', cc_load_policy: '0',
     });
     // Pick up a few seconds before where he left off.
     const left = store.get('kt.pos', {})[id];
@@ -776,7 +783,7 @@
       if (currentId !== id) return;
       player = new YT.Player(iframe, {
         events: {
-          onReady: () => { try { player.playVideo(); } catch (e) { /* ignore */ } },
+          onReady: () => { captionsOff(); try { player.playVideo(); } catch (e) { /* ignore */ } },
           onStateChange: (event) => onStateChange(id, event.data),
           onError: () => { broken.add(id); closePlayer(true); },
         },
@@ -810,6 +817,7 @@
   function onStateChange(id, state) {
     if (currentId !== id) return;
     if (state === YT_PLAYING) {
+      captionsOff();
       clearTimeout(playWait);
       setNeedsTap(false);
       $('pause-cover').hidden = true;
