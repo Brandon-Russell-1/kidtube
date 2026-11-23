@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T17:23:47Z",
+  "updated": "2026-11-23T21:39:30Z",
   "channels": {
     "UC0iBxbTB-vIfoSOp6th5l_w": {
       "title": "Miss Linky",
@@ -470,6 +470,11 @@
       "title": "MrsMorrisReads",
       "icon": "https://yt3.ggpht.com/DUqozP37dbL6KUJSLnReruL76rmDqonWikk92Tzyge1_v4Pf5Ia0kgYx4zqMCfrp-JPQow6jxQ=s88-c-k-c0x00ffffff-no-rj",
       "checked": "2026-11-22"
+    },
+    "UCoSAitETqcEeWnWBMO31xzA": {
+      "title": "Art Hub Plus",
+      "icon": "https://yt3.ggpht.com/B7WgMTz9vw1MaJSeTd_Mm1vwGn0UDvHK6mHT3tZ55g_npO8wYz-LrqNN_vjY6q5Crky_lD8uQQ=s88-c-k-c0x00ffffff-no-rj",
+      "checked": "2026-11-23"
     }
   }
 }
