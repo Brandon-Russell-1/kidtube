@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T19:31:38Z",
+  "updated": "2026-11-26T19:07:55Z",
   "videos": [
     {
       "id": "GJuO4MzYrtI",
@@ -30681,6 +30681,400 @@
       "source": "search",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:31:35Z"
+    },
+    {
+      "id": "8Dj9Abzm4gI",
+      "title": "Happy Thanksgiving! 🦃🍁🧡 from the PAW Patrol!",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 4,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-26T19:02:32Z"
+    },
+    {
+      "id": "0sJ7zlMrfMU",
+      "title": "\"Season of Kindness\" Song from Sofia the First: Royal Magic! 👑🎶 | Disney Jr.",
+      "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
+      "channel_title": "Disney Jr. ",
+      "duration_seconds": 139,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.3 min; the minimum is 3 min.",
+      "screened_at": "2026-11-26T19:02:32Z"
+    },
+    {
+      "id": "lleg2Wmsbkw",
+      "title": "A Questionable Role Model! | Lilo & Scratch | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 27,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-26T19:02:32Z"
+    },
+    {
+      "id": "eujzgdy8kqc",
+      "title": "The Day Sulley Meets Boo! 💙🫨 | Pixar’s Monsters, Inc. | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 157,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.6 min; the minimum is 3 min.",
+      "screened_at": "2026-11-26T19:02:32Z"
+    },
+    {
+      "id": "1dZ27cdr-Rg",
+      "title": "Crochet Mando and Grogu's Epic Adventures 💥 | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 105,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.8 min; the minimum is 3 min.",
+      "screened_at": "2026-11-26T19:02:32Z"
+    },
+    {
+      "id": "rFidaqhEhME",
+      "title": "Phineas and Ferb's Birthday Gift for Mom! 😆🎂 | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 171,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 2.9 min; the minimum is 3 min.",
+      "screened_at": "2026-11-26T19:02:32Z"
+    },
+    {
+      "id": "RXo6xjZo9wM",
+      "title": "ALL Super Villain Fights! 👊💥 | Superman: The Animated Series | #KidsCartoons @dckids",
+      "channel_id": "UCyu8StPfZWapR6rfW_JgqcA",
+      "channel_title": "DC Kids",
+      "duration_seconds": 3535,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a compilation of Superman: The Animated Series villain fight scenes, which is cartoon superhero action the parent allows, but it is a fun-channel video that is mostly nonstop fighting with no learning value. The sheer amount of battle footage and the uncertain fight intensity across an hour make it a weak fit, so I am rejecting it to be safe.",
+      "educational_score": 1,
+      "topics": [
+        "superhero",
+        "cartoon action"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:02:54Z"
+    },
+    {
+      "id": "8gb7ndhic5E",
+      "title": "Rebecca's Best Moments - Songs & More! 🔥🎤 | Young Dylan",
+      "channel_id": "UC5M_h2S8Ldoc9M6f7B-_m6A",
+      "channel_title": "Nickelodeon",
+      "duration_seconds": 638,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a compilation of clips from a Nickelodeon live-action sitcom featuring songs and general entertainment with no clear learning content, and the description is mostly promotional boilerplate with no specific educational value. Since it comes from a fun channel, the low score is acceptable, but the video is not clearly suitable or verifiable for this child given the thin, unvetted details.",
+      "educational_score": 2,
+      "topics": [
+        "entertainment"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:03:21Z"
+    },
+    {
+      "id": "X1tNoqx05Ok",
+      "title": "Mythical Tales of ADVENTURE! 🦄🐉 | Tom & Jerry | #KidsCartoons @wbkids",
+      "channel_id": "UC9trsD1jCTXXtN3xIOIU8gg",
+      "channel_title": "WB Kids",
+      "duration_seconds": 3164,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 52-minute Tom & Jerry compilation from a fun channel, and the parent's approved cartoon list does not include Tom & Jerry, so it falls outside the parent's named shows. The description also mentions a digital sales link, and the title and tags are generic with no educational content, so I can't confirm it is free of the slapstick violence and grown-up themes the parent hasn't cleared.",
+      "educational_score": 2,
+      "topics": [
+        "cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:03:27Z"
+    },
+    {
+      "id": "SkiWAtRm_yw",
+      "title": "Rock Paper Scissors Most Sarcastic Moments 😆 | 30 Minutes | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 1807,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 30-minute compilation of sarcastic pranks and witty antics from a Nicktoons series, with little educational content, and the description promotes many other shows and links. Pranks are a banned topic, and the video's focus on pranks and sarcasm is not clearly suited to this child.",
+      "educational_score": 1,
+      "topics": [
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:03:45Z"
+    },
+    {
+      "id": "iJyBSFbH9S0",
+      "title": "Epic Supervillain SHOWDOWNS!  🦹💥  | The Batman Seasons 1-5 | #BatmanCartoon @dckids",
+      "channel_id": "UCyu8StPfZWapR6rfW_JgqcA",
+      "channel_title": "DC Kids",
+      "duration_seconds": 4363,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 72-minute compilation of The Batman (2004 series) villain fight clips from a channel the parent picked for fun, and the description lists Dracula, zombies, and Solomon Grundy and Clayface, which is risky for a 6-year-old. The parent's named cartoon list does not include The Batman, and the episode-clip format is unverified, so it is safer to reject.",
+      "educational_score": 1,
+      "topics": [
+        "superheroes",
+        "villains"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:04:09Z"
+    },
+    {
+      "id": "7xseROpF4R8",
+      "title": "Bumblebee VS Megatron Target Showdown | E02 | Transformers: CYBERWORLD | FULL EPISODE",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 320,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a Transformers cartoon episode, which the parent has allowed, but its description centers on game-like challenges and target-shooting battles, which the parent bans as gaming and challenge content. The topics list is a placeholder I shouldn't have used; the video is mainly about banned challenge content, so I reject it.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:04:10Z"
+    },
+    {
+      "id": "0TGzNRm5-c4",
+      "title": "90 MINUTES of the Good Guys Going BAD in TMNT 😈 | Teenage Mutant Ninja Turtles",
+      "channel_id": "UCTsgmnXbWotzbR36vU0YPrA",
+      "channel_title": "Teenage Mutant Ninja Turtles",
+      "duration_seconds": 5433,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a 90-minute compilation built around the heroes turning evil, with a dark-side and 'going BAD' framing that goes beyond the cartoon action the parent named. The content can't be checked in detail, so it is rejected as uncertain.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:04:50Z"
+    },
+    {
+      "id": "XBxLeXqhUk8",
+      "title": "Wylde Pak’s Best Adventures & Action Moments! w/ Lil & Jack | 30 Minutes | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 2193,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a compilation from the Wylde Pak series whose description highlights intense gaming battles and action, and gaming is a banned topic. With no transcript and a fun-channel pick, the content is too thin and gaming-focused to approve safely.",
+      "educational_score": 2,
+      "topics": [
+        "gaming"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:05:04Z"
+    },
+    {
+      "id": "2CZjZGPTyYk",
+      "title": "Midknights Discover a Dragon Land & Save Max! 🐉 | Max & the Midknights | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 292,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a clip from Max & the Midknights described as an intense moment with an evil sorceress chasing the kids in a snowstorm, which is a frightening, adventure-heavy scene not in the parent's named cartoon list. As a fun-channel video it is entertainment with little to learn, and the description is thin on detail, so it is rejected under the unsure rule.",
+      "educational_score": 2,
+      "topics": [
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:05:22Z"
+    },
+    {
+      "id": "HMuQ8W70Q98",
+      "title": "The Loud House Messiest Garbage Moments for 60 Minutes Straight 🗑️🚛 | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 3606,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A one-hour compilation of messy garbage and dumpster clips from a cartoon with no educational content, and the title and description promise nothing beyond mess-themed entertainment. It is fun-channel content, but the description is thin and the messy-trash theme is not clearly suited to this child, so I'm rejecting it as unsure.",
+      "educational_score": 1,
+      "topics": [
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:06:24Z"
+    },
+    {
+      "id": "UCfu8sPa6rs",
+      "title": "Inspector Gadget's Field Trip | Native America // Plymouth Plantation | Learning for kids",
+      "channel_id": "UCI-lg_sDdzBtYKVpebqasIA",
+      "channel_title": "Inspector Gadget - WildBrain",
+      "duration_seconds": 3680,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a fun-channel Inspector Gadget compilation-style episode covering Native American culture, Plymouth Plantation, and the Salem Witch Trials, which is a classic cartoon with some incidental learning. However, the description is thin on what the episode actually shows, the Salem Witch Trials segment touches on grown-up historical violence and executions, and I cannot verify the content is calm and age-appropriate, so I reject it to be safe.",
+      "educational_score": 4,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:06:47Z"
+    },
+    {
+      "id": "TtdlhbdmK6E",
+      "title": "Three Courageous Hearts | Full Episode | She-Ra Official | Masters of the Universe Official",
+      "channel_id": "UCWV0Qgo4Yz7E5_oNF4VJ6Rg",
+      "channel_title": "Masters of the Universe: He-Man & She-Ra",
+      "duration_seconds": 1214,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a She-Ra cartoon episode from a fun channel, and the cartoon action is within what the parent allows, but the description shows a sleeping-spell villain plot and sixth-dimension peril that is not clearly calm or age-suited, and it offers almost no educational value. Since the video is not clearly suitable and the channel is unvetted content, I reject it to be safe.",
+      "educational_score": 2,
+      "topics": [
+        "cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:06:49Z"
+    },
+    {
+      "id": "rX3JqpzUs9w",
+      "title": "Animals 101: What Animals Need | Wildlife for Kids",
+      "channel_id": "UCihDwisD5qWT5o094Q-NfVA",
+      "channel_title": "The Kritter Korner",
+      "duration_seconds": 281,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Found by search from an unvetted channel; the description promises a general animal-needs lesson on food, water, shelter, and air, which is on-topic for animals, but with no transcript, no tags, and only boilerplate detail there is too little to confirm the narration is calm and the content is appropriate, so I reject it.",
+      "educational_score": 5,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:07:35Z"
+    },
+    {
+      "id": "SVSt7QJ3SFU",
+      "title": "Learn Where Animals Live | Animals For Kids | Animals And Their Homes For Toddlers | RV AppStudios",
+      "channel_id": "UCYqksDldZTkKmsrBb4OGJ9g",
+      "channel_title": "Toddler Learning Videos For Kids - Lucas & Friends",
+      "duration_seconds": 416,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "A search-found channel the parent has not vetted; it is a simple sing-along toddler video with a list of animal homes, offering only modest incidental learning rather than clear teaching at this child's level. It also pushes its own books and apps, so I reject it under the stricter standard for unvetted channels.",
+      "educational_score": 4,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:07:37Z"
+    },
+    {
+      "id": "TR7S2F-rHYE",
+      "title": "50 Animals and Their Homes | Learn Animal Homes for Kids | WATRstar #animalsandtheirhomes",
+      "channel_id": "UCYIJ4sWyxQEbWwsGKb9gIpg",
+      "channel_title": "WATRstar - The learning hub",
+      "duration_seconds": 656,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, simple English vocabulary video pairing 50 animals with their homes, aimed at preschoolers, with no violence or banned content. It is a fun-learning style video found by search, so I scored it moderately: the content is basic and repetitive, but it teaches animal names and homes at this child's level without being mainly a sales pitch (the affiliate link is only boilerplate).",
+      "educational_score": 6,
+      "topics": [
+        "animals",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:07:39Z"
+    },
+    {
+      "id": "BWAnHej2vH8",
+      "title": "The CUTEST Baby Animals On The Farm!  🐣 | John Deere Kids",
+      "channel_id": "UC4QtAgICkjXAR_xWQrHiAbw",
+      "channel_title": "John Deere Kids",
+      "duration_seconds": 627,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, kid-oriented video about baby farm animals with gentle narration and no banned content, though it is from an unvetted channel and is largely a showcase for a brand. Its educational value is modest, so the score is moderate and it is a borderline approval.",
+      "educational_score": 6,
+      "topics": [
+        "animals",
+        "farm"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:07:40Z"
+    },
+    {
+      "id": "_bSGTC4m_c4",
+      "title": "Farm Animals | Learn About Farm Animals for Kids | Farm Animals for Toddlers | Chickens Goats Horses",
+      "channel_id": "UCqYXz2FwObo3-LpX2xD8tWw",
+      "channel_title": "Learn Too | Creative Learning and Fun for Kids",
+      "duration_seconds": 870,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 5 is below the minimum of 7. AI said: A calm, kid-friendly farm visit introducing chickens, goats, horses, and a pig, with a mystery-animal guessing game; it is mainly about animals and has no banned content, but it is a fairly light, identification-level video from an unvetted channel, so the learning value is modest. Approved as a fun-channel-style video with incidental learning.",
+      "educational_score": 5,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:07:42Z"
+    },
+    {
+      "id": "grTyBGpRxaU",
+      "title": "Animals And Their Homes 🐖 🐸 🦘 | Animals for Kids |Toddler Learning Video | Learn Animal Names 🦢",
+      "channel_id": "UCYqksDldZTkKmsrBb4OGJ9g",
+      "channel_title": "Toddler Learning Videos For Kids - Lucas & Friends",
+      "duration_seconds": 400,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: A calm, bright toddler sing-along about where animals live, found by search from an unvetted channel; it is mainly about animals with simple, safe content and no banned material. Educational value is modest, with a simple list of animal homes and sounds, so it scores 6 and is approved as a low-stakes animal video that is not mainly an advertisement.",
+      "educational_score": 6,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-26T19:07:54Z"
     }
   ]
 }
