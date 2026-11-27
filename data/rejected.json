@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:07:55Z",
+  "updated": "2026-11-27T19:02:12Z",
   "videos": [
     {
       "id": "GJuO4MzYrtI",
@@ -31075,6 +31075,228 @@
       "source": "search",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:07:54Z"
+    },
+    {
+      "id": "E7M5ES3veJQ",
+      "title": "PAW Patrol Merry Christmas Song 🎄| Official Music Video | Songs for Kids",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 44,
+      "stage": "hard_filter",
+      "code": "short",
+      "reason": "Video is a YouTube Short.",
+      "screened_at": "2026-11-27T19:00:53Z"
+    },
+    {
+      "id": "KP9zmqDMqSY",
+      "title": "The Iron Friends Fights Off Swarm! 🐝💪 | Marvel's Iron Man and his Awesome Friends | Disney Jr. ​",
+      "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
+      "channel_title": "Disney Jr. ",
+      "duration_seconds": 98,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.6 min; the minimum is 3 min.",
+      "screened_at": "2026-11-27T19:00:53Z"
+    },
+    {
+      "id": "mqa4so4LINA",
+      "title": "\"Christmas Forever\" Song from Big City Greens! 🎄🎁 | Disney Channel",
+      "channel_id": "UCw7SNYrYei7F5ttQO3o-rpA",
+      "channel_title": "Disney Channel Animation",
+      "duration_seconds": 83,
+      "stage": "hard_filter",
+      "code": "too_short",
+      "reason": "Video is 1.4 min; the minimum is 3 min.",
+      "screened_at": "2026-11-27T19:00:53Z"
+    },
+    {
+      "id": "KOBjIyiGOFk",
+      "title": "Every Episode of Greeking Out Season 5 🎙️⚡ | Podcast Compilation | Nat Geo Kids",
+      "channel_id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channel_title": "Nat Geo Kids",
+      "duration_seconds": 10534,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a three-hour compilation of Greek myth podcast episodes, and the description flags gruesome content (monster episode), kidnapping, being ripped into pieces, and questionable romantic themes, which go beyond what is appropriate for a 6-year-old. Although it is from a trusted channel and has some educational value, the mature and gory elements mean it should not be shown to this child.",
+      "educational_score": 6,
+      "topics": [
+        "mythology",
+        "history"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:18Z"
+    },
+    {
+      "id": "8DyDeXacqq8",
+      "title": "How Sour Patch Kids Are Made In Factory",
+      "channel_id": "UCb5XsrTYLFF96Xg0kiLU7Vg",
+      "channel_title": "Made Vision",
+      "duration_seconds": 493,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "The video is a candy factory tour from an unvetted search-found channel, so it faces the stricter standard. Its description leans on product marketing for a branded candy with little clear narration, and it offers only modest incidental learning about manufacturing, so it does not clearly meet the bar for a 6-year-old's calm, substantive viewing.",
+      "educational_score": 5,
+      "topics": [
+        "science",
+        "toy unboxing"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:39Z"
+    },
+    {
+      "id": "dKr1T1RzkUo",
+      "title": "How LEGO Bricks are made in Factory!",
+      "channel_id": "UChsseIeJ__fBxbkG9iImR5A",
+      "channel_title": "ManuFactory",
+      "duration_seconds": 508,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "The video appears to explain how LEGO bricks are made in a factory, which touches on how machines work, but it comes from an unvetted search result with no transcript and a description that is thin on specifics about narration or pacing. Because a wrongly approved video reaches the child, I'm rejecting it despite its potentially useful manufacturing content.",
+      "educational_score": 6,
+      "topics": [
+        "how machines work",
+        "toy unboxing"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:49Z"
+    },
+    {
+      "id": "SU1cuRRMzx4",
+      "title": "Blippi Makes Ice Cream! Educational Videos for Kids",
+      "channel_id": "UC5PYHgAzJ1wLEidB58SK6Xw",
+      "channel_title": "Blippi - Educational Videos for Kids",
+      "duration_seconds": 784,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Educational score 6 is below the minimum of 7. AI said: Blippi visits a London gelateria to explain the science of making gelato, which is calm and educational for a young child, and the content is not an advertisement. It is found by search from an unvetted channel, so I scored it moderately: the science is simple and the host is energetic, though the description is mostly boilerplate links.",
+      "educational_score": 6,
+      "topics": [
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:54Z"
+    },
+    {
+      "id": "PIwUqiedeRo",
+      "title": "How Coins Are Made - Inside U.S. Coin Factory",
+      "channel_id": "UCzgWZmqmKpmsr4oPWITusKA",
+      "channel_title": "Beyond Facts",
+      "duration_seconds": 572,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "The video appears to be a factory-process explainer about how coins are made, which touches on how machines work, but it was found by search from an unvetted channel with a thin description, no transcript, and promotional membership and subscribe links, so I cannot confirm its narration is calm and free of hype, and its educational value is only moderate.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:58Z"
+    },
+    {
+      "id": "x09nYzoLjug",
+      "title": "HOW IT'S MADE: Lava Lamps",
+      "channel_id": "UC5_VXFjEFFJOlxUBsq1iA6g",
+      "channel_title": "How It's Made",
+      "duration_seconds": 536,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a factory process video about making lava lamps that could teach how things are made, but it comes from an unvetted YouTube search result and its description is a long, unfocused list of unrelated products with no clear narration detail available, so the content is too thin to confirm it is calm, child-appropriate, and not mainly a product showcase.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:59Z"
+    },
+    {
+      "id": "bKRoBljcoWA",
+      "title": "How It's Made: M&Ms",
+      "channel_id": "UC5_VXFjEFFJOlxUBsq1iA6g",
+      "channel_title": "How It's Made",
+      "duration_seconds": 574,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Found via YouTube search from an unvetted channel, and the description is thin, with a generic recap of factory-made items and tags that look like keyword stuffing. The content is a factory process video that could be educational about how machines work, but I cannot confirm its tone, narration style, or that it is not a product showcase, so I reject it.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:03Z"
+    },
+    {
+      "id": "2kttVyakHN4",
+      "title": "BUBBLEGUM | How It's Made",
+      "channel_id": "UC9cGX5x0_EXkdfmWlvPbu3g",
+      "channel_title": "Discovery UK",
+      "duration_seconds": 290,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "Found by unvetted YouTube search and the description gives little detail beyond a generic how-it's-made premise, so the content is too thin to confirm it is calm, narrated, and educational for a 6-year-old. Rejecting is the safer choice; the video otherwise looks like a plausible factory process clip with no obvious violence or banned topics.",
+      "educational_score": 5,
+      "topics": [
+        "science",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:05Z"
+    },
+    {
+      "id": "mS7AXFcvkS4",
+      "title": "How It's Made: Fireworks",
+      "channel_id": "UCvJiYiBUbw4tmpRSZT2r1Hw",
+      "channel_title": "Science Channel",
+      "duration_seconds": 336,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "This is a How It's Made episode on fireworks manufacturing, which is educational about production processes, but it was found by unvetted YouTube search and the topic involves explosives and manufacturing, with no transcript or detail to confirm it is calm and free of frightening or disturbing footage, so I am rejecting it to be safe.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:06Z"
+    },
+    {
+      "id": "SngP9GvWp54",
+      "title": "How It's Made: Doughnuts",
+      "channel_id": "UC5_VXFjEFFJOlxUBsq1iA6g",
+      "channel_title": "How It's Made",
+      "duration_seconds": 524,
+      "stage": "ai",
+      "code": "ai_rejected",
+      "reason": "The video appears to be a factory process explainer that could teach how things are made, but it is from an unvetted search result, the description is a sprawling keyword list with no clear content, and there is no transcript to confirm a calm, clearly narrated presentation or check for ads and tone.",
+      "educational_score": 6,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:08Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:07:55Z",
+  "updated": "2026-11-27T19:02:12Z",
   "videos": [
     {
       "id": "4VinwOQkHGg",
@@ -818,8 +818,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:03:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Yz8a2I_1mxY",
@@ -4853,8 +4853,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:38:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "EeFqx0AXAoU",
@@ -6391,8 +6391,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:49:18Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "sal9yp_IIzs",
@@ -7120,8 +7120,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:50:17Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "2a8SZORjhDI",
@@ -7512,8 +7512,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T11:50:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "ouO4Dqf_DcY",
@@ -10937,8 +10937,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:30:02Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "SE9AyHa60UE",
@@ -14868,8 +14868,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:49:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "VEUusXB1gyM",
@@ -16013,8 +16013,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:50:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "78tiUEbbsQo",
@@ -17235,8 +17235,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T18:51:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Cm-of9p2-3I",
@@ -22595,8 +22595,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:18:56Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "wXQoSlyMI8I",
@@ -23343,8 +23343,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:19:51Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "UsEkVuGN294",
@@ -23933,8 +23933,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:20:31Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "6DMDtH5TKn0",
@@ -25061,8 +25061,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:24:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Xlddubk54eM",
@@ -25699,8 +25699,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:25:18Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "bLf2VsAeBUo",
@@ -26260,8 +26260,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:25:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "e5xk88JZsr8",
@@ -26424,8 +26424,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:26:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "2GaKPMlkdO4",
@@ -27571,8 +27571,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:47:16Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "u1rnVmayIaQ",
@@ -27621,8 +27621,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:47:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "hQs5uboGsj4",
@@ -27645,8 +27645,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:47:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "T-C1wF41baU",
@@ -29831,8 +29831,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T19:49:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "NzstqxXa114",
@@ -30884,8 +30884,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:32:37Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "C_-3RY9tD8A",
@@ -31324,8 +31324,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:33:13Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "3b5hLcxTMkY",
@@ -32449,8 +32449,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:34:27Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "muErQYN1dLg",
@@ -35775,8 +35775,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:38:13Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "jvearwuLRRs",
@@ -36453,8 +36453,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:38:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "yMo5O9k1AiU",
@@ -36643,8 +36643,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:39:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "I5smZeU4os8",
@@ -38127,8 +38127,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:40:50Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "EnVH4p8nDqs",
@@ -38175,8 +38175,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:40:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "kMZidq6l118",
@@ -38294,8 +38294,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:41:00Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "IEsyM93iKNM",
@@ -39087,8 +39087,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:41:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Om5XURxaF1s",
@@ -39133,8 +39133,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:41:56Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "GNhqzO_XM6c",
@@ -40189,8 +40189,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:43:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "5Bb4IcTIl74",
@@ -40379,8 +40379,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:43:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "9sff9sUis-g",
@@ -40566,8 +40566,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-17T23:43:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "QhwEKGEHfSg",
@@ -40985,8 +40985,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:06:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "oaQCiwzjnCM",
@@ -41220,8 +41220,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:07:16Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "fsR5ccV-ciQ",
@@ -41291,8 +41291,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:07:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "5kwIccQGcr0",
@@ -42600,8 +42600,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:09:07Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "MDHQYr_R_G8",
@@ -43185,8 +43185,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:09:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "OjDGRZxQ0B0",
@@ -43563,8 +43563,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:10:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "SJlhywRfvh8",
@@ -44072,8 +44072,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:11:01Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "py9KyZfsXVA",
@@ -46363,8 +46363,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:13:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "z0Rz_F8PFkE",
@@ -47917,8 +47917,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:16:02Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "DYayBaSUBSQ",
@@ -48297,8 +48297,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:16:29Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "kioBK0l8w5w",
@@ -50365,8 +50365,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T18:19:23Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "op9Bc7GWCuw",
@@ -52966,8 +52966,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:20:29Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "6C07Wbsxu_M",
@@ -54456,8 +54456,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:21:45Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "3g2SQyzGMH4",
@@ -55066,8 +55066,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:22:17Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "qgu6NtXQL-4",
@@ -55248,8 +55248,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:22:26Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "iQQqRD-BM4U",
@@ -55920,8 +55920,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:23:02Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "rWjmpGlKkM0",
@@ -57327,8 +57327,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:24:14Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "-LQQ1AqeHBY",
@@ -61241,8 +61241,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:27:42Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "yvnOj7AaDdc",
@@ -61374,8 +61374,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-18T23:27:48Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "T4kDxjJnNPo",
@@ -62515,8 +62515,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:20:13Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Xb3bXKAkeek",
@@ -63505,8 +63505,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:21:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "WkixqYPfPbI",
@@ -64679,8 +64679,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:23:03Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "9CUZ7BwfAZs",
@@ -64993,8 +64993,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:23:26Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "fH5IGErqlTo",
@@ -66326,8 +66326,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:25:16Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "g6ftTA3-GJE",
@@ -66372,8 +66372,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:25:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "QMCabFxSRj8",
@@ -66395,8 +66395,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:25:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "I63q4XC9AvQ",
@@ -69070,8 +69070,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:28:26Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Ojk4-i-hoO8",
@@ -70495,8 +70495,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:29:45Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "nydSnjIh_wA",
@@ -70586,8 +70586,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:29:50Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "dpYpEU5d99c",
@@ -70767,8 +70767,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:30:00Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "O9V8ypewMZg",
@@ -71466,8 +71466,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-19T18:30:43Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "E1aKEr95kQA",
@@ -72895,8 +72895,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:52:01Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "wjlbfnPa6A8",
@@ -73404,8 +73404,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:52:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "1OPrLwTOq7I",
@@ -73449,8 +73449,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:52:37Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "UZvc12UKMyI",
@@ -75637,8 +75637,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:55:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "zAqO_ePFhgU",
@@ -75704,8 +75704,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:55:28Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "LeD-pq_MtyQ",
@@ -75996,8 +75996,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:55:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "ziHR0L7MQvg",
@@ -76719,8 +76719,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:56:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "bbrJ7dLbts4",
@@ -77214,8 +77214,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:56:56Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Jep92qf39UQ",
@@ -78500,8 +78500,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:58:00Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "T18NCobS43c",
@@ -79176,8 +79176,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:58:33Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "ympYpz-E82U",
@@ -79221,8 +79221,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:58:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "42WELkS-LOc",
@@ -79289,8 +79289,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:58:39Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "RHj9aPvULSU",
@@ -80463,8 +80463,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:59:43Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "nzH4i-B7MJE",
@@ -80508,8 +80508,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T17:59:46Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "my-KBAAhnh0",
@@ -80958,8 +80958,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T18:00:08Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "-6woGeCn0nU",
@@ -81026,8 +81026,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T18:00:11Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "DpspUwveKvw",
@@ -81662,8 +81662,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T18:00:40Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "G2iWXTyqZNc",
@@ -81684,8 +81684,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-20T18:00:41Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "qlVl5wsfbEU",
@@ -82580,8 +82580,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:49:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "evYFRYX4Hyw",
@@ -82801,8 +82801,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:49:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "7IDxXBAzD_M",
@@ -84573,8 +84573,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:51:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "l_f21HS0n54",
@@ -85045,8 +85045,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:52:07Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "v2XNK2wcFxc",
@@ -86362,8 +86362,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:53:39Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "HB4x2D7ASSY",
@@ -86794,8 +86794,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:54:13Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "R4foCVqpZIM",
@@ -87493,8 +87493,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:55:08Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "UufOoZk8N40",
@@ -87559,8 +87559,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:55:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "7j0OY3236jw",
@@ -90696,8 +90696,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:58:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "N5SY798j1C8",
@@ -90966,8 +90966,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:59:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "U5CD_-0R0Ps",
@@ -91127,8 +91127,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:59:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "oh1Hz_8xKQA",
@@ -91284,8 +91284,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T16:59:41Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "DZTOvLyMTRY",
@@ -91959,8 +91959,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-21T17:00:30Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "jp-vfzQqEBQ",
@@ -92887,8 +92887,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:12:03Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "mzE5nYM_zSI",
@@ -92933,8 +92933,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:12:06Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "O0E3EDH6kxk",
@@ -93499,8 +93499,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:12:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "6hTg_m-G4aY",
@@ -93637,8 +93637,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:13:06Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "dwOPW4SxIIk",
@@ -93705,8 +93705,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:13:10Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "cqUdk7W8lVU",
@@ -94697,8 +94697,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:14:31Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "BLBqamJ6Ytg",
@@ -95554,8 +95554,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:15:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "FYjIWP-3BLI",
@@ -97109,8 +97109,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:17:31Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "AjzEl-iiaFg",
@@ -97362,8 +97362,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:17:46Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "22u3n1DUL-Q",
@@ -97408,8 +97408,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:17:48Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "PcFX5hPyEdo",
@@ -97704,8 +97704,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:18:10Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "G66uVBfKDyo",
@@ -98038,8 +98038,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:18:33Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "wKL70Vgj8_8",
@@ -98151,8 +98151,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:18:39Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "2IJYqXozf7w",
@@ -98265,8 +98265,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:18:46Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "u0Wvu0BnQhc",
@@ -98358,8 +98358,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:18:52Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "5y5YuHr2Fdw",
@@ -100210,8 +100210,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:20:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "upT28nerRdI",
@@ -100256,8 +100256,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:20:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "oSvEfJtbYUQ",
@@ -101201,8 +101201,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:21:57Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "fRuOdTqxBPU",
@@ -101583,8 +101583,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:22:23Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "yW5VbMEDRJk",
@@ -101693,8 +101693,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-22T17:22:31Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "878-TP0n9m8",
@@ -103215,8 +103215,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:28:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "DVignAV0mmM",
@@ -103302,8 +103302,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:28:44Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "xsg4gpIwXA8",
@@ -103574,8 +103574,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:29:05Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "MFnvl9pL60g",
@@ -104293,8 +104293,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:29:55Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "npv74D2MO6Q",
@@ -104383,8 +104383,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:30:00Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "YXUu_EzcFHE",
@@ -104766,8 +104766,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:30:27Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Z4Gu5grwDew",
@@ -105169,8 +105169,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:30:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "2l2PzfTxOXk",
@@ -105261,8 +105261,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:30:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "73Oj3BpF2lE",
@@ -105461,8 +105461,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:31:11Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "6g9BqeyJsO8",
@@ -106322,8 +106322,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:32:07Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "RrCJgHYJNGA",
@@ -106344,8 +106344,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:32:09Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "L0ANvhLnVl0",
@@ -108768,8 +108768,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:34:48Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "4CTRZ6lUKcw",
@@ -110441,8 +110441,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:36:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "EzElAusnaAs",
@@ -110486,8 +110486,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:36:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Hf7409DqXBo",
@@ -111141,8 +111141,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:37:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "1Zrt8nQgTDc",
@@ -111461,8 +111461,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:37:42Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "XpBNNPxlVtE",
@@ -111891,8 +111891,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:38:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "m80-EARttw8",
@@ -112348,8 +112348,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:38:44Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "cJSCH7Y8-Fs",
@@ -112866,8 +112866,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:39:18Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "8SCg1hQsTGQ",
@@ -112960,8 +112960,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:39:23Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "qXIUgFUmnC4",
@@ -112983,8 +112983,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-23T21:39:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "8KYjU6U70vM",
@@ -113164,8 +113164,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:11:58Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "-55OEaLWZbo",
@@ -114006,8 +114006,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:13:03Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "ugxH4WxHZYw",
@@ -114802,8 +114802,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:13:57Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "ULlDnI1bAkc",
@@ -115460,8 +115460,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:14:44Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "SwK9nkBa5_k",
@@ -116023,8 +116023,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:15:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "SeDbGFN5hAU",
@@ -117359,8 +117359,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:16:41Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "b0M-8clRusE",
@@ -117566,8 +117566,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:16:52Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "5xQXpAp5nYs",
@@ -117590,8 +117590,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:16:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "tYzjpzFlU-k",
@@ -117995,8 +117995,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:17:22Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "06uXyR56Dfg",
@@ -118017,8 +118017,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:17:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "JgfjDaYZFBA",
@@ -118292,8 +118292,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:17:39Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "9cQq7M1yxQc",
@@ -119131,8 +119131,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:18:37Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "EA-YeY2tm_0",
@@ -119406,8 +119406,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:19:00Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "itz2p9RIW1k",
@@ -120127,8 +120127,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:19:50Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "PyuBbrbbON4",
@@ -120172,8 +120172,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:19:54Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "jfzOzdqb4Ck",
@@ -120263,8 +120263,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:19:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "RYJt4_9ijjs",
@@ -120870,8 +120870,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:20:41Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "LtVNAebzRxs",
@@ -121410,8 +121410,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:21:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "pz8sd8i7z2M",
@@ -121480,8 +121480,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:21:24Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "r2yq-QoEE3E",
@@ -122200,8 +122200,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:22:08Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "8IuA4p1wNf0",
@@ -122904,8 +122904,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-24T20:22:51Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "C2zUgL_wUek",
@@ -124143,8 +124143,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:20:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "A4YIpGQiD3w",
@@ -124709,8 +124709,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:21:15Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "M9eDzdDIVQg",
@@ -124777,8 +124777,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:21:19Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "U6DTBJOwEDM",
@@ -125163,8 +125163,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:21:44Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "4uYkuSZWLtk",
@@ -125843,8 +125843,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:22:32Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "4gTEBb8vvHc",
@@ -125932,8 +125932,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:22:40Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "e4k1Y5gsJMM",
@@ -126474,8 +126474,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:23:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Ii0z2sJ0i50",
@@ -126543,8 +126543,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:23:26Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "hz9JsQUIURI",
@@ -126613,8 +126613,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:23:30Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "aEQzI2jFtlg",
@@ -126750,8 +126750,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:23:38Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "A9ecIMb_q2c",
@@ -127321,8 +127321,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:24:21Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "Zo5ATzDKh5g",
@@ -127889,8 +127889,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:25:01Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "QmCOk_hgZQs",
@@ -127934,8 +127934,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:25:03Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "rGKRt_d0eRI",
@@ -129193,8 +129193,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:26:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "QogjigxfpH0",
@@ -130024,8 +130024,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:27:40Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "wG1y_BHDhzA",
@@ -130562,8 +130562,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:28:17Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "O3Y5Ww1IUGU",
@@ -130585,8 +130585,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:28:20Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "OMdYIvbyGd4",
@@ -131896,8 +131896,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:29:59Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "uAE3D3EpK8g",
@@ -132057,8 +132057,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:30:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "uVCNMpS0bPc",
@@ -132283,8 +132283,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:30:29Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "dS7dQzrZSC4",
@@ -132438,8 +132438,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-25T19:30:41Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "sCOQ-ztVD5o",
@@ -133343,8 +133343,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:02:50Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "IfjKdlV0Se8",
@@ -133366,8 +133366,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:02:51Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "dskIRD2fBXA",
@@ -134827,8 +134827,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:04:34Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "C47D5Hi7mBI",
@@ -134849,8 +134849,8 @@
       "source": "trusted",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:04:35Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "zkrN5vrijcE",
@@ -135949,8 +135949,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:05:53Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "9qKY0BQhaJc",
@@ -136754,8 +136754,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:06:51Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "nWPXqWHxfEU",
@@ -137067,8 +137067,8 @@
       "source": "fun",
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:07:12Z",
-      "last_shown": null,
-      "shown_count": 0
+      "last_shown": "2026-11-27",
+      "shown_count": 1
     },
     {
       "id": "TwS1QFL-j30",
@@ -137563,6 +137563,823 @@
       "model": "claude-haiku-5-5",
       "screened_at": "2026-11-26T19:07:52Z",
       "last_shown": "2026-11-26",
+      "shown_count": 1
+    },
+    {
+      "id": "BZT7cp9Ydb4",
+      "title": "🌍 EARTH and Its PARTS | Discover the LAYERS of Our PLANET | Educational Videos | @HappyLearningEN",
+      "channel_id": "UC8eJxPzmvTb12v7LlZUJcLQ",
+      "channel_title": "Happy Learning English",
+      "duration_seconds": 1888,
+      "published_at": "2026-11-27T16:30:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/BZT7cp9Ydb4/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted educational channel for elementary students explaining the layers of the Earth (atmosphere, hydrosphere, crust, mantle, core), a clear science topic at this child's level. Description boilerplate with playlists and app links is normal and does not make it an advertisement.",
+      "educational_score": 8,
+      "topics": [
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:00:57Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "7F6OXfK9A3Q",
+      "title": "Numberblock 2 Versus the Snakes | Learn to Count for Kids Compilation  | Numberblocks",
+      "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+      "channel_title": "Numberblocks",
+      "duration_seconds": 4304,
+      "published_at": "2026-11-27T11:00:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/7F6OXfK9A3Q/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Numberblocks is a trusted channel teaching counting, addition and subtraction at a 6-year-old's level, with gentle narration and no banned content. The title mentions snakes, but it is a light cartoon adventure rather than frightening material.",
+      "educational_score": 8,
+      "topics": [
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:00:59Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "HhzHr2oi8O8",
+      "title": "When Santa Wrote Back | Christmas Read Aloud for Kids | FUNNY Read Aloud",
+      "channel_id": "UCEPsNDUhUm-7yZhUjQQNqwQ",
+      "channel_title": "KidTimeStoryTime",
+      "duration_seconds": 718,
+      "published_at": "2026-11-27T13:30:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/HhzHr2oi8O8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted read-aloud channel reading a funny, gentle picture book about a boy's gift wishes and Santa's sassy replies, with no violence or frightening content. It promotes reading and is not mainly a sales pitch, though it includes book and store links typical of the channel's boilerplate.",
+      "educational_score": 7,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:02Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "1OLC3ET6rMw",
+      "title": "Rubble & Crew: The Crew Builds a Vet Clinic | FULL Episode | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 721,
+      "published_at": "2026-11-27T13:00:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/1OLC3ET6rMw/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A full PAW Patrol episode from the official channel the parent picked for fun; it is gentle, kid-appropriate cartoon entertainment about rescue pups building a vet clinic, with no banned content or sales pitch, though it offers little real learning.",
+      "educational_score": 3,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:03Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "DPwWp98GeMk",
+      "title": "Mickey's Home Alone Full Special! 🎄🎁🎬 | Mickey & Pluto are Home Alone for Christmas | Disney Jr.",
+      "channel_id": "UCNcdbMyA59zE-Vk668bKWOg",
+      "channel_title": "Disney Jr. ",
+      "duration_seconds": 1609,
+      "published_at": "2026-11-27T12:45:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/DPwWp98GeMk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A Disney Jr. cartoon special from a channel the parent picked for fun, made for kids, with gentle slapstick about protecting dinner from thieves and no gore or frightening content. It has little educational value, but it is good-quality fun for a six-year-old and is not an advertisement.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:05Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "zLnF4aURn_0",
+      "title": "How To Be A Hero Like Lightning McQueen 🏁🦸 | Hero Camp | @disneykids",
+      "channel_id": "UC7Gf2tZ8coTX2ckTPgn62iQ",
+      "channel_title": "Disney Kids",
+      "duration_seconds": 190,
+      "published_at": "2026-11-27T14:00:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/zLnF4aURn_0/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel Disney Kids video about Lightning McQueen from the Cars films, with gentle, kid-friendly content about teamwork and being a good friend. It is light on real learning, so it scores low, but it is good-quality entertainment with no violence or banned topics; the Cars/Pixar tie-in is a mild promotional link rather than a sales pitch.",
+      "educational_score": 4,
+      "topics": [
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:06Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "kox0g5idHZk",
+      "title": "Spidey to the Dinosaur Rescue! 🦖 Dino Webs | Spidey and His Amazing Friends | @MarvelHQ",
+      "channel_id": "UCxwitsUVNzwS5XBSC5UQV8Q",
+      "channel_title": "Marvel HQ",
+      "duration_seconds": 604,
+      "published_at": "2026-11-27T14:00:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/kox0g5idHZk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of the animated Spidey and His Amazing Friends show with dinosaur superhero battles and robots, which is cartoon action of the kind the parent accepts, with no gore, bad language, or product sales pitch. It has little learning value beyond the dinosaur theme, but it is good-quality kids' entertainment for a fun channel.",
+      "educational_score": 3,
+      "topics": [
+        "dinosaurs",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:08Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "9XdqgRfCsts",
+      "title": "R2-D2 Breaks Into a MILLION Pieces 💥 Can C-3PO Rebuild Him? | LEGO Star Wars | @StarWarsKids",
+      "channel_id": "UCDe7m0POuwkL1gwnQ-FVhMw",
+      "channel_title": "Star Wars Kids",
+      "duration_seconds": 276,
+      "published_at": "2026-11-27T14:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/9XdqgRfCsts/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel LEGO Star Wars stop-motion story with gentle, cartoonish action (R2-D2 falls apart and is rebuilt), no frightening or crude content, and a clever-solution ending. Its educational value is incidental, but it is good-quality entertainment for this child.",
+      "educational_score": 4,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:09Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "l6b3gQ3ChJ8",
+      "title": "The Smurfs Season 1 Marathon 🔵 | 30 Minutes | Nicktoons",
+      "channel_id": "UC74bcC7aGRNz4KoRpJsJNEw",
+      "channel_title": "Nicktoons",
+      "duration_seconds": 2099,
+      "published_at": "2026-11-27T14:59:51Z",
+      "thumbnail": "https://i.ytimg.com/vi/l6b3gQ3ChJ8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A Nicktoons compilation of Smurfs Season 1 episodes, a show the parent has named as fine, with gentle cartoon adventure and no banned content. It is entertainment with little learning, but it is a fun channel the parent picked, so it is approved.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:10Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "JVdbHwGueGE",
+      "title": "Teeny Turtles' Most Bro-tastic Moments! | Teeny Mutant Ninja Turtles | Nick Jr.",
+      "channel_id": "UCUe6ZpY6TJ0no8jI4l2iLxw",
+      "channel_title": "Nick Jr.",
+      "duration_seconds": 3445,
+      "published_at": "2026-11-27T13:59:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/JVdbHwGueGE/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "Fun-channel compilation of Teenage Mutant Ninja Turtles brotherly moments from Nick Jr., a cartoon the parent has named and that is generally fine for this child; no banned content seen, and it is entertainment only with a standard promotional app boilerplate in the description.",
+      "educational_score": 2,
+      "topics": [
+        "animation"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:12Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "ZhWf9wx8dXU",
+      "title": "Snow Much Fun! 🌨️ ⛄| Tom and Jerry Gokko FULL EPISODES | @wbkids",
+      "channel_id": "UC9trsD1jCTXXtN3xIOIU8gg",
+      "channel_title": "WB Kids",
+      "duration_seconds": 1667,
+      "published_at": "2026-11-27T12:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZhWf9wx8dXU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a fun-channel compilation of Tom and Jerry and Looney Tunes-style slapstick cartoons, which the parent has named as acceptable cartoon action. It has little educational value, but it is entertainment without banned content or product pitching.",
+      "educational_score": 2,
+      "topics": [
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:13Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "w9FPm_eLFsc",
+      "title": "FROSTY Villain Showdown! ❄️💥 | Justice League | @dckids",
+      "channel_id": "UCyu8StPfZWapR6rfW_JgqcA",
+      "channel_title": "DC Kids",
+      "duration_seconds": 2588,
+      "published_at": "2026-11-27T12:00:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/w9FPm_eLFsc/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 43-minute Justice League episode-style cartoon from the trusted-for-fun DC Kids channel about superhero versus villain action, which the parent allows for cartoon battles; it has little educational value but is appropriate entertainment and not an advertisement.",
+      "educational_score": 3,
+      "topics": [
+        "superhero cartoons"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:15Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "kbxzaPAf2vc",
+      "title": "Should Starscream Be a New Friend? | Transformers: Prime | Partners | S01E20 | FULL EPISODE",
+      "channel_id": "UCx7b66RpQRLuOXvItxy0Wxg",
+      "channel_title": "TRANSFORMERS HQ",
+      "duration_seconds": 1327,
+      "published_at": "2026-11-27T14:00:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/kbxzaPAf2vc/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "This is a full episode of Transformers: Prime, a named show the parent approved, with the cartoon robot battles allowed under the parent's guidance. It is a fun-channel video with no educational requirement, scores low on learning, and shows no banned topic or commercial pitch.",
+      "educational_score": 2,
+      "topics": [
+        "robots",
+        "transformers"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:16Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "AjXd2ZRRENQ",
+      "title": "What Are Platelets?🩸| How Do Platelets Help Stop Bleeding? | Human Blood Explained | Dr. Binocs",
+      "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+      "channel_title": "Peekaboo Kidz",
+      "duration_seconds": 358,
+      "published_at": "2026-11-27T12:30:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/AjXd2ZRRENQ/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, kids-made science explainer from a trusted channel on how platelets help stop bleeding, with no banned content, shouting, or product pitch. Topics listed as science; the animals tag was not a fit and should be ignored, so the list is just science, though it is approved on educational merit.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:19Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "RBOCdEWQLXM",
+      "title": "Ultimate Monkey Playdate Chaos 🐵 Curious George 🐵 Kids Cartoon 🐵 Kids Movies",
+      "channel_id": "UCu7IDy0y-ZA0qaG51wrQY6w",
+      "channel_title": "Curious George Official",
+      "duration_seconds": 4425,
+      "published_at": "2026-11-27T15:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/RBOCdEWQLXM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A trusted channel's Curious George compilation, a gentle cartoon that introduces simple science, technology, engineering and math concepts with no banned content. It is an episode-style show rather than a calm narrated video, but the parent's guidance on cartoons covers it, and it has no ads or product pitch beyond boilerplate links.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "math",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:22Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "JHapKlCIeDM",
+      "title": "Foody Feasts in Alphaland | Learn to Read and Spell for Kids Compilation | Alphablocks",
+      "channel_id": "UC_qs3c0ehDvZkbiEbOj6Drg",
+      "channel_title": "Alphablocks",
+      "duration_seconds": 2475,
+      "published_at": "2026-11-27T12:00:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/JHapKlCIeDM/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A compilation from the trusted Alphablocks channel teaching phonics, reading and spelling of food words in a calm, clearly narrated format suited to a 6-year-old. The topics list uses reading as the wanted topic; art was not clearly central, so it is a minor tag at most.",
+      "educational_score": 8,
+      "topics": [
+        "reading",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:23Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "rHGeGcjsUng",
+      "title": "Letter S | Get Ready, Get Set, Let's Learn About the Alphabet! | Jack Hartmann",
+      "channel_id": "UCVcQH8A634mauPrGbWs7QlQ",
+      "channel_title": "Jack Hartmann Kids Music Channel",
+      "duration_seconds": 214,
+      "published_at": "2026-11-27T00:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/rHGeGcjsUng/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated alphabet song from a trusted channel that teaches the letter S, its uppercase and lowercase forms, and the /s/ sound at the start and end of words. It is safe, educational, and matches the parent's reading priority.",
+      "educational_score": 8,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:25Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "003OEg57VTE",
+      "title": "Four Easy Recipes with Cookie Monster and Gonger 🌮🍓 Sesame Street | Netflix Jr",
+      "channel_id": "UCAJnyTWJPpKXuwgWQDdNWrQ",
+      "channel_title": "Netflix Jr.",
+      "duration_seconds": 377,
+      "published_at": "2026-11-27T14:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/003OEg57VTE/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A Sesame Street cooking segment from the trusted Netflix Jr. channel, calm and kid-friendly, with simple recipes that give some incidental learning. The topics listed are weak fits, so this is a fun-channel approval with a modest educational score.",
+      "educational_score": 5,
+      "topics": [
+        "art",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:26Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "Ak4gshOGYmY",
+      "title": "Peter Rabbit's Veggie Run! | Super Why - WildBrain | Full Episodes for Kids",
+      "channel_id": "UCbxK6jzYms1iMkU9Kwvl0sA",
+      "channel_title": "Super Why - WildBrain",
+      "duration_seconds": 2868,
+      "published_at": "2026-11-27T16:00:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/Ak4gshOGYmY/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "Super Why is a parent-named show with a reading-focused story based on Peter Rabbit, calm enough for a six-year-old and with no banned content. It is an approved fun-channel video, and its reading content earns a score of 7.",
+      "educational_score": 7,
+      "topics": [
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:28Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "AWp3IwBgeY8",
+      "title": "How are pencils made?",
+      "channel_id": "UCPRCRM3JKm3sw55lB_427qg",
+      "channel_title": "Mystery Science",
+      "duration_seconds": 343,
+      "published_at": "2018-05-14T21:46:46Z",
+      "thumbnail": "https://i.ytimg.com/vi/AWp3IwBgeY8/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly narrated science explainer from a trusted channel about how pencils are made, a how-machines-and-things-work topic the parent wants. The description is only a standard call for questions and voting, with no product pitch.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "how things are made"
+      ],
+      "used_transcript": false,
+      "source": "trusted",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:30Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "2tuWfW4vMYk",
+      "title": "Who's Breaking Into the Lookout?! 🚨 PAW Patrol’s Biggest Villain Team-Up! | Compilation | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 7723,
+      "published_at": "2026-11-26T20:37:50Z",
+      "thumbnail": "https://i.ytimg.com/vi/2tuWfW4vMYk/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 2-hour PAW Patrol compilation from the show's official channel, which the parent picked for fun, so educational value is not required. The villain-team-up theme is the cartoon action the parent allows, and the content is kind, marked for kids, and not an advertisement, so I approve it with a low educational score.",
+      "educational_score": 3,
+      "topics": [
+        "paw patrol",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:31Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "WtwUI1lfqQU",
+      "title": "Giant Popcorn Takes Over Adventure Bay! 🍿 Rubble & Chickaletta Team Up! 🐔 | Compilation | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 4499,
+      "published_at": "2026-11-26T20:36:04Z",
+      "thumbnail": "https://i.ytimg.com/vi/WtwUI1lfqQU/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A 75-minute PAW Patrol compilation from the parent's chosen fun channel, with gentle rescue-and-teamwork cartoon content suitable for a 6-year-old; not an advertisement, though it is mostly entertainment with little learning. Topics are set to animals as the main subject..",
+      "educational_score": 3,
+      "topics": [
+        "animals",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:33Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "4FdkvoCfeWE",
+      "title": "Chase’s Spy Drone CRASHES! Can Rocky Fix It? 😱 | Rocky's Garage: Compilation | PAW Patrol",
+      "channel_id": "UCSVSJ1OCSv5ClFgKFTHIDew",
+      "channel_title": "PAW Patrol Official & Friends",
+      "duration_seconds": 2102,
+      "published_at": "2026-11-26T20:35:41Z",
+      "thumbnail": "https://i.ytimg.com/vi/4FdkvoCfeWE/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "fun",
+      "reason": "A fun-channel compilation of PAW Patrol episodes, a cartoon the parent named, with gentle rescue action and a repair theme about a drone. It is not mainly an ad, and the parent allows it for fun, though the educational value is low.",
+      "educational_score": 3,
+      "topics": [
+        "paw patrol",
+        "machines",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "fun",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:34Z",
+      "last_shown": null,
+      "shown_count": 0
+    },
+    {
+      "id": "1zUW6sqbM-U",
+      "title": "Bread - How it's Made for Kids",
+      "channel_id": "UCWHfnej-eOTBIuJ1DIRusMg",
+      "channel_title": "kidsmusicshop1",
+      "duration_seconds": 241,
+      "published_at": "2020-09-14T09:00:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/1zUW6sqbM-U/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly described how-it's-made video following wheat to flour to bread, which teaches a real process at a young child's level. It was found by search from an unvetted channel, but nothing in the description suggests banned content, shouting, frantic editing, or product selling.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:36Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "gRagqbCIK9c",
+      "title": "🧀Did You Ever Wonder How Cheese Is Made? 🧀| Highlights Kids",
+      "channel_id": "UC4p_YSvJlJpEhAh5PMyhkiQ",
+      "channel_title": "Highlights Kids",
+      "duration_seconds": 606,
+      "published_at": "2020-03-11T17:30:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/gRagqbCIK9c/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A kid-oriented explainer on how cheese is made from a children's publisher, with no violence, banned content, or heavy product pitching; it teaches a clear science process at a young child's level. Found by search from an unvetted channel, so the score is held to a modest 7 with a cautious approval.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:38Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "RQ3hNi3D7k4",
+      "title": "HOW IT'S MADE: LEGO Bricks",
+      "channel_id": "UC5_VXFjEFFJOlxUBsq1iA6g",
+      "channel_title": "How It's Made",
+      "duration_seconds": 548,
+      "published_at": "2023-04-20T19:15:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/RQ3hNi3D7k4/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "This is a factory-process video about how LEGO bricks are manufactured, which clearly explains how machines work and fits the parent's interest in how things are made. It was found by search from an unvetted channel, but the description is minimal boilerplate, no banned content or hard-sell is evident, and the subject is calm, educational, and suitable for a 6-year-old.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:41Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "lmiRjmbnn8Q",
+      "title": "How Crayons are Made | How It's Made",
+      "channel_id": "UC9cGX5x0_EXkdfmWlvPbu3g",
+      "channel_title": "Discovery UK",
+      "duration_seconds": 318,
+      "published_at": "2017-05-04T15:00:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/lmiRjmbnn8Q/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A factual How It's Made clip showing how crayons are manufactured, a calm documentary-style topic that teaches how machines and factories work. It is from a channel the parent hasn't vetted, but the description and tags show no banned content, ads, or frantic editing, and the channel links are ordinary boilerplate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "art"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:44Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "bX9JP5tne7U",
+      "title": "How Are Cars Made? 🚗 Cars for Kids",
+      "channel_id": "UCckgCw8JUxAD0jUNP8Ybmbg",
+      "channel_title": "PIP Academy",
+      "duration_seconds": 374,
+      "published_at": "2025-03-21T17:00:42Z",
+      "thumbnail": "https://i.ytimg.com/vi/bX9JP5tne7U/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A calm, narrated educational video on how cars are built, covering engineering, robots, and assembly lines, which fits the parent's science interest. The description mentions quizzes and fun facts, but the content is mainly instructional rather than a product pitch. It was found by search from an unvetted channel, so I scored it conservatively at 7 and kept only the science topic.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "animals"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:45Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "Vlb4mfQv6-s",
+      "title": "Ice Cream Sandwiches | How It's Made",
+      "channel_id": "UCvJiYiBUbw4tmpRSZT2r1Hw",
+      "channel_title": "Science Channel",
+      "duration_seconds": 283,
+      "published_at": "2016-06-24T11:00:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/Vlb4mfQv6-s/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A factory-process episode from the Science Channel's How It's Made series showing how ice cream sandwiches are manufactured by machines, which fits the child's interest in how machines work. It is a calm, documentary-style show with no banned content, though it was found by search, so the score is held to a modest 7.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:47Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "02nLw1q2QCk",
+      "title": "How Play-Doh is Made in Factory? | Captain Discovery",
+      "channel_id": "UCDBRkd8deH-Vk1nWQKWJ72w",
+      "channel_title": "Captain Discovery",
+      "duration_seconds": 601,
+      "published_at": "2024-08-26T14:48:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/02nLw1q2QCk/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A 10-minute factory process video explaining how Play-Doh is made, with calm narration and no banned content, found via search from an unvetted channel. It is informational rather than a sales pitch, though it does show a brand product, so the parent may want to watch it first.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "toy unboxing"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:50Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "hUFMyzjwb-o",
+      "title": "From Raw Materials to Everyday Products | How Things Are Made for Kids",
+      "channel_id": "UCB4ysCb7O57hTHfdLhH6t6A",
+      "channel_title": "Kinder Quest",
+      "duration_seconds": 664,
+      "published_at": "2026-11-22T00:01:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/hUFMyzjwb-o/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, clearly explained video on how everyday products like paper, glass, and shirts are made from raw materials, with recycling lessons and quiz pauses. It matches the parent's science interest and has no banned content, though the channel is unvetted and the description is keyword-heavy, so the score is kept at 8 rather than higher.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:52Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "CB-pbOOnh5M",
+      "title": "What Are Things Made Of? | Learn About Materials for Kids | Pip’s Big World (Ages 4–7)",
+      "channel_id": "UCG9n-WyreovI9U03CV7Wwkg",
+      "channel_title": "Pip's Big World",
+      "duration_seconds": 320,
+      "published_at": "2026-09-27T12:49:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/CB-pbOOnh5M/maxresdefault.jpg",
+      "made_for_kids": true,
+      "kind": "learning",
+      "reason": "A calm, rhyming, clearly narrated science episode about materials (wood, metal, plastic, glass) that matches the NGSS standard for ages 4-7 and has no violence, banned topics, or heavy product promotion. Found by search from an unvetted channel, but the content is clearly educational and appropriate.",
+      "educational_score": 8,
+      "topics": [
+        "science",
+        "reading"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:53Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "A4yMqvIHhPQ",
+      "title": "How is Chocolate made? 🍫 Maddie's Do You Know 👩",
+      "channel_id": "UCgQwWhhQskoE_8VrxoHr3EA",
+      "channel_title": "Maddie's Do You Know?",
+      "duration_seconds": 310,
+      "published_at": "2023-12-24T16:00:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/A4yMqvIHhPQ/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A CBeebies-style explainer series where the host asks how everyday things are made, a good fit for science curiosity at this child's level; found by search, but the description shows calm educational content with no banned topics or obvious advertising, so I approve it.",
+      "educational_score": 8,
+      "topics": [
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:01:56Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "_asrhvc4dPg",
+      "title": "BALLOONS | How It's Made",
+      "channel_id": "UC9cGX5x0_EXkdfmWlvPbu3g",
+      "channel_title": "Discovery UK",
+      "duration_seconds": 304,
+      "published_at": "2018-05-29T16:45:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/_asrhvc4dPg/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A Discovery UK 'How It's Made' style video explaining balloon manufacturing, which is calm, informative, and about how things are made, fitting the parent's interest in how machines work and science. It was found by search from an unvetted channel, but the description and tags show no banned content, and the sign-off links are normal boilerplate.",
+      "educational_score": 7,
+      "topics": [
+        "how machines work",
+        "science"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:01Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "oHHBLSSctoc",
+      "title": "Candy Canes | How It's Made",
+      "channel_id": "UCvJiYiBUbw4tmpRSZT2r1Hw",
+      "channel_title": "Science Channel",
+      "duration_seconds": 286,
+      "published_at": "2015-12-18T21:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/oHHBLSSctoc/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "A calm, narrated How It's Made clip showing how candy canes are manufactured on machinery, which fits the parent's interest in how machines work and science. It is from an unvetted search result, but the content is factual, with no frightening material, shouting, or product pitch beyond normal boilerplate links.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:02Z",
+      "last_shown": "2026-11-27",
+      "shown_count": 1
+    },
+    {
+      "id": "K1VfdXmqjN8",
+      "title": "How It's Made: Rubber Balls",
+      "channel_id": "UCvJiYiBUbw4tmpRSZT2r1Hw",
+      "channel_title": "Science Channel",
+      "duration_seconds": 295,
+      "published_at": "2019-10-31T14:30:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/K1VfdXmqjN8/maxresdefault.jpg",
+      "made_for_kids": false,
+      "kind": "learning",
+      "reason": "This How It's Made clip explains how inflated rubber balls are manufactured, a calm factory-process topic that fits the parent's interest in how machines work and science. It is an uploader from a search result with no product pitch or scary content evident, so approval rests on the description and tags alone.",
+      "educational_score": 7,
+      "topics": [
+        "science",
+        "how machines work"
+      ],
+      "used_transcript": false,
+      "source": "search",
+      "model": "claude-haiku-5-5",
+      "screened_at": "2026-11-27T19:02:11Z",
+      "last_shown": "2026-11-27",
       "shown_count": 1
     }
   ]
